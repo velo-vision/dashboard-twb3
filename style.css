@@ -2049,3 +2049,29 @@ cursor:pointer;
       font-size: 0.7em;
   }
 }
+
+
+/* Est. Config */
+.logo-config{
+  border-radius: 0px;
+  box-shadow: none;
+  width: 30%;
+  margin: 0 35%;
+}
+.texto-admin p{ 
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 1em;
+  color: #303030;
+  margin: 3px auto;
+  font-weight: 200;
+}
+.texto-admin span{
+  border-bottom: solid 1px #63d1e5;
+}
+.linea-config{
+  background: #d3d3d3;
+  height: 1px;
+  width: 100%;
+}
+/*fin*/

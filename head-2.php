@@ -146,8 +146,9 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
         <li class="treeview">
-          <a href="#!">
-            <i class="fa fa-envelope" aria-hidden="true"></i> <span>Invitaciones</span>
+          <a href="configuracion1.php">
+            <!-- <i class="fa fa-envelope" aria-hidden="true"></i> --> 
+            <i class="fa fa-cogs" aria-hidden="true"></i><span>Configuración</span>
           </a>
         </li>
         <li>
