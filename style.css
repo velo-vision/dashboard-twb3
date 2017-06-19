@@ -1477,6 +1477,170 @@ cursor:pointer;
   background-size:cover;
 }*/
 
+/*************************************************************/
+/* Est. Config */
+.logo-config{
+  border-radius: 0px;
+  box-shadow: none;
+  width: 30%;
+  margin: 0 35%;
+}
+
+.texto-admin p{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 1em;
+  color: #303030;
+  margin: 3px auto;
+  font-weight: 200;
+}
+
+.texto-admin span{
+  border-bottom: solid 1px #63d1e5;
+}
+
+.linea-config{
+  background: #d3d3d3;
+  height: 1px;
+}
+
+.texto1{
+  margin: 20px 0 10px 0 !important;
+}
+.texto2{
+  margin: 0 0 22px 0 !important;
+}
+.format-config{
+  font-weight: 400;
+  font-size: 21px;
+  font-family: "Montserrat", sans-serif;
+  color:#303030;
+  margin: 25px 0 25px 0;
+}
+.format-config span{
+  color:#808080;
+}
+.margin-config{
+  margin: 25px 0 25px 0;
+}
+.centrado{
+  text-align: center;
+}
+.boton-config p{
+  background: #60d0e4;
+  font-size: 16px;
+  width: 187px;
+  height: 38px;
+  padding: 8px;
+  color: #fff;
+  margin: 46px auto 0;
+  font-family: "Montserrat", sans-serif;
+}
+.azultwb{
+  color:#60d0e4 !important;
+}
+/*swich*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 10px;
+  margin: 0px !important;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #60d0e4;
+  -webkit-transition: .4s;
+  transition: .4s;
+  color:#60d0e4;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 0px;
+  bottom: -2px;
+  background-color: #f1f2f2;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #808080;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(50px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.opciones-config{
+  font-weight: 500;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  color:#808080;
+  padding: 0 8px;
+}
+
+.padin-cero{
+  padding:0px!important;
+}
+/*config2*/
+.campos-conf p{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color:#303030;
+  margin: 22px auto 8px;
+}
+
+.campos-conf input[type="text"]{
+  border: solid 1px #90dcea !important;
+  width: 322px;
+  height: 47px;
+}
+.titulo2-config p{
+  margin-top: 25px;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  color:#808080;
+}
+.titulo-cabezera{
+  margin-top: 0px;
+}
+
+/*licitacion*/
+.boton-licitacion{
+  margin: 0 5px;
+}
+/*fin*/
+
+/******************************************************************************/
 /**********MEDIAS QUERYS*************/
 .content-face{
   width: 70%;
@@ -1617,6 +1781,16 @@ cursor:pointer;
   }
 
   /****************VELOSOFT FRONT-2************************/
+/******************************EST***********************/
+.format-config {
+  font-size: 15px;
+  text-align: center;
+  margin: 8px auto;
+}
+.margin-config {
+    margin: 25px 0px 25px 0px;
+}
+/******************************EST***********************/
 }
 @media only screen and (min-width:768px) and (max-width:992px){
   .margin-int{
@@ -1740,6 +1914,12 @@ cursor:pointer;
   }
 
   /****************VELOSOFT FRONT-2************************/
+  /******************************EST**************************/
+.format-config {
+  font-size: 15px;
+  text-align: center;
+}
+/***********************************************************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
   .right-center p{
@@ -1966,6 +2146,11 @@ cursor:pointer;
     margin-left: 20% !important;
     margin-top: 50px !important;
   }
+  /*****************************************EST.*********************/
+.format-config {
+  font-size: 15px;
+}
+  /*************************************EST.**************************/
 }
   /****************VELOSOFT FRONT-2************************/
 @media only screen and (min-width:200px) and (max-width:600px){
@@ -2062,7 +2247,22 @@ cursor:pointer;
   .btn-default:hover {
       font-size: 0.7em;
   }
+/***************************************************Est.***********************/
+.format-config {
+  font-size: 15px;
+  text-align: center;
 }
+.boton-config p {
+  margin: 23px auto 23px;
+}
+.padin-cero-conf{
+  padding:0px !important;
+}
+
+.titulo2-config p {
+  font-size: 15px;
+}
+
 
 
 
@@ -2288,4 +2488,8 @@ cursor:pointer;
 }
 .top-place-50{
   margin-top: 50px;
+}
+
+.campos-conf input[type="text"] {
+  width: 238px;
 }
