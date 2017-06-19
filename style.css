@@ -1633,6 +1633,11 @@ input:checked + .slider:before {
 .titulo-cabezera{
   margin-top: 0px;
 }
+
+/*licitacion*/
+.boton-licitacion{
+  margin: 0 5px;
+}
 /*fin*/
 
 /******************************************************************************/

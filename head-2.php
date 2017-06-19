@@ -153,15 +153,33 @@
         </li>
         <li>
           <a href="#!">
-            <i class="fa fa-list-alt" aria-hidden="true"></i> <span>Lista de invitados</span>
+            <i class="fa fa-list-alt" aria-hidden="true"></i> <span>Editor Web</span>
           </a>
         </li>
         <li class="treeview">
           <a href="#!">
-            <i class="fa fa-files-o"></i>
-            <span>Licitaciones</span>
+            <i class="fa fa-files-o"></i><span>Licitaciones</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+           <li class=""><a href="licitaciones1.php">Principal</a></li>
+            <li class=""><a href="licitacionesArchivadas.php">Archivadas</a></li>
+            <!-- <li class="">
+              <a href="">
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+                 Archivadas</a>
+              <ul class="treeview-menu">                
+                <li class="active no-border"><a href="licitacionesArchivadas.php">Lorem Ipsum</a></li>
+              </ul>
+            </li> -->           
+          </ul>
           </a>
         </li>
+
         <li class="treeview">
           <a href="#!">
             <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
