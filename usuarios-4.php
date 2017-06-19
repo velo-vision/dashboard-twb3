@@ -1,0 +1,72 @@
+<?php
+  include("head-3.php");
+?>
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+  <!-- Main content -->
+  <section class="content">
+    <div class="row">
+      <!-- /.col -->
+      <div class="col-md-6 col-md-offset-3 titulo-perfil">
+        <p>
+          Usuarios
+        </p>
+        <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
+      </div>
+      <div class="col-md-6 col-md-offset-3 col-xs-12 top-20">
+        <div class="col-md-4 col-xs-2">
+          <!-- <img src="images/dashboard/anterior.png" alt="The Wedding Board"> -->
+        </div>
+        <div class="col-md-4 col-xs-8 centers margin-volver">
+          <a href="licitaciones-2.php">
+            <p class="editar">
+              <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a perfil usuario
+            </p>
+          </a>
+        </div>
+        <div class="col-md-4 col-xs-2" style="text-align:right;">
+          <!-- <img src="images/dashboard/siguiente.png" alt="The Wedding Board"> -->
+        </div>
+      </div>
+      <div class="col-md-8 col-md-offset-2 top-20">
+        <div class="box box-primary">
+          <!-- /.box-header -->
+          <div class="box-body top-place-20">
+            <div class="form-group nomargin">
+              <input class="form-control1 form-name" placeholder="Para:">
+            </div>
+            <div class="form-group form-asunto top-place-50">
+              <input class="form-control1" placeholder="Asunto:">
+            </div>
+            <div class="form-group">
+                  <textarea id="compose-textarea" class="form-control" style="height: 180px">
+                    <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.<br><br>
+
+                      Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+                  </textarea>
+            </div>
+          </div>
+          <!-- /.box-body -->
+          <div class="box-footer">
+            <div class="pull-right">
+              <!-- <button type="button" class="btn btn-default"><i class="fa fa-pencil"></i> Draft</button> -->
+              <button type="submit" class="btn btn-primary"><i class="fa fa-envelope-o" style="margin-right:5px;"></i>Enviar</button>
+            </div>
+            <button type="reset" class="btn btn-default"><i class="fa fa-times"></i> Descarte</button>
+          </div>
+          <!-- /.box-footer -->
+        </div>
+        <!-- /. box -->
+      </div>
+      <!-- /.col -->
+    </div>
+    <!-- /.row -->
+  </section>
+  <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+<div class="control-sidebar-bg"></div>
+</div>
+<?php
+	include("footer-3.php");
+?>

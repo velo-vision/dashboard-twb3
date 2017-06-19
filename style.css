@@ -1662,9 +1662,13 @@ cursor:pointer;
     padding-left: 5% !important;
   }
   /****************VELOSOFT FRONT-2 STYLE JRG************************/
+  .margin-volver{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
   .propietario {
     font-size: .8em;
-}
+  }
   .style-inv{
     font-size: .8em;
   }
@@ -1738,6 +1742,13 @@ cursor:pointer;
   /****************VELOSOFT FRONT-2************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
+  .right-center p{
+    text-align: left !important;
+  }
+  .margin-volver{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
   .margin-no{
     margin: 0px;
     padding: 0px;
@@ -1958,6 +1969,9 @@ cursor:pointer;
 }
   /****************VELOSOFT FRONT-2************************/
 @media only screen and (min-width:200px) and (max-width:600px){
+  .boton-usuario {
+    width: 100% !important;
+}
   .inv-right{
     padding-left: 15px !important;
   }
@@ -2048,4 +2062,230 @@ cursor:pointer;
   .btn-default:hover {
       font-size: 0.7em;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Usuario 7*/
+.img-twb img{
+  text-align: center;
+  width: 100px;
+  margin-top: 20px;
+}
+.text-admin{
+  font-size: 1.4em;
+  font-weight: 200;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+.text-admin span{
+  color: #7c7c7c;
+  font-size: .7em;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+}
+.linea-text{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.text-detalle{
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+.usuario-text strong{
+  color: #303030;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  text-align: center;
+  text-transform: normal;
+}
+.usuario-text p{
+  color: #808080;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  text-align: center;
+  text-transform: normal;
+}
+.boton-usuario {
+    background: #60d0e4;
+    border-radius: 0px !important;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 5px 0 !important;
+    width: 55%;
+    -webkit-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+}
+.form-control2 {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    width: 100%;
+    height: 22px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #808080;
+    font-weight: 400;
+    background-color: #fff;
+    background-image: none;
+    border:none;
+    border-radius: 0px;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.btn-default1 {
+    background-color: transparent;
+    border-color: none;
+    color: #808080;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    font-size: 1em;
+    font-weight: 400;
+}
+.boton-categoria1 i {
+    margin: 0 5px;
+    color: #67cfe3;
+}
+.menu23 {
+    border-top: 2px solid #66cfe4;
+    border-radius: 0px;
+    min-width: 200px;
+    -webkit-box-shadow: -1px 3px 23px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 23px -5px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 23px -5px rgba(0,0,0,0.75);
+    padding: 0px !important;
+    top: 120%;
+}
+/*Usuario 9*/
+.text-crear{
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+.caja-text{
+  color: #000;
+}
+.border-usuario{
+  border-bottom:1px solid #d3d3d3
+}
+.right-center p{
+  text-align: right;
+}
+.float-right p{
+  float: right;
+}
+/*Usuario 4*/
+.form-control1 {
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000;
+    font-weight: 600;
+    background-color: #fff;
+    background-image: none;
+    border:none;
+    border-radius: 0px;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-name{
+  border-top: 1px solid #f4f4f4;
+}
+.form-asunto{
+  border-top: 1px solid #f4f4f4;
+  border-bottom: 1px solid #f4f4f4;
+}
+.top-place-20{
+  margin-top: 20px;
+}
+.top-place-50{
+  margin-top: 50px;
 }
