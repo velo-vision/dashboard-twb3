@@ -1647,6 +1647,9 @@ input:checked + .slider:before {
   margin-left: 15%;
 }
 @media only screen and (min-width:1300px) and (max-width:1500px){
+  .twb-left{
+    margin-left: 35px !important;
+  }
   .boton-favoritos img {
     margin: 0 5%;
   }
@@ -1661,6 +1664,9 @@ input:checked + .slider:before {
   }
 }
 @media only screen and (min-width:1200px) and (max-width:1300px){
+  .twb-left{
+    margin-left: 35px !important;
+  }
   .boton-favoritos img {
     margin: 0 5%;
   }
@@ -1687,6 +1693,9 @@ input:checked + .slider:before {
 }
 
 @media only screen and (min-width:992px) and (max-width:1200px){
+  .twb-left{
+    margin-left: 35px !important;
+  }
   .boton-invitados1 {
     width: 100% !important;
     margin-left: 0% !important;
@@ -2652,4 +2661,69 @@ input:checked + .slider:before {
   font-size: .7em;
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
+}
+
+/*Usuarios 1*/
+.detalle1 {
+    background: #67cfe3;
+    border-radius: 3px;
+    color: white;
+    width: 135px;
+    margin: 0 auto;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 5px 0;
+}
+.editar1 {
+    background: white;
+    border: 1px solid #67cfe3;
+    border-radius: 3px;
+    color: #67cfe3;
+    cursor: pointer;
+    width: 135px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
+    font-weight: 300;
+    text-align: center;
+    padding: 5px 0;
+}
+.btn-detalle {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    background: #67cfe3;
+    width: 85%;
+    text-align: center;
+    font-size: .9em;
+    padding: 7px 0;
+    font-weight: 300;
+}
+.btn-detalle:hover {
+    border:1px solid #67cfe3;
+    color: #67cfe3;
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+    width: 85%;
+    text-align: center;
+    font-size: .9em;
+    padding: 7px 0;
+    font-weight: 300;
+}
+.btn-eliminar {
+    color: #67cfe3;
+    border:1px solid #67cfe3;
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
+    width: 85%;
+    text-align: center;
+    font-size: .9em;
+    padding: 5px 0;
+    font-weight: 300;
+}
+.pag-center{
+  text-align: right;
+}
+.center-btn bottom{
+  text-align: center;
 }
