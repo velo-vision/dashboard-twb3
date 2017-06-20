@@ -46,8 +46,6 @@
                  </p>
                </div>
              </div>
-
-
              <div class="form-group col-xs-8 col-xs-offset-2 col-sm-9 col-sm-offset-2">
                <div class="col-xs-5 col-sm-5 col-offset-sm-3 usuario-text nomargin float-right">
                  <p>
@@ -64,11 +62,6 @@
                    </div>
                  </div>
              </div>
-
-
-
-
-
              <div class="form-group row top-50">
                <div class="col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3">
                  <a href="#!"><p type="submit" class="btn boton-usuario">Guardar</p></a>
