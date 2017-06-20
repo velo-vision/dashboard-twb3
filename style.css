@@ -1638,6 +1638,41 @@ input:checked + .slider:before {
 .boton-licitacion{
   margin: 0 5px;
 }
+.flechas-lici{
+  font-size: 1.2em;
+  color: #67cfe3;
+  font-weight: 500;
+  padding-left: 6px;
+}
+
+.redecha-lici{
+  text-align: right;
+}
+.separacion-lici{
+  margin-top: 1%;
+}
+
+.lineas-respuesta{
+  border-top: solid 1px #ededed;
+  border-bottom: solid 1px #ededed;
+  padding: 1%;
+}
+.btn-provedor{
+  width: 158px;
+  float: left;
+}
+.aumento2{
+  margin: 2% 0px;
+}
+.derecha-link1{
+  text-align: right;
+}
+
+.separacion-botnes-link{
+  border-top: solid 1px #ededed;
+  padding-top: 2%;
+  margin-top: 2%;
+}
 /*fin*/
 
 /******************************************************************************/
@@ -2278,6 +2313,20 @@ input:checked + .slider:before {
 .titulo2-config p {
   font-size: 15px;
 }
+
+.paddingno{
+  padding: 0px !important;
+}
+.redecha-lici {
+    text-align: center;
+}
+.boton-comprar {
+  float: none;
+}
+.aumento3{
+  padding-bottom: 14px;
+}
+/*fin*/
 }
 
 
