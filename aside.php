@@ -55,7 +55,7 @@
           </a>
           <ul class="treeview-menu">
            <li class=""><a href="licitaciones1.php">Principal</a></li>
-            <li class=""><a href="licitacionesArchivadas.php">Archivadas</a></li>
+            <li class=""><a href="licitaciones-all.php">Archivadas</a></li>
             <!-- <li class="">
               <a href="">
                 <span class="pull-right-container">
@@ -80,7 +80,7 @@
           </a>
           <ul class="treeview-menu">
            <li class=""><a href="mensajes-1.php">Principal</a></li>
-            <li class=""><a href="#">Archivadas</a></li>                       
+            <li class=""><a href="mensajes-archivados.php">Archivadas</a></li>                       
           </ul>         
         </li>
         <li class="treeview">

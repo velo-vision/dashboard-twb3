@@ -15,7 +15,27 @@
           </p>
           <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
         </div>
-        <div class="col-md-12">
+
+        <div class="col-xs-12 col-sm-12 col-md-9 col-md-offset-2 top-20 botton-volver paddingno">
+          <div class="col-xs-3 col-sm-3 col-md-4 prev-next nomargin">
+            <img src="images/dashboard/anterior.png" alt="The Wedding Board">
+            <span>Anterior</span>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 centers nomargin">
+            <a href="mensajes-1.php">
+              <p class="usuario-volver" style="margin: 0 auto;">
+                <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a Buzón
+              </p>
+            </a>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-4 prev-next1 nomargin">
+            <span>Siguiente</span>
+            <img src="images/dashboard/siguiente.png" alt="The Wedding Board">
+          </div>
+        </div>
+
+        <div class="box-body" >
+        <div class="col-xs-12 col-md-12">
           <div class="content-wrapper">
             <!-- Content Header (Page header) -->
             <!-- Main content -->
@@ -24,8 +44,10 @@
                 <div class="col-md-11">
                   <div class="box box-primary">
                     <div class="box-header with-border">
-                      <h3 class="box-title"><span>The Wedding Bible</span></h3>
-
+                      <h3 class="box-title"> <img src="images/recursos/eye.jpg" alt="The Wedding Board"><span> Leído por: Shophie Dueso</span></h3>
+                    </div>
+                    <div class="box-header with-border">
+                      <h3 class="box-title"><strong>Bienvenido a The Wedding Board</strong></h3>
                       <div class="box-tools pull-right">
                         <a href="#" class="btn btn-box-tool" data-toggle="tooltip" title="Previous"><i class="fa fa-chevron-left"></i></a>
                         <a href="#" class="btn btn-box-tool" data-toggle="tooltip" title="Next"><i class="fa fa-chevron-right"></i></a>
@@ -33,24 +55,22 @@
                     </div>
                     <!-- /.box-header -->
                     <div class="box-body no-padding">
-                      <div class="mailbox-read-info">
-                        <h5><strong>Asunto:</strong> Lorem ipsum dolor sit amet</h5>
-                        <h5><strong>De:</strong> TheWeedingBoard@example.com
-                          <span class="mailbox-read-time pull-right">13 Mar. 2017 11:03 PM</span></h5>
+                      <div class="mailbox-read-info">                      
+                        <h5><strong>De:</strong> Wedding Board Admin</h5>
+                        <h5><span class="mailbox-read-time ">13 Mar. 2017 11:03 PM</span></h5>
                       </div>
                       <!-- /.mailbox-read-info -->
-                      <div class="mailbox-controls with-border text-center">
+                      <div class="mailbox-controls with-border">
                         <div class="btn-group">
-                          <button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-container="body" title="Delete">
-                            <i class="fa fa-trash-o"></i></button>
-                          <button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-container="body" title="Reply">
-                            <i class="fa fa-reply"></i></button>
-                          <button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-container="body" title="Forward">
-                            <i class="fa fa-share"></i></button>
+                          <button type="button" class="btn btn-default btn-sm margin-mensajes" data-toggle="tooltip" data-container="body" title="Delete">
+                            <i class="fa fa-trash-o"></i> Borrar</button>
+                          <button type="button" class="btn btn-default btn-sm margin-mensajes" data-toggle="tooltip" data-container="body" title="Reply">
+                            <i class="fa fa-tag" aria-hidden="true"></i> Añadir Categoria</button>
+                          <a href="mensajes-3.php"><button type="button" class="btn btn-default icon-menssage margin-mensajes"><i class="fa fa-share"></i>Responder</button></a>
                         </div>
                         <!-- /.btn-group -->
-                        <button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" title="Print">
-                          <i class="fa fa-print"></i></button>
+                        <!-- <button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" title="Print">
+                          <i class="fa fa-print"></i></button> -->
                       </div>
                       <!-- /.mailbox-controls -->
                       <div class="mailbox-read-message">
@@ -85,7 +105,7 @@
                       <!-- /.mailbox-read-message -->
                     </div>
                     <!-- /.box-body -->
-                    <div class="box-footer">
+                    <!-- <div class="box-footer">
                       <ul class="mailbox-attachments clearfix">
                         <li>
                           <span class="mailbox-attachment-icon"><i class="fa fa-file-pdf-o"></i></span>
@@ -138,15 +158,15 @@
                           </div>
                         </li>
                       </ul>
-                    </div>
+                    </div> -->
                     <!-- /.box-footer -->
-                    <div class="box-footer">
+                    <!-- <div class="box-footer">
                       <div class="pull-right">
                         <button type="button" class="btn btn-default icon-menssage"><i class="fa fa-tag" aria-hidden="true"></i>Añadir Categoría</button>
                         <a href="mensajes-3.php"><button type="button" class="btn btn-default icon-menssage"><i class="fa fa-share"></i>Responder</button></a>
                       </div>
                       <button type="button" class="btn btn-default icon-menssage"><i class="fa fa-trash-o"></i>Borrar</button>
-                    </div>
+                    </div> -->
                     <!-- /.box-footer -->
                   </div>
                   <!-- /. box -->
@@ -156,6 +176,7 @@
               <!-- /.row -->
             </section>
             <!-- /.content -->
+          </div>
           </div>
         </div>
       </div>

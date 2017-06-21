@@ -1,6 +1,9 @@
 <?php
   require("functions.php");
-  get_header();
+  //get_header();
+  get_headerPrincipal();
+
+  get_aside();
 ?>
 
 <style media="screen">
@@ -222,7 +225,7 @@
         </div>
         <!--LICITACIONES-->
         <div class="col-md-12 centers top-50 bottom-100">
-          <a href="licitaciones-3.php">
+          <a href="licitaciones1.php">
             <button type="submit" class="btn btn-default icon-menssage"><i class="fa fa-sticky-note-o" aria-hidden="true"></i> Ver licitaciones</button>
           </a>
         </div>

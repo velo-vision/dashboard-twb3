@@ -1677,6 +1677,29 @@ input:checked + .slider:before {
   padding-top: 2%;
   margin-top: 2%;
 }
+
+.margin-mensajes{
+  margin: 0 7px;
+}
+
+.altura-text-area{
+  height: 150px;
+}
+
+.sin-border{
+  border:none;
+}
+.color-twb{
+  color:#a3e2ee;
+}
+
+.border-paralelos{
+  border-bottom: solid 1px #f4f4f4;
+  border-top: solid 1px #f4f4f4;
+}
+.device-title{
+  display: none;
+}
 /*fin*/
 
 /******************************************************************************/
@@ -1698,6 +1721,12 @@ input:checked + .slider:before {
   .boton-favoritos {
     font-size: .8em !important;
   }
+
+  /*EST*/
+.device-title{
+  display: none;
+}
+  /**/
 }
 @media only screen and (min-width:1200px) and (max-width:1300px){
   .boton-favoritos img {
@@ -1723,6 +1752,12 @@ input:checked + .slider:before {
   .editar {
     font-size: .8em;
   }
+  /*********est**/
+
+  .device-title{
+  display: none;
+}
+/*********/
 }
 
 @media only screen and (min-width:992px) and (max-width:1200px){
@@ -1828,6 +1863,9 @@ input:checked + .slider:before {
 }
 .margin-config {
     margin: 25px 0px 25px 0px;
+}
+.device-title{
+  display: none;
 }
 /******************************EST***********************/
 }
@@ -1958,6 +1996,30 @@ input:checked + .slider:before {
   font-size: 15px;
   text-align: center;
 }
+.margin-btn{
+  margin-top: 0px;
+}
+
+.ancho-completo {
+    width: 80% !important;
+    margin: 4px 11% !important;
+}
+.sinpadding-lic {
+    padding: 0px !important;
+}
+.ancho-completo2{
+  width: 40% !important;
+  margin: 4px 5% !important;
+}
+.ancho-completo3{
+  width: 40% !important;
+  margin: 4px 5.2%!important;
+}
+
+.device-title{
+  font-weight: 700;
+}
+
 /***********************************************************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
@@ -2196,6 +2258,33 @@ input:checked + .slider:before {
 .format-config {
   font-size: 15px;
 }
+
+.content-wrapper, .right-side, .main-footer {
+    margin-left: 29%;
+}
+.margin-btn{
+  margin-top: 0px;
+}
+
+.ancho-completo {
+    width: 80% !important;
+    margin: 4px 11% !important;
+}
+.sinpadding-lic {
+    padding: 0px !important;
+}
+.ancho-completo2{
+  width: 40% !important;
+  margin: 4px 5% !important;
+}
+.ancho-completo3{
+  width: 40% !important;
+  margin: 4px 5.2%!important;
+}
+
+.device-title{
+  font-weight: 700;
+}
   /*************************************EST.**************************/
 }
   /****************VELOSOFT FRONT-2************************/
@@ -2330,55 +2419,34 @@ input:checked + .slider:before {
 .aumento3{
   padding-bottom: 14px;
 }
-/*fin*/
+
+.sinpadding-lic{
+  padding:0px !important;
 }
 
+.sinmargin-li{
+  margin: 0px !important;
+}
+.ancho-completo{
+  width: 80% !important;
+  margin: 4px 11% !important;
+}
+
+.device-title{
+  font-weight: 700;
+}
+
+.separacion-list{
+  margin-bottom: 14px !important;
+}
+/*fin*/
+
+ .content-wrapper, .right-side, .main-footer {
+    margin-left: 0%;
+  }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
