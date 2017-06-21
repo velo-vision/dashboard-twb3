@@ -68,15 +68,18 @@
             </li> -->           
           </ul>         
         </li>
+
+      
+
         <li class="treeview">
           <a href="#!">
-           <i class="fa fa-pencil-square-o" aria-hidden="true"></i></i><span>Mensajes</span>
+           <i class="fa fa-pencil-square-o" aria-hidden="true"></i><span>Mensajes</span> <span class="number-mensagges mover-bg">3</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-           <li class=""><a href="mensajes1.php">Principal</a></li>
+           <li class=""><a href="mensajes-1.php">Principal</a></li>
             <li class=""><a href="#">Archivadas</a></li>                       
           </ul>         
         </li>
