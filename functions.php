@@ -8,6 +8,12 @@
 	    include("footer.php");
 	  }
 
+	  // 
+
+	  function get_headerPrincipal(){
+	  	include("headPrincipal.php");
+	  }
+
 	  function get_aside(){
 	  	include("aside.php");
 	  }

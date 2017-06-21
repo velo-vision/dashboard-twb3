@@ -1,6 +1,9 @@
 <?php
   require("functions.php");
-  get_header();
+  //get_header();
+  get_headerPrincipal();
+
+  get_aside();
 ?>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
