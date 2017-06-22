@@ -65,7 +65,7 @@
       </div>
       </div>
       <div class="col-md-10 col-md-offset-1 linea-config"></div>
-      <div class="col-md-4 col-md-offset-4 centrado">
+      <div class="col-sm-12 col-md-4 col-md-offset-4 centrado">
         <a href="#" class="boton-config">
           <p>Guardar</p>
         </a>

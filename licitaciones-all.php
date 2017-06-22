@@ -33,7 +33,7 @@
               <div class="box-body no-padding">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls">  
 
-                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 dropdown boton-categoria sinpadding-lic">
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-1 dropdown boton-categoria sinpadding-lic">
                     <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-completo" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <i class="fa fa-tag" aria-hidden="true"></i> Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
                     </button>
@@ -44,7 +44,7 @@
                     </div>
                   </div>
 
-                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin-cat sinmargin-li sinpadding-lic margin-btn">
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 col-lg-offset-1 margin-cat sinmargin-li sinpadding-lic margin-btn">
                     <div class="dropdown boton-categoria2">
                       <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm boton-licitacion ancho-completo" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fa fa-sitemap" aria-hidden="true"></i> Estatus <i class="fa fa-caret-down" aria-hidden="true"></i>
@@ -88,105 +88,44 @@
             </label>
           </div> -->
         </div>
-        <div class="col-md-1 col-sm-2 col-xs-5">
+        <div class="col-md-1 col-sm-1 col-xs-5">
           <p>
-            <strong>USUARIO</strong>
+            <strong class="texto-content">USUARIO</strong>
           </p>
         </div> 
-        <div class="col-md-1 col-sm-2 col-xs-3">
+        <div class="col-md-1 col-sm-1 col-xs-3">
           <p>
-            <strong>CATEGORÍA</strong>
+            <strong class="texto-content">CATEGORÍA</strong>
           </p>
         </div>
         <div class="col-md-2 col-sm-2 col-xs-4">
           <p>
-            <strong>FECHA DE EVENTO</strong>
+            <strong class="texto-content">FECHA DE EVENTO</strong>
           </p>
         </div>
         <div class="col-md-2 col-sm-2 col-xs-4">
           <p>
-            <strong>PRESUPUESTO</strong>
+            <strong class="texto-content">PRESUPUESTO</strong>
           </p>
         </div>
-        <div class="col-md-1 col-sm-2 col-xs-4 centers margin-izq confirma">
+        <div class="col-md-1 col-sm-1 col-xs-4 centers margin-izq confirma">
           <p>
-            <strong>ESTATUS</strong>
+            <strong class="texto-content">ESTATUS</strong>
           </p>
         </div>
-        <div class="col-md-1 col-sm-2 col-xs-4 centers margin-izq confirma">
+        <div class="col-md-1 col-sm-1 col-xs-4 centers margin-izq confirma">
           <p class="nomargin">
-            <strong>RESPUESTAS</strong>
+            <strong class="texto-content">RESPUESTAS</strong>
           </p>          
         </div>
-        <div class="col-md-1 col-sm-2 col-xs-4 centers margin-izq confirma">
+        <div class="col-md-1 col-sm-1 col-xs-4 centers margin-izq confirma">
           <p class="nomargin">
-            <strong>FECHA</strong>
+            <strong class="texto-content">FECHA</strong>
           </p>
           </div>
       </div>
 
-<!-- <div class="col-md-2 col-sm-2 col-xs-3 acompañante-oculto center">
-          <div class="form-group centrar">
-            <span><br>acompañante</span>
-            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4 left-move nomargin">
-              <input class="form-control margin-izq" style="border:none !important;" type="number" value="" id="example-number-input">
-            </div>
-          </div>
-        </div> -->
 
-      <!-- FIN TITULOS -->
-
-      <!-- <div class="col-md-12 col-sm-12 col-xs-12 dotted-down">
-        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-          <div class="form-check">
-            <label class="form-check-label">
-              <input type="checkbox" class="form-check-input">
-            </label>
-          </div>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin nombre-oculto centrar">
-          <span>Nombre</span>
-          <input class="form-control no-border centrar" type="text" value="Armando Cantona" id="example-text-input">
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6 nomargin email-oculto">
-          <span>Mail</span>
-          <input class="form-control no-border" type="text" value="armando@webmail.mx" id="example-text-input">
-        </div>
-        <div class="col-md-1 col-sm-1 col-xs-4 centers confirmar-check">
-          <div class="form-check">
-            <label class="form-check-label check-cuadro">
-              <span><br>CONFIRMACIÓN<br></span>
-              <input type="checkbox" class="form-check-input">
-            </label>
-          </div>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-3 acompañante-oculto center">
-          <div class="form-group centrar">
-            <span><br>Acompañantes</span>
-            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4 nomargin left-move">
-              <input class="form-control margin-izq" style="border:none !important;" type="number" value="0" id="example-number-input">
-            </div>
-          </div>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-3 margin-izq1 confirma-acompañante-oculto">
-          <div class="form-group centrar">
-            <span>Confirmación <br>acompañante</span>
-            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-1 col-lg-4 col-lg-offset-4 left-move1 nomargin">
-              <input class="form-control margin-izq" style="border:none !important;" type="number" value="1" id="example-number-input">
-            </div>
-          </div>
-        </div>
-        <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
-          <p class="save">
-            <i class="fa fa-floppy-o" aria-hidden="true"></i> Guardar
-          </p>
-        </div>
-        <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
-          <p class="save">
-            <i class="fa fa-trash-o" aria-hidden="true"></i> Eliminar
-          </p>
-        </div>
-      </div> -->
       <!---->
 <?php  for ($i=0; $i <5 ; $i++) { ?>
 
@@ -200,31 +139,31 @@
         </div>
         <div class="col-md-1 col-sm-2 col-xs-6 nomargin centrar separacion-list">
           <span class="device-title">USUARIO<br></span>
-          <span>Lorena Martínez</span>         
+          <span class="texto-content">Lorena Martínez</span>         
         </div>
-        <div class="col-md-1 col-sm-3 col-xs-6 nomargin separacion-list">
+        <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list">
         <span class="device-title">CATEGORÍA<br></span>
-          <span>Fashion</span>          
+          <span class="texto-content">Fashion</span>          
         </div>
-        <div class="col-md-2 col-sm-3 col-xs-6 nomargin separacion-list">
+        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list">
         <span class="device-title">FECHA DE EVENTO<br></span>
-          <span>28-Oct-2017</span>          
+          <span class="texto-content">28-Oct-2017</span>          
         </div>
-        <div class="col-md-2 col-sm-3 col-xs-6 nomargin separacion-list">
+        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list">
         <span class="device-title">PRESUPUESTO<br></span>
-          <span>$50,000.00</span>          
+          <span class="texto-content">$50,000.00</span>          
         </div>
-        <div class="col-md-1 col-sm-3 col-xs-6 nomargin separacion-list">
+        <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list">
         <span class="device-title">ESTATUS<br></span>
-          <span>CANCELADA</span>          
+          <span class="texto-content">CANCELADA</span>          
         </div>
-         <div class="col-md-1 col-sm-3 col-xs-6 nomargin separacion-list">
+         <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list">
          <span class="device-title">RESPUESTAS<br></span>
-          <span>3</span>          
+          <span class="texto-content">3</span>          
         </div>
-         <div class="col-md-1 col-sm-3 col-xs-6 nomargin separacion-list">
+         <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list">
          <span class="device-title">FECHA<br></span>
-          <span>hace 5 min.</span>          
+          <span class="texto-content">hace 5 min.</span>          
         </div>
                 
       </div>
