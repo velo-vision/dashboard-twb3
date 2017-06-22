@@ -4,6 +4,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>The Wedding Board</title>
+
+<!-- Content Wrapper. Contains page content -->
+
   <!--SEO PACK-->
   <meta name="description"  content="The Wedding Board es un espacio de inspiración para las novias y para todos los interesados en el mundo de las bodas; donde podrán resolver y conocer tendencias" />
   <link rel="canonical" href="http://twblog.com.mx/" />
@@ -45,11 +48,16 @@
   <!--STYLE VELOSOFT-->
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/animate.css">
+
+  
+    
   <link rel="stylesheet" href="style.css">
   <!--FONTS-->
   <link href="https://fonts.googleapis.com/css?family=Montez" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montez" rel="stylesheet">
+
+
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
   <div class="wrapper">

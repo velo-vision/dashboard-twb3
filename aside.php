@@ -42,7 +42,7 @@
           </a>
         </li>
         <li>
-          <a href="#!">
+          <a href="editor-web.php">
             <i class="fa fa-list-alt" aria-hidden="true"></i> <span>Editor Web</span>
           </a>
         </li>
