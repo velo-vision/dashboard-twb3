@@ -1697,6 +1697,7 @@ input:checked + .slider:before {
   border-bottom: solid 1px #f4f4f4;
   border-top: solid 1px #f4f4f4;
 }
+
 .device-title{
   display: none;
 }
@@ -1723,9 +1724,6 @@ input:checked + .slider:before {
   }
 
   /*EST*/
-.device-title{
-  display: none;
-}
   /**/
 }
 @media only screen and (min-width:1200px) and (max-width:1300px){
@@ -1754,9 +1752,7 @@ input:checked + .slider:before {
   }
   /*********est**/
 
-  .device-title{
-  display: none;
-}
+
 /*********/
 }
 
@@ -1864,9 +1860,7 @@ input:checked + .slider:before {
 .margin-config {
     margin: 25px 0px 25px 0px;
 }
-.device-title{
-  display: none;
-}
+
 /******************************EST***********************/
 }
 @media only screen and (min-width:768px) and (max-width:992px){
@@ -2018,6 +2012,7 @@ input:checked + .slider:before {
 
 .device-title{
   font-weight: 700;
+  color:#303030;
 }
 
 /***********************************************************************/
@@ -2051,7 +2046,7 @@ input:checked + .slider:before {
     margin-top: 10px;
   }
   .dotted-down {
-    border-bottom: 2px dotted #969090;
+    border-bottom: 2px solid #969090;
 }
   .check-cuadro input{
     margin-top: 12px;
@@ -2284,6 +2279,8 @@ input:checked + .slider:before {
 
 .device-title{
   font-weight: 700;
+  display: initial !important;
+  color:#303030;
 }
   /*************************************EST.**************************/
 }
@@ -2434,6 +2431,8 @@ input:checked + .slider:before {
 
 .device-title{
   font-weight: 700;
+  display: initial !important;
+  color:#303030;
 }
 
 .separacion-list{

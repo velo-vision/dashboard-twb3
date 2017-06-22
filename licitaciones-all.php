@@ -33,7 +33,7 @@
               <div class="box-body no-padding">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls">  
 
-                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-1 dropdown boton-categoria sinpadding-lic">
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 dropdown boton-categoria sinpadding-lic">
                     <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-completo" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <i class="fa fa-tag" aria-hidden="true"></i> Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
                     </button>
