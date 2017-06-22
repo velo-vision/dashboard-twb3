@@ -1,159 +1,103 @@
-<?php
-  require("functions.php");
-  get_header();
-?>
-<!-- Content Wrapper. Contains page content -->
-<div class="content-wrapper">
-  <section>
-    <div class="container-fluid">
-      <div class="col-md-6 col-md-offset-3 titulo-perfil">
-        <p>
-          mensajes
-        </p>
-        <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
-      </div>
-      <div class="col-md-12">
-          <div class="box-header with-border">
-            <span class="box-title"></span>
-            <div class="box-tools pull-right">
-              <div class="has-feedback">
-                <input type="text" class="form-control input-sm" placeholder="Search Mail">
-                <span class="glyphicon glyphicon-search form-control-feedback"></span>
-              </div>
-            </div>
-            <!-- /.box-tools -->
-          </div>
-          <!-- /.box-header -->
-          <div class="box-body no-padding">
-            <div class="mailbox-controls">
-              <!-- Check all button -->
-              <!-- <button type="button" class="btn btn-default btn-sm checkbox-toggle">
-                Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
-              </button> -->
-              <div class="dropdown boton-categoria">
-                  <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fa fa-tag" aria-hidden="true"></i> Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
-                    <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Flores</a>
-                    <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
-                  </div>
-                </div>
-              <div class="btn-group">
-                <button type="button" class="btn btn-default btn-sm">
-                  Borrar <i class="fa fa-trash-o"></i>
-                </button>
-              </div>
-              <!-- /.btn-group -->
-              <button type="button" class="btn btn-default btn-sm"><i class="fa fa-reply"></i></button>
-              <button type="button" class="btn btn-default btn-sm"><i class="fa fa-share"></i></button>
-              <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
-              <div class="pull-right pag-center">
-                1-50/200
-                <div class="btn-group">
-                  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
-                  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
-                </div>
-                <!-- /.btn-group -->
-              </div>
-              <!-- /.pull-right -->
-            </div>
-            <form action="">
-            <!--Empieza cuadro-->
-            <div class="col-md-12 col-sm-12 col-xs-12 confirma dotted-down">
-              <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-              </div>
-              <div class="col-md-2 col-sm-3 col-xs-5">
-                <p>
-                  <strong>NOMBRE</strong>
-                </p>
-              </div>
-              <div class="col-md-2 col-sm-3 col-xs-3">
-                <p>
-                  <strong>MAIL</strong>
-                </p>
-              </div>
-              <div class="col-md-1 col-sm-2 col-xs-4">
-                <p>
-                  <strong>PLATAFORMA</strong>
-                </p>
-              </div>
-              <div class="col-md-3 col-sm-2 col-xs-4 centers margin-izq confirma">
-                <p>
-                  <strong>MIEMBRO</strong>
-                </p>
-              </div>
-            </div>
-            <div class="col-md-12 col-sm-12 col-xs-12 dotted-down">
-              <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-                <div class="form-check">
-                  <label class="form-check-label">
-                    <input type="checkbox" class="form-check-input">
-                  </label>
-                </div>
-              </div>
-              <div class="col-md-2 col-sm-3 col-xs-6 nomargin nombre-oculto centrar">
-                <span>Nombre</span>
-                <input class="form-control no-border centrar nomargin" type="text" value="Armando Cantona" id="example-text-input">
-              </div>
-              <div class="col-md-2 col-sm-4 col-xs-6 nomargin email-oculto">
-                <span>Mail</span>
-                <input class="form-control no-border nomargin" type="text" value="armando@webmail.mx" id="example-text-input">
-              </div>
-              <div class="col-md-2 col-sm-2 col-xs-6 centers confirmar-check nomargin">
-                <div class="form-check">
-                  <label class="form-check-label check-cuadro">
-                    <span><br>Plataforma<br></span>
-                    <input class="form-control no-border nomargin" type="text" value="TWB" id="example-text-input">
-                  </label>
-                </div>
-              </div>
-              <div class="col-md-2 col-sm-2 col-xs-6 acompañante-oculto center nomargin">
-                <div class="form-group centrar">
-                  <span><br>Miembros</span>
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
-                    <input class="form-control no-border nomargin" type="text" value="30-OCT-2017" id="example-text-input">
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-1 col-sm-6 col-xs-5 guardar-right nomargin">
-                <a href="#"><p class="btn-detalle">
-                   Detalles
-                </p></a>
-              </div>
-              <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
-                <a href="#"><p class="btn-eliminar">
-                   Eliminar
-                </p></a>
-              </div>
-            </div>
-            </form>
-            <!-- /.mail-box-messages -->
-          </div>
-          <!-- /.box-body -->
-          <div class="box-footer no-padding">
-            <div class="mailbox-controls">
-              <div class="pull-right pag-center">
-                1-50/200
-                <div class="btn-group">
-                  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
-                  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
-                </div>
-                <!-- /.btn-group -->
-              </div>
-              <!-- /.pull-right -->
-            </div>
-          </div>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>The Wedding Board</title>
+  <!--SEO PACK-->
+  <meta name="description"  content="The Wedding Board es un espacio de inspiración para las novias y para todos los interesados en el mundo de las bodas; donde podrán resolver y conocer tendencias" />
+  <link rel="canonical" href="http://twblog.com.mx/" />
+  <meta property="og:title" content="The wedding Board" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://twblog.com.mx/" />
+  <meta property="og:image" content="http://twblog.com.mx/wp-content/uploads/2017/03/rs_wedding.jpg" />
+  <meta property="og:site_name" content="TWB" />
+  <meta property="og:description" content="Es un espacio de inspiración para las novias y para todos los interesados en el mundo de las bodas; donde podrán resolver y conocer tendencias." />
+  <!--FAVICON-->
+  <link rel="icon" href="images/wedding_ico.png" sizes="32x32" />
+  <link rel="icon" href="images/wedding_ico.png" sizes="192x192" />
+  <link rel="apple-touch-icon-precomposed" href="images/wedding_ico.png" />
 
-        <!-- /. box -->
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.6 -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <!--STYLE VELOSOFT-->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <!--FONTS-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+
+  <!--REGSITRO-->
+  <div class="container-fluid nomargin">
+    <div class="col-md-12 col-sm-12 nomargin bg-usuario">
+      <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 col-sm-6 col-xs-12 usuario-index">
+        <div class="col-md-12 col-xs-12 border-span" style="overflow:hidden">
+          <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 centrado-line logo-usuario">
+            <img width="100%;" class="wow fadeInDown" data-wow-duration="2.5s" data-wow-delay="" src="images/recursos/logo.png" title="Logo" alt="The Wedding Board">
+            <!-- <div style="overflow:hidden">
+            </div> -->
+          </div>
+          <div class="col-md-12 pad-index wow fadeIn" data-wow-duration="2.5s" data-wow-delay="">
+            <p class="centrado-line registrate1 wow fadeIn top-30" data-wow-duration="2.5s" data-wow-delay="" >
+              ¿Olvidaste t<span>u C</span>ontraseña?
+            </p>
+            <p class="centrado-line registrate2 wow fadeIn top-30" data-wow-duration="2.5s" data-wow-delay="" >
+              Introduce tu correo para resetear tu contraseña.
+            </p>
+            <form>
+             <div class="form-group row top-30">
+               <div class="col-sm-12">
+                 <input type="email" class="form-control1" id="inputEmail3" placeholder="Correo">
+               </div>
+             </div>
+             <div class="form-group row top-30">
+               <div class="col-md-12">
+                 <a href="dashboard.php"><button type="button" class="btn boton-enviar">Enviar</button></a>
+               </div>
+             </div>
+             <div class="form-group row top-20">
+               <div class="col-md-12">
+                 <a href="dashboard.php"><button type="button" class="btn boton-regresar">Regresar</button></a>
+               </div>
+             </div>
+             <div class="form-group row top-30">
+               <div class="col-sm-12 col-md-12 cuenta">
+                 <img width="200px;" class="top-20 wow fadeInUp" data-wow-duration="2s" data-wow-delay=""  src="images/recursos/greca-registro.png" alt="The Wedding Board">
+               </div>
+             </div>
+           </form>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
-  <!-- /.content -->
-</div>
-<div class="control-sidebar-bg"></div>
-</div>
-<?php
-  get_footer();
-?>
+  </div>
+  <!--REGSITRO-->
+
+<!-- jQuery 2.2.3 -->
+<script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button);
+</script>
+<!-- Bootstrap 3.3.6 -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+<!--WOW-->
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+ </script>
+
+</body>
+</html>

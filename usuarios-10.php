@@ -39,7 +39,7 @@
   <!--REGSITRO-->
   <div class="container-fluid nomargin">
     <div class="col-md-12 col-sm-12 nomargin bg-usuario">
-      <div class="col-md-4 col-md-offset-4 col-sm-6 col-xs-12 usuario-index">
+      <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 col-sm-6 col-xs-12 usuario-index">
         <div class="col-md-12 col-xs-12 border-span" style="overflow:hidden">
           <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 centrado-line logo-usuario">
             <img width="100%;" class="wow fadeInDown" data-wow-duration="2.5s" data-wow-delay="" src="images/recursos/logo.png" title="Logo" alt="The Wedding Board">
@@ -74,7 +74,7 @@
                </div>
              </div>
              <div class="form-group row top-30">
-               <div class="col-md-8 col-md-offset-2 cuenta">
+               <div class="col-sm-12 col-md-12 cuenta">
                  <img width="200px;" class="top-20 wow fadeInUp" data-wow-duration="2s" data-wow-delay=""  src="images/recursos/greca-registro.png" alt="The Wedding Board">
                </div>
              </div>
