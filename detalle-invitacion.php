@@ -121,7 +121,7 @@
           <div class="form-group centrar">
             <span>Confirmación <br>acompañante</span>
             <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-1 col-lg-4 col-lg-offset-4 left-move1 nomargin">
-              <input class="form-control margin-izq" style="border:none !important;" type="number" value="0" id="example-number-input">
+              <input class="form-control margin-izq" style="border:none !important;" type="number" value="1" id="example-number-input">
             </div>
           </div>
         </div>

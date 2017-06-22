@@ -1,5 +1,12 @@
 <?php
-  include("head-2.php");
+  //include("head-2.php");
+?>
+<?php
+  require("functions.php");
+  //get_header();
+  get_headerPrincipal();
+
+  get_aside();
 ?>
 
 <!-- Content Wrapper. Contains page content -->

@@ -48,6 +48,11 @@
                   Borrar <i class="fa fa-trash-o"></i>
                 </button>
               </div>
+              <div class="btn-group">
+                <button type="button" class="btn btn-default btn-sm">
+                  Archivar Mensaje <i class="fa fa-archive" aria-hidden="true"></i>
+                </button>
+              </div>
               <!-- /.btn-group -->
               <button type="button" class="btn btn-default btn-sm"><i class="fa fa-reply"></i></button>
               <button type="button" class="btn btn-default btn-sm"><i class="fa fa-share"></i></button>
