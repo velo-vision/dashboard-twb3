@@ -82,13 +82,7 @@
            <li class=""><a href="mensajes-1.php">Principal</a></li>
             <li class=""><a href="mensajes-archivados.php">Archivadas</a></li>                       
           </ul>         
-        </li>
-        <li class="treeview">
-          <a href="#!">
-            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-            <span>Mesa de Regalos</span>
-          </a>
-        </li>
+        </li>        
         <li class="treeview">
           <a href="#!">
             <i class="fa fa-truck" aria-hidden="true"></i> <span>Proveedores</span>
@@ -106,6 +100,12 @@
             </li>
             <li class=""><a href="#!">Mis proveedores</a></li>
           </ul>
+        </li>
+        <li class="treeview">
+          <a href="reportes.php">
+            <i class="fa fa-file-text" aria-hidden="true"></i>
+            <span>Reportes</span>
+          </a>
         </li>
         <li class="treeview">
           <a href="http://twblog.com.mx/" target="_blank">

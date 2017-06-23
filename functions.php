@@ -18,4 +18,7 @@
 	  	include("aside.php");
 	  }
 
+	  function get_graficas_footer(){
+	  	include("footer-graficas.php");
+	  }
 ?>
