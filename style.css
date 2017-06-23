@@ -1799,7 +1799,7 @@ border-color:#60d0e4 !important;
   font-family: "Montserrat", sans-serif;
   font-size: .9em;
 }
-.text-area{  
+.text-area{
   width: 100%;
   resize: none;
   height: 120px;
@@ -1808,7 +1808,7 @@ border-color:#60d0e4 !important;
   font-family: "Montserrat", sans-serif;
   font-size: .9em;
   border: #9c9c9c solid 1px;
-}    
+}
 
 .label-edit2{
   position: initial;
@@ -1831,73 +1831,6 @@ border-color:#60d0e4 !important;
 /*modal*/
 
 /*check*/
-/*cheked*/
-ul li{
-  color:#71d2e5;
-  display: block;
-  position: relative;
-  float: left;
-  width: 100%;
-  height: 33px;
-  border:none;
-}
-
-ul li input[type=radio]{
-  position: absolute;
-  visibility: hidden;
-}
-
-ul li label{
-  display: block;
-  position: relative;  
-  padding: 0px 0px 0px 18px;
-  margin: -13px auto;
-  height: 37px;
-  z-index: 9;
-  cursor: pointer;
-  -webkit-transition: all 0.25s linear;
-}
-
-ul li:hover label{
-  color: #FF8954;
-}
-
-ul li .check{
-  display: block;
-  position: absolute;
-  border: 2px solid #71d2e5;
-  border-radius: 100%;
-  height: 15px;
-  width: 15px;
-  top: 0px;
-  left: 0px;
-  z-index: 5;
-  transition: border .25s linear;
-  -webkit-transition: border .25s linear;
-}
-
-ul li .check::before {
-  display: block;
-  position: absolute;
-  content: '';
-  border-radius: 100%;
-  height: 8px;
-  width: 8px;
-  top: -2px;
-  left: -2px;
-  margin: auto;
-  transition: background 0.25s linear;
-  -webkit-transition: background 0.25s linear;
-}
-
-input[type=radio]:checked ~ .check {
-  border: 5px solid #71d2e5;
-}
-
-input[type=radio]:checked ~ .check::before{
-  background: #71d2e5;
-}
-/**/
 /**/
 .close-redes{
   font-weight: 700;
@@ -2020,6 +1953,9 @@ input[type=radio]:checked ~ .check::before{
 }
 
 @media only screen and (min-width:992px) and (max-width:1200px){
+  .usuario5 {
+    width: 135px !important;
+}
   .registrate2 {
     font-size: 1em !important;
 }
@@ -2174,6 +2110,9 @@ input[type=radio]:checked ~ .check::before{
 /******************************EST***********************/
 }
 @media only screen and (min-width:768px) and (max-width:992px){
+  .agregado-left {
+    margin-left: 0px !important;
+}
   .margin-men {
      margin-top: 0px !important;
      margin-bottom: 0px !important;
@@ -2357,6 +2296,9 @@ input[type=radio]:checked ~ .check::before{
 /***********************************************************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
+  .agregado-left {
+    margin: 0px !important;
+}
   .marg{
     padding-top: 15px !important;
   }
@@ -2608,6 +2550,9 @@ input[type=radio]:checked ~ .check::before{
   /****************VELOSOFT FRONT-2************************/
 }
 @media only screen and (min-width:1200px) and (max-width:1980px){
+  .left-img{
+    margin-left: 13.5%;
+  }
   .pad-index{
     padding: 0 30px !important;
   }
@@ -2654,6 +2599,13 @@ input[type=radio]:checked ~ .check::before{
   }
 }
 @media only screen and (min-width:600px) and (max-width:768px){
+  .pro {
+    margin-bottom: 10px !important;
+}
+  .usuario5 {
+    width: 300px !important;
+    margin-top: 20px !important;
+}
   .usuario {
     width: 60% !important;
     margin-left: 20% !important;
@@ -2716,6 +2668,13 @@ input[type=radio]:checked ~ .check::before{
 }
   /****************VELOSOFT FRONT-2************************/
 @media only screen and (min-width:200px) and (max-width:600px){
+  .pro {
+    margin-bottom: 10px !important;
+}
+  .usuario5 {
+    width: 250px;
+    margin-top: 20px !important;
+}
   .usuario {
     width: 70% !important;
     margin-left: 15% !important;
@@ -3098,7 +3057,7 @@ input[type=radio]:checked ~ .check::before{
 }
 .margin-men{
   margin-top:20px;
-  margin-bottom:10px;
+  margin-bottom:20px;
 }
 .usuario-volver {
     background: white;
@@ -3168,6 +3127,7 @@ input[type=radio]:checked ~ .check::before{
     font-size: 1em;
     margin-bottom: 20px;
     font-weight: 300;
+    text-transform: uppercase;
     padding: 5px 0 !important;
     width: 235px;
     -webkit-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
@@ -3525,4 +3485,173 @@ input[type=radio]:checked ~ .check::before{
   position: absolute;
   padding-left: 20%;
   padding-top: 60px;
+}
+/*proveedores 02*/
+.boton-proveedores {
+    background: #c6c6c6;
+    border-radius: 0px !important;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    margin-bottom: 20px;
+    font-weight: 300;
+    padding: 5px 0 !important;
+    width: 235px;
+    -webkit-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+}
+.red {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.move-red{
+  margin-top: 30px;
+}
+.botton-red{
+  margin-bottom: 20px;
+}
+.usuario5 {
+    background: white;
+    border: 1px solid #67cfe3;
+    border-radius: 3px;
+    color: #67cfe3;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    width: 160px;
+    font-size: .8em;
+    font-weight: 300;
+    text-align: center;
+    padding: 5px 0;
+}
+.margin-0{
+  margin: 0 auto;
+}
+.usuario5-volver {
+    background: white;
+    border: 1px solid #67cfe3;
+    border-radius: 3px;
+    color: #67cfe3;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    width: 130px;
+    font-size: .8em;
+    font-weight: 300;
+    text-align: center;
+    padding: 5px 0;
+}
+.inhabil{
+  margin:5px 0 0 0;
+  text-transform:uppercase;
+  font-weight:500;
+}
+/*proveedores 03*/
+.img-agregado{
+  background: #fff;
+  width: 90%;
+  margin-left: 5%;
+}
+.border-pro{
+  border: 1px solid #e0e3e8;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 30px !important;
+}
+.text-dolor{
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  margin: 10px 0 0 0;
+}
+.img-foto{
+  width: 100%;
+}
+.img-circulo{
+  width:15%;
+  position:relative;
+  margin-top: -10%;
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+.text-fashion{
+  color: #cacaca;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .9em;
+  font-weight: 300;
+}
+.agregado-right{
+  margin-right: 50px !important;
+}
+.boton-proveedores03 {
+    background: #6cd1e4;
+    border-radius: 0px !important;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    margin-bottom: 20px;
+    font-weight: 300;
+    padding: 5px 0 !important;
+    width: 235px;
+    -webkit-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+}
+.botton-red1{
+  margin-bottom: 20px !important;
+  margin-top: 20px !important;
+}
+.reciente{
+  color: #000;
+  font-size: .9em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+/*proveedores 4*/
+.text-proveedores {
+  color: #ffa60a;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6em;
+  font-weight: 200;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.text-proveedores span {
+    color: #808080;
+    font-size: .7em;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+.text-proveedores strong {
+    color: #303030;
+    font-size: .7em;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+/*proveedores 5*/
+.text-vencido {
+    color: #ff0a0a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6em;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-bottom: 40px;
 }
