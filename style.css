@@ -1767,7 +1767,7 @@ input:checked + .slider:before {
 }
 .text-edit-1 input[type="text"]{
   border: #9c9c9c solid 1px;
-  width: 95%;
+  width: 100%;
   height: 45px;
   font-size: .9em;
   font-family: "Montserrat", sans-serif;
@@ -1830,74 +1830,7 @@ border-color:#60d0e4 !important;
 
 /*modal*/
 
-/*check*/
-/*cheked*/
-ul li{
-  color:#71d2e5;
-  display: block;
-  position: relative;
-  float: left;
-  width: 100%;
-  height: 33px;
-  border:none;
-}
 
-ul li input[type=radio]{
-  position: absolute;
-  visibility: hidden;
-}
-
-ul li label{
-  display: block;
-  position: relative;  
-  padding: 0px 0px 0px 18px;
-  margin: -13px auto;
-  height: 37px;
-  z-index: 9;
-  cursor: pointer;
-  -webkit-transition: all 0.25s linear;
-}
-
-ul li:hover label{
-  color: #FF8954;
-}
-
-ul li .check{
-  display: block;
-  position: absolute;
-  border: 2px solid #71d2e5;
-  border-radius: 100%;
-  height: 15px;
-  width: 15px;
-  top: 0px;
-  left: 0px;
-  z-index: 5;
-  transition: border .25s linear;
-  -webkit-transition: border .25s linear;
-}
-
-ul li .check::before {
-  display: block;
-  position: absolute;
-  content: '';
-  border-radius: 100%;
-  height: 8px;
-  width: 8px;
-  top: -2px;
-  left: -2px;
-  margin: auto;
-  transition: background 0.25s linear;
-  -webkit-transition: background 0.25s linear;
-}
-
-input[type=radio]:checked ~ .check {
-  border: 5px solid #71d2e5;
-}
-
-input[type=radio]:checked ~ .check::before{
-  background: #71d2e5;
-}
-/**/
 /**/
 .close-redes{
   font-weight: 700;
@@ -1924,6 +1857,70 @@ input[type=radio]:checked ~ .check::before{
   width: 27%;
 }
 
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    width: 88%;
+    margin: 0 3%;
+}
+
+
+
+/*file*/
+.wrap{
+  width:300px;
+  margin:0 auto;
+  text-align:center;
+  overflow: hidden;
+}
+label[for=upload]{
+  display:inline-block;
+  border:3px solid #ccc;
+  color:#666;
+  font-weight:bold;
+  background:#eee;
+  padding:8px 15px;
+  border-radius:5px;
+  cursor:pointer
+}
+label[for=upload]:hover{
+  background:#ddd
+}
+label[for=upload] input{ display:none }
+.thumb{
+  position:relative;
+  height:300px;
+  width:300px;
+  overflow:hidden;
+  margin:40px 0;
+  cursor:move;
+  
+}
+.thumb:before{
+  content:"";
+  display:block;
+  position:absolute;
+  width:96%;
+  height:96%;
+  border:3px dashed #eee;
+  z-index:9;
+  top:1%;
+  left:1%;
+  opacity:0;
+  transition:all 0.2s;
+  pointer-events:none
+}
+.thumb:hover::before{
+  opacity:0.6
+}
+.thumb img{
+  width:100%;
+  max-width:800px;
+  max-height:800px;
+  transition:all 0.4s;
+}
 
 
 /*fin*/
@@ -2170,6 +2167,19 @@ input[type=radio]:checked ~ .check::before{
   width: 26.5% !important;
   margin: 4px 2.7%!important;
 }
+/*editor*/
+
+.completo-100-redes{
+  width: 100%;
+  margin: 1% 0;
+}
+.size-img + label {
+    width: 60%;
+    height: 145px;
+}
+.size-modal {
+    width: 50%;
+}
 
 /******************************EST***********************/
 }
@@ -2354,6 +2364,11 @@ input[type=radio]:checked ~ .check::before{
 .texto-content{
   font-size: .8em;
 }
+
+/*editor web*/
+
+
+
 /***********************************************************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
@@ -2653,6 +2668,22 @@ input[type=radio]:checked ~ .check::before{
     display: none;
   }
 }
+/*Est*/
+@media only screen and (min-width:600px) and (max-width:992px){
+.size-img + label {
+    width: 60%;
+    height: 100px;
+}
+
+.sep-media-edit{
+  margin: 11% 0 0 0;
+}
+.media-servicios {
+    padding-top: 25%;
+}
+
+}
+/**/
 @media only screen and (min-width:600px) and (max-width:768px){
   .usuario {
     width: 60% !important;
@@ -2712,7 +2743,31 @@ input[type=radio]:checked ~ .check::before{
   display: initial !important;
   color:#303030;
 }
+
+.size-img + label {
+  width: 300px;
+  height: 120px;
+}
+
+.label-edit {
+  position: absolute;
+  top: -47px;
+  left: 30px;
+}
+.aumento-2 {
+  margin-top: 6%;
+}
+/*.media-servicios{
+  padding-top: 60%;
+}*/
+
+.margin-media{
+  margin-top: 70px;
+}
+
+
   /*************************************EST.**************************/
+
 }
   /****************VELOSOFT FRONT-2************************/
 @media only screen and (min-width:200px) and (max-width:600px){
@@ -2880,13 +2935,30 @@ input[type=radio]:checked ~ .check::before{
 
 /*editor web*/
 .label-edit {
-  position: initial;
+  position: relative;
   top: 0px;
-  left: 0px;
+  left: 8px;
 }
 .size-img + label {
-  width: 100%;
+  width: 300px;
   height: 115px;
+}
+
+.titulo-editor p {   
+  font-size: 1em;    
+}
+.bton-centro-edit{
+  text-align: center;
+  margin: 5% 0;
+}
+label {
+  width: 92%;
+  margin: 0 0%;
+}
+
+.completo-100-redes{
+  width: 300px;
+  margin: 1% 0;
 }
 /*fin*/
 }
