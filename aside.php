@@ -13,9 +13,9 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="images/dashboard/usuaria.png" class="user-image" alt="The Wedding Board">
+          <img src="images/dashboard/usuaria.png" class="user-image" alt="The Wedding Board" style="visibility:hidden;">
         </div>
-        <div class="pull-left info">
+        <div class="pull-left info info-center">
           <p>
             <strong>Sophie Dueso</strong><br>
             <small>Administrador</small>
@@ -23,7 +23,7 @@
         </div>
       </div>
       <!--BOTONES PERFIL-->
-      <div class="user-panel">
+      <div class="user-panel centers">
         <div class="cols">
           <a href="index.php">
             <p class="boton-perfil">
