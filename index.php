@@ -61,7 +61,7 @@
                  <input type="email" class="form-control centrado-line" id="inputEmail3" placeholder="Contraseña">
                </div>
                <div class="col-sm-12">
-                 <a href="sesion.php" style="color:#303030;">
+                 <a href="recupera.php" style="color:#303030;">
                    <p class="centrado-line top-20">
                      <strong>¿OLVIDASTE TU CONTRASEÑA?</strong>
                    </p>

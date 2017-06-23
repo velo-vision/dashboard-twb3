@@ -2633,7 +2633,7 @@ label[for=upload] input{ display:none }
     margin-left: 13.5%;
   }
   .pad-index{
-    padding: 0 30px !important;
+    padding: 0 50px !important;
   }
   .aliminar-float{
     float: right;
@@ -3311,6 +3311,25 @@ label {
     -o-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
     transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
 }
+.boton-calificaciones-no {
+    background: #60d0e4;
+    border-radius: 0px !important;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    margin-bottom: 20px;
+    font-weight: 300;
+    padding: 5px 0 !important;
+    width: 235px;
+    -webkit-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+}
 .titulo-usuario1{
   color: #303030;
   font-family: 'Montserrat', sans-serif;
@@ -3826,4 +3845,7 @@ label {
     font-weight: 200;
     margin-top: 0px;
     margin-bottom: 40px;
+}
+.pad-crear{
+  padding-top: 20px !important;
 }

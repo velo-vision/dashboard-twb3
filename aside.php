@@ -37,7 +37,7 @@
       <ul class="sidebar-menu">
         <li class="treeview">
           <a href="configuracion1.php">
-            <!-- <i class="fa fa-envelope" aria-hidden="true"></i> --> 
+            <!-- <i class="fa fa-envelope" aria-hidden="true"></i> -->
             <i class="fa fa-cogs" aria-hidden="true"></i><span>Configuración</span>
           </a>
         </li>
@@ -62,14 +62,14 @@
                   <i class="fa fa-angle-left pull-right"></i>
                 </span>
                  Archivadas</a>
-              <ul class="treeview-menu">                
+              <ul class="treeview-menu">
                 <li class="active no-border"><a href="licitacionesArchivadas.php">Lorem Ipsum</a></li>
               </ul>
-            </li> -->           
-          </ul>         
+            </li> -->
+          </ul>
         </li>
 
-      
+
 
         <li class="treeview">
           <a href="#!">
@@ -80,8 +80,8 @@
           </a>
           <ul class="treeview-menu">
            <li class=""><a href="mensajes-1.php">Principal</a></li>
-            <li class=""><a href="mensajes-archivados.php">Archivadas</a></li>                       
-          </ul>         
+            <li class=""><a href="mensajes-archivados.php">Archivadas</a></li>
+          </ul>
         </li>
         <li class="treeview">
           <a href="#!">
@@ -91,20 +91,17 @@
         </li>
         <li class="treeview">
           <a href="#!">
-            <i class="fa fa-truck" aria-hidden="true"></i> <span>Proveedores</span>
+            <i class="fa fa-truck" aria-hidden="true"></i> <span>Usuarios</span>
             <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
           </a>
           <ul class="treeview-menu">
             <li class="">
-              <a href="#!">
-                <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>Mis proveedores
+              <a href="usuarios.php">
+                <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>Regular
               </a>
-              <ul class="treeview-menu">
-                <li class="active"><a href="proveedores-2.php">Galería</a></li>
-                <li class="active no-border"><a href="#!">Lorem Ipsum</a></li>
-              </ul>
             </li>
-            <li class=""><a href="#!">Mis proveedores</a></li>
+            <li class=""><a href="usuario-admin.php">Administrador</a></li>
+            <li class=""><a href="usuario-crear.php" class="pad-crear">Crear</a></li>
           </ul>
         </li>
         <li class="treeview">

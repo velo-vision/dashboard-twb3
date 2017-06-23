@@ -40,17 +40,9 @@
                         <div class="box-body no-padding">
                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls border-controls">
 
-                            <div class="col-xs-12 col-sm-8 col-md-7 col-lg-8 dropdown boton-categoria cen nomargin left-20">
+                            <div class="col-xs-12 col-sm-5 col-md-7 col-lg-8 dropdown boton-categoria cen nomargin left-50 mar-20">
                               <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fa fa-tag" aria-hidden="true"></i> Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
-                              </button>
-                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos1</a>
-                                <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Flores2</a>
-                                <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos3</a>
-                              </div>
-                              <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fa fa-tag" aria-hidden="true"></i> Membresia <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                <i class="fa fa-tag" aria-hidden="true"></i> Plataforma <i class="fa fa-caret-down" aria-hidden="true"></i>
                               </button>
                               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
@@ -65,7 +57,7 @@
                             <button type="button" class="btn btn-default btn-sm ancho-size move-left">
                               Deshabilitar <i class="fa fa-ban" aria-hidden="true"></i>
                             </button>
-                            <div class="pull-right pag-center pag">1-50/200
+                            <div class="pull-right pag-center pag2">1-50/200
                               <div class="btn-group">
                                 <button type="button" class="btn btn-default btn-sm "><i class="fa fa-chevron-left"></i></button>
                                 <button type="button" class="btn btn-default btn-sm "><i class="fa fa-chevron-right"></i></button>
@@ -101,12 +93,12 @@
                           </div>
                           <div class="col-md-1 col-sm-2 col-xs-4">
                             <p>
-                              <strong>TIPO USUARIO</strong>
+                              <strong>PLATAFORMA</strong>
                             </p>
                           </div>
                           <div class="col-md-3 col-sm-2 col-xs-4 centers margin-izq confirma">
                             <p>
-                              <strong>CREADO POR</strong>
+                              <strong>MIEMBRO</strong>
                             </p>
                           </div>
                         </div>
@@ -120,7 +112,7 @@
                           </div>
                           <div class="col-md-2 col-sm-3 col-xs-6 nomargin nombre-oculto centrar">
                             <span>Nombre</span>
-                            <input class="form-control no-border centrar nomargin" type="text" value="Lorem ipsum" id="example-text-input">
+                            <input class="form-control no-border centrar nomargin" type="text" value="Armando Cantona" id="example-text-input">
                           </div>
                           <div class="col-md-2 col-sm-4 col-xs-6 nomargin email-oculto cen-twb">
                             <span>Mail</span>
@@ -130,7 +122,7 @@
                             <div class="form-check">
                               <label class="form-check-label check-cuadro">
                                 <span><br>Plataforma<br></span>
-                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="Admin" id="example-text-input">
+                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="TWB" id="example-text-input">
                               </label>
                             </div>
                           </div>
@@ -138,12 +130,12 @@
                             <div class="form-group centrar">
                               <span><br>Miembros</span>
                               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
-                                <input class="form-control no-border nomargin cen-twb pad-left" type="text" value="Sophie Dueso" id="example-text-input">
+                                <input class="form-control no-border nomargin cen-twb pad-left" type="text" value="30-OCT-2017" id="example-text-input">
                               </div>
                             </div>
                           </div>
                           <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a href="#"><p class="btn-detalle">
+                            <a href="usuario-detalle.php"><p class="btn-detalle">
                                Detalles
                             </p></a>
                           </div>
@@ -173,7 +165,7 @@
                             <div class="form-check">
                               <label class="form-check-label check-cuadro">
                                 <span><br>Plataforma<br></span>
-                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="Admin" id="example-text-input">
+                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="TWB" id="example-text-input">
                               </label>
                             </div>
                           </div>
@@ -181,12 +173,12 @@
                             <div class="form-group centrar">
                               <span><br>Miembros</span>
                               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
-                                <input class="form-control no-border nomargin cen-twb pad-left" type="text" value="Sophie Dueso" id="example-text-input">
+                                <input class="form-control no-border nomargin cen-twb pad-left" type="text" value="25-SEP-2017" id="example-text-input">
                               </div>
                             </div>
                           </div>
                           <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a href="#"><p class="btn-detalle">
+                            <a href="usuario-detalle.php"><p class="btn-detalle">
                                Detalles
                             </p></a>
                           </div>
@@ -216,7 +208,7 @@
                             <div class="form-check">
                               <label class="form-check-label check-cuadro">
                                 <span><br>Plataforma<br></span>
-                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="Admin" id="example-text-input">
+                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="TWB" id="example-text-input">
                               </label>
                             </div>
                           </div>
@@ -224,12 +216,12 @@
                             <div class="form-group centrar">
                               <span><br>Miembros</span>
                               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
-                                <input class="form-control no-border nomargin cen-twb pad-left" type="text" value="Sophie Dueso" id="example-text-input">
+                                <input class="form-control no-border nomargin cen-twb pad-left" type="text" value="12-DIC-2017" id="example-text-input">
                               </div>
                             </div>
                           </div>
                           <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a href="#"><p class="btn-detalle">
+                            <a href="usuario-detalle.php"><p class="btn-detalle">
                                Detalles
                             </p></a>
                           </div>
@@ -245,7 +237,7 @@
                       <!-- /.box-body -->
                       <div class="box-footer no-padding">
                         <div class="mailbox-controls">
-                          <div class="pull-right pag-center pag">
+                          <div class="pull-right pag-center pag2">
                             1-50/200
                             <div class="btn-group">
                               <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>

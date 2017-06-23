@@ -1,5 +1,12 @@
 <?php
-  include("head-3.php");
+  //include("head-3.php");
+?>
+<?php
+  require("functions.php");
+  //get_header();
+  get_headerPrincipal();
+
+  get_aside();
 ?>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">

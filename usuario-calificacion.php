@@ -1,5 +1,12 @@
 <?php
-  include("head-3.php");
+  //include("head-3.php");
+?>
+<?php
+  require("functions.php");
+  //get_header();
+  get_headerPrincipal();
+
+  get_aside();
 ?>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
@@ -19,7 +26,7 @@
           <span>Anterior</span>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-4 centers nomargin">
-          <a href="">
+          <a href="usuarios.php">
             <p class="usuario-volver" style="margin: 0 auto;">
               <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a Listado
             </p>
@@ -33,7 +40,7 @@
       <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 linea-config"></div>
         <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 margin-men btn-margin">
           <div class="col-xs-12 col-sm-4 col-md-4 centers margin-volver btn-margin marg">
-            <a href="">
+            <a href="usuario-mensajes.php">
               <p class="usuario">
                 <i class="fa fa-envelope-o" aria-hidden="true"></i> Enviar Mensajes
               </p>
