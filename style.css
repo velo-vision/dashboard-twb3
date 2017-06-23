@@ -1767,7 +1767,7 @@ input:checked + .slider:before {
 }
 .text-edit-1 input[type="text"]{
   border: #9c9c9c solid 1px;
-  width: 95%;
+  width: 100%;
   height: 45px;
   font-size: .9em;
   font-family: "Montserrat", sans-serif;
@@ -1829,9 +1829,6 @@ border-color:#60d0e4 !important;
 }
 
 /*modal*/
-
-/*check*/
-/**/
 .close-redes{
   font-weight: 700;
   color:#383838;
@@ -1857,6 +1854,70 @@ border-color:#60d0e4 !important;
   width: 27%;
 }
 
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    width: 88%;
+    margin: 0 3%;
+}
+
+
+
+/*file*/
+.wrap{
+  width:300px;
+  margin:0 auto;
+  text-align:center;
+  overflow: hidden;
+}
+label[for=upload]{
+  display:inline-block;
+  border:3px solid #ccc;
+  color:#666;
+  font-weight:bold;
+  background:#eee;
+  padding:8px 15px;
+  border-radius:5px;
+  cursor:pointer
+}
+label[for=upload]:hover{
+  background:#ddd
+}
+label[for=upload] input{ display:none }
+.thumb{
+  position:relative;
+  height:300px;
+  width:300px;
+  overflow:hidden;
+  margin:40px 0;
+  cursor:move;
+
+}
+.thumb:before{
+  content:"";
+  display:block;
+  position:absolute;
+  width:96%;
+  height:96%;
+  border:3px dashed #eee;
+  z-index:9;
+  top:1%;
+  left:1%;
+  opacity:0;
+  transition:all 0.2s;
+  pointer-events:none
+}
+.thumb:hover::before{
+  opacity:0.6
+}
+.thumb img{
+  width:100%;
+  max-width:800px;
+  max-height:800px;
+  transition:all 0.4s;
+}
 
 
 /*fin*/
@@ -2106,6 +2167,19 @@ border-color:#60d0e4 !important;
   width: 26.5% !important;
   margin: 4px 2.7%!important;
 }
+/*editor*/
+
+.completo-100-redes{
+  width: 100%;
+  margin: 1% 0;
+}
+.size-img + label {
+    width: 60%;
+    height: 145px;
+}
+.size-modal {
+    width: 50%;
+}
 
 /******************************EST***********************/
 }
@@ -2293,6 +2367,11 @@ border-color:#60d0e4 !important;
 .texto-content{
   font-size: .8em;
 }
+
+/*editor web*/
+
+
+
 /***********************************************************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
@@ -2598,6 +2677,22 @@ border-color:#60d0e4 !important;
     display: none;
   }
 }
+/*Est*/
+@media only screen and (min-width:600px) and (max-width:992px){
+.size-img + label {
+    width: 60%;
+    height: 100px;
+}
+
+.sep-media-edit{
+  margin: 11% 0 0 0;
+}
+.media-servicios {
+    padding-top: 25%;
+}
+
+}
+/**/
 @media only screen and (min-width:600px) and (max-width:768px){
   .pro {
     margin-bottom: 10px !important;
@@ -2664,7 +2759,31 @@ border-color:#60d0e4 !important;
   display: initial !important;
   color:#303030;
 }
+
+.size-img + label {
+  width: 300px;
+  height: 120px;
+}
+
+.label-edit {
+  position: absolute;
+  top: -47px;
+  left: 30px;
+}
+.aumento-2 {
+  margin-top: 6%;
+}
+/*.media-servicios{
+  padding-top: 60%;
+}*/
+
+.margin-media{
+  margin-top: 70px;
+}
+
+
   /*************************************EST.**************************/
+
 }
   /****************VELOSOFT FRONT-2************************/
 @media only screen and (min-width:200px) and (max-width:600px){
@@ -2839,16 +2958,69 @@ border-color:#60d0e4 !important;
 
 /*editor web*/
 .label-edit {
-  position: initial;
+  position: relative;
   top: 0px;
-  left: 0px;
+  left: 8px;
 }
 .size-img + label {
-  width: 100%;
+  width: 300px;
   height: 115px;
+}
+
+.titulo-editor p {
+  font-size: 1em;
+}
+.bton-centro-edit{
+  text-align: center;
+  margin: 5% 0;
+}
+label {
+  width: 92%;
+  margin: 0 0%;
+}
+
+.completo-100-redes{
+  width: 300px;
+  margin: 1% 0;
 }
 /*fin*/
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
