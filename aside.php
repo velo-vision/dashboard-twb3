@@ -96,12 +96,21 @@
             <span>Reportes</span>
           </a>
         </li>
+
         <li class="treeview">
-          <a href="template-1.php">
-            <i class="fa fa-file-code-o" aria-hidden="true"></i>
-            <span>Templates</span>
+          <a href="#!">
+           <i class="fa fa-file-code-o" aria-hidden="true"></i><span>Templates</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
           </a>
+          <ul class="treeview-menu">
+           <li class=""><a href="template-1.php">Colección</a></li>
+            <li class=""><a href="template-2.php">Crear</a></li>
+            <li class=""><a href="#">Gestor</a></li>
+          </ul>
         </li>
+
         <li class="treeview">
           <a href="#!">
             <i class="fa fa-user" aria-hidden="true"></i> <span>Usuarios</span>
