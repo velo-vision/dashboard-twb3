@@ -85,14 +85,26 @@
           </ul>
         </li>
         <li class="treeview">
+          <a href="#">
+            <i class="fa fa-truck" aria-hidden="true"></i>
+            <span>Proveedores</span>
+          </a>
+        </li>
+        <li class="treeview">
           <a href="reportes.php">
             <i class="fa fa-file-text" aria-hidden="true"></i>
             <span>Reportes</span>
           </a>
         </li>
         <li class="treeview">
+          <a href="template-1.php">
+            <i class="fa fa-file-code-o" aria-hidden="true"></i>
+            <span>Templates</span>
+          </a>
+        </li>
+        <li class="treeview">
           <a href="#!">
-            <i class="fa fa-truck" aria-hidden="true"></i> <span>Usuarios</span>
+            <i class="fa fa-user" aria-hidden="true"></i> <span>Usuarios</span>
             <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
           </a>
           <ul class="treeview-menu">
