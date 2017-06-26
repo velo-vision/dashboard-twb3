@@ -8,7 +8,7 @@
     <div class="row">
       <!-- /.col -->
       <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 titulo-usuario51">
-        <div class="col-md-6 col-md-offset-3 titulo-perfil">
+        <div class="col-md-6 col-md-offset-3 titulo-prov">
           <p class="rotateInUpLeft ">
             proveedores
           </p>
@@ -69,8 +69,8 @@
         <div class="col-xs-12 col-md-12 nomargin img-twb1 centers">
           <img src="images/proveedores/2.png" class="img-circle" alt="The Wedding Board">
           <div class="col-xs-12 col-md-12 col-lg-12 text-nombre">
-            <p style="margin:5px 0 0 0;">JL Event Planner</p>
-            <span> Decoration</span>
+            <p class="jl-top">JL Eve<span>nt P</span>lanner</p>
+            <p> Decoration</p>
           </div>
         </div>
         <div class="form-group row top-30 centrado">

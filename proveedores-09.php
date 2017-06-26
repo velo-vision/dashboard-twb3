@@ -16,7 +16,7 @@
       <!-- /.col -->
       <div class="col-md-6 col-md-offset-3 titulo-prov">
         <p>
-          Usuarios
+          Proveedores
         </p>
         <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
       </div>
