@@ -96,7 +96,7 @@
               </div>
                
                 <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-4 centrado margin-pie">
-                  <a href="#" class="boton-config">
+                  <a href="template-3.php" class="boton-config">
                     <p> <i class="fa fa-share" aria-hidden="true"></i> Continuar</p>
                   </a>
                 </div>
