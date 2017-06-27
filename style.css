@@ -2024,17 +2024,17 @@ label[for=upload] input{ display:none }
     height: 100%;
     font-family: "Montserrat", sans-serif
     font-size: 1.3em;
-    color: #303030; 
-    text-transform: uppercase;    
+    color: #303030;
+    text-transform: uppercase;
     cursor: pointer;
     transition-properties: border;
     transition-duration: 0.2s;
-  
+
     &.dragging,
     &:hover {
         border-color: rgba(51,51,51,.8);
     }
-  
+
     p {
         position: absolute;
         top: 50%;
@@ -2060,9 +2060,9 @@ label[for=upload] input{ display:none }
     border: 0;
     border-radius: 5px;
     box-shadow: 1px 1px 2px rgba(0,0,0,.3);
-  
+
     .fa:first-child {
-        margin-right: 5px; 
+        margin-right: 5px;
     }
 }*/
 
@@ -2072,7 +2072,7 @@ label[for=upload] input{ display:none }
     padding: 5px;
     background-color: rgba(255,255,255,.4);
     border-radius: 5px;
-  
+
     img {
         display: block;
         border-radius: 5px;
@@ -4316,4 +4316,31 @@ label {
 }
 .btn-padd {
     padding: 5px 55px;
+}
+
+.select-template1 {
+    width: 100%;
+    height: 40px;
+    border-color: #c0c0c0;
+    color: #808080;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+.prove-20{
+  margin-top: 20px;
+}
+.prove-40{
+  margin-top: 40px;
+}
+.btn-eliminar23 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    background: #67cfe3;
+    width: 65%;
+    text-align: center;
+    font-size: .9em;
+    padding: 6px 0;
+    font-weight: 300;
+    cursor: pointer;
 }
