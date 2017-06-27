@@ -1866,7 +1866,7 @@ label {
     margin-bottom: 5px;
     font-weight: 700;
     width: 88%;
-    margin: 0 3%;
+    /*margin: 0 3%;*/
 }
 
 
@@ -2246,6 +2246,12 @@ canvas:hover {
 }
 }
 @media only screen and (min-width:1300px) and (max-width:1500px){
+  .left-borra70 {
+    margin-left: -45px !important;
+}
+  .left-borra23{
+    margin-left: -45px !important;
+  }
   .twb-left{
     margin-left: 35px !important;
   }
@@ -2274,6 +2280,15 @@ canvas:hover {
   /**/
 }
 @media only screen and (min-width:1200px) and (max-width:1300px){
+  .left-borra70 {
+      margin-left: -70px !important;
+  }
+  .left-borra23{
+    margin-left: -45px !important;
+  }
+  .img-10 {
+    margin-left: -10px;
+}
   .registrate2 {
     font-size: 1em !important;
 }
@@ -2331,6 +2346,22 @@ canvas:hover {
 }
 
 @media only screen and (min-width:992px) and (max-width:1200px){
+  .modal-left{
+    margin-left: 11% !important;
+  }
+  .img-10 {
+    margin-left: -30px;
+}
+  .pag-left1 {
+    margin-top: 30px !important;
+    padding-right: 10px !important;
+  }
+  .pag-left{
+    padding-right: 10px !important;
+  }
+  .pad-pro{
+    padding-left: 20px !important;
+  }
   .usuario5 {
     width: 135px !important;
 }
@@ -2501,6 +2532,47 @@ canvas:hover {
 /******************************EST***********************/
 }
 @media only screen and (min-width:768px) and (max-width:992px){
+  .size-input{
+    font-size: .8em;
+  }
+  .provee-size p{
+    font-size: .8em;
+  }
+  .ocultar23{
+    display: none !important;
+  }
+  .pag-mem{
+    margin: 15px 0 0 0 !important;
+    margin-right: 40% !important;
+  }
+  .modal-body1 {
+    padding: 0px 0px 115px 0px !important;
+}
+  .img-10 {
+    margin-top: 0px !important;
+    margin-bottom: 10px;
+}
+  .pag-left1 {
+    margin-top: 30px !important;
+    padding-right: 10px !important;
+  }
+  .pag-left{
+    padding-right: 10px !important;
+  }
+  .left-23{
+    margin-left:-23px !important;
+  }
+  .left-align{
+    text-align: left;
+  }
+  .left-borra1 {
+    margin-left: 5px !important;
+    margin-top: 10px !important;
+}
+  .move-left1 {
+    margin-left: 0px !important;
+    margin-top: 10px !important;
+}
   .agregado-left {
     margin-left: 0px !important;
 }
@@ -2693,6 +2765,16 @@ canvas:hover {
 /***********************************************************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
+  .ocultar23{
+    display: none !important;
+  }
+  .top-mem{
+    margin-top: 20px !important;
+  }
+  .img-10 {
+    margin-top: 0px !important;
+    margin-bottom: 10px;
+}
   .agregado-left {
     margin: 0px !important;
 }
@@ -2947,6 +3029,19 @@ canvas:hover {
   /****************VELOSOFT FRONT-2************************/
 }
 @media only screen and (min-width:1200px) and (max-width:1980px){
+  .modal-left{
+    margin-left: 11% !important;
+  }
+  .pag-left1 {
+    margin-top: 30px !important;
+    padding-right: 10px !important;
+  }
+  .pag-left{
+    padding-right: 10px !important;
+  }
+  .pad-pro{
+    padding-left: 20px !important;
+  }
   .left-img{
     margin-left: 13.5%;
   }
@@ -3014,6 +3109,15 @@ canvas:hover {
 }
 /**/
 @media only screen and (min-width:600px) and (max-width:768px){
+  .modal-dialog {
+    width: 500px !important;
+}
+  .modal-body1 {
+    padding: 0px 0px 115px 0px !important;
+}
+  .separacion-list1 {
+    margin-bottom: 14px !important;
+}
   .pro {
     margin-bottom: 10px !important;
 }
@@ -3107,6 +3211,15 @@ canvas:hover {
 }
   /****************VELOSOFT FRONT-2************************/
 @media only screen and (min-width:200px) and (max-width:600px){
+  .modal-body1 {
+    padding: 0px 0px 115px 0px !important;
+}
+  .modal-dialog {
+    width: 350px !important;
+}
+  .separacion-list1 {
+    margin-bottom: 14px !important;
+}
   .pro {
     margin-bottom: 10px !important;
 }
@@ -3529,11 +3642,11 @@ label {
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 .form-name{
-  border-top: 1px solid #f4f4f4;
+  /*border-top: 1px solid #f4f4f4 !important;*/
 }
 .form-asunto{
-  border-top: 1px solid #f4f4f4;
-  border-bottom: 1px solid #f4f4f4;
+  /*border-top: 1px solid #f4f4f4 !important;*/
+  border-bottom: 1px solid #f4f4f4 !important;
 }
 .top-place-20{
   margin-top: 20px;
@@ -3595,7 +3708,6 @@ label {
   font-size: 1.4em;
   font-weight: 200;
   margin-top: 10px;
-  margin-bottom: 20px;
   font-family: 'Montserrat', sans-serif;
 }
 .text-nombre span{
@@ -3680,12 +3792,15 @@ label {
   margin-top: 0px;
 }
 .prev-next1 {
-    color: #67cfe3;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-    font-weight: 400;
-    margin-top: 10px;
-    text-align: right;
+  color: #67cfe3;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  margin-top: 10px;
+  text-align: right;
+}
+.jl-top{
+  margin:5px 0 0 0;
 }
 /*Usuarios 3*/
 .text-inhabilitado {
@@ -3744,6 +3859,7 @@ label {
     font-size: .9em;
     padding: 6px 0;
     font-weight: 300;
+    cursor: pointer;
 }
 .btn-detalle:hover {
     border:1px solid #67cfe3;
@@ -3753,11 +3869,12 @@ label {
     width: 90%;
     text-align: center;
     font-size: .9em;
-    padding: 7px 0;
+    padding: 5px 0;
     font-weight: 300;
 }
 .btn-eliminar {
     color: #67cfe3;
+    cursor: pointer;
     border:1px solid #67cfe3;
     font-family: 'Montserrat', sans-serif;
     background: #ffffff;
@@ -3882,23 +3999,23 @@ label {
       transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
 }
 .form-control1 {
-    display: block;
-    width: 100%;
-    height: 34px;
-    padding: 6px 12px;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 1.42857143;
-    color: #e2e2e2;
-    background-color: #fff;
-    background-image: none;
-    border: 1px solid #ccc;
-    border-radius: 0px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  display: block;
+  width: 100%;
+  height: 45px;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.42857143;
+  color: #000;
+  background-color: #fff;
+  background-image: none;
+  border: none;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 0px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 0px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 /*usuario 1*/
 .border-controls{
@@ -4049,6 +4166,7 @@ label {
   margin-top: 30px;
 }
 .botton-red{
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 .usuario5 {
@@ -4202,4 +4320,120 @@ label {
   font-size: .7em;
   font-weight: 200;
   text-align: center;
+}
+/*Proveedores modal*/
+.titulo-prove {
+  color: #808080;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  padding: 0px 39px;
+  margin: 0px 0 20px 0px;
+  text-align: center;
+}
+.titulo-prove span{
+  border-bottom: 1px solid #6cd1e4;
+}
+.continuar-prove {
+  background: white;
+  border: 1px solid #67cfe3;
+  color: #67cfe3;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .8em;
+  font-weight: 300;
+  text-align: center;
+  padding: 5px 0;
+}
+.cancelar-prove {
+  background: #6cd1e4;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .8em;
+  font-weight: 300;
+  text-align: center;
+  padding: 5px 0;
+}
+.modal-content1 {
+  background: #fff;
+  border-top: 5px solid #67cfe3;
+}
+.modal-content, .modal-header {
+  border-bottom: none;
+}
+.modal-body1 {
+  position: relative;
+  padding: 0px 0px 15px 0px;
+}
+.modal-dialog {
+  width: 550px ;
+  margin: 30px auto;
+}
+/*proveedores-01*/
+.left-51 button {
+  margin: 0px 5px;
+}
+.proveedores-off{
+  color: #ffa60a;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .9em;
+  font-weight: bold;
+}
+.proveedores-vencido{
+  color: #ff0303;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .9em;
+  font-weight: bold;
+}
+.dotted-prov {
+  border-bottom: 2px solid #f7f7f7;
+  padding: 10px 0 5px 0 !important;
+}
+.texto-prov{
+  color: #808080;
+}
+.titulo-prov {
+  color: #303030;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+.text-nombre span{
+  font-size: 1em;
+  font-weight: 200;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: 1px solid #63d1e5;
+}
+.img-10 {
+    margin-top: 10px;
+}
+/*proveedores-13*/
+.left-15 button {
+    margin: 0px 15px;
+}
+.titulo-aceptar {
+    color: #808080;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    padding: 0px 28px;
+    margin: 0px 0 20px 0px;
+    text-align: center;
+}
+.titulo-rechazar {
+    color: #808080;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    padding: 0px 28px;
+    margin: 0px 0 20px 0px;
+    text-align: center;
+}
+.btn-padd {
+    padding: 5px 55px;
 }

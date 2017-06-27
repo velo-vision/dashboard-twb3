@@ -14,9 +14,9 @@
   <section class="content">
     <div class="row">
       <!-- /.col -->
-      <div class="col-md-6 col-md-offset-3 titulo-prov">
+      <div class="col-md-6 col-md-offset-3 titulo-perfil">
         <p>
-          Usuarios
+          Proveedores
         </p>
         <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
       </div>
@@ -27,7 +27,7 @@
         <div class="col-md-4 col-xs-8 centers margin-volver">
           <a href="licitaciones-2.php">
             <p class="editar">
-              <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a perfil usuario
+              <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a proveedor
             </p>
           </a>
         </div>
@@ -42,7 +42,7 @@
             <div class="form-group nomargin">
               <input class="form-control1 form-name" placeholder="Para:">
             </div>
-            <div class="form-group form-asunto">
+            <div class="form-group form-asunto top-place-50">
               <input class="form-control1" placeholder="Asunto:">
             </div>
             <div class="form-group">

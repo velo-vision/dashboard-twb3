@@ -8,7 +8,7 @@
     <div class="row">
       <!-- /.col -->
       <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 titulo-usuario51">
-        <div class="col-md-6 col-md-offset-3 titulo-perfil">
+        <div class="col-md-6 col-md-offset-3 titulo-prov">
           <p class="rotateInUpLeft ">
             proveedores
           </p>
@@ -43,14 +43,14 @@
             </a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 centers margin-volver">
-            <a href="">
+            <a data-toggle="modal" data-target="#proveedores-inhabilitar" data-whatever="@mdo">
               <p class="usuario5 margin-0">
                 <i class="fa fa-ban" aria-hidden="true"></i> Inhabilitar
               </p>
             </a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 centers margin-volver">
-            <a href="">
+            <a data-toggle="modal" data-target="#proveedores-eliminar" data-whatever="@mdo">
               <p class="usuario5 margin-0 pro">
                 <i class="fa fa-trash-o" aria-hidden="true"></i> Eliminar
               </p>
@@ -69,8 +69,8 @@
         <div class="col-xs-12 col-md-12 nomargin img-twb1 centers">
           <img src="images/proveedores/1.png" class="img-circle" alt="The Wedding Board">
           <div class="col-xs-12 col-md-12 col-lg-12 text-nombre">
-            <p style="margin:5px 0 0 0;">JL Event Planner</p>
-            <span> Decoration</span>
+            <p class="jl-top">JL Eve<span>nt P</span>lanner</p>
+            <p> Decoration</p>
           </div>
         </div>
         <div class="form-group row top-30 centrado">
@@ -142,7 +142,7 @@
         </div>
         <div class="form-group row top-50 centrado">
           <div class="col-md-4 col-md-offset-4 col-xs-8 col-xs-offset-2">
-            <a href="#!"><p type="submit" class="btn boton-calificaciones">Calificaciones a Proveedores</p></a>
+            <a href="#!"><p type="submit" class="btn boton-calificaciones">Editar datos</p></a>
           </div>
         </div>
 
@@ -254,6 +254,94 @@
 
     </div>
     <!-- /.row -->
+
+
+     <!--MODAL ELIMINAR-->
+    <div class="modal fade" id="proveedores-eliminar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content1">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"><img src="images/recursos/close-popoup.png" alt="The Wedding Board"> cerrar</span>
+            </button>
+          </div>
+          <div class="modal-body1 col-md-12" style="background:white;">
+            <!--COLLAPSER-->
+              <div class="col-md-12">
+                <p class="titulo-prove">
+                  Elimina<span>r pr</span>oveedor
+                </p>
+                <p class="titulo-prove" style="text-transform:none">
+                  Esta a punto de eliminar un provedor, esta seguro
+                  que desea continuar, esta acción no se puede revertir.
+                </p>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 top-20 modal-left">
+                <div class="col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-1">
+                  <a href="#!">
+                    <p class="continuar-prove">
+                      Continuar
+                    </p>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-1">
+                  <a href="#!">
+                    <p class="cancelar-prove">
+                      Cancelar
+                    </p>
+                  </a>
+                </div>
+              </div>
+            <!--COLLAPSER-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--MODAL-->
+    <!--MODAL INHABILITAR-->
+   <div class="modal fade" id="proveedores-inhabilitar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog" role="document">
+       <div class="modal-content1">
+         <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true"><img src="images/recursos/close-popoup.png" alt="The Wedding Board"> cerrar</span>
+           </button>
+         </div>
+         <div class="modal-body1 col-md-12" style="background:white;">
+           <!--COLLAPSER-->
+             <div class="col-md-12">
+               <p class="titulo-prove">
+                 Inhabilit<span>ar pr</span>oveedor
+               </p>
+               <p class="titulo-prove" style="text-transform:none">
+                 Esta a punto de inhabilitar a un provedor <br>
+                 ¿Esta seguro que desea continuar?
+               </p>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 top-20 modal-left">
+               <div class="col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-1">
+                 <a href="#!">
+                   <p class="continuar-prove">
+                     Continuar
+                   </p>
+                 </a>
+               </div>
+               <div class="col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-1">
+                 <a href="#!">
+                   <p class="cancelar-prove">
+                     Cancelar
+                   </p>
+                 </a>
+               </div>
+             </div>
+           <!--COLLAPSER-->
+         </div>
+       </div>
+     </div>
+   </div>
+   <!--MODAL-->
+
+
   </section>
   <!-- /.content -->
 </div>
