@@ -4,8 +4,8 @@
 <?php
   require("functions.php");
   //get_header();
-  get_headerPrincipal();
-
+  //get_headerPrincipal();
+include("head-3.php");
   get_aside();
 ?>
 <!-- Content Wrapper. Contains page content -->
