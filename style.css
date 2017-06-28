@@ -1827,7 +1827,7 @@ input:checked + .slider:before {
 }
 .size-img  + label {
   width: 90%;
-  height: 180px;
+  height: 140px;
 }
 .icono-edit{
   font-size: 3em;
