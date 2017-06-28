@@ -56,7 +56,7 @@
 
                   <div class="col-xs-12 col-sm-10 col-md-8 col-lg-9 dropdown boton-categoria cen nomargin left-15 mar-20">
                     <button class="btn btn-secondary dropdown-toggle btn btn-default23 btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="fa fa-tag" aria-hidden="true"></i> Plataforma <i class="fa fa-caret-down" aria-hidden="true"></i>
+                      <i class="fa fa-font-awesome" aria-hidden="true"></i> Plataforma <i class="fa fa-caret-down" aria-hidden="true"></i>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                       <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
@@ -64,7 +64,7 @@
                       <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
                     </div>
                     <button class="btn btn-secondary dropdown-toggle btn btn-default23 btn-sm ancho-size top-mem" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                       Membresia <i class="fa fa-caret-down" aria-hidden="true"></i>
+                      <i class="fa fa-tag" aria-hidden="true"></i> Membresia <i class="fa fa-caret-down" aria-hidden="true"></i>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                       <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
@@ -74,7 +74,7 @@
                   </div>
                   <!-- /.btn-group -->
                   <button type="button" class="btn btn-default btn-sm ancho-size left-borra70 btn-padd elimina">
-                    Borrar <i class="fa fa-trash-o"></i>
+                    <i class="fa fa-trash-o"></i> Eliminar
                   </button>
                   <div class="pull-right pag-center pag2 pag-mem">1-50/200
                     <div class="btn-group">

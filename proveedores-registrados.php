@@ -44,8 +44,7 @@
                     </div>
 
                     <button class="btn btn-secondary dropdown-toggle btn btn-default20 btn-sm ancho-size margin-membresia" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="fa fa-tag" aria-hidden="true"></i> Membresia <i class="fa fa-caret-down" aria-hidden="true"></i>
-                      <!-- <i class="fa fa-id-card-o" aria-hidden="true"></i> -->
+                      <i class="fa fa-id-card-o" aria-hidden="true"></i> Membresia <i class="fa fa-caret-down" aria-hidden="true"></i>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                       <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
@@ -54,8 +53,7 @@
                     </div>
 
                     <button class="btn btn-secondary dropdown-toggle btn btn-default20 btn-sm ancho-size margin-membresia" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="fa fa-tag" aria-hidden="true"></i> Estatus <i class="fa fa-caret-down" aria-hidden="true"></i>
-                      <!-- <i class="fa fa-font-awesome" aria-hidden="true"></i> -->
+                      <i class="fa fa-font-awesome" aria-hidden="true"></i> Estatus <i class="fa fa-caret-down" aria-hidden="true"></i>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                       <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
@@ -124,7 +122,7 @@
 
 
       <!---->
-      <div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado">
+      <a href="proveedores-sin.php"><div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado hover-registro">
         <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
           <div class="form-check">
             <label class="form-check-label">
@@ -156,8 +154,8 @@
           <span class="device-title">ESTATUS<br></span>
           <span class="texto-prov">Activo</span>
         </div>
-      </div>
-      <div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado">
+      </div></a>
+      <a href="proveedores-activo.php"><div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado hover-registro">
         <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
           <div class="form-check">
             <label class="form-check-label">
@@ -189,8 +187,8 @@
           <span class="device-title">ESTATUS<br></span>
           <span class="texto-prov">Activo</span>
         </div>
-      </div>
-      <div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado">
+      </div></a>
+      <a href="proveedores-activo.php"><div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado hover-registro">
         <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
           <div class="form-check">
             <label class="form-check-label">
@@ -222,8 +220,8 @@
            <span class="device-title">ESTATUS<br></span>
           <span class="texto-prov">Activo</span>
         </div>
-      </div>
-      <div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado">
+      </div></a>
+      <a href="proveedores-inhabilitado.php"><div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado hover-registro">
         <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
           <div class="form-check">
             <label class="form-check-label">
@@ -255,8 +253,8 @@
            <span class="device-title">ESTATUS<br></span>
           <span class="proveedores-off">Inhabilitado</span>
         </div>
-      </div>
-      <div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado">
+      </div></a>
+      <a href="proveedores-activo.php"><div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado hover-registro">
         <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
           <div class="form-check">
             <label class="form-check-label">
@@ -288,8 +286,8 @@
           <span class="device-title">ESTATUS<br></span>
           <span class="texto-prov">Activo</span>
         </div>
-      </div>
-      <div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado">
+      </div></a>
+      <a href="proveedores-activo.php"><div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado hover-registro">
         <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
           <div class="form-check">
             <label class="form-check-label">
@@ -321,8 +319,8 @@
           <span class="device-title">ESTATUS<br></span>
           <span class="texto-prov">Activo</span>
         </div>
-      </div>
-      <div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado">
+      </div></a>
+      <a href="proveedores-activo.php"><div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado hover-registro">
         <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
           <div class="form-check">
             <label class="form-check-label">
@@ -354,8 +352,8 @@
           <span class="device-title">ESTATUS<br></span>
           <span class="texto-prov">Activo</span>
         </div>
-      </div>
-      <div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado">
+      </div></a>
+      <a href="proveedores-vencido.php"><div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado hover-registro">
         <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
           <div class="form-check">
             <label class="form-check-label">
@@ -387,8 +385,8 @@
           <span class="device-title">ESTATUS<br></span>
           <span class="proveedores-vencido">Vencido</span>
         </div>
-      </div>
-      <div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado">
+      </div></a>
+      <a href="proveedores-vencido.php"><div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado hover-registro">
         <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
           <div class="form-check">
             <label class="form-check-label">
@@ -420,7 +418,7 @@
           <span class="device-title">ESTATUS<br></span>
           <span class="proveedores-vencido">Vencido</span>
         </div>
-      </div>
+      </div></a>
       <!---->
       <div class="box-footer no-padding">
         <div class="mailbox-controls">

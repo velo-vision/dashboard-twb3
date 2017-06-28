@@ -86,9 +86,16 @@
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-truck" aria-hidden="true"></i>
-            <span>Proveedores</span>
+            <i class="fa fa-truck" aria-hidden="true"></i><span>Proveedores</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
           </a>
+          <ul class="treeview-menu">
+           <li class=""><a href="proveedores-registrados.php">Registrados</a></li>
+            <li class=""><a href="proveedores-solicitudes.php">Solicitudes</a></li>
+            <li class=""><a href="proveedores-redes.php">Redes de Colaboración</a></li>
+          </ul>
         </li>
         <li class="treeview">
           <a href="reportes.php">

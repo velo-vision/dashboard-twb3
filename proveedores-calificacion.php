@@ -26,7 +26,7 @@
           <span>Anterior</span>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-4 centers nomargin">
-          <a href="usuarios.php">
+          <a href="proveedores-registrados.php">
             <p class="usuario-volver" style="margin: 0 auto;">
               <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a Listado
             </p>
@@ -94,7 +94,7 @@
         </div>
         <div class="form-group row top-30 centrado">
           <div class="col-md-4 col-md-offset-4 col-xs-8 col-xs-offset-2">
-            <a href="#!"><p type="submit" class="btn boton-proveedores03">Regresar a perfil</p></a>
+            <a href="proveedores-activo.php"><p type="submit" class="btn boton-proveedores03">Regresar a perfil</p></a>
           </div>
         </div>
 
