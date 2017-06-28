@@ -25,7 +25,7 @@
           <!-- <img src="images/dashboard/anterior.png" alt="The Wedding Board"> -->
         </div>
         <div class="col-md-4 col-xs-8 centers margin-volver">
-          <a href="licitaciones-2.php">
+          <a href="proveedores-activo.php">
             <p class="editar">
               <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a proveedor
             </p>

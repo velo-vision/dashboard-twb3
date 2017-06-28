@@ -71,7 +71,7 @@
       </section>
 
  <!--Empieza titulos-->
-      <div class="col-md-12 col-sm-12 col-xs-12 confirma dotted-down centrado">
+      <div class="col-md-12 col-sm-12 col-xs-12 confirma box-footer dotted-prov centrado">
         <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar-prov">
           <!-- <div class="form-check">
             <label class="form-check-label">
@@ -115,7 +115,7 @@
       <!---->
 <?php  for ($i=0; $i <5 ; $i++) { ?>
 
-      <div class="col-md-12 col-sm-12 col-xs-12 dotted-down centrado">
+      <a href="proveedores-aprobados.php"><div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado hover-registro">
         <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar-prov">
           <div class="form-check">
             <label class="form-check-label">
@@ -151,7 +151,7 @@
           <i class="fa fa-check-circle-o paloma-size icon-paloma" aria-hidden="true"></i>
           <i class="fa fa-times-circle-o icon-tache" aria-hidden="true"></i>
         </div>
-      </div>
+      </div></a>
       <!---->
 <?php } ?>
 

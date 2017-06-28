@@ -23,7 +23,7 @@
                   <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
                 </div>
                 <!---->
-                <section class="content">
+                <section class="">
                   <div class="container-fluid nomargin">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
                         <div class="box-header with-border">
@@ -42,8 +42,7 @@
 
                             <div class="col-xs-12 col-sm-7 col-md-7 col-lg-9 dropdown boton-categoria cen nomargin left-15 mar-20">
                               <button class="btn btn-secondary dropdown-toggle btn btn-default23 btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fa fa-tag" aria-hidden="true"></i> Estatus <i class="fa fa-caret-down" aria-hidden="true"></i>
-                                <i class="fa fa-font-awesome" aria-hidden="true"></i>
+                                <i class="fa fa-font-awesome" aria-hidden="true"></i> Estatus <i class="fa fa-caret-down" aria-hidden="true"></i>
                               </button>
                               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>

@@ -89,28 +89,28 @@
                         <div class="col-md-12 col-sm-12 col-xs-12 confirma border-down">
                           <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
                           </div>
-                          <div class="col-md-2 col-sm-3 col-xs-5">
+                          <div class="col-md-2 col-sm-3 col-xs-5 text-size">
                             <p>
                               <strong>NOMBRE</strong>
                             </p>
                           </div>
-                          <div class="col-md-2 col-sm-3 col-xs-3">
+                          <div class="col-md-2 col-sm-3 col-xs-3 text-size">
                             <p>
                               <strong>MAIL</strong>
                             </p>
                           </div>
-                          <div class="col-md-1 col-sm-2 col-xs-4">
+                          <div class="col-md-2 col-sm-2 col-xs-4 text-size text-pad">
                             <p>
                               <strong>TIPO USUARIO</strong>
                             </p>
                           </div>
-                          <div class="col-md-3 col-sm-2 col-xs-4 centers margin-izq confirma">
+                          <div class="col-md-3 col-sm-2 col-xs-4 centers margin-izq confirma text-size text-left">
                             <p>
                               <strong>CREADO POR</strong>
                             </p>
                           </div>
                         </div>
-                        <div class="col-md-12 col-sm-12 col-xs-12 dotted-down1">
+                        <div class="col-md-12 col-sm-12 col-xs-12 dotted-down1 dotted-pad">
                           <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
                             <div class="form-check">
                               <label class="form-check-label">
@@ -153,7 +153,7 @@
                             </p></a>
                           </div>
                         </div>
-                        <div class="col-md-12 col-sm-12 col-xs-12 box-footer dotted-down1">
+                        <div class="col-md-12 col-sm-12 col-xs-12 box-footer dotted-down1 dotted-pad">
                           <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
                             <div class="form-check">
                               <label class="form-check-label">
@@ -196,7 +196,7 @@
                             </p></a>
                           </div>
                         </div>
-                        <div class="col-md-12 col-sm-12 col-xs-12 box-footer dotted-down1">
+                        <div class="col-md-12 col-sm-12 col-xs-12 box-footer dotted-down1 dotted-pad">
                           <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
                             <div class="form-check">
                               <label class="form-check-label">

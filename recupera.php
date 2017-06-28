@@ -56,7 +56,7 @@
             <form>
              <div class="form-group row top-30">
                <div class="col-sm-12">
-                 <input type="email" class="form-control1" id="inputEmail3" placeholder="Correo">
+                 <input type="email" class="form-control2" id="inputEmail3" placeholder="Correo">
                </div>
              </div>
              <div class="form-group row top-30">

@@ -1,5 +1,9 @@
 <?php
-  include("head-3.php");
+  require("functions.php");
+  //get_header();
+  get_headerPrincipal();
+
+  get_aside();
 ?>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
@@ -21,7 +25,7 @@
           <span>Anterior</span>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-4 centers nomargin">
-          <a href="">
+          <a href="proveedores-registrados.php">
             <p class="usuario5-volver" style="margin: 0 auto;">
               <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a Listado
             </p>
@@ -36,28 +40,28 @@
 
       <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 margin-men">
         <div class="col-xs-12 col-sm-6 col-md-3 centers margin-volver">
-            <a href="">
+            <a href="proveedores-mensajes.php">
               <p class="usuario5 margin-0">
                 <i class="fa fa-envelope-o" aria-hidden="true"></i> Enviar Mensajes
               </p>
             </a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 centers margin-volver">
-            <a href="">
+            <a data-toggle="modal" data-target="#proveedores-inhabilitar" data-whatever="@mdo">
               <p class="usuario5 margin-0">
                 <i class="fa fa-ban" aria-hidden="true"></i> Inhabilitar
               </p>
             </a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 centers margin-volver">
-            <a href="">
+            <a data-toggle="modal" data-target="#proveedores-eliminar" data-whatever="@mdo">
               <p class="usuario5 margin-0 pro">
                 <i class="fa fa-trash-o" aria-hidden="true"></i> Eliminar
               </p>
             </a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 centers margin-volver">
-            <a href="">
+            <a href="proveedores-editar.php">
               <p class="usuario5 margin-0 pro">
                 <i class="fa fa-pencil" aria-hidden="true"></i> Editar
               </p>
@@ -88,61 +92,64 @@
         </div>
         <div class="form-group row top-30 centrado">
           <div class="col-md-4 col-md-offset-4 col-xs-8 col-xs-offset-2">
-            <a href="#!"><p type="submit" class="btn boton-proveedores03">Regresar a perfil</p></a>
+            <a href="proveedores-calificacion.php"><p type="submit" class="btn boton-proveedores03">Ver Calificaciones</p></a>
           </div>
+        </div>
+        <div class="col-xs-12 col-md-12 text-vencido centers">
+          <p class="inhabil">Vencido</p>
         </div>
 
       <!-- /.col -->
       <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 linea-config"></div>
 
-        <div class="col-sm-11 col-sm-offset-1 col-md-12 col-lg-10 col-lg-offset-1">
-          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 centrado">
-            <p class="text-detalle1">DETALLES</p>
+      <div class="col-sm-11 col-sm-offset-1 col-md-12 col-lg-10 col-lg-offset-1">
+        <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 centrado">
+          <p class="text-detalle1">DETALLES</p>
+        </div>
+        <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span">
+          <div class="col-sm-6 col-md-6 col-lg-6">
+            <p>Nombre Proveedor: <span> JL Event Planner</span></p>
           </div>
-          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span">
-            <div class="col-sm-6 col-md-6 col-lg-6">
-              <p>Nombre Proveedor: <span> JL Event Planner</span></p>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-l6">
-                <p>Mail: <span>jl.event.planner@mailtest.mx</span></p>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span">
-            <div class=" col-sm-6 col-md-6">
-              <p>Categoria: <span>Recepción</span></p>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-l6">
-                <p>Sub-Categoria: <span>Haciendas</span></p>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span">
-            <div class="col-sm-6 col-md-6 col-lg-l6">
-                <p>Teléfono: <span>55 20 86 54 74</span></p>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-l6">
-                <p>Localidad: <span>Ciudad de México</span></p>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span">
-            <div class=" col-sm-6 col-md-6">
-              <p>Membresía: <span>Tipo A</span></p>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-l6">
-                <p>Miembro desde: <span>25 abril 2017</span></p>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span bottom-evento">
-            <div class="col-sm-6 col-md-6">
-              <p>Vencimiento: <span>25 abril 2018</span></p>
-            </div>
-            <div class="col-sm-6 col-md-6">
-                <p>Aprobado por: <span>Sophie Dueso</span></p>
-            </div>
+          <div class="col-sm-6 col-md-6 col-lg-l6">
+              <p>Mail: <span>jl.event.planner@mailtest.mx</span></p>
           </div>
         </div>
+        <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span">
+          <div class=" col-sm-6 col-md-6">
+            <p>Categoria: <span>Recepción</span></p>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-l6">
+              <p>Sub-Categoria: <span>Haciendas</span></p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span">
+          <div class="col-sm-6 col-md-6 col-lg-l6">
+              <p>Teléfono: <span>55 20 86 54 74</span></p>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-l6">
+              <p>Localidad: <span>Ciudad de México</span></p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span">
+          <div class=" col-sm-6 col-md-6">
+            <p>Membresía: <span>Tipo A</span></p>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-l6">
+              <p>Miembro desde: <span>25 abril 2017</span></p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span bottom-evento">
+          <div class="col-sm-6 col-md-6">
+            <p>Vencimiento: <span>25 abril 2018</span></p>
+          </div>
+          <div class="col-sm-6 col-md-6">
+              <p>Aprobado por: <span>Sophie Dueso</span></p>
+          </div>
+        </div>
+      </div>
         <div class="form-group row top-50 centrado">
           <div class="col-md-4 col-md-offset-4 col-xs-8 col-xs-offset-2">
-            <a href="#!"><p type="submit" class="btn boton-calificaciones">Editar datos</p></a>
+            <a href="proveedores-editar.php"><p type="submit" class="btn boton-calificaciones">Editar datos</p></a>
           </div>
         </div>
 
@@ -211,8 +218,8 @@
             </div>
           </div>
           <div class="form-group row top-50 centrado">
-          <div class="col-md-4 col-md-offset-4 col-xs-8 col-xs-offset-2 botton-red1">
-            <a href="#!"><p type="submit" class="btn boton-proveedores03">Ver Toda la Red</p></a>
+          <div class="col-md-4 col-md-offset-4 col-xs-8 col-xs-offset-2 botton-red">
+            <a href="proveedores-11.php"><p type="submit" class="btn boton-proveedores03">Ver Toda la Red</p></a>
           </div>
         </div>
         </div>
@@ -221,28 +228,28 @@
       <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 linea-config"></div>
       <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 margin-men">
         <div class="col-xs-12 col-sm-6 col-md-3 centers margin-volver">
-            <a href="">
+            <a href="proveedores-mensajes.php">
               <p class="usuario5 margin-0">
                 <i class="fa fa-envelope-o" aria-hidden="true"></i> Enviar Mensajes
               </p>
             </a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 centers margin-volver">
-            <a href="">
+            <a data-toggle="modal" data-target="#proveedores-inhabilitar" data-whatever="@mdo">
               <p class="usuario5 margin-0">
                 <i class="fa fa-ban" aria-hidden="true"></i> Inhabilitar
               </p>
             </a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 centers margin-volver">
-            <a href="">
+            <a data-toggle="modal" data-target="#proveedores-eliminar" data-whatever="@mdo">
               <p class="usuario5 margin-0 pro">
                 <i class="fa fa-trash-o" aria-hidden="true"></i> Eliminar
               </p>
             </a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 centers margin-volver">
-            <a href="">
+            <a href="proveedores-editar.php">
               <p class="usuario5 margin-0 pro">
                 <i class="fa fa-pencil" aria-hidden="true"></i> Editar
               </p>
@@ -256,7 +263,7 @@
           <span>Anterior</span>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-4 centers nomargin">
-          <a href="">
+          <a href="proveedores-registrados.php">
             <p class="usuario5-volver" style="margin: 0 auto;">
               <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a Listado
             </p>
@@ -270,6 +277,92 @@
 
     </div>
     <!-- /.row -->
+
+    <!--MODAL ELIMINAR-->
+    <div class="modal fade" id="proveedores-eliminar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog" role="document">
+       <div class="modal-content1">
+         <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true"><img src="images/recursos/close-popoup.png" alt="The Wedding Board"> cerrar</span>
+           </button>
+         </div>
+         <div class="modal-body1 col-md-12" style="background:white;">
+           <!--COLLAPSER-->
+             <div class="col-md-12">
+               <p class="titulo-prove">
+                 Elimina<span>r pr</span>oveedor
+               </p>
+               <p class="titulo-prove" style="text-transform:none">
+                 Esta a punto de eliminar un provedor, esta seguro
+                 que desea continuar, esta acción no se puede revertir.
+               </p>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 top-20 modal-left">
+               <div class="col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-1">
+                 <a href="#!">
+                   <p class="continuar-prove">
+                     Continuar
+                   </p>
+                 </a>
+               </div>
+               <div class="col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-1">
+                 <a href="#!">
+                   <p class="cancelar-prove">
+                     Cancelar
+                   </p>
+                 </a>
+               </div>
+             </div>
+           <!--COLLAPSER-->
+         </div>
+       </div>
+     </div>
+    </div>
+    <!--MODAL-->
+    <!--MODAL INHABILITAR-->
+    <div class="modal fade" id="proveedores-inhabilitar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content1">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><img src="images/recursos/close-popoup.png" alt="The Wedding Board"> cerrar</span>
+          </button>
+        </div>
+        <div class="modal-body1 col-md-12" style="background:white;">
+          <!--COLLAPSER-->
+            <div class="col-md-12">
+              <p class="titulo-prove">
+                Inhabilit<span>ar pr</span>oveedor
+              </p>
+              <p class="titulo-prove" style="text-transform:none">
+                Esta a punto de inhabilitar a un provedor <br>
+                ¿Esta seguro que desea continuar?
+              </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 top-20 modal-left">
+              <div class="col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-1">
+                <a href="#!">
+                  <p class="continuar-prove">
+                    Continuar
+                  </p>
+                </a>
+              </div>
+              <div class="col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-1">
+                <a href="#!">
+                  <p class="cancelar-prove">
+                    Cancelar
+                  </p>
+                </a>
+              </div>
+            </div>
+          <!--COLLAPSER-->
+        </div>
+      </div>
+    </div>
+    </div>
+    <!--MODAL-->
+
   </section>
   <!-- /.content -->
 </div>

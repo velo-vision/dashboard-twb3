@@ -14,28 +14,28 @@
   <section class="content">
     <div class="row">
       <!-- /.col -->
-      <div class="col-md-6 col-md-offset-3 titulo-prov">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 titulo-usuario1">
         <p>
           Usuarios
         </p>
-        <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
+        <img src="images/recursos/linea-greca.png" alt="The Wedding Board" width="100%">
       </div>
       <div class="col-md-6 col-md-offset-3 col-xs-12 top-20">
-        <div class="col-md-4 col-xs-2">
+        <div class="col-md-2 col-xs-2">
           <!-- <img src="images/dashboard/anterior.png" alt="The Wedding Board"> -->
         </div>
-        <div class="col-md-4 col-xs-8 centers margin-volver">
-          <a href="licitaciones-2.php">
-            <p class="editar">
+        <div class="col-md-8 col-xs-8 centers">
+          <a href="usuario-detalle.php">
+            <p class="usuario-btn" style="margin: 0 auto;">
               <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a perfil usuario
             </p>
           </a>
         </div>
-        <div class="col-md-4 col-xs-2" style="text-align:right;">
+        <div class="col-md-2 col-xs-2" style="text-align:right;">
           <!-- <img src="images/dashboard/siguiente.png" alt="The Wedding Board"> -->
         </div>
       </div>
-      <div class="col-md-8 col-md-offset-2 top-20">
+      <div class="col-xs-12 col-md-8 col-md-offset-2 top-20">
         <div class="box box-primary">
           <!-- /.box-header -->
           <div class="box-body top-place-20">
@@ -46,10 +46,11 @@
               <input class="form-control1" placeholder="Asunto:">
             </div>
             <div class="form-group">
-                  <textarea id="compose-textarea" class="form-control" style="height: 180px">
+                  <textarea id="compose-textarea" class="form-control height-180 color-area">
                     <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.<br><br>
 
-                      Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+                      Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+                    </p>
                   </textarea>
             </div>
           </div>

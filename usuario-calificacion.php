@@ -38,24 +38,24 @@
         </div>
       </div>
       <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 linea-config"></div>
-        <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 margin-men btn-margin">
-          <div class="col-xs-12 col-sm-4 col-md-4 centers margin-volver btn-margin marg">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 margin-men">
+          <div class="col-xs-12 col-sm-4 col-md-4 centers margin-volver">
             <a href="usuario-mensajes.php">
-              <p class="usuario">
+              <p class="usuario" style="margin: 0 auto;">
                 <i class="fa fa-envelope-o" aria-hidden="true"></i> Enviar Mensajes
               </p>
             </a>
           </div>
-          <div class="col-xs-12 col-sm-4 col-md-4 centers margin-volver off">
-            <a href="">
-              <p class="usuario in-center">
+          <div class="col-xs-12 col-sm-4 col-md-4 centers margin-volver">
+            <a href="usuario-inhabilitado.php">
+              <p class="usuario" style="margin: 0 auto;">
                 <i class="fa fa-ban" aria-hidden="true"></i> Inhabilitar
               </p>
             </a>
           </div>
-          <div class="col-xs-12 col-sm-4 col-md-4 centers margin-volver btn-margin">
+          <div class="col-xs-12 col-sm-4 col-md-4 centers margin-volver">
             <a href="">
-              <p class="usuario aliminar-float">
+              <p class="usuario" style="margin: 0 auto;">
                 <i class="fa fa-trash-o" aria-hidden="true"></i> Eliminar
               </p>
             </a>
@@ -76,7 +76,7 @@
         </div>
         <div class="col-xs-12 col-md-12 nomargin img-twb1 centers">
           <img src="images/usuarios/1.jpg" class="img-circle" alt="The Wedding Board">
-          <div class="col-xs-12 col-md-12 col-lg-12 text-nombre">
+          <div class="col-xs-12 col-md-12 col-lg-12 text-nombre13">
             <p style="margin:5px 0 0 0;">Maria Amador</p>
             <strong>Plataforma:</strong><span> TWB</span>
           </div>
@@ -121,7 +121,75 @@
                       <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Very Poor">1 star</label>
                     </fieldset>
                   </div>
-                <p class="nomargin"><strong>Fecha:</strong>  13 Marzo 2017</p>
+                <p class="nomargin margin-fech"><strong>Fecha:</strong>  13 Marzo 2017</p>
+              </div>
+              <div class="col-md-8 nomargin">
+                <div class="col-md-2 nomargin coment-right">
+                  <p><strong>Comentarios:</strong></p>
+                </div>
+                <div class="col-md-10 no-coment">
+                  <p>
+                    Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+                    Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- comentario2 -->
+            <div class="col-xs-12 col-sm-12 col-md-12 border-abajo calificaciones-usu">
+              <div class="col-md-1">
+                <div class="image centers img-20">
+                  <img class="img-circle border-azul" src="images/usuarios/calificacion-2.png" alt="The Wedding Board">
+                </div>
+              </div>
+              <div class="col-md-3 nomargin detalle-center">
+                <p><strong>Proveedor:</strong> Mei Utroque</p>
+                <p><strong>Categoria:</strong> Fashion</p>
+                  <strong>Calificación:</strong>
+                  <div class="star-rating enlinea" style="margin-left:10px;">
+                    <fieldset>
+                      <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Outstanding">5 stars</label>
+                      <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Very Good">4 stars</label>
+                      <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Good">3 stars</label>
+                      <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Poor">2 stars</label>
+                      <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Very Poor">1 star</label>
+                    </fieldset>
+                  </div>
+                <p class="nomargin margin-fech"><strong>Fecha:</strong>  13 Marzo 2017</p>
+              </div>
+              <div class="col-md-8 nomargin">
+                <div class="col-md-2 nomargin coment-right">
+                  <p><strong>Comentarios:</strong></p>
+                </div>
+                <div class="col-md-10 no-coment">
+                  <p>
+                    Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+                    Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- comentario 3 -->
+            <div class="col-xs-12 col-sm-12 col-md-12 border-abajo calificaciones-usu">
+              <div class="col-md-1">
+                <div class="image centers img-20">
+                  <img class="img-circle border-azul" src="images/usuarios/calificacion-3.png" alt="The Wedding Board">
+                </div>
+              </div>
+              <div class="col-md-3 nomargin detalle-center">
+                <p><strong>Proveedor:</strong> Mei Utroque</p>
+                <p><strong>Categoria:</strong> Fashion</p>
+                  <strong>Calificación:</strong>
+                  <div class="star-rating enlinea" style="margin-left:10px;">
+                    <fieldset>
+                      <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Outstanding">5 stars</label>
+                      <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Very Good">4 stars</label>
+                      <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Good">3 stars</label>
+                      <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Poor">2 stars</label>
+                      <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Very Poor">1 star</label>
+                    </fieldset>
+                  </div>
+                <p class="nomargin margin-fech"><strong>Fecha:</strong>  13 Marzo 2017</p>
               </div>
               <div class="col-md-8 nomargin">
                 <div class="col-md-2 nomargin coment-right">
@@ -145,6 +213,11 @@
                 <!-- /.btn-group -->
               </div>
               <!-- /.pull-right -->
+            </div>
+            <div class="form-group row top-50 centrado">
+              <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-4">
+                <a href="usuario-calificacion.php"><p type="submit" class="btn boton-regresar-perfil">Regresar a Perfil</p></a>
+              </div>
             </div>
           </div>
         </div>
