@@ -44,10 +44,10 @@
                 <div class="col-md-11">
                   <div class="box box-primary">
                     <div class="box-header with-border">
-                      <h3 class="box-title"> <img src="images/recursos/eye.jpg" alt="The Wedding Board"><span> Leído por: Shophie Dueso</span></h3>
+                      <h3 class="box-title"> <img src="images/recursos/eye.jpg" alt="The Wedding Board"><span class="mensaje2-span"> Leído por: </span><span class="mensaje2-span2">Shophie Dueso</span></h3>
                     </div>
                     <div class="box-header with-border">
-                      <h3 class="box-title"><strong>Bienvenido a The Wedding Board</strong></h3>
+                      <h3 class="box-title"><span class="mensaje3span">Bienvenido a The Wedding Board</span></h3>
                       <div class="box-tools pull-right">
                         <a href="#" class="btn btn-box-tool" data-toggle="tooltip" title="Previous"><i class="fa fa-chevron-left"></i></a>
                         <a href="#" class="btn btn-box-tool" data-toggle="tooltip" title="Next"><i class="fa fa-chevron-right"></i></a>
@@ -56,7 +56,7 @@
                     <!-- /.box-header -->
                     <div class="box-body no-padding">
                       <div class="mailbox-read-info">                      
-                        <h5><strong>De:</strong> Wedding Board Admin</h5>
+                        <h5><p class="de"><span>De: </span>Wedding Board Admin</p></h5>
                         <h5><span class="mailbox-read-time ">13 Mar. 2017 11:03 PM</span></h5>
                       </div>
                       <!-- /.mailbox-read-info -->
@@ -74,29 +74,23 @@
                       </div>
                       <!-- /.mailbox-controls -->
                       <div class="mailbox-read-message">
-                        <p>Hello The Wedding</p>
+                        <p class="contendido-de">Hello The Wedding<br>
 
-                        <p>
+                     
                           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
                           Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                           Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
                           Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-                          imperdiet a, venenatis vitae, justo.
-                        </p>
-
-                        <p>
+                          imperdiet a, venenatis vitae, justo.<br>
+                        
                           Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
                           Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
-                          consequat vitae, eleifend ac, enim.
-                        </p>
-
-                        <p>
+                          consequat vitae, eleifend ac, enim.<br>
+                       
                           Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
                           Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-                          Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
-                        </p>
-
-                        <p>
+                          Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.<br>
+                        
                           Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque
                           sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
                           tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.

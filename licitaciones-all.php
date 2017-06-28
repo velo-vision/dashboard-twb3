@@ -84,96 +84,68 @@
       </section>
 
  <!--Empieza titulos-->
-      <div class="col-xs-12  col-sm-12 col-md-12 col-lg-12 confirma line centrado">
-        <div class="col-xs-1 col-md-1 col-sm-1  centers ocultar">
-          <!-- <div class="form-check">
-            <label class="form-check-label">
-              <input type="checkbox" class="form-check-input">
-            </label>
-          </div> -->
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-1 col-xs-5">
-          <p>
-            <strong class="texto-content">USUARIO</strong>
-          </p>
-        </div> 
-        <div class="col-md-1 col-sm-1 col-xs-3">
-          <p>
-            <strong class="texto-content">CATEGORÍA</strong>
-          </p>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-4">
-          <p>
-            <strong class="texto-content">FECHA DE EVENTO</strong>
-          </p>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-4">
-          <p>
-            <strong class="texto-content">PRESUPUESTO</strong>
-          </p>
-        </div>
-        <div class="col-md-1 col-sm-1 col-xs-4 centers margin-izq confirma">
-          <p>
-            <strong class="texto-content">ESTATUS</strong>
-          </p>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-1 col-xs-4 centers margin-izq confirma">
-          <p class="nomargin">
-            <strong class="texto-content">RESPUESTAS</strong>
-          </p>          
-        </div>
-        <div class="col-md-1 col-sm-1 col-xs-4 centers margin-izq confirma">
-          <p class="nomargin">
-            <strong class="texto-content">FECHA</strong>
-          </p>
-          </div>
-      </div>
-
-
-      <!---->
-<?php  for ($i=0; $i <10 ; $i++) { ?>
-
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 line centrado">
-        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-          <div class="form-check">
-            <label class="form-check-label">
-              <input type="checkbox" class="form-check-input">
-            </label>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 nomargin centrar separacion-list">
-          <span class="device-title">USUARIO<br></span>
-          <span class="texto-content">Lorena Martínez</span>         
-        </div>
-        <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list">
-        <span class="device-title">CATEGORÍA<br></span>
-          <span class="texto-content">Fashion</span>          
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list">
-        <span class="device-title">FECHA DE EVENTO<br></span>
-          <span class="texto-content">28-Oct-2017</span>          
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list">
-        <span class="device-title">PRESUPUESTO<br></span>
-          <span class="texto-content">$50,000.00</span>          
-        </div>
-        <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list">
-        <span class="device-title">ESTATUS<br></span>
-          <span class="texto-content">CANCELADA</span>          
-        </div>
-         <div class="col-lg-2 col-md-2 col-sm-1 col-xs-6 nomargin separacion-list">
-         <span class="device-title">RESPUESTAS<br></span>
-          <span class="texto-content">3</span>          
-        </div>
-         <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list">
-         <span class="device-title">FECHA<br></span>
-          <span class="texto-content">hace 5 min.</span>          
-        </div>
-                
-      </div>
-      <!---->
+ <div class="table-responsive mailbox-messages">
+ <table class="table table-hover ">
+    <tbody >
+      <tr class="strong-td">
+        <td><input type="checkbox" class="oculto-check"></td>
+        <td>
+          <strong>USUARIO </strong>
+        </td>
+        <td>
+          <strong>CATEGORÍA</strong>
+        </td>
+        <td>
+          <strong>FECHA DE EVENTO</strong>
+        </td>
+        <td>
+          <strong>PRESUPUESTO</strong>
+        </td>
+        <td>
+          <strong>ESTATUS</strong>
+        </td>
+        <td>
+          <strong>RESPUESTAS</strong>
+        </td>
+        <td>
+           <strong>FECHA</strong>
+        </td>
+      </tr>
+<?php for ($i=0; $i <10 ; $i++) { ?>
+      <tr class="strong-td">
+        <td><input type="checkbox" ></td>
+        <td>
+          <span>Lorena Martínez</span>  
+        </td>
+        <td>
+         <span>Fashion</span> 
+        </td>
+        <td>
+          <span>28-Oct-2017</span>      
+        </td>
+        <td>
+          <span>$50,000.00</span>    
+        </td>
+        <td>
+          <span>CANCELADA</span>     
+        </td>
+        <td>
+           <span>3</span>
+        </td>
+        <td>
+           <span>hace 5 min.</span>
+        </td>
+      </tr>
 <?php } ?>
+    </tbody>
+  </table>
 
+      <!---->
+
+
+    
+
+</div>
     </div>
 
     <!--MODAL-->

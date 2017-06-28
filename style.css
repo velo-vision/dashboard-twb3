@@ -1480,6 +1480,7 @@ cursor:pointer;
 
 /*************************************************************/
 /* Est. Config */
+
 .webpadding-no4{
   padding: 0px !important
 }
@@ -1652,7 +1653,54 @@ input:checked + .slider:before {
   margin-top: 0px;
 }
 
+/*Mensajes*/
+
+.oculto-check{
+  visibility: hidden;
+}
+
+.strong-td strong{
+  font-size: 15px;
+}
+
+.strong-td span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color:#808080;
+
+}
+
+/*Mensajes 2*/
+.mensaje2-span{
+  font-size: 16px;
+  color: #999999;
+}
+.mensaje2-span2{
+  font-size: 16px;
+  color: #303030;
+}
+
+.mensaje3span{
+  color: #303030;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+}
+
+.de p{
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 13px;
+   color:#303030;
+}
+.de span{
+  font-weight: bold;
+}
+.contendido-de{
+  font-weight: 500;
+  font-size: 13px;
+}
 /*licitacion*/
+
 
 .separa{
   margin: 0 1%;
@@ -1723,8 +1771,12 @@ input:checked + .slider:before {
 
 .line{
   border-bottom: 2px solid #eaeaea;
-  padding: 10px 0 5px 0 !important;
+ /* padding: 10px 0 5px 0 !important;*/
   padding: .5% 0 !important;
+}
+
+.lici-pading-des {
+    padding-left: 15px;
 }
 
 /*Editor web*/
@@ -3265,9 +3317,16 @@ canvas:hover {
 
 .campos-conf input[type="text"] {
    width: 52%;
-
+}
+.lici-pading-des {
+    padding-left: 15px;
 }
 
+.margen-izquierdo-aling{
+  text-align: left;
+  margin: 0 0 0 18px;
+  font-size: 12px;
+}
 .format-config {
   font-size: 15px;
 }
@@ -3295,6 +3354,7 @@ canvas:hover {
   font-weight: 700;
   display: initial !important;
   color:#303030;
+  font-size: 14px;
 }
 
 .size-img + label {
@@ -3513,6 +3573,10 @@ canvas:hover {
   font-weight: 700;
   display: initial !important;
   color:#303030;
+  font-size: 11px;
+}
+.color-lici-text {
+  font-size: 11px;    
 }
 
 .separacion-list{
@@ -3540,7 +3604,7 @@ canvas:hover {
 
 .titulo-editor p {
   font-size: 1em;
-}
+}strong
 .bton-centro-edit{
   text-align: center;
   margin: 5% 0;
@@ -3572,10 +3636,10 @@ label {
   width: 42%;
 }
 .ancho-completo1{
-  width: 49%;
+  width: 47%;
 }
 .ancho-completo {
-  width: 49% !important;
+  width: 47% !important;
   margin: 4px 0% !important;
 }
 .sinpadding-lic {
@@ -3593,6 +3657,13 @@ label {
 .botones-paginacion{
   margin: 0 0 0 52%;
 }
+
+.margen-izquierdo-aling{
+  text-align: left;
+  margin: 0 0 0 18px;
+}
+
+
 /*template*/
 .separacion-template-selects{
   padding: 0px;
