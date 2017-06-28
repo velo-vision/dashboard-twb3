@@ -59,7 +59,7 @@
               <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
               <div class="pull-right pag-center">
                 1-50/200
-                <div class="btn-group">
+                <div class="btn-group botones-paginacion">
                   <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
                   <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
                 </div>
@@ -73,7 +73,7 @@
                 <tr class="texto-mail-active">
                   <td ><input type="checkbox"></td>
                   <td class=""><a href="mensajes-2.php"><strong>The Wedding Board</strong></a></td>
-                  <td class=""><strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Lorem ipsum dolor sit amet</strong> -  Consectetuer adipiscing elit, orem ipsum dolor sit amet, consectetuer adipiscing...
+                  <td class=""><strong><span style="font-style:normal;font-weight:400;visibility:hidden"></span>Lorem ipsum dolor sit amet</strong> -Consectetuer adipiscing elit, orem ipsum dolor sit amet, consectetuer adipiscing...
                   </td>
                   <td class=""></td>
                   <td class=""><strong>hace 5 min.</strong></td>

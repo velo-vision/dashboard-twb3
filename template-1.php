@@ -71,7 +71,7 @@
              <div class="col-xs-12 co-sm-12 col-md-12 col-lg-12 centro title-temp">
               <p><i class="fa fa-caret-right azul-flecha" aria-hidden="true"></i> Lorem insump</p>
               </div>
-              <a href="#!"><img width="100%" src="images/invitaciones/3.jpg" alt="The Wedding Board"></a>
+              <a href="#!" class="temple1-edit2"><img width="100%" src="images/invitaciones/3.jpg" alt="The Wedding Board"></a>
 
                <div class="col-xs-12 co-sm-12 col-md-12 col-lg-12 centro title-temp margin15">
                 <div class="col-xs-6 co-sm-6 col-md-12 col-lg-6 centro aumento-template1">
@@ -91,7 +91,7 @@
               <div class="col-xs-12 co-sm-12 col-md-12 col-lg-12 centro title-temp">
                 <p><i class="fa fa-caret-right azul-flecha" aria-hidden="true"></i> Lorem insump</p>
               </div>
-              <a href=""><img width="100%" src="images/invitaciones/11.jpg" alt="The Wedding Board"></a>
+              <a href="" class="temple1-edit2"><img width="100%"  src="images/invitaciones/11.jpg" alt="The Wedding Board"></a>
               <div class="col-xs-12 co-sm-12 col-md-12 col-lg-12 centro title-temp margin15">
                 <div class="col-xs-6 co-sm-6 col-md-12 col-lg-6 centro aumento-template1">
                   <a data-toggle="modal" data-target="#ocultar" data-whatever="@mdo">
@@ -109,7 +109,7 @@
               <div class="col-xs-12 co-sm-12 col-md-12 col-lg-12 centro title-temp">
                 <p><i class="fa fa-caret-right azul-flecha" aria-hidden="true"></i> Lorem insump</p>
               </div>
-              <a href=""><img width="100%" src="images/invitaciones/7.png" alt="The Wedding Board"></a>
+              <a href="" class="temple1-edit2"><img width="100%" src="images/invitaciones/7.png" alt="The Wedding Board"></a>
               <div class="col-xs-12 co-sm-12 col-md-12 col-lg-12 centro title-temp margin15">
                 <div class="col-xs-6 co-sm-6 col-md-12 col-lg-6 centro aumento-template1">
                   <a data-toggle="modal" data-target="#ocultar" data-whatever="@mdo">
@@ -129,7 +129,7 @@
               <div class="col-xs-12 co-sm-12 col-md-12 col-lg-12 centro title-temp">
                 <p><i class="fa fa-caret-right azul-flecha" aria-hidden="true"></i> Lorem insump</p>
               </div>
-              <a href=""><img width="100%" src="images/invitaciones/8.jpg" alt="The Wedding Board"></a>
+              <a href="" class="temple1-edit2"><img width="100%" src="images/invitaciones/8.jpg" alt="The Wedding Board"></a>
               <div class="col-xs-12 co-sm-12 col-md-12 col-lg-12 centro title-temp margin15">
                 <div class="col-xs-6 co-sm-6 col-md-12 col-lg-6 centro aumento-template1">
                   <a data-toggle="modal" data-target="#ocultar" data-whatever="@mdo">
@@ -147,7 +147,7 @@
               <div class="col-xs-12 co-sm-12 col-md-12 col-lg-12 centro title-temp">
                 <p><i class="fa fa-caret-right azul-flecha" aria-hidden="true"></i> Lorem insump</p>
               </div>
-              <a href=""><img width="100%" src="images/invitaciones/9.jpg" alt="The Wedding Board"></a>
+              <a href="" class="temple1-edit2"><img width="100%" src="images/invitaciones/9.jpg" alt="The Wedding Board"></a>
               <div class="col-xs-12 co-sm-12 col-md-12 col-lg-12 centro title-temp margin15">
                 <div class="col-xs-6 co-sm-6 col-md-12 col-lg-6 centro aumento-template1">
                   <a data-toggle="modal" data-target="#ocultar" data-whatever="@mdo">
@@ -165,7 +165,7 @@
               <div class="col-xs-12 co-sm-12 col-md-12 col-lg-12 centro title-temp">
                 <p><i class="fa fa-caret-right azul-flecha" aria-hidden="true"></i> Lorem insump</p>
               </div>
-              <a href=""><img width="100%" src="images/invitaciones/10.jpg" alt="The Wedding Board"></a>
+              <a href="" class="temple1-edit2"><img width="100%" src="images/invitaciones/10.jpg" alt="The Wedding Board"></a>
               <div class="col-xs-12 co-sm-12 col-md-12 col-lg-12 centro title-temp margin15">
                 <div class="col-xs-6 co-sm-6 col-md-12 col-lg-6 centro aumento-template1">
                   <a data-toggle="modal" data-target="#ocultar" data-whatever="@mdo">
@@ -185,7 +185,9 @@
               <div class="col-xs-12 co-sm-12 col-md-12 col-lg-12 centro title-temp">
                 <p><i class="fa fa-caret-right azul-flecha" aria-hidden="true"></i> Lorem insump</p>
               </div>
-              <a href=""><img width="100%" src="images/invitaciones/1.jpg" alt="The Wedding Board"></a>
+              <a href="" class="temple1-edit2">
+                <img width="100%" src="images/invitaciones/1.jpg" alt="The Wedding Board">
+              </a>
               <div class="col-xs-12 co-sm-12 col-md-12 col-lg-12 centro title-temp margin15">
                 <div class="col-xs-6 co-sm-6 col-md-12 col-lg-6 centro aumento-template1">
                   <a data-toggle="modal" data-target="#ocultar" data-whatever="@mdo">
@@ -203,7 +205,9 @@
               <div class="col-xs-12 co-sm-12 col-md-12 col-lg-12 centro title-temp">
                 <p><i class="fa fa-caret-right azul-flecha" aria-hidden="true"></i> Lorem insump</p>
               </div>
-              <a href=""><img width="100%" src="images/invitaciones/2.jpg" alt="The Wedding Board"></a>
+              <a href="" class="temple1-edit2">
+                <img width="100%" src="images/invitaciones/2.jpg" alt="The Wedding Board">
+              </a>
               <div class="col-xs-12 co-sm-12 col-md-12 col-lg-12 centro title-temp margin15">
                 <div class="col-xs-6 co-sm-6 col-md-12 col-lg-6 centro aumento-template1">
                   <a data-toggle="modal" data-target="#ocultar" data-whatever="@mdo">
@@ -221,7 +225,9 @@
               <div class="col-xs-12 co-sm-12 col-md-12 col-lg-12 centro title-temp">
                 <p><i class="fa fa-caret-right azul-flecha" aria-hidden="true"></i> Lorem insump</p>
               </div>
-              <a href=""><img width="100%" src="images/invitaciones/5.jpg" alt="The Wedding Board"></a>
+              <a href="" class="temple1-edit2">
+                <img width="100%" src="images/invitaciones/5.jpg" alt="The Wedding Board">
+              </a>
               <div class="col-xs-12 co-sm-12 col-md-12 col-lg-12 centro title-temp margin15">
                 <div class="col-xs-6 co-sm-6 col-md-12 col-lg-6 centro aumento-template1">
                   <a data-toggle="modal" data-target="#ocultar" data-whatever="@mdo">

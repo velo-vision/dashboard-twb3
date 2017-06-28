@@ -28,9 +28,9 @@
           </div>
         </div>
       </div>    
-      <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 linea-config"></div>
-      <div class="col-sm-11 col-sm-offset-1 col-md-12 col-lg-10 col-lg-offset-1 padin-cero-conf">    
-      <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 linea-config linea-bottom"></div>
+      <div class="col-sm-10 col-sm-offset-1 col-md-10 col-lg-10 col-lg-offset-1 padin-cero-conf espacio-config confing-center">    
+      <div class="col-sm-12 col-md-12 col-lg-12">
         <div class="col-sm-6 col-md-6 col-lg-6 format-config">
           <p>Correo de Notificaciones por mail: <span>sophie@twb.mx</span></p>
         </div>
@@ -40,7 +40,7 @@
           </a>
         </div>
       </div>
-      <div class="col-sm-10 col-sm-offset-1  col-md-10 col-md-offset-1">
+      <div class="col-sm-12 col-md-12">
         <div class=" col-sm-6 col-md-6 format-config">
           <p>Notificaciones por mail</p>
         </div>
@@ -53,9 +53,9 @@
           <span id="no" class="opciones-config">NO</span>
         </div>
       </div>
-      <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+      <div class="col-sm-12 col-md-12">
         <div class="col-sm-6 col-md-6 format-config">
-          <p>Contraseña:********</p>
+          <p>Contraseña:  ********</p>
         </div>
         <div class="col-sm-6 col-md-6 format-config centrado">
           <a href="configuracion3.php" class="azultwb">
@@ -64,8 +64,8 @@
         </div>
       </div>
       </div>
-      <div class="col-md-10 col-md-offset-1 linea-config"></div>
-      <div class="col-sm-12 col-md-4 col-md-offset-4 centrado">
+      <div class="col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 linea-config"></div>
+      <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-4 centrado">
         <a href="#" class="boton-config">
           <p>Guardar</p>
         </a>
