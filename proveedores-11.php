@@ -9,7 +9,7 @@
 <div class="content-wrapper">
   <section>
     <div class="container-fluid nomargin">
-      <div class="col-md-6 col-md-offset-3 col-xs-12 titulo-perfil">
+      <div class="col-md-6 col-md-offset-3 col-xs-12 titulo-prov">
         <p>
           LICITACIONES
         </p>
@@ -38,7 +38,6 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 linea-config"></div>
-      <section class="content">
         <div class="container-fluid sinpadding-lic">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sinpadding-lic">
               <div class="box-header with-border">
@@ -53,11 +52,19 @@
               </div>
               <!-- /.box-header -->
               <div class="box-body no-padding">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls border-controls">
 
-                  <div class="col-xs-12 col-sm-6 col-md-1 col-lg-1 dropdown boton-categoria sinpadding-lic">
-                    <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-completo" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="fa fa-tag" aria-hidden="true"></i> Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
+                  <div class="col-xs-12 col-sm-10 col-md-8 col-lg-9 dropdown boton-categoria cen nomargin left-15 mar-20">
+                    <button class="btn btn-secondary dropdown-toggle btn btn-default23 btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fa fa-tag" aria-hidden="true"></i> Plataforma <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
+                      <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Flores</a>
+                      <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
+                    </div>
+                    <button class="btn btn-secondary dropdown-toggle btn btn-default23 btn-sm ancho-size top-mem" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Membresia <i class="fa fa-caret-down" aria-hidden="true"></i>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                       <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
@@ -65,21 +72,11 @@
                       <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
                     </div>
                   </div>
-                  <div class="col-xs-12 col-sm-6 col-md-9 col-lg-9 dropdown boton-categoria sinpadding-lic">
-                    <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-completo" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="fa fa-tag" aria-hidden="true"></i> Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
-                      <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Flores</a>
-                      <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
-                    </div>
-                  </div>
-
-
                   <!-- /.btn-group -->
-                  <button type="button" class="btn btn-default btn-sm ancho-completo ancho-completo3"><i class="fa fa-archive" aria-hidden="true"></i>Eliminar</button>
-                  <div class="pull-right pag-center">1-50/200
+                  <button type="button" class="btn btn-default btn-sm ancho-size left-borra70 btn-padd elimina">
+                    Borrar <i class="fa fa-trash-o"></i>
+                  </button>
+                  <div class="pull-right pag-center pag2 pag-mem">1-50/200
                     <div class="btn-group">
                       <button type="button" class="btn btn-default btn-sm "><i class="fa fa-chevron-left"></i></button>
                       <button type="button" class="btn btn-default btn-sm "><i class="fa fa-chevron-right"></i></button>
@@ -93,26 +90,26 @@
             <!-- /. box -->
           </div>
         </div>
-      </section>
+
 
  <!--Empieza titulos-->
-      <div class="col-md-12 col-sm-12 col-xs-12 confirma dotted-down centrado">
-        <div class="col-md-3 col-sm-1 col-xs-5">
+      <div class="col-md-12 col-sm-12 col-xs-12 confirma dotted-prov centrado box-footer">
+        <div class="col-md-3 col-sm-3 col-xs-5">
           <p>
             <strong class="texto-content">NEGOCIO</strong>
           </p>
         </div>
-        <div class="col-md-2 col-sm-1 col-xs-3">
+        <div class="col-md-2 col-sm-3 col-xs-3">
           <p>
-            <strong class="texto-content">CATEGORÍA</strong>
+            <strong class="texto-content cat-50">CATEGORÍA</strong>
           </p>
         </div>
-        <div class="col-md-3 col-sm-2 col-xs-4">
+        <div class="col-md-3 col-sm-3 col-xs-4">
           <p>
             <strong class="texto-content">TIPO DE SOLICITUD</strong>
           </p>
         </div>
-        <div class="col-md-2 col-sm-2 col-xs-4">
+        <div class="col-md-2 col-sm-3 col-xs-4">
           <p>
             <strong class="texto-content">FECHA DE INICIO</strong>
           </p>
@@ -123,33 +120,35 @@
       <!---->
 <?php  for ($i=0; $i <5 ; $i++) { ?>
 
-      <div class="col-md-12 col-sm-12 col-xs-12 dotted-down centrado">
-        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
+      <div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado">
+        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar23">
           <div class="form-check">
             <label class="form-check-label">
               <input type="checkbox" class="form-check-input">
             </label>
           </div>
         </div>
-        <div class="col-md-1 col-sm-2 col-xs-6 nomargin centrar separacion-list">
+        <div class="col-md-1 col-sm-3 col-xs-6 nomargin centrar separacion-list">
           <span class="device-title">USUARIO<br></span>
           <span class="texto-content">Lorena Ipsum</span>
         </div>
-        <div class="col-md-3 col-sm-2 col-xs-6 nomargin separacion-list">
+        <div class="col-md-3 col-sm-3 col-xs-6 nomargin separacion-list">
         <span class="device-title">FECHA DE EVENTO<br></span>
           <span class="texto-content">fashion</span>
         </div>
-        <div class="col-md-3 col-sm-2 col-xs-6 nomargin separacion-list">
+        <div class="col-md-3 col-sm-3 col-xs-6 nomargin separacion-list">
         <span class="device-title">PRESUPUESTO<br></span>
           <span class="texto-content">Enviada</span>
         </div>
-        <div class="col-md-2 col-sm-1 col-xs-6 nomargin separacion-list">
+        <div class="col-md-2 col-sm-3 col-xs-6 nomargin separacion-list">
         <span class="device-title">ESTATUS<br></span>
           <span class="texto-content">5 Abril 2017</span>
         </div>
-        <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list">
-        <span class="device-title">ESTATUS<br></span>
-          <span class="texto-content" style="border:1px solid; background:#67cfe3; padding: 5px 20px; color: #fff;">ELIMINAR</span>
+        <div class="col-md-2 col-sm-12 col-xs-12 guardar-right nomargin eliminar-prov">
+          <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo">
+          <p class="btn-detalle-prov">
+            <i class="fa fa-trash-o" aria-hidden="true"></i> Eliminar
+          </p></a>
         </div>
 
       </div>

@@ -14,10 +14,10 @@
           LICITACIONES
         </p>
         <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
-      </div>      
+      </div>
       <!---->
       <section class="content">
-        <div class="container-fluid sinpadding-lic">     
+        <div class="container-fluid sinpadding-lic">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sinpadding-lic">
               <div class="box-header with-border">
                 <span class="box-title"></span>
@@ -31,11 +31,19 @@
               </div>
               <!-- /.box-header -->
               <div class="box-body no-padding">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls">  
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls">
 
-                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-1 dropdown boton-categoria sinpadding-lic">
-                    <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-completo" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="fa fa-tag" aria-hidden="true"></i> Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
+                  <div class="col-xs-12 col-sm-9 col-md-8 col-lg-10 dropdown boton-categoria cen nomargin left-15 mar-20">
+                    <button class="btn btn-secondary dropdown-toggle btn btn-default23 btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fa fa-tag" aria-hidden="true"></i> Plataforma <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
+                      <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Flores</a>
+                      <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
+                    </div>
+                    <button class="btn btn-secondary dropdown-toggle btn btn-default23 btn-sm ancho-size top-mem" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Membresia <i class="fa fa-caret-down" aria-hidden="true"></i>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                       <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
@@ -44,21 +52,9 @@
                     </div>
                   </div>
 
-                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 col-lg-offset-1 margin-cat sinmargin-li sinpadding-lic margin-btn">
-                    <div class="dropdown boton-categoria2">
-                      <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm boton-licitacion ancho-completo" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fa fa-sitemap" aria-hidden="true"></i> Estatus <i class="fa fa-caret-down" aria-hidden="true"></i>
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
-                        <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Activas</a>
-                        <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Inactivas</a>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <!-- /.btn-group -->        
-                  <div class="pull-right pag-center">1-50/200
+
+                  <!-- /.btn-group -->
+                  <div class="pull-right pag2 pag-center">1-50/200
                     <div class="btn-group">
                       <button type="button" class="btn btn-default btn-sm "><i class="fa fa-chevron-left"></i></button>
                       <button type="button" class="btn btn-default btn-sm "><i class="fa fa-chevron-right"></i></button>
@@ -66,9 +62,9 @@
                     <!-- /.btn-group -->
                   </div>
                   <!-- /.pull-right -->
-                </div>            
+                </div>
               </div>
-              <!-- /.box-body -->   
+              <!-- /.box-body -->
             <!-- /. box -->
           </div>
         </div>
@@ -76,26 +72,26 @@
 
  <!--Empieza titulos-->
       <div class="col-md-12 col-sm-12 col-xs-12 confirma dotted-down centrado">
-        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
+        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar-prov">
           <!-- <div class="form-check">
             <label class="form-check-label">
               <input type="checkbox" class="form-check-input">
             </label>
           </div> -->
         </div>
-        <div class="col-md-1 col-sm-1 col-xs-5">
+        <div class="col-md-1 col-sm-2 col-xs-5">
           <p>
-            <strong class="texto-content">NEGOCIO</strong>
-          </p>
-        </div> 
-        <div class="col-md-1 col-sm-1 col-xs-3">
-          <p>
-            <strong class="texto-content">CATEGORÍA</strong>
+            <strong class="texto-content left-negocio">NEGOCIO</strong>
           </p>
         </div>
-        <div class="col-md-2 col-sm-2 col-xs-4">
+        <div class="col-md-1 col-sm-1 col-xs-3">
           <p>
-            <strong class="texto-content">MEMBRESIA</strong>
+            <strong class="texto-content left-cat left-negocio">CATEGORÍA</strong>
+          </p>
+        </div>
+        <div class="col-md-1 col-sm-2 col-xs-4">
+          <p>
+            <strong class="texto-content left-mem">MEMBRESIA</strong>
           </p>
         </div>
         <div class="col-md-2 col-sm-2 col-xs-4">
@@ -103,14 +99,14 @@
             <strong class="texto-content">FECHA DE SOLICITUD</strong>
           </p>
         </div>
-        <div class="col-md-2 col-sm-1 col-xs-4 centers margin-izq confirma">
+        <div class="col-md-2 col-sm-2 col-xs-4 centers confirma">
           <p>
             <strong class="texto-content">TELEFONO</strong>
           </p>
         </div>
-        <div class="col-md-1 col-sm-1 col-xs-4 centers margin-izq confirma">
+        <div class="col-md-1 col-sm-2 col-xs-4 centers confirma">
           <p class="nomargin">
-            <strong class="texto-content">FECHA</strong>
+            <strong class="texto-content">MAIL</strong>
           </p>
           </div>
       </div>
@@ -120,7 +116,7 @@
 <?php  for ($i=0; $i <5 ; $i++) { ?>
 
       <div class="col-md-12 col-sm-12 col-xs-12 dotted-down centrado">
-        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
+        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar-prov">
           <div class="form-check">
             <label class="form-check-label">
               <input type="checkbox" class="form-check-input">
@@ -129,31 +125,31 @@
         </div>
         <div class="col-md-1 col-sm-2 col-xs-6 nomargin centrar separacion-list">
           <span class="device-title">USUARIO<br></span>
-          <span class="texto-content">Lorena Martínez</span>         
+          <span class="texto-content">Lorena Martínez</span>
         </div>
         <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list">
         <span class="device-title">CATEGORÍA<br></span>
-          <span class="texto-content">Fashion</span>          
+          <span class="texto-content">Fashion</span>
         </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list">
+        <div class="col-md-1 col-sm-2 col-xs-6 nomargin separacion-list">
         <span class="device-title">FECHA DE EVENTO<br></span>
-          <span class="texto-content">Tipo A</span>          
+          <span class="texto-content">Tipo A</span>
         </div>
         <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list">
         <span class="device-title">PRESUPUESTO<br></span>
-          <span class="texto-content">Hace 5 Min</span>          
+          <span class="texto-content">Hace 5 Min</span>
         </div>
-        <div class="col-md-2 col-sm-1 col-xs-6 nomargin separacion-list">
+        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list">
         <span class="device-title">ESTATUS<br></span>
-          <span class="texto-content">55-34-20-18-40</span>          
+          <span class="texto-content">55-34-20-18-40</span>
         </div>
-         <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list">
+         <div class="col-md-1 col-sm-2 col-xs-6 nomargin separacion-list">
          <span class="device-title">FECHA<br></span>
-          <span class="texto-content">proveedorcat@misitiomail.mx</span>          
+          <span class="texto-content">proveedorcat@misitiomail.mx</span>
         </div>
-        <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list">
-         <img src="images/proveedores/paloma.png" alt="" style="padding:0 15px;">  
-         <img src="images/proveedores/tache.png" alt="">         
+        <div class="col-md-3 col-sm-12 col-xs-12 nomargin separacion-list margin-paloma">
+          <i class="fa fa-check-circle-o paloma-size icon-paloma" aria-hidden="true"></i>
+          <i class="fa fa-times-circle-o icon-tache" aria-hidden="true"></i>
         </div>
       </div>
       <!---->

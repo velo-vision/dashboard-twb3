@@ -16,7 +16,7 @@
         <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
       </div>
       <!---->
-      <section class="content">
+      <section class="">
         <div class="container-fluid nomargin">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
               <div class="box-header with-border">
@@ -33,8 +33,8 @@
               <div class="box-body no-padding">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls border-controls">
 
-                  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 dropdown boton-categoria cen nomargin left-51 mar-20 pad-pro">
-                    <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 dropdown boton-categoria cen nomargin left-51 mar-15 pad-pro">
+                    <button class="btn btn-secondary dropdown-toggle btn btn-default20 btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <i class="fa fa-tag" aria-hidden="true"></i> Categoria <i class="fa fa-caret-down" aria-hidden="true"></i>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -43,7 +43,7 @@
                       <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
                     </div>
 
-                    <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle btn btn-default20 btn-sm ancho-size margin-membresia" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <i class="fa fa-tag" aria-hidden="true"></i> Membresia <i class="fa fa-caret-down" aria-hidden="true"></i>
                       <!-- <i class="fa fa-id-card-o" aria-hidden="true"></i> -->
                     </button>
@@ -53,7 +53,7 @@
                       <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
                     </div>
 
-                    <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle btn btn-default20 btn-sm ancho-size margin-membresia" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <i class="fa fa-tag" aria-hidden="true"></i> Estatus <i class="fa fa-caret-down" aria-hidden="true"></i>
                       <!-- <i class="fa fa-font-awesome" aria-hidden="true"></i> -->
                     </button>
@@ -64,13 +64,13 @@
                     </div>
                   </div>
                   <!-- /.btn-group -->
-                  <button type="button" class="btn btn-default btn-sm ancho-size left-borra1">
+                  <button type="button" class="btn btn-default btn-sm ancho-size left-borra1 borrar-2">
                     Borrar <i class="fa fa-trash-o"></i>
                   </button>
                   <button type="button" class="btn btn-default btn-sm ancho-size move-left1">
                     Deshabilitar <i class="fa fa-ban" aria-hidden="true"></i>
                   </button>
-                  <div class="pull-right pag-center pag2 pag-left">1-50/200
+                  <div class="pull-right pag-center pag2 pag3 pag-left">1-50/200
                     <div class="btn-group">
                       <button type="button" class="btn btn-default btn-sm "><i class="fa fa-chevron-left"></i></button>
                       <button type="button" class="btn btn-default btn-sm "><i class="fa fa-chevron-right"></i></button>
