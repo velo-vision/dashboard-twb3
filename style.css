@@ -2144,7 +2144,7 @@ label[for=upload] input{ display:none }
   -moz-transform-origin: center center;
   -o-transform-origin: center center;
   transform-origin: center center;
-}  
+}
 .titulo-medio{
   margin: 2% 0 4% 0;
 }
@@ -2212,13 +2212,13 @@ padding: 0px !important
   position: absolute;
   height: 30px;
   width: 50px;
-} 
+}
 #color-input:checked ~ #color-picker {
   opacity: 1;
 }
 #color-picker {
   position: absolute;
-  left: 70px; 
+  left: 70px;
   background-color: white;
   height: 150px;
   width: 185px;
@@ -2280,6 +2280,12 @@ canvas:hover {
   /**/
 }
 @media only screen and (min-width:1200px) and (max-width:1300px){
+  .paloma-size{
+    padding: 0 25px 0px 50px !important;
+  }
+  .provee-size{
+    font-size: .9em;
+  }
   .left-borra70 {
       margin-left: -70px !important;
   }
@@ -2346,6 +2352,36 @@ canvas:hover {
 }
 
 @media only screen and (min-width:992px) and (max-width:1200px){
+  .cat-50{
+    margin-left: -35px !important;
+  }
+  .elimina{
+     margin-left: -25px !important;
+  }
+  .left-negocio{
+    margin-left: -15px !important;
+  }
+  .left-mem{
+    margin-left: -7px !important;
+  }
+  .paloma-size{
+    padding: 0 15px 0px 85px !important;
+  }
+  .con{
+    margin-left: 15px;
+  }
+  .size-conf{
+    font-size: .9em;
+  }
+  .provee-size{
+    font-size: .8em;
+  }
+  .pag3{
+    margin-top: 10px !important;
+  }
+  .borrar-2{
+    margin: 10px 0px 10px 36px !important;
+  }
   .modal-left{
     margin-left: 11% !important;
   }
@@ -2395,6 +2431,9 @@ canvas:hover {
   }
   .twb-left{
     margin-left: 35px !important;
+  }
+  .twb-left-20{
+    margin-left: 20px !important;
   }
   .boton-invitados1 {
     width: 100% !important;
@@ -2446,13 +2485,16 @@ canvas:hover {
     font-size: .7em;
   }
   .dotted-down {
-    font-size: .8em;
+    font-size: .9em;
   }
   .editar {
     font-size: .8em;
   }
   .btn-default:hover, .btn-default:active, .btn-default.hover {
-    font-size: .7em;
+    font-size: .8em;
+  }
+  .btn-default20:hover, .btn-default20:active, .btn-default20.hover {
+    font-size: .8em;
   }
   .propietario {
     font-size: .8em;
@@ -2532,6 +2574,44 @@ canvas:hover {
 /******************************EST***********************/
 }
 @media only screen and (min-width:768px) and (max-width:992px){
+  .elimina{
+     margin-top: 15px !important;
+     margin-left: 15px !important;
+  }
+  .eliminar-prov{
+    margin-top: 12px !important;
+  }
+  .margin-paloma{
+    margin: 10px 0 5px 0px !important;
+  }
+  .left-cat{
+    margin-left: -15px !important;
+  }
+  .left-mem{
+    margin-right: -30px !important;
+  }
+  .ocultar-prov{
+    display: none;
+  }
+  .btn-default23 {
+    width: 155px !important;
+}
+  .con{
+    padding: 0px;
+  }
+  .left-992{
+    margin-left: 25px !important;
+  }
+.btn-detalle-prov {
+    width: 25% !important;
+    margin: 0 auto !important;
+}
+  .pag3{
+    margin-top: 10px !important;
+  }
+  .btn-default20 {
+    width: 140px !important;
+}
   .size-input{
     font-size: .8em;
   }
@@ -2566,7 +2646,7 @@ canvas:hover {
     text-align: left;
   }
   .left-borra1 {
-    margin-left: 5px !important;
+    margin-left: 17px !important;
     margin-top: 10px !important;
 }
   .move-left1 {
@@ -2754,7 +2834,7 @@ canvas:hover {
   color:#303030;
 }
 .texto-content{
-  font-size: .8em;
+  font-size: .9em;
 }
 
 /*editor web*/
@@ -2765,6 +2845,33 @@ canvas:hover {
 /***********************************************************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
+  .separacion-template-selects1 {
+    padding: 0px;
+     margin: 0px;
+}
+  .prove-20 {
+     margin-top: 5px !important;
+}
+  .pad-form{
+    padding: 0px !important;
+  }
+  .nombre-prov {
+    margin: 5px 0;
+    text-align: left !important;
+}
+  .eliminar-prov{
+    margin-top: 12px !important;
+  }
+  .btn-detalle-prov {
+    width: 30% !important;
+    margin: 0 auto !important;
+}
+  .mar-15 {
+    margin-bottom: 15px !important;
+}
+  .margin-membresia{
+    margin-top: 15px !important;
+  }
   .ocultar23{
     display: none !important;
   }
@@ -3029,6 +3136,13 @@ canvas:hover {
   /****************VELOSOFT FRONT-2************************/
 }
 @media only screen and (min-width:1200px) and (max-width:1980px){
+  .cat-50{
+    margin-left: -55px !important;
+  }
+.btn-detalle-prov {
+    width: 55% !important;
+    margin-left: 35px !important;
+}
   .modal-left{
     margin-left: 11% !important;
   }
@@ -3109,6 +3223,12 @@ canvas:hover {
 }
 /**/
 @media only screen and (min-width:600px) and (max-width:768px){
+  .separacion-list {
+    margin-bottom: 14px !important;
+}
+  .ocultar-prov{
+    display: none !important;
+  }
   .modal-dialog {
     width: 500px !important;
 }
@@ -3211,6 +3331,9 @@ canvas:hover {
 }
   /****************VELOSOFT FRONT-2************************/
 @media only screen and (min-width:200px) and (max-width:600px){
+  .ocultar-prov{
+    display: none !important;
+  }
   .modal-body1 {
     padding: 0px 0px 115px 0px !important;
 }
@@ -3655,7 +3778,7 @@ label {
   margin-top: 50px;
 }
 
-.campos-conf input[type="text"] {
+.campos-conf1 input[type="text"] {
   width: 238px;
 }
 
@@ -3849,6 +3972,28 @@ label {
     font-weight: 300;
     text-align: center;
     padding: 5px 0;
+}
+.btn-detalle-prov {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    background: #67cfe3;
+    width: 90%;
+    text-align: center;
+    font-size: .9em;
+    padding: 6px 0;
+    font-weight: 300;
+    cursor: pointer;
+}
+.btn-detalle-prov:hover {
+    border:1px solid #67cfe3;
+    color: #67cfe3;
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+    width: 90%;
+    text-align: center;
+    font-size: .9em;
+    padding: 5px 0;
+    font-weight: 300;
 }
 .btn-detalle {
     color: #fff;
@@ -4372,7 +4517,7 @@ label {
 }
 /*proveedores-01*/
 .left-51 button {
-  margin: 0px 5px;
+  margin: 0px 15px;
 }
 .proveedores-off{
   color: #ffa60a;
@@ -4387,8 +4532,8 @@ label {
   font-weight: bold;
 }
 .dotted-prov {
-  border-bottom: 2px solid #f7f7f7;
-  padding: 10px 0 5px 0 !important;
+    border-bottom: 2px solid #f7f7f7;
+    padding: 20px 0 10px 0 !important;
 }
 .texto-prov{
   color: #808080;
@@ -4463,4 +4608,101 @@ label {
     padding: 6px 0;
     font-weight: 300;
     cursor: pointer;
+}
+.btn-default20 {
+    background-color: white;
+    border-color: #67cfe3;
+    color: #67cfe3;
+    font-family: 'Montserrat', sans-serif;
+    width: 175px;
+    font-size: .8em;
+    font-weight: 400;
+}
+.btn-default20:hover, .btn-default20:active, .btn-default20.hover {
+    background-color: #67cfe3;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
+    font-weight: 400;
+}
+.btn-default23 {
+    background-color: white;
+    border-color: #67cfe3;
+    color: #67cfe3;
+    font-family: 'Montserrat', sans-serif;
+    width: 175px;
+    font-size: .8em;
+    font-weight: 400;
+}
+.paloma-size{
+  padding: 0 25px 0px 10px;
+}
+.icon-paloma{
+  font-size: 24px;
+  color: #8bdaea;
+}
+.icon-tache{
+  font-size: 24px;
+  color: #ff4444;
+}
+.box-header {
+  display: block;
+  padding: 15px 0;
+  position: relative;
+}
+.dotted-prov {
+  border-bottom: 2px solid #838387;
+  padding: 10px 0px 15px 0px !important;
+}
+.box-header > .box-tools {
+  position: absolute;
+  right: 7px !important;
+  top: 10px;
+}
+.input-form, .form-control {
+    font-size: 1em;
+    color: #a2a2a2;
+}
+.input-form, .form-control {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #bfbfbf;
+}
+.nombre-prov{
+  text-align: right;
+  font-size: 1.1em;
+  color:#000;
+  font-weight: 500;
+}
+.select-template2 {
+    width: 100%;
+    height: 30px;
+    border-color: #c0c0c0;
+    color: #808080;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: .8em;
+}
+.btn-actualizar {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    background: #67cfe3;
+    width: 150px;
+    text-align: center;
+    font-size: .9em;
+    padding: 6px 0;
+    font-weight: 300;
+    cursor: pointer;
+}
+.btn-descartar {
+    color: #67cfe3;
+    cursor: pointer;
+    border: 1px solid #67cfe3;
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
+    width: 150px;
+    text-align: center;
+    font-size: .9em;
+    padding: 5px 0;
+    font-weight: 300;
 }

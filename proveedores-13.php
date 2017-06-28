@@ -41,7 +41,7 @@
                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls border-controls">
 
                             <div class="col-xs-12 col-sm-10 col-md-8 col-lg-10 dropdown boton-categoria cen nomargin left-15 mar-20">
-                              <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <button class="btn btn-secondary dropdown-toggle btn btn-default23 btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fa fa-tag" aria-hidden="true"></i> Plataforma <i class="fa fa-caret-down" aria-hidden="true"></i>
                               </button>
                               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -49,7 +49,7 @@
                                 <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Flores</a>
                                 <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
                               </div>
-                              <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-size top-mem" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <button class="btn btn-secondary dropdown-toggle btn btn-default23 btn-sm ancho-size top-mem" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                  Membresia <i class="fa fa-caret-down" aria-hidden="true"></i>
                               </button>
                               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -83,7 +83,7 @@
                       <div class="box-body no-padding">
                         <form action="">
                         <!--Empieza cuadro-->
-                        <div class="col-md-12 col-sm-12 col-xs-12 confirma border-down">
+                        <div class="col-md-12 col-sm-12 col-xs-12 confirma border-down size-conf">
                           <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
                           </div>
                           <div class="col-md-2 col-sm-3 col-xs-5">
@@ -101,7 +101,7 @@
                               <strong>MEMBRESIA</strong>
                             </p>
                           </div>
-                          <div class="col-md-3 col-sm-2 col-xs-4 centers margin-izq confirma">
+                          <div class="col-md-3 col-sm-2 col-xs-4 centers margin-izq confirma con">
                             <p>
                               <strong>FECHA DE SOLICITUD</strong>
                             </p>
@@ -127,7 +127,7 @@
                             <div class="form-check">
                               <label class="form-check-label check-cuadro">
                                 <span><br>Membresia<br></span>
-                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="Tipo A" id="example-text-input">
+                                <input class="form-control no-border nomargin twb-left-20 cen-twb fonts" type="text" value="Tipo A" id="example-text-input">
                               </label>
                             </div>
                           </div>
@@ -139,101 +139,17 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo"><p class="btn-detalle">
-                               Aceptar
-                            </p></a>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
-                            <a data-toggle="modal" data-target="#proveedores-rechazar" data-whatever="@mdo"><p class="btn-eliminar">
-                               Rechazar
-                            </p></a>
-                          </div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xs-12 box-footer dotted-down1">
-                          <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input type="checkbox" class="form-check-input">
-                              </label>
+                          <div class="col-md-3 col-sm-12 col-xs-12">
+                            <div class="col-md-6 col-sm-6 col-xs-6 guardar-right nomargin">
+                              <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo"><p class="btn-detalle">
+                                 Aceptar
+                              </p></a>
                             </div>
-                          </div>
-                          <div class="col-md-2 col-sm-3 col-xs-6 nomargin nombre-oculto centrar">
-                            <span>Nombre</span>
-                            <input class="form-control no-border centrar nomargin" type="text" value="Mei stet latine" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-4 col-xs-6 nomargin email-oculto cen-twb">
-                            <span>Mail</span>
-                            <input class="form-control no-border nomargin cen-twb" type="text" value="Gourmet" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 centers confirmar-check nomargin">
-                            <div class="form-check">
-                              <label class="form-check-label check-cuadro">
-                                <span><br>Plataforma<br></span>
-                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="Tipo A" id="example-text-input">
-                              </label>
+                            <div class="col-md-6 col-sm-6 col-xs-6 nomargin">
+                              <a data-toggle="modal" data-target="#proveedores-rechazar" data-whatever="@mdo"><p class="btn-eliminar">
+                                 Rechazar
+                              </p></a>
                             </div>
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 acompañante-oculto center nomargin">
-                            <div class="form-group centrar">
-                              <span><br>Miembros</span>
-                              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
-                                <input class="form-control no-border nomargin cen-twb pad-left" type="text" value="Hace 1 hora" id="example-text-input">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo"><p class="btn-detalle">
-                               Aceptar
-                            </p></a>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
-                            <a data-toggle="modal" data-target="#proveedores-rechazar" data-whatever="@mdo"><p class="btn-eliminar">
-                               Rechazar
-                            </p></a>
-                          </div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xs-12 box-footer dotted-down1">
-                          <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input type="checkbox" class="form-check-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-3 col-xs-6 nomargin nombre-oculto centrar">
-                            <span>Nombre</span>
-                            <input class="form-control no-border centrar nomargin" type="text" value="Ex munere" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-4 col-xs-6 nomargin email-oculto cen-twb">
-                            <span>Mail</span>
-                            <input class="form-control no-border nomargin cen-twb" type="text" value="Entertainment" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 centers confirmar-check nomargin">
-                            <div class="form-check">
-                              <label class="form-check-label check-cuadro">
-                                <span><br>Plataforma<br></span>
-                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="Tipo A" id="example-text-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 acompañante-oculto center nomargin">
-                            <div class="form-group centrar">
-                              <span><br>Miembros</span>
-                              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
-                                <input class="form-control no-border nomargin cen-twb pad-left" type="text" value="Hace 1 dia" id="example-text-input">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo"><p class="btn-detalle">
-                               Aceptar
-                            </p></a>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
-                            <a data-toggle="modal" data-target="#proveedores-rechazar" data-whatever="@mdo"><p class="btn-eliminar">
-                               Rechazar
-                            </p></a>
                           </div>
                         </div>
                         </form>
