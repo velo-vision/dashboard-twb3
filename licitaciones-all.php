@@ -33,8 +33,9 @@
               <div class="box-body no-padding">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls">  
 
-                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-1 dropdown boton-categoria sinpadding-lic">
-                    <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-completo" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <div class="col-xs-12 col-sm-7 col-md-4 col-lg-5 dropdown boton-categoria sinpadding-lic">
+
+                    <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-completo1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <i class="fa fa-tag" aria-hidden="true"></i> Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -42,11 +43,8 @@
                       <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Flores</a>
                       <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
                     </div>
-                  </div>
 
-                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 col-lg-offset-1 margin-cat sinmargin-li sinpadding-lic margin-btn">
-                    <div class="dropdown boton-categoria2">
-                      <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm boton-licitacion ancho-completo" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm boton-licitacion " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fa fa-sitemap" aria-hidden="true"></i> Estatus <i class="fa fa-caret-down" aria-hidden="true"></i>
                       </button>
                       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -54,22 +52,28 @@
                         <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Activas</a>
                         <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Inactivas</a>
                       </div>
-                    </div>
+
+                    
+
                   </div>
 
-                  <div class="col-xs-12 col-sm-6 col-md-4  col-lg-1 col-lg-offset-4  btn-group sinpadding-lic">
-                    <button type="button" class="btn btn-default btn-sm ancho-completo"> Borrar <i class="fa fa-trash-o"></i> </button>
-                  </div>
-                  <!-- /.btn-group -->
-                  <button type="button" class="btn btn-default btn-sm ancho-completo ancho-completo2"><i class="fa fa-times-circle-o" aria-hidden="true"></i> Cancelar Licitación</button>
-                  <button type="button" class="btn btn-default btn-sm ancho-completo ancho-completo3"><i class="fa fa-archive" aria-hidden="true"></i> Archivar Licitación</button>             
+                  
+
+                  <div class="col-xs-12 col-sm-12 col-md-8  col-lg-7  btn-group sinpadding-lic divisor-menu">
+                    <button type="button" class="btn btn-default btn-sm ancho-completo separa"> Borrar <i class="fa fa-trash-o"></i> 
+                    </button>
+                    <!-- /.btn-group -->
+                  <button type="button" class="btn btn-default btn-sm  ancho-completo2 separa"><i class="fa fa-times-circle-o" aria-hidden="true"></i> Cancelar Licitación</button>
+                  <button type="button" class="btn btn-default btn-sm  ancho-completo3"><i class="fa fa-archive" aria-hidden="true"></i> Archivar Licitación</button>             
                   <div class="pull-right pag-center">1-50/200
-                    <div class="btn-group">
+                    <div class="btn-group botones-paginacion">
                       <button type="button" class="btn btn-default btn-sm "><i class="fa fa-chevron-left"></i></button>
                       <button type="button" class="btn btn-default btn-sm "><i class="fa fa-chevron-right"></i></button>
                     </div>
                     <!-- /.btn-group -->
                   </div>
+                  </div>
+                  
                   <!-- /.pull-right -->
                 </div>            
               </div>
@@ -80,15 +84,15 @@
       </section>
 
  <!--Empieza titulos-->
-      <div class="col-md-12 col-sm-12 col-xs-12 confirma dotted-down centrado">
-        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
+      <div class="col-xs-12  col-sm-12 col-md-12 col-lg-12 confirma line centrado">
+        <div class="col-xs-1 col-md-1 col-sm-1  centers ocultar">
           <!-- <div class="form-check">
             <label class="form-check-label">
               <input type="checkbox" class="form-check-input">
             </label>
           </div> -->
         </div>
-        <div class="col-md-1 col-sm-1 col-xs-5">
+        <div class="col-lg-2 col-md-2 col-sm-1 col-xs-5">
           <p>
             <strong class="texto-content">USUARIO</strong>
           </p>
@@ -113,7 +117,7 @@
             <strong class="texto-content">ESTATUS</strong>
           </p>
         </div>
-        <div class="col-md-1 col-sm-1 col-xs-4 centers margin-izq confirma">
+        <div class="col-lg-2 col-md-2 col-sm-1 col-xs-4 centers margin-izq confirma">
           <p class="nomargin">
             <strong class="texto-content">RESPUESTAS</strong>
           </p>          
@@ -127,9 +131,9 @@
 
 
       <!---->
-<?php  for ($i=0; $i <5 ; $i++) { ?>
+<?php  for ($i=0; $i <10 ; $i++) { ?>
 
-      <div class="col-md-12 col-sm-12 col-xs-12 dotted-down centrado">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 line centrado">
         <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
           <div class="form-check">
             <label class="form-check-label">
@@ -137,7 +141,7 @@
             </label>
           </div>
         </div>
-        <div class="col-md-1 col-sm-2 col-xs-6 nomargin centrar separacion-list">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 nomargin centrar separacion-list">
           <span class="device-title">USUARIO<br></span>
           <span class="texto-content">Lorena Martínez</span>         
         </div>
@@ -157,7 +161,7 @@
         <span class="device-title">ESTATUS<br></span>
           <span class="texto-content">CANCELADA</span>          
         </div>
-         <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list">
+         <div class="col-lg-2 col-md-2 col-sm-1 col-xs-6 nomargin separacion-list">
          <span class="device-title">RESPUESTAS<br></span>
           <span class="texto-content">3</span>          
         </div>

@@ -461,7 +461,7 @@ a:focus, a:hover {
 .titulo-perfil{
   color: #303030;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
@@ -1345,7 +1345,7 @@ input[type=number]::-webkit-inner-spin-button {
   height: 34px !important;
 }
 .boton-licitacion{
-  width: 80% !important;
+  /*width: 80% !important;*/
   margin-left: 10%;
 }
 
@@ -1480,6 +1480,10 @@ cursor:pointer;
 
 /*************************************************************/
 /* Est. Config */
+.webpadding-no4{
+  padding: 0px !important
+}
+
 .logo-config{
   border-radius: 0px;
   box-shadow: none;
@@ -1487,10 +1491,13 @@ cursor:pointer;
   margin: 0 35%;
 }
 
+.espacio-config{
+  padding: 2% 0;
+}
+
 .texto-admin p{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  font-size: 1em;
   color: #303030;
   margin: 3px auto;
   font-weight: 200;
@@ -1507,13 +1514,15 @@ cursor:pointer;
 
 .texto1{
   margin: 20px 0 10px 0 !important;
+  font-size: 1.3em;
 }
 .texto2{
   margin: 0 0 22px 0 !important;
+  font-size: 1.1em;
 }
 .format-config{
   font-weight: 400;
-  font-size: 21px;
+  font-size: 18px;
   font-family: "Montserrat", sans-serif;
   color:#303030;
   margin: 25px 0 25px 0;
@@ -1526,6 +1535,7 @@ cursor:pointer;
 }
 .centrado{
   text-align: center;
+  padding: 0px !important;
 }
 .boton-config p{
   background: #60d0e4;
@@ -1536,6 +1546,12 @@ cursor:pointer;
   color: #fff;
   margin: 46px auto 0;
   font-family: "Montserrat", sans-serif;
+}
+
+.boton-config p:hover{
+  background: transparent;
+  border: solid 1px #60d0c4;
+  color: #303030;
 }
 .azultwb{
   color:#60d0e4 !important;
@@ -1621,12 +1637,13 @@ input:checked + .slider:before {
 
 .campos-conf input[type="text"]{
   border: solid 1px #90dcea !important;
-  width: 322px;
-  height: 47px;
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
 }
 .titulo2-config p{
   margin-top: 25px;
-  font-size: 25px;
+  font-size: 21px;
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
   color:#808080;
@@ -1636,6 +1653,10 @@ input:checked + .slider:before {
 }
 
 /*licitacion*/
+
+.separa{
+  margin: 0 1%;
+}
 .boton-licitacion{
   margin: 0 5px;
 }
@@ -1699,7 +1720,21 @@ input:checked + .slider:before {
   display: none;
 }
 
+
+.line{
+  border-bottom: 2px solid #eaeaea;
+  padding: 10px 0 5px 0 !important;
+  padding: .5% 0 !important;
+}
+
 /*Editor web*/
+.marginweb2{
+  margin: 3% 0;
+}
+.marginweb3{
+  margin: 3% 0;
+}
+
 .linea-ed{
   margin-top:15px;
   height: 1px;
@@ -1744,14 +1779,14 @@ input:checked + .slider:before {
 }
 .icono-edit{
   font-size: 3em;
-  padding-top: 13%;
+  padding-top: 4%;
   padding-bottom: 2%;
 }
 
 .label-edit{
-  position: absolute;
+  /*position: absolute;
   top: -60px;
-  left: 104px;
+  left: 104px;*/
 }
 .sep-edicion{
   padding-top: 5%;
@@ -1772,6 +1807,7 @@ input:checked + .slider:before {
   font-size: .9em;
   font-family: "Montserrat", sans-serif;
   color:#7c7c7c;
+  padding-left: 13px;
 }
 .text-edit-1 span{
   font-weight: 500;
@@ -1814,7 +1850,7 @@ border-color:#60d0e4 !important;
   position: initial;
   top: 0px;
   left: 0px;
-  height: 140px !important;
+  height: 110px !important;
 }
 .btn-redes-sociales{
   width: 60%;
@@ -1845,7 +1881,7 @@ margin-top: 0px;
   font-weight: 300;
   font-size: .9em;
   border: solid 1px #71d2e5;
-  width: 80%;
+  width: 85%;
   height: 31px;
   margin: 2% auto;
 }
@@ -2013,6 +2049,28 @@ label[for=upload] input{ display:none }
   overflow-y: hidden;
   margin-top: -3px;
 }
+
+
+.temple1-edit2 img{
+  width: 95%;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  -moz-transition: -moz-transform 0.5s ease;
+  transition: transform 0.5s ease;
+}
+
+.temple1-edit2 :hover{
+  border: solid 2px #67cfe3;
+  width: 95%;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transform-origin: center center;
+  -moz-transform-origin: center center;
+  -o-transform-origin: center center;
+  transform-origin: center center;
+}  
+
 
 /*drop an drag*/
 /*.hidden {
@@ -2184,6 +2242,9 @@ padding: 0px !important
   height: 42px;
   font-size: 1em;
 }
+.btn-template3:hover{
+  font-size: 1em;
+}
 .btn-aumento-tempalte3{
   margin: 5% 0 11%;
 }
@@ -2239,12 +2300,31 @@ canvas:hover {
   width: 70%;
   margin-left: 15%;
 }
-
+/*est*/
 @media only screen and (min-width:768px) and (max-width:1024px){
 .aumento-template1{
   margin: 5% 0;
 }
+.campos-conf input[type="text"] {
+  width: 55%;
 }
+.margin-web1{
+  margin:3% 0;
+}
+
+.icono-edit {
+    font-size: 3em;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+.lici-pading-des{
+  padding-left: 15px;
+}
+.lici-margin{
+  margin: 5% 0;
+}
+}
+/**/
 @media only screen and (min-width:1300px) and (max-width:1500px){
   .left-borra70 {
     margin-left: -45px !important;
@@ -2270,12 +2350,12 @@ canvas:hover {
 
   /*EST*/
   .ancho-completo2{
-  width: 20% !important;
-  margin: 6px 5% !important;
+  width: 25% !important;
+  /*margin: 6px 5% !important;*/
 }
 .ancho-completo3{
-  width: 20% !important;
-  margin: 4px 0%!important;
+  width: 25% !important;
+ /* margin: 4px 0%!important;*/
 }
   /**/
 }
@@ -2334,18 +2414,26 @@ canvas:hover {
     padding: 0px !important;
 }*/
 .ancho-completo2{
-  width: 20% !important;
-  margin: 6px 5% !important;
+  width: 27% !important;
+  /*margin: 6px 5% !important;*/
 }
 .ancho-completo3{
-  width: 20% !important;
-  margin: 4px 0%!important;
+  width: 28% !important;
+ /* margin: 4px 0%!important;*/
 }
 
 /*********/
 }
+@media only screen and (min-width:1024px) and (max-width:1200px){
+.margin-media{
+  margin: 5% 0;
+}
+}
+
 
 @media only screen and (min-width:992px) and (max-width:1200px){
+
+
   .modal-left{
     margin-left: 11% !important;
   }
@@ -2491,6 +2579,7 @@ canvas:hover {
 
   /****************VELOSOFT FRONT-2************************/
 /******************************EST***********************/
+
 .format-config {
   font-size: 15px;
   text-align: center;
@@ -2501,19 +2590,22 @@ canvas:hover {
 }
 
 .ancho-completo {
-    width: 80% !important;
-    margin: 4px 11% !important;
+    width: 20% !important;
+    margin: 0 0 6px !important;
+    font-size: .7em;
 }
 .sinpadding-lic {
     padding: 0px !important;
 }
 .ancho-completo2{
-  width: 27% !important;
-  margin: 4px 3.6% !important;
+  width: 23% !important;
+    margin: 0 7px 6px !important;
+    font-size: .7em;
 }
 .ancho-completo3{
-  width: 26.5% !important;
-  margin: 4px 2.7%!important;
+  width: 23% !important;
+    margin: 0 7px 6px !important;
+    font-size: .7em;
 }
 /*editor*/
 
@@ -2522,8 +2614,8 @@ canvas:hover {
   margin: 1% 0;
 }
 .size-img + label {
-    width: 60%;
-    height: 145px;
+  width: 100%;
+  height: 145px;
 }
 .size-modal {
     width: 50%;
@@ -2671,8 +2763,8 @@ canvas:hover {
     padding: 70px 220px;
   }
   .boton-licitacion {
-    width: 60% !important;
-    margin-left: 20%;
+    width: 35% !important;
+    margin-left: 0%;
 }
   .margin-cat{
     margin-top: 10px;
@@ -2734,19 +2826,23 @@ canvas:hover {
 }
 
 .ancho-completo {
-    width: 80% !important;
-    margin: 4px 11% !important;
+    width: 20% !important;
+    margin: 0px 0% !important;
 }
 .sinpadding-lic {
     padding: 0px !important;
 }
 .ancho-completo2{
-  width: 40% !important;
-  margin: 4px 5% !important;
+  width: 26% !important;
+  margin: 0px 1% !important;
 }
 .ancho-completo3{
-  width: 40% !important;
-  margin: 4px 5.2%!important;
+  width: 26% !important;
+  margin: 0px 0%!important;
+}
+
+.divisor-menu{
+  margin: 1% 0;
 }
 
 .device-title{
@@ -2754,7 +2850,7 @@ canvas:hover {
   color:#303030;
 }
 .texto-content{
-  font-size: .8em;
+  font-size: .7em;
 }
 
 /*editor web*/
@@ -2765,6 +2861,9 @@ canvas:hover {
 /***********************************************************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
+  .linea-bottom{
+    margin-bottom: 20px;
+  }
   .ocultar23{
     display: none !important;
   }
@@ -3093,15 +3192,15 @@ canvas:hover {
 /*Est*/
 @media only screen and (min-width:600px) and (max-width:992px){
 .size-img + label {
-    width: 60%;
+    width: 100%;
     height: 100px;
 }
 
 .sep-media-edit{
-  margin: 11% 0 0 0;
+  margin: 0% 0 0 0;
 }
 .media-servicios {
-    padding-top: 25%;
+  /*  padding-top: 25%;*/
 }
 /*tempalte*/
 
@@ -3109,6 +3208,9 @@ canvas:hover {
 }
 /**/
 @media only screen and (min-width:600px) and (max-width:768px){
+  .confing-center{
+    text-align: center;
+  }
   .modal-dialog {
     width: 500px !important;
 }
@@ -3155,6 +3257,17 @@ canvas:hover {
       margin-left: 15% !important;
   }
   /*****************************************EST.*********************/
+  .icono-edit {
+    font-size: 3em;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+.campos-conf input[type="text"] {
+   width: 52%;
+
+}
+
 .format-config {
   font-size: 15px;
 }
@@ -3163,19 +3276,19 @@ canvas:hover {
 }
 
 .ancho-completo {
-    width: 80% !important;
-    margin: 4px 11% !important;
+  width: 21.4% !important;
+  margin: 4px 0% !important;
 }
 .sinpadding-lic {
     padding: 0px !important;
 }
 .ancho-completo2{
-  width: 80% !important;
-  margin: 4px 11% !important;
+  width: 24% !important;
+  margin: 4px 1% !important;
 }
 .ancho-completo3{
-  width: 80% !important;
-  margin: 4px 11%!important;
+  width: 27% !important;
+  margin: 4px 1%!important;
 }
 
 .device-title{
@@ -3185,14 +3298,14 @@ canvas:hover {
 }
 
 .size-img + label {
-  width: 300px;
+  width: 100%;
   height: 120px;
 }
 
 .label-edit {
-  position: absolute;
+  /*position: absolute;
   top: -47px;
-  left: 30px;
+  left: 30px;*/
 }
 .aumento-2 {
   margin-top: 6%;
@@ -3209,13 +3322,15 @@ canvas:hover {
   /*************************************EST.**************************/
 
 }
+
+
   /****************VELOSOFT FRONT-2************************/
 @media only screen and (min-width:200px) and (max-width:600px){
   .modal-body1 {
     padding: 0px 0px 115px 0px !important;
 }
-  .modal-dialog {
-    width: 350px !important;
+ .modal-dialog {
+    width: 100% !important;
 }
   .separacion-list1 {
     margin-bottom: 14px !important;
@@ -3270,9 +3385,11 @@ canvas:hover {
     margin-left: 15%;
 }
   .boton-licitacion {
-    width: 70% !important;
-    margin-left: 15%;
+    width: 46% !important;
+   /* margin-left: 15%;*/
 }
+
+
   .mailbox-attachments li {
     width: 100%;
 }
@@ -3339,6 +3456,23 @@ canvas:hover {
       font-size: 0.7em;
   }
 /***************************************************Est.***********************/
+/* aside oculto*/
+.oculto{
+  display: none;
+}
+.icono-edit {
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+
+.linea-ed {
+  margin-top: 8px;
+}
+
+.padding-cero-li{
+  padding: 0px !important;
+}
+/**/
 .format-config {
   font-size: 15px;
   text-align: center;
@@ -3374,10 +3508,6 @@ canvas:hover {
 .sinmargin-li{
   margin: 0px !important;
 }
-.ancho-completo{
-  width: 80% !important;
-  margin: 4px 11% !important;
-}
 
 .device-title{
   font-weight: 700;
@@ -3391,13 +3521,21 @@ canvas:hover {
 
 /*editor web*/
 .label-edit {
-  position: relative;
+  position: initial;
   top: 0px;
-  left: 8px;
+  left: 0px;
+}
+.webpadding-no{
+  padding: 0px !important
+}
+
+.margin-web{
+  margin-top: 20%;
 }
 .size-img + label {
-  width: 300px;
-  height: 115px;
+  width: 100%;
+  height: 100px;
+  padding: 0px;
 }
 
 .titulo-editor p {
@@ -3413,11 +3551,48 @@ label {
 }
 
 .completo-100-redes{
-  width: 300px;
+  width: 100%;
   margin: 1% 0;
 }
+/*licitacion*/
+.izquierda{
+  text-align: left;
+}
+.justificado{
+  text-align: justify;
+}
+.lici-margin{
+  margin: 5% 0;
+}
 
+.mailbox-attachments li {
+  float: left;
+  border: none;
+  margin: 0px 7px;
+  width: 42%;
+}
+.ancho-completo1{
+  width: 49%;
+}
+.ancho-completo {
+  width: 49% !important;
+  margin: 4px 0% !important;
+}
+.sinpadding-lic {
+    padding: 0px !important;
+}
+.ancho-completo2{
+  width: 46% !important;
+  margin: 4px 0px 0 8px !important;
+}
+.ancho-completo3{
+  width: 97% !important;
+  margin: 4px 0px 0% 0px!important;
+}
 
+.botones-paginacion{
+  margin: 0 0 0 52%;
+}
 /*template*/
 .separacion-template-selects{
   padding: 0px;
@@ -3655,7 +3830,7 @@ label {
   margin-top: 50px;
 }
 
-.campos-conf input[type="text"] {
+.campos-conf1 input[type="text"] {
   width: 238px;
 }
 

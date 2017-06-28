@@ -45,7 +45,7 @@
           <input type="text" name="password">
         </div>
       </div>
-      <div class="col-md-4 col-md-offset-4 centrado">
+      <div class="col-xs-12 col-md-4 col-md-offset-4 centrado">
         <a href="configuracion1.php" class="boton-config">
           <p>Guardar</p>
         </a>

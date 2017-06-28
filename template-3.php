@@ -64,16 +64,17 @@
               <div class="col-xs-12 col-sm-12 col-md-3 col-lg-12 titulo-formato">
                 <p class="gris"><span><i class="fa fa-text-height azul-tempalte3 " aria-hidden="true"></i></span>  TAMAÑO</p>
               </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-12">
+              <div class="col-xs-12 col-sm-12 col-md-3 col-lg-12">
                 <label for="color-input" id="color-label" style="background-color: red"></label>
-                  <input type="checkbox" id="color-input" checked></input>
+                  <input type="checkbox" id="color-input" checked>
 
-                  <div id="color-picker">
-                    <canvas id="color-block" height="150" width="150"></canvas>
-                    <canvas id="color-strip" height="150" width="30"></canvas>
+                  <div id="color-picker" class="col-xs-12 col-sm-12 col-md-3 col-lg-12">
+                    <canvas id="color-block" ></canvas>
+                    <canvas id="color-strip" ></canvas>
                   </div>
+              </div>
             </div>
+            
            <!--  <input type="color" id="color" value="#ee0000" list="reds" /> -->
 
 

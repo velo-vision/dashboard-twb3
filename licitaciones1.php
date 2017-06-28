@@ -10,8 +10,8 @@
 <div class="content-wrapper">
   <section>
     <div class="container-fluid no-padding">
-      <div class="col-md-12 col-xs-12 no-padding">
-        <div class="content-wrapper">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-11 col-lg-offset-1 no-padding">
+        <div class="box-body no-padding">
           <div class="col-md-11 col-xs-12 titulo-perfil">
             <p id="subir">
               Licitaciones
@@ -21,6 +21,7 @@
           <!-- Content Header (Page header) -->
           <!-- Main content -->
           <section class="content">
+
             <div class="col-xs-12 col-sm-12 col-md-11 top-20 botton-volver paddingno">
               <div class="col-xs-3 col-sm-3 col-md-4 prev-next nomargin">
                 <img src="images/dashboard/anterior.png" alt="The Wedding Board">
@@ -41,15 +42,15 @@
             <div class="row">
               <div class="col-md-11 col-xs-12">
                 <div class="box box1 box-primary top-20">
-                  <div class="col-xs-12 col-md-12 no-padding">
-                    <div class="col-md-6 no-padding">
+                  <div class="col-xs-12 col-md-12 lici-margin">
+                    <div class="col-xs-12 col-md-6 no-padding izquierda">
                       <p class="asunto-licitacion"><strong>Licitación:</strong> Lorem ipsum </p>
                     </div>
-                    <div class="col-md-6 redecha-lici">
+                    <div class="col-xs-12 col-md-6 redecha-lici  no-padding izquierda">
                        <p class="asunto-licitacion" style="margin-top:5px;"><strong>Usuario:</strong> Mónica Galindo</p>
                     </div>                  
                   </div>
-                   <div class="col-xs-12 col-md-12 no-padding">
+                   <div class="col-xs-12 col-md-12  izquierda">
                      <div class="col-xs-12 col-md-3 no-padding">
                        <p class="nomargin asunto-licitacion1"><strong>Presupuesto:</strong>$50,000</p>
                        <p class="nomargin asunto-licitacion1"><strong>Categoría:</strong> Lorem ipsum </p>
@@ -60,10 +61,10 @@
                      </div>
                    </div>
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding separacion-lici">
-                    <div class="col-xs-12 col-md-11 mailbox-read-message no-padding">
-                      <strong><span>Descripción:</span></strong>
+                    <div class="col-xs-12 col-md-11 mailbox-read-message no-padding lici-margin">
+                      <strong class="lici-pading-des"><span>Descripción:</span></strong>
                     </div>                   
-                    <div class="col-xs-12 col-sm-12 col-md-11 mailbox-read-message no-padding">
+                    <div class="col-xs-12 col-sm-12 col-md-11 mailbox-read-message justificado">
                       <p>
                         Lorem ipsum dolor sit amet, omnesque tacimates hendrerit an sit. Ne has integre vivendum. Eos iisque tractatos id. Per prompta moderatius philosophia ea.<br><br>                      
                         Eu duis posse referrentur vis. Duo id erant adipisci inimicus, ei falli patrioque complectitur ius, ex mandamus senserit per. Vide nostro veritus ut ius, est at scaevola
@@ -71,33 +72,9 @@
                       </p>
                     </div>
                   </div>
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <div class="box-footer" style="border-top:none;">
-                      <ul class="mailbox-attachments clearfix">
-                        <!-- <li>
-                          <span class="mailbox-attachment-icon"><i class="fa fa-file-pdf-o"></i></span>
-                          <div class="mailbox-attachment-info">
-                            <a href="#" class="mailbox-attachment-name">
-                              <i class="fa fa-paperclip"></i> Sep2014-report.pdf
-                            </a>
-                            <span class="mailbox-attachment-size">
-                              1,245 KB
-                              <a href="images/twb.pdf" target="_blank" class="btn btn-default btn-xs pull-right"><i class="fa fa-cloud-download"></i></a>
-                            </span>
-                          </div>
-                        </li> -->
-                        <!-- <li>
-                          <span class="mailbox-attachment-icon"><i class="fa fa-file-word-o"></i></span>
-                          <div class="mailbox-attachment-info">
-                            <a href="#" class="mailbox-attachment-name"><i class="fa fa-paperclip">
-                              </i> App Description.docx
-                            </a>
-                            <span class="mailbox-attachment-size">
-                              1,245 KB
-                              <a href="images/twb.pdf" target="_blank" class="btn btn-default btn-xs pull-right"><i class="fa fa-cloud-download"></i></a>
-                            </span>
-                          </div>
-                        </li> -->
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-cero-li">
+                    <div class="box-footer padding-cero-li" style="border-top:none;">
+                      <ul class="mailbox-attachments clearfix padding-cero-li">
                         <li>
                           <span class="mailbox-attachment-icon has-img">
                             <img src="images/recursos/galery5.jpg" alt="The Wedding Board">
@@ -133,10 +110,10 @@
                   
                   <!-- Respuestas -->
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lineas-respuesta">
-                    <div class="col-xs-12 col-sm-6 col-md-16 col-lg-6 padin-cero">
+                    <div class="col-xs-12 col-sm-6 col-md-16 col-lg-6 padin-cero lici-margin">
                       <p class="asunto-licitacion"><strong>Respuestas:</strong> 3</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-16 col-lg-6 aumento3">                                           
+                    <div class="col-xs-12 col-sm-6 col-md-16 col-lg-6">                                           
                       <a href="comparar-licitaciones.php"><span class="boton-comprar"><img src="images/recursos/comprar.png" alt="The Wedding Board"> comparar</span></a>                     
                     </div>
                   </div>
@@ -150,24 +127,24 @@
                     <a href="#!"><span class="col-xs-12 boton-comprar comprar1 btn-provedor"><img src="images/recursos/proveedor.png" alt="The Wedding Board"> Perfil proveedor</span></a>
                     </div>
                   </div>
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lici-margin izquierda">
                     <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 padin-cero">
                       <p class="nomargin asunto-licitacion1"><strong>Costos:</strong>$45,000</p>
                     </div>
-                     <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                     <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 padin-cero">
                       <p class="nomargin asunto-licitacion1"><strong>Vigencia:</strong> 19 de mayo 2017</p>
                     </div>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <p class="nomargin asunto-licitacion1"><strong>Descripción:</strong></p>
-                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-read-message padin-cero">
+                    <p class="nomargin asunto-licitacion1 "><strong>Descripción:</strong></p>
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-read-message padin-cero justificado lici-margin">
                         <p>Lorem ipsum dolor sit amet, omnesque tacimates hendrerit an sit. Ne has integre vivendum. Eos iisque tractatos id. Per prompta moderatius philosophia ea.<br><br>
                            Eu duis posse referrentur vis. Duo id erant adipisci inimicus, ei falli patrioque complectitur ius, ex mandamus senserit per. Vide nostro veritus ut ius, est at scaevola
                             invenire suscipiantur. Cu per velit novum sententiae. Ius quodsi definitiones id.
                         </p>
                      </div>
-                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                      <div class="box-footer" style="border-top:none;">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padin-cero lici-margin">
+                      <div class="box-footer padin-cero" style="border-top:none;">
                         <ul class="mailbox-attachments clearfix">                       
                           <li>
                             <span class="mailbox-attachment-icon has-img">
@@ -199,17 +176,18 @@
                       </div>
                     </div>
                     <div class="box-footer" style="border-top:0px">
-                        <div class="centers">
+                        <div class="centers lici-margin">
                           <a data-toggle="modal" data-target="#enviarInvitacion" data-whatever="@mdo">
                             <button type="submit" class="btn btn-default icon-menssage"><i class="fa fa-check-square-o" aria-hidden="true"></i> Aceptar</button>
                           </a>
                         </div>
                       </div>
                       <!-- fin -->
+                      </div><!-- links -->
                   <?php  } ?>
 
 
-                  </div><!-- links -->
+                  
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 separacion-botnes-link">
                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 derecha-link1">
                       <a href="licitaciones-2.php">
@@ -439,6 +417,7 @@ $(".cf5 img.top").toggleClass("transparent");
 });
 </script>
 
+
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
   $.widget.bridge('uibutton', $.ui.button);
@@ -472,6 +451,8 @@ $(".cf5 img.top").toggleClass("transparent");
 <script src="dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
+
+
 
 </body>
 </html>

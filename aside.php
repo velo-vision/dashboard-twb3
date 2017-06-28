@@ -4,7 +4,7 @@
       <!--BOTONES PERFIL-->
       <div class="user-panel">
         <div class="cols centers">
-          <a href="index.php">
+          <a href="index.php" class="oculto">
             <img width="50%;" class="wow fadeInDown" data-wow-duration="2.5s" data-wow-delay="" src="images/recursos/logo.png" title="Logo" alt="The Wedding Board">
           </a>
         </div>
