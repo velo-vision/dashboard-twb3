@@ -5,117 +5,122 @@
 
   get_aside();
 ?>
+
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
-  <section>
-    <div class="container-fluid">
-      <div class="col-md-6 col-md-offset-3 titulo-perfil">
+  <!-- Main content -->
+  <section class="content">
+    <div class="row">
+      <!-- /.col -->
+      <div class="col-md-6 col-md-offset-3 titulo-perfil top-no">
         <p>
           Templates
         </p>
         <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
-        <p class="titulo-tm2">Datos generales</p>
+         <p class="titulo-tm2">Datos generales</p>
       </div>
-      <div class="col-md-12">
-                    <!-- /.box-header -->
-          <div class="box-body no-padding">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
-              <form>
-              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 formulario">
-                <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12 titulo-2-temp">
-                  <p>Nombre</p>
-                </div>
-                  <input type="text" name="nombre" placeholder="Nombre del Template">
+      <div class="col-md-10 col-md-offset-1 top-20">       
+        <!-- /.box-header -->
+        <div class="box-body">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
+            <form>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 formulario">
+              <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12 titulo-2-temp">
+                <p>Nombre</p>
               </div>
-              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 formulario">
-                <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12 titulo-2-temp ">
-                  <p>Categoria</p>
-                </div>
-                  <select name="categorias" multiple="">
-                    <option>clásica</option>
-                    <option>Moderna</option>
-                    <option>Rústica</option>
-                    <option>Romantica</option>
-                  </select>
-              </div>
-              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 formulario padding-no-temp">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
-                <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12 titulo-2-temp">
-                  <p>Agregar frente</p>
-                </div>
-                  <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12  div-drop">
-                  <p class="text-alternativo">Arrastra tu Archivo Aqui</p>
-                  <!-- Upload image -->
-                    <!-- <section id="sectionDragAndDrop" class="size-section-drop">
-                        <div class="drop" id="drop">
-                            <p>Arrastra tu arquivo o has click aqui.</p>
-                        </div>
-                        <input class="file-upload hidden" id="fileUpload" type="file">
-                    </section> -->
-
-                    <!-- Resize image -->
-                    <!-- <section class="hidden" id="sectionResize">
-                        <div class="image-resize size-thumb" id="imageResize"></div>
-                      <button class="btn" id="crop"><i class="fa fa-trash" aria-hidden="true"></i> Quitar</button>
-                    </section> -->
-
-                    <!-- Insert thumbnail -->
-                   <!--  <section class="hidden" id="sectionThumbnail">
-                        <div class="thumbnail" id="thumbnail"></div>
-                    </section> -->
-                    </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                  <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12 titulo-2-temp">
-                  <p>Agregar frente</p>
-                </div>
-                  <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12  div-drop">
-                  <p class="text-alternativo">Arrastra tu Archivo Aqui</p>
-                  <!-- Upload image -->
-                   <!--  <section id="sectionDragAndDrop2" class="size-section-drop">
-                        <div class="drop" id="drop2 ">
-                            <p>Arrastra tu arquivo o has click aqui.</p>
-                        </div>
-                        <input class="file-upload hidden" id="fileUploados" type="file">
-                    </section> -->
-
-                    <!-- Resize image -->
-                    <!-- <section class="hidden" id="sectionResizedos">
-                        <div class="image-resize size-thumb" id="imageResizedos"></div>
-                      <button class="btn" id="crop2 "><i class="fa fa-trash" aria-hidden="true"></i> Quitar</button>
-                    </section> -->
-
-                    <!-- Insert thumbnail -->
-                   <!--  <section class="hidden" id="sectionThumbnail2">
-                        <div class="thumbnail" id="thumbnail2"></div>
-                    </section> -->
-                    </div>
-                </div>
-
-              </div>
-               
-                <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-4 centrado margin-pie">
-                  <a href="template-3.php" class="boton-config">
-                    <p> <i class="fa fa-share" aria-hidden="true"></i> Continuar</p>
-                  </a>
-                </div>
-              
-              
-              </form>              
+                <input type="text" name="nombre" placeholder="Nombre del Template">
             </div>
-          </div>
-          <!-- /.box-body -->
-        
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 formulario">
+              <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12 titulo-2-temp ">
+                <p>Categoria</p>
+              </div>
+                <select name="categorias" multiple="">
+                  <option>clásica</option>
+                  <option>Moderna</option>
+                  <option>Rústica</option>
+                  <option>Romantica</option>
+                </select>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 formulario padding-no-temp">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
+              <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12 titulo-2-temp">
+                <p>Agregar frente</p>
+              </div>
+                <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12  div-drop">
+                <p class="text-alternativo">Arrastra tu Archivo Aqui</p>
+                <!-- Upload image -->
+                  <!-- <section id="sectionDragAndDrop" class="size-section-drop">
+                      <div class="drop" id="drop">
+                          <p>Arrastra tu arquivo o has click aqui.</p>
+                      </div>
+                      <input class="file-upload hidden" id="fileUpload" type="file">
+                  </section> -->
 
+                  <!-- Resize image -->
+                  <!-- <section class="hidden" id="sectionResize">
+                      <div class="image-resize size-thumb" id="imageResize"></div>
+                    <button class="btn" id="crop"><i class="fa fa-trash" aria-hidden="true"></i> Quitar</button>
+                  </section> -->
+
+                  <!-- Insert thumbnail -->
+                 <!--  <section class="hidden" id="sectionThumbnail">
+                      <div class="thumbnail" id="thumbnail"></div>
+                  </section> -->
+                  </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12 titulo-2-temp">
+                <p>Agregar vuelta</p>
+              </div>
+                <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12  div-drop">
+                <p class="text-alternativo">Arrastra tu Archivo Aqui</p>
+                <!-- Upload image -->
+                 <!--  <section id="sectionDragAndDrop2" class="size-section-drop">
+                      <div class="drop" id="drop2 ">
+                          <p>Arrastra tu arquivo o has click aqui.</p>
+                      </div>
+                      <input class="file-upload hidden" id="fileUploados" type="file">
+                  </section> -->
+
+                  <!-- Resize image -->
+                  <!-- <section class="hidden" id="sectionResizedos">
+                      <div class="image-resize size-thumb" id="imageResizedos"></div>
+                    <button class="btn" id="crop2 "><i class="fa fa-trash" aria-hidden="true"></i> Quitar</button>
+                  </section> -->
+
+                  <!-- Insert thumbnail -->
+                 <!--  <section class="hidden" id="sectionThumbnail2">
+                      <div class="thumbnail" id="thumbnail2"></div>
+                  </section> -->
+                  </div>
+              </div>
+
+            </div>
+             
+              <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-4 centrado margin-pie">
+                <a href="template-3.php" class="boton-config">
+                  <p> <i class="fa fa-share" aria-hidden="true"></i> Continuar</p>
+                </a>
+              </div>
+            
+            
+            </form>              
+          </div>
+        </div>
+        <!-- /.box-body -->       
         <!-- /. box -->
       </div>
+      <!-- /.col -->
     </div>
+    <!-- /.row -->
   </section>
   <!-- /.content -->
 </div>
+<!-- /.content-wrapper -->
 <div class="control-sidebar-bg"></div>
 </div>
+
 <?php
   get_footer();
 ?>

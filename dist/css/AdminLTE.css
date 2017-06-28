@@ -1243,7 +1243,7 @@ a:focus {
 .form-control {
   border-radius: 0;
   box-shadow: none;
-  border-color: #67cfe3;
+  border-color: #67cfe3 !important;
 }
 .form-control:focus {
   border-color: #3c8dbc;

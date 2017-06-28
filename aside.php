@@ -107,7 +107,7 @@
           <ul class="treeview-menu">
            <li class=""><a href="template-1.php">Colección</a></li>
             <li class=""><a href="template-2.php">Crear</a></li>
-            <li class=""><a href="#">Gestor</a></li>
+            <li class=""><a href="template-lista.php">Gestor</a></li>
           </ul>
         </li>
 

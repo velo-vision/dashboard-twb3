@@ -23,7 +23,7 @@
                 <span class="box-title"></span>
                 <div class="box-tools pull-right">
                   <div class="has-feedback">
-                    <input type="text" class="form-control input-sm " placeholder="Buscar Licitación">
+                    <input type="text" class="form-control input-sm" placeholder="Buscar Licitación">
                     <span class="glyphicon glyphicon-search form-control-feedback"></span>
                   </div>
                 </div>
@@ -31,11 +31,9 @@
               </div>
               <!-- /.box-header -->
               <div class="box-body no-padding">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls">  
-
-                  <div class="col-xs-12 col-sm-7 col-md-4 col-lg-5 dropdown boton-categoria sinpadding-lic">
-
-                    <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-completo1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls"> 
+                  <div class="col-xs-9 col-sm-9 col-md-10 col-lg-10 dropdown boton-categoria sinpadding-lic">
+                    <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-completo7" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <i class="fa fa-tag" aria-hidden="true"></i> Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -43,8 +41,7 @@
                       <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Flores</a>
                       <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
                     </div>
-
-                    <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm boton-licitacion " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-completo8" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fa fa-sitemap" aria-hidden="true"></i> Estatus <i class="fa fa-caret-down" aria-hidden="true"></i>
                       </button>
                       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -52,19 +49,11 @@
                         <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Activas</a>
                         <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Inactivas</a>
                       </div>
-
-                    
-
-                  </div>
-
-                  
-
-                  <div class="col-xs-12 col-sm-12 col-md-8  col-lg-7  btn-group sinpadding-lic divisor-menu">
-                    <button type="button" class="btn btn-default btn-sm ancho-completo separa"> Borrar <i class="fa fa-trash-o"></i> 
+                      <button type="button" class="btn btn-default btn-sm ancho-completo9 separa volando-derecha">
+                    <i class="fa fa-trash-o"></i> Eliminar 
                     </button>
-                    <!-- /.btn-group -->
-                  <button type="button" class="btn btn-default btn-sm  ancho-completo2 separa"><i class="fa fa-times-circle-o" aria-hidden="true"></i> Cancelar Licitación</button>
-                  <button type="button" class="btn btn-default btn-sm  ancho-completo3"><i class="fa fa-archive" aria-hidden="true"></i> Archivar Licitación</button>             
+                  </div>                
+                  <!-- /.btn-group -->
                   <div class="pull-right pag-center">1-50/200
                     <div class="btn-group botones-paginacion">
                       <button type="button" class="btn btn-default btn-sm "><i class="fa fa-chevron-left"></i></button>
@@ -72,8 +61,6 @@
                     </div>
                     <!-- /.btn-group -->
                   </div>
-                  </div>
-                  
                   <!-- /.pull-right -->
                 </div>            
               </div>
@@ -96,19 +83,19 @@
           <strong>CATEGORÍA</strong>
         </td>
         <td>
-          <strong>FECHA DE EVENTO</strong>
-        </td>
-        <td>
-          <strong>PRESUPUESTO</strong>
-        </td>
-        <td>
           <strong>ESTATUS</strong>
         </td>
         <td>
-          <strong>RESPUESTAS</strong>
+          <strong>DISEÑADO POR</strong>
         </td>
         <td>
-           <strong>FECHA</strong>
+          <strong>FECHA DE CREACIÓN</strong>
+        </td>
+        <td>
+          <strong>PRECIO</strong>
+        </td>
+        <td>
+           <strong></strong>
         </td>
       </tr>
 <?php for ($i=0; $i <10 ; $i++) { ?>
@@ -118,22 +105,24 @@
           <span>Lorena Martínez</span>  
         </td>
         <td>
-         <span>Fashion</span> 
+         <span>Lorena Martíne</span> 
         </td>
         <td>
-          <span>28-Oct-2017</span>      
+          <span>Publicada</span>      
         </td>
         <td>
-          <span>$50,000.00</span>    
+          <span>Cu Mei Albublu</span>    
         </td>
         <td>
-          <span>CANCELADA</span>     
+          <span>30-OCT-2017</span>     
         </td>
         <td>
-           <span>3</span>
+           <span>$30.00</span>
         </td>
         <td>
-           <span>hace 5 min.</span>
+           <a href="template-5.php">
+            <button type="submit" class="btn btn-default icon-menssage btn-tamplate-list"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar</button>
+          </a>
         </td>
       </tr>
 <?php } ?>
