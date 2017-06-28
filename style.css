@@ -2429,6 +2429,9 @@ canvas:hover {
   /**/
 }
 @media only screen and (min-width:1200px) and (max-width:1300px){
+  .text-left{
+    margin-left: -50px !important;
+  }
   .registrate1 {
     font-size: 1.1em !important;
 }
@@ -2510,6 +2513,12 @@ canvas:hover {
 
 
 @media only screen and (min-width:992px) and (max-width:1200px){
+  .text-left{
+    margin-left: -40px !important;
+  }
+  .usuario {
+    width: 140px !important;
+}
   .registrate1 {
     font-size: 1.1em !important;
 }
@@ -2740,6 +2749,26 @@ canvas:hover {
 /******************************EST***********************/
 }
 @media only screen and (min-width:768px) and (max-width:992px){
+  .text-left{
+    margin-left: 30px !important;
+  }
+  .boton-regresar-perfil {
+      margin-top: 40px !important;
+      margin-bottom: 20px;
+  }
+  .prev-next1 {
+    text-align: left !important;
+}
+.prev-next {
+    text-align: right !important;
+}
+  .usuario {
+    width: 140px !important;
+}
+  .text-span{
+    padding: 0px !important;
+    font-size: .8em !important;
+  }
   .espacio-1 {
     margin: 0px 0 15px 0 !important;
 }
@@ -2911,7 +2940,7 @@ canvas:hover {
   /****************VELOSOFT FRONT-2 STYLE JRG************************/
   .margin-volver{
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .propietario {
     font-size: .8em;
@@ -3032,6 +3061,19 @@ canvas:hover {
 /***********************************************************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
+  .dotted-pad{
+    margin-bottom: 15px !important;
+  }
+  .boton-regresar-perfil {
+      margin-top: 30px !important;
+      margin-bottom: 20px;
+  }
+  .prev-next1 {
+    text-align: left !important;
+}
+.prev-next {
+    text-align: right !important;
+}
   .espacio-1 {
     margin: 0px 0 15px 0 !important;
 }
@@ -3086,9 +3128,9 @@ canvas:hover {
     padding-top: 15px !important;
   }
   .margin-volver {
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
-}
+    margin-top: 15px !important;
+    margin-bottom: 5px !important;
+  }
   .estre-center{
     text-align: center;
   }
@@ -3147,6 +3189,17 @@ canvas:hover {
 }
   .text-span p {
     text-align: center;
+    font-size: 1em !important;
+}
+.text-detalle1 {
+    font-size: 1.4em !important;
+    margin-top: 45px !important;
+}
+.img-twb1{
+  margin-top: 15px !important;
+}
+.det{
+  margin-top: 25px !important;
 }
   .right-center p{
     text-align: left !important;
@@ -3333,6 +3386,9 @@ canvas:hover {
   /****************VELOSOFT FRONT-2************************/
 }
 @media only screen and (min-width:1200px) and (max-width:1980px){
+  .text-left{
+    margin-left: -100px ;
+  }
   .cat-50{
     margin-left: -55px !important;
   }
@@ -3620,12 +3676,12 @@ canvas:hover {
       margin-left: 15% !important;
   }
   .prev-next1 {
-    font-size: .9em !important;
+    font-size: 1em !important;
     text-align: center !important;
     padding-left: 3px !important;
   }
   .prev-next {
-    font-size: .9em !important;
+    font-size: 1em !important;
     text-align: center !important;
 }
   .boton-usuario {
@@ -4205,6 +4261,24 @@ label {
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
 }
+.text-nombre13{
+  font-size: 1.4em;
+  font-weight: 200;
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
+}
+.text-nombre13 span{
+  font-size: .7em;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+}
+.text-nombre13 strong{
+  color: #303030;
+  font-size: .7em;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
 .text-detalle1{
   font-size: 1.6em;
   font-family: 'Montserrat', sans-serif;
@@ -4637,7 +4711,7 @@ label {
     padding: 15px 0 !important;
 }
 .img-20{
-  margin-top: 20px;
+  margin-top: 25px;
 }
 .botton-pag{
   margin-bottom: 20px;
@@ -5116,4 +5190,49 @@ a {
     cursor: pointer;
     filter: alpha(opacity=50);
     opacity: .5;
+}
+.height-180{
+  height: 180px !important;
+}
+.color-area{
+  padding: 25px !important;
+  color: #000 !important;
+}
+.usuario-btn {
+    background: white;
+    border: 1px solid #67cfe3;
+    color: #67cfe3;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    font-size: .8em;
+    font-weight: 300;
+    text-align: center;
+    padding: 5px 0;
+}
+.margin-fech{
+  margin-top: 5px !important;
+}
+.boton-regresar-perfil {
+    background: #60d0e4;
+    border-radius: 0px !important;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    padding: 5px 0 !important;
+    width: 235px;
+    -webkit-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+}
+.text-pad{
+  padding: 0px;
 }
