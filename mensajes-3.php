@@ -8,21 +8,23 @@
 include("head-3.php");
   get_aside();
 ?>
+
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
-    <section>
-      <div class="container-fluid">
-        <div class="col-md-6 col-md-offset-3 titulo-perfil">
-          <p>
-            mensajes
-          </p>
-          <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
-        </div>
-
-        <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 top-20 botton-volver paddingno">
+  <!-- Main content -->
+  <section class="content">
+    <div class="row">
+      <!-- /.col -->
+      <div class="col-md-6 col-md-offset-3 titulo-perfil">
+        <p>
+          mensajes
+        </p>
+        <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 top-20 botton-volver paddingno">
           <div class="col-xs-3 col-sm-3 col-md-4 prev-next nomargin">
             <img src="images/dashboard/anterior.png" alt="The Wedding Board">
-            <span>Anterior</span>
+            <span class="atras">Anterior</span>
           </div>
           <div class="col-xs-6 col-sm-6 col-md-4 centers nomargin">
             <a href="mensajes-1.php">
@@ -32,21 +34,24 @@ include("head-3.php");
             </a>
           </div>
           <div class="col-xs-3 col-sm-3 col-md-4 prev-next1 nomargin">
-            <span>Siguiente</span>
+            <span class="siguiente">Siguiente</span>
             <img src="images/dashboard/siguiente.png" alt="The Wedding Board">
           </div>
         </div>
-
-      <div class="col-xs-12 col-md-8 col-md-offset-2 top-20">
+      <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 top-20">
         <div class="box box-primary">
-          <div class="box-header with-border">
-            <h3 class="box-title"> <img src="images/recursos/eye.jpg" alt="The Wedding Board"><span> Leído por: Shophie Dueso</span></h3>
-          </div>
-           <div class="mailbox-read-info">                      
-              <h5><strong>Re:</strong> Bienvenido a Wedding Board Admin</h5>
-              <h5><span class="mailbox-read-time ">13 Mar. 2017 11:03 PM</span></h5>
+           <!-- /.box-header -->
+           <div class="box-header with-border">
+              <h3 class="box-title"> <img src="images/recursos/eye.jpg" alt="The Wedding Board"><span class="mensaje2-span"> Leído por: </span><span class="mensaje2-span2">Shophie Dueso</span></h3>
             </div>
-            <div class="mailbox-read-message">
+          <div class="box-header with-border">            
+            <h3 class="box-title titulo-recibido"><span>RE: </span>Bienvenido a The Wedding Board</h3>           
+          </div>
+          <!-- /.box-header -->
+          <div class="mailbox-read-info">                      
+              
+            </div>
+            <div class="mailbox-read-message no-padding">
               <p>Hello The Wedding</p>
 
               <p>
@@ -75,16 +80,8 @@ include("head-3.php");
                 tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
               </p>
             </div>
-
-          <!-- /.box-header -->
-          <div class="box-body">
-            <!-- <div class="form-group">
-              <input class="form-control" placeholder="Para:">
-            </div>
-            <div class="form-group">
-              <input class="form-control" placeholder="Asunto:">
-            </div> -->
-            <div class="form-group">
+          <div class="box-body no-padding">
+          <div class="form-group">
                   <textarea id="compose-textarea" class="form-control altura-text-area">
                     <!-- <h1><u>Heading Of Message</u></h1>
                     <h4>Subheading</h4> -->
@@ -105,23 +102,15 @@ include("head-3.php");
                     <p>John Doe</p> -->
                   </textarea>
             </div>
-            <!-- <div class="form-group">
-              <div class="btn btn-default btn-file">
-                <i class="fa fa-paperclip"></i> Adjuntar archivo
-                <input type="file" name="attachment">
-              </div>
-              <p class="help-block">Max. 32MB</p>
-            </div> -->
           </div>
           <!-- /.box-body -->
           <div class="box-footer">
             <div class="pull-right">
               <!-- <button type="button" class="btn btn-default"><i class="fa fa-pencil"></i> Draft</button> -->
-              <a href="mensajes-5.php"><button type="submit" class="btn btn-primary"><!-- <i class="fa fa-envelope-o" style="margin-right:5px;"> --></i>Enviar</button></a>
+              <a href="mensajes-5.php"><button type="submit" class="btn btn-primary">Enviar</button></a>
             </div>
             <button type="reset" class="btn btn-default"><i class="fa fa-times"></i> Descartar</button>
           </div>
-          <!-- /.box-footer -->
         </div>
         <!-- /. box -->
       </div>
@@ -135,5 +124,5 @@ include("head-3.php");
 <div class="control-sidebar-bg"></div>
 </div>
 <?php
-	include("footer-3.php");
+  include("footer-3.php");
 ?>

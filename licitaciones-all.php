@@ -85,7 +85,7 @@
 
  <!--Empieza titulos-->
  <div class="table-responsive mailbox-messages">
- <table class="table table-hover ">
+ <table class="table table-hover tabla-completa">
     <tbody >
       <tr class="strong-td">
         <td><input type="checkbox" class="oculto-check"></td>

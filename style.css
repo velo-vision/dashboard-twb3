@@ -1655,6 +1655,10 @@ input:checked + .slider:before {
 
 /*Mensajes*/
 
+.tabla-completa{
+  width: 95%;
+  margin: 0 auto !important;
+}
 .oculto-check{
   visibility: hidden;
 }
@@ -1684,7 +1688,20 @@ input:checked + .slider:before {
   color: #303030;
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
+
+.titulo-recibido{
+  color: #303030;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
+}
+.padding-left-no{
+  padding-left: 0px;
+}
+.titulo-recibido span{
+  font-weight: 600;
 }
 
 .de p{
@@ -1695,7 +1712,7 @@ input:checked + .slider:before {
 .de span{
   font-weight: bold;
 }
-.contendido-de{
+.contendido-de p{
   font-weight: 500;
   font-size: 13px;
 }
@@ -3435,6 +3452,16 @@ canvas:hover {
       margin-left: 15% !important;
   }
   /*****************************************EST.*********************/
+
+  /*Mensajes 5*/
+.titulo-recibido {
+  font-size: 16px !important;
+}
+.padding-left-no {
+  text-align: justify;
+}
+
+/**/
   .icono-edit {
     font-size: 3em;
     padding-top: 4%;
@@ -3582,6 +3609,7 @@ canvas:hover {
   .mailbox-attachments li {
     width: 100%;
 }
+
   .pag-center{
     margin-top: 10px;
     text-align: center;
@@ -3645,6 +3673,35 @@ canvas:hover {
       font-size: 0.7em;
   }
 /***************************************************Est.***********************/
+/*flechas*/
+.siguiente, .atras{
+  font-size: 12px;
+}
+.usuario-volver{
+  width: 130px !important;
+}
+/*mensajes 2*/
+.btnmensaje1{
+  width: 40%;
+}
+.btnmensaje2{
+  width: 50%;
+  margin: 0 0 5px 0;
+}
+.btnmensaje3{
+  width: 41%;
+  margin: 0px;
+}
+
+/*mensajes 5*/
+
+.padding-left-no {
+  text-align: justify;
+}
+.titulo-recibido {
+  font-size: 14px !important;
+}
+
 /* aside oculto*/
 .oculto{
   display: none;
