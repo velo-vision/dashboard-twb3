@@ -1716,6 +1716,12 @@ input:checked + .slider:before {
   font-weight: 500;
   font-size: 13px;
 }
+
+/*mensjaes 3*/
+.btn-enviar3{
+  height: 30px;
+  padding: 3px 12px;
+}
 /*licitacion*/
 
 
@@ -1743,6 +1749,9 @@ input:checked + .slider:before {
   border-top: solid 1px #ededed;
   border-bottom: solid 1px #ededed;
   padding: 1%;
+}
+.licitacion-margin-lef{
+  margin-left: 13px;
 }
 .btn-provedor{
   width: 158px;
@@ -1843,12 +1852,12 @@ input:checked + .slider:before {
   text-align: center;
 }
 .size-img  + label {
-  width: 90%;
-  height: 140px;
+  width: 87%;
+  height: 220px;
 }
 .icono-edit{
   font-size: 3em;
-  padding-top: 4%;
+  padding-top: 50px;
   padding-bottom: 2%;
 }
 
@@ -1916,10 +1925,8 @@ border-color:#60d0e4 !important;
 }
 
 .label-edit2{
-  position: initial;
-  top: 0px;
-  left: 0px;
-  height: 110px !important;
+  width: 100% !important;
+  height: 184px !important;
 }
 .btn-redes-sociales{
   width: 60%;
@@ -2137,7 +2144,7 @@ label[for=upload] input{ display:none }
 .formulario input[type=text]{
   border: solid 1px #67cfe3;
   width: 100%;
-  padding: 5px;
+  padding: 15px;
   font-size: 18px;
   padding-left: 15px;
   color:#808080;
@@ -2265,6 +2272,7 @@ label[for=upload] input{ display:none }
   font-family: "Montserrat", sans-serif;
   color: #303030;
   font-weight: 300;
+  text-align: center;
 }
 
 .padding-no-temp{
@@ -2398,7 +2406,42 @@ canvas:hover {
   cursor: crosshair;
 }
 
-
+/*tempalte 5*/
+.titulo-tmp-5 p{
+  text-align: center;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  color:#5b5b5b;
+  font-weight: 300;
+}
+.vistas{
+  padding: 0px !important;
+}
+.vistas ul{
+  padding: 0px !important;
+  margin: 25px 0 0 0;
+}
+.vistas li {
+  display: inline-block;
+  width: 45%;
+  margin: 0 9px;
+}
+.tmp5 p{
+  font-family: "Montserrat", sans-serif;
+  color:#303030;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 14px 0 6px 10px;
+}
+.tmp5 input[type="text"], select{
+  border: solid 1px #67cfe3;
+  font-family: "Montserrat", sans-serif;
+  color:#808080;
+  font-size: 18px;
+  font-weight: 300;
+  width: 100%;
+  padding: 10px;
+}
 /*fin*/
 
 /******************************************************************************/
@@ -2485,6 +2528,17 @@ canvas:hover {
   width: 25% !important;
  /* margin: 4px 0%!important;*/
 }
+
+.size-img  + label {
+  width: 90%;
+  height: 220px;
+}
+.icono-edit{
+  font-size: 3em;
+  padding-top: 50px;
+  padding-bottom: 2%;
+}
+
   /**/
 }
 @media only screen and (min-width:1200px) and (max-width:1300px){
@@ -2546,20 +2600,12 @@ canvas:hover {
     font-size: .8em;
   }
   /*********est**/
-/*.ancho-completo {
-    width: 80% !important;
-    margin: 4px 11% !important;
-}
-.sinpadding-lic {
-    padding: 0px !important;
-}*/
+
 .ancho-completo2{
   width: 27% !important;
-  /*margin: 6px 5% !important;*/
 }
 .ancho-completo3{
   width: 28% !important;
- /* margin: 4px 0%!important;*/
 }
 
 .btn-tamplate-list {
@@ -2567,6 +2613,24 @@ canvas:hover {
     height: 35px;
     margin: 0px 5px;
 }
+
+.size-img  + label {
+  width: 90%;
+  height: 220px;
+}
+.icono-edit{
+  font-size: 3em;
+  padding-top: 50px;
+  padding-bottom: 2%;
+}
+.label-edit2 {
+    width: 100% !important;
+    height: 157px !important;
+}
+.icono-edit2{
+  padding-top: 37px;
+}
+
 /*********/
 }
 @media only screen and (min-width:1024px) and (max-width:1200px){
@@ -2807,9 +2871,19 @@ canvas:hover {
   width: 100%;
   margin: 1% 0;
 }
-.size-img + label {
-  width: 100%;
-  height: 145px;
+.size-img  + label {
+  width: 90%;
+  height: 220px;
+}
+.label-edit2 {
+  width: 100% !important;
+  height: 208px !important;
+}
+
+.icono-edit{
+  font-size: 3em;
+  padding-top: 50px;
+  padding-bottom: 2%;
 }
 .size-modal {
     width: 50%;
@@ -3531,9 +3605,23 @@ canvas:hover {
 }
 /*Est*/
 @media only screen and (min-width:600px) and (max-width:992px){
-.size-img + label {
-    width: 100%;
-    height: 100px;
+.size-img  + label {
+  width: 90%;
+  height: 140px;
+}
+
+.label-edit2 {
+    width: 100% !important;
+    height: 140px !important;
+}
+.licitacion-margin-lef{
+  margin-left: 13px;
+}
+
+.icono-edit{
+  font-size: 3em;
+  padding-top: 20px;
+  padding-bottom: 2%;
 }
 
 .sep-media-edit{
@@ -3639,8 +3727,18 @@ canvas:hover {
 /**/
   .icono-edit {
     font-size: 3em;
-    padding-top: 4%;
+    padding-top: 60px;
     padding-bottom: 2%;
+}
+
+.size-img + label {
+  width: 100%;
+  height: 230px;
+}
+
+.label-edit2 {
+  width: 100% !important;
+  height: 230px !important;
 }
 
 .campos-conf input[type="text"] {
@@ -3685,16 +3783,6 @@ canvas:hover {
   font-size: 14px;
 }
 
-.size-img + label {
-  width: 100%;
-  height: 120px;
-}
-
-.label-edit {
-  /*position: absolute;
-  top: -47px;
-  left: 30px;*/
-}
 .aumento-2 {
   margin-top: 6%;
 }
@@ -3777,47 +3865,54 @@ canvas:hover {
     width: 70% !important;
     margin-left: 15% !important;
 }
-  .ancho-size{
-      width: 70% !important;
-      margin-bottom: 15px;
-      margin-left: 15% !important;
-  }
-  .prev-next1 {
-    font-size: 1em !important;
-    text-align: center !important;
-    padding-left: 3px !important;
-  }
-  .prev-next {
-    font-size: 1em !important;
-    text-align: center !important;
+.ancho-size{
+    width: 70% !important;
+    margin-bottom: 15px;
+    margin-left: 15% !important;
+}
+.prev-next1 {
+  font-size: 1em !important;
+  text-align: center !important;
+  padding-left: 3px !important;
+}
+.prev-next1 img{
+  display: none;
+}
+.prev-next {
+  font-size: 1em !important;
+  text-align: center !important;
+}
+.prev-next img{
+  display: none;
 }
   .boton-usuario {
     width: 100% !important;
 }
-  .inv-right{
-    padding-left: 15px !important;
-  }
-  .inv-margin{
-    margin-left: 20px !important;
-  }
-  .boton-invitados1 {
-    width: 80% !important;
-    margin-left: 10% !important;
-    margin-top: 40px !important;
-  }
-  .cen{
-    text-align: left !important;
-  }
-  .style-detalle {
-      margin: 100px 50px 0;
-  }
-  .editar {
-    width: 70%;
-    margin-left: 15%;
+
+.inv-right{
+  padding-left: 15px !important;
 }
-  .boton-licitacion {
-    width: 46% !important;
-   /* margin-left: 15%;*/
+.inv-margin{
+  margin-left: 20px !important;
+}
+.boton-invitados1 {
+  width: 80% !important;
+  margin-left: 10% !important;
+  margin-top: 40px !important;
+}
+.cen{
+  text-align: left !important;
+}
+.style-detalle {
+    margin: 100px 50px 0;
+}
+.editar {
+  width: 70%;
+  margin-left: 15%;
+}
+.boton-licitacion {
+  width: 46% !important;
+ /* margin-left: 15%;*/
 }
 
 
@@ -3842,6 +3937,7 @@ canvas:hover {
   }
   .comprar1 {
     margin-top: 30px;
+    font-size: 13px;
 }
   .move-usuario{
     margin-top: 5px;
@@ -3922,7 +4018,7 @@ canvas:hover {
   display: none;
 }
 .icono-edit {
-  padding-top: 4%;
+  padding-top:20px;
   padding-bottom: 2%;
 }
 
@@ -4003,6 +4099,11 @@ canvas:hover {
   padding: 0px;
 }
 
+.label-edit2 {
+  width: 100% !important;
+  height: 121px !important;
+}
+
 .titulo-editor p {
   font-size: 1em;
 }strong
@@ -4067,8 +4168,12 @@ label {
   text-align: left;
   margin: 0 0 0 18px;
 }
-
-
+.center-btn-licitacion{
+  text-align: center;
+}
+.separacion-btn-comparar{
+  margin-bottom: 12px;
+}
 /*template*/
 .no-padding-template ul{
   padding: 0px !important;
@@ -4154,6 +4259,11 @@ label {
 }
 .volando-derecha {
   float: initial;
+}
+
+.editor-web-btons{
+  width: 100%;
+  margin: 0 0 5px 0;
 }
 /*fin*/
 }

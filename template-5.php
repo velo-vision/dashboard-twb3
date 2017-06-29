@@ -41,37 +41,56 @@
           
           <!-- /.box-header -->
           <div class="box-body">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titulo-tmp-5">
               <p>EDITAR DETALLES</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-              
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 vistas">
+                <ul class="vistas">
+                  <li>
+                    <div>
+                      <img src="images/template/frente.jpg">
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <img src="images/template/vuelta.jpg">
+                    </div>
+                  </li>
+                </ul>              
               </div>
               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                 <form>
-                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                  <p>Nombre de TEmplete</p>
+                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tmp5">
+                  <p>Nombre de Templete</p>
                     <input type="text" name="" placeholder="Lorem ipsum">
                   </div>
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tmp5">
                   <p>Categoría</p>
                     <select>
                       <option>Clasica</option>
+                      <option>Clasica</option>
                     </select>
                   </div>
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tmp5">
                   <p>Precio</p>
                     <input type="text" name="" placeholder="$ 0.00">
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                      
-                    </div>
+                    <div class=" centro title-temp margin15 no-padding-template">
+                      <div class=" centro aumento-template1 no-padding-template display2">
+                        <a data-toggle="modal" data-target="#publicar" data-whatever="@mdo">
+                          <button type="submit" class="btn btn-default icon-menssage btn-tamplate-list"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Publicar</button>
+                        </a>
+                         <a data-toggle="modal" data-target="#delete" data-whatever="@mdo">
+                          <button type="submit" class="btn btn-default icon-menssage btn-tamplate-list"><i class="fa fa-trash-o" aria-hidden="true"></i> Eliminar</button>
+                        </a>
+                      </div>               
+                     </div>
                   </div>
                 </form>
               </div>
-            </div>
+            </div>            
           </div>
           <!-- /.box-body -->
           <div class="box-footer">
@@ -81,7 +100,7 @@
               <span>Anterior</span>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-4 centers nomargin">
-              <a href="">
+              <a href="template-lista.php">
                 <p class="usuario-volver" style="margin: 0 auto;">
                   <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a Licitaciones
                 </p>
