@@ -2406,7 +2406,7 @@ canvas:hover {
   cursor: crosshair;
 }
 
-/*tempalte 5*/
+/*template 5*/
 .titulo-tmp-5 p{
   text-align: center;
   font-size: 25px;
@@ -2425,6 +2425,9 @@ canvas:hover {
   display: inline-block;
   width: 45%;
   margin: 0 9px;
+}
+.vistas li div img {
+  width: 100%;
 }
 .tmp5 p{
   font-family: "Montserrat", sans-serif;
@@ -3201,8 +3204,19 @@ canvas:hover {
 .text-alternativo {
   padding: 20% 22%;
 }
-
-
+/*template 5*/
+.vistas li {
+  display: inline-block;
+  width: 57%;
+  margin: 10px 25%;
+}
+.tmp5 p {
+  font-size: 14px;
+}
+.tmp5 input[type="text"], select {
+  font-size: 14px;  
+  padding: 4px 0 4px 10px;
+}
 
 /***********************************************************************/
 }
@@ -4271,6 +4285,25 @@ label {
   width: 100%;
   margin: 0 0 5px 0;
 }
+/*template 5*/
+.titulo-tmp-5 p {
+  font-size: 15px;
+}
+.padding-tmp-5{
+  padding: 0px !important;
+}
+.vistas li {
+  display: inline-block;
+  width: 42%;
+  margin: 0 7px;
+}
+.tmp5 p {
+  font-size: 12px;
+}
+.tmp5 input[type="text"], select {
+  font-size: 12px;
+}
+
 /*fin*/
 }
 

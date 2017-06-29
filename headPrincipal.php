@@ -65,7 +65,7 @@
 
     <header class="main-header">
       <!-- Logo -->
-      <a href="perfil.php" class="logo hidden-xs">
+      <a href="reportes.php" class="logo hidden-xs">
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini"><img width="30px;" src="images/recursos/twb.png" alt="The Wedding Board"></span>
         <!-- logo for regular state and mobile devices -->
@@ -101,7 +101,7 @@
               <ul class="dropdown-menu drop-perfil hidden-xs" style="box-shadow:none;">
                 <li>
                   <div>
-                    <a href="perfil.php">Usuario</a>
+                    <a href="configuracion1.php">Configuraciones</a>
                   </div>
                 </li>
                 <li>
