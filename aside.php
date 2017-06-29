@@ -1,4 +1,4 @@
-<aside class="main-sidebar">
+<aside class="main-sidebar pad-sidebar">
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
       <!--BOTONES PERFIL-->
@@ -10,34 +10,23 @@
         </div>
       </div>
       <!--BOTONES PERFIL-->
-      <!-- Sidebar user panel -->
-      <div class="user-panel">
-        <div class="pull-left image">
-          <img src="images/dashboard/usuaria.png" class="user-image" alt="The Wedding Board" style="visibility:hidden;">
-        </div>
-        <div class="pull-left info info-center">
-          <p>
-            <strong>Sophie Dueso</strong><br>
-            <small>Administrador</small>
-          </p>
-        </div>
-      </div>
+
       <!--BOTONES PERFIL-->
       <div class="user-panel centers">
         <div class="cols">
+          <p class="text-sophie">Sophie Dueso</p>
+          <span class="sophie-span">Administrador</span>
           <a href="index.php">
-            <p class="boton-perfil">
+            <p class="boton-sophie">
               Salir
             </p>
           </a>
         </div>
       </div>
       <!--BOTONES PERFIL-->
-      <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
         <li class="treeview">
           <a href="configuracion1.php">
-            <!-- <i class="fa fa-envelope" aria-hidden="true"></i> -->
             <i class="fa fa-cogs" aria-hidden="true"></i><span>Configuración</span>
           </a>
         </li>
@@ -56,24 +45,12 @@
           <ul class="treeview-menu">
            <li class=""><a href="licitaciones1.php">Principal</a></li>
             <li class=""><a href="licitaciones-all.php">Archivadas</a></li>
-            <!-- <li class="">
-              <a href="">
-                <span class="pull-right-container">
-                  <i class="fa fa-angle-left pull-right"></i>
-                </span>
-                 Archivadas</a>
-              <ul class="treeview-menu">
-                <li class="active no-border"><a href="licitacionesArchivadas.php">Lorem Ipsum</a></li>
-              </ul>
-            </li> -->
           </ul>
         </li>
-
-
-
         <li class="treeview">
-          <a href="#!">
-           <i class="fa fa-pencil-square-o" aria-hidden="true"></i><span>Mensajes</span> <span class="number-mensagges mover-bg">3</span>
+          <a href="mensajes-1.php">
+            <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+            <span>Mensajes<span class="number-mensagges mover-bg">3</span></span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
@@ -103,7 +80,6 @@
             <span>Reportes</span>
           </a>
         </li>
-
         <li class="treeview">
           <a href="#!">
            <i class="fa fa-file-code-o" aria-hidden="true"></i><span>Templates</span>
@@ -117,7 +93,6 @@
             <li class=""><a href="template-lista.php">Gestor</a></li>
           </ul>
         </li>
-
         <li class="treeview">
           <a href="#!">
             <i class="fa fa-user" aria-hidden="true"></i> <span>Usuarios</span>

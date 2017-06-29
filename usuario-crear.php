@@ -38,7 +38,7 @@
                   </p>
                 </div>
                 <div class="col-sm-5 col-offset-sm-3 nomargin nomargin">
-                  <input type="text" class="form-control" id="exampleInputName1" placeholder="">
+                  <input type="text" class="form-control13" id="exampleInputName1" placeholder="">
                 </div>
               </div>
              <div class="form-group col-sm-8 col-sm-offset-2">
@@ -48,7 +48,7 @@
                  </p>
                </div>
                <div class="col-sm-5 col-offset-sm-3 nomargin nomargin">
-                 <input type="text" class="form-control" id="exampleInputName2" placeholder="">
+                 <input type="text" class="form-control13" id="exampleInputName2" placeholder="">
                </div>
              </div>
              <div class="form-group col-sm-8 col-sm-offset-2">
@@ -58,7 +58,7 @@
                  </p>
                </div>
                <div class="col-sm-5 col-offset-sm-3 nomargin nomargin">
-                 <input type="text" class="form-control" id="exampleInputName2" placeholder="">
+                 <input type="text" class="form-control13" id="exampleInputName2" placeholder="">
                </div>
              </div>
              <div class="form-group col-xs-8 col-xs-offset-2 col-sm-9 col-sm-offset-2">
