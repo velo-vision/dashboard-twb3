@@ -60,25 +60,25 @@
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 padin-cero boton-buscar">
               <p class="nombre-prov">Categoria:</p>
             </div>
-            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-7 centro separacion-template-selects1">
-              <select class="select-template2">
-                <option value="#">Decoracíon y Ambientaíon</option>
-                <option value="#">#</option>
-                <option value="#">#</option>
-                <option value="#">#</option>
-              </select>
+            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-7 formulario1 centro separacion-template-selects1">
+                <select name="categorias" multiple="">
+                  <option>Decoración y Ambientación</option>
+                  <option>opcion 1</option>
+                  <option>opcion 2</option>
+                  <option>opcion 3</option>
+                </select>
             </div>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 prove-20">
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 padin-cero boton-buscar">
               <p class="nombre-prov">Sub Categoria:</p>
             </div>
-            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-7 centro separacion-template-selects1">
-              <select class="select-template2">
-                <option value="#">Mobiliario</option>
-                <option value="#">#</option>
-                <option value="#">#</option>
-                <option value="#">#</option>
+            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-7 formulario1 centro separacion-template-selects1">
+              <select name="categorias" multiple="">
+                <option>Mobiliario</option>
+                <option>opcion 1</option>
+                <option>opcion 2</option>
+                <option>opcion 3</option>
               </select>
             </div>
           </div>
@@ -139,7 +139,7 @@
             </div>
           </div>
         </form>
-        <div class="col-xs-12 col-sm-10 col-sm-offset-2 col-md-10 col-md-offset-2 col-lg-6 col-lg-offset-3 prove-40 pad-0">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-2 col-md-10 col-md-offset-2 col-lg-6 col-lg-offset-3 prove-40 pad-0 bottom-editar">
           <div class="col-md-6 col-sm-6 col-xs-6 guardar-right nomargin">
             <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo">
               <p class="btn-actualizar" style="margin:0 auto;">

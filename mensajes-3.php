@@ -54,7 +54,7 @@ include("head-3.php");
             <div class="mailbox-read-message no-padding">
               <p>Hello The Wedding</p>
 
-              <p>
+              <p class="justificado">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
                 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
@@ -62,19 +62,19 @@ include("head-3.php");
                 imperdiet a, venenatis vitae, justo.
               </p>
 
-              <p>
+              <p class="justificado">
                 Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
                 Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
                 consequat vitae, eleifend ac, enim.
               </p>
 
-              <p>
+              <p class="justificado">
                 Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
                 Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
                 Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
               </p>
 
-              <p>
+              <p class="justificado">
                 Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque
                 sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante
                 tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
@@ -85,7 +85,7 @@ include("head-3.php");
                   <textarea id="compose-textarea" class="form-control altura-text-area">
                     <!-- <h1><u>Heading Of Message</u></h1>
                     <h4>Subheading</h4> -->
-                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain                      
+                    <p class="justificado">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain                      
                       pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise,
                       except to obtain some advantage from it? But who has any right to find fault with a man who
                       chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that
@@ -107,7 +107,7 @@ include("head-3.php");
           <div class="box-footer">
             <div class="pull-right">
               <!-- <button type="button" class="btn btn-default"><i class="fa fa-pencil"></i> Draft</button> -->
-              <a href="mensajes-5.php"><button type="submit" class="btn btn-primary">Enviar</button></a>
+              <a href="mensajes-5.php"><button type="submit" class="btn btn-primary btn-enviar3">Enviar</button></a>
             </div>
             <button type="reset" class="btn btn-default"><i class="fa fa-times"></i> Descartar</button>
           </div>

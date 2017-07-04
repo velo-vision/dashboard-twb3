@@ -15,7 +15,7 @@
         <p id="subir">Licitaciones</p>
         <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
       </div>
-      <div class="col-md-8 col-md-offset-2 top-20">
+      <div class="col-xs-12 col-md-8 col-md-offset-2 top-20 padin-cero">
         <div class="box box-primary">
           <!-- /.box-header -->
           <div class="box-body">
@@ -86,19 +86,19 @@
                   <!-- Respuestas -->
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lineas-respuesta">
                     <div class="col-xs-12 col-sm-6 col-md-16 col-lg-6 padin-cero lici-margin">
-                      <p class="asunto-licitacion"><strong>Respuestas:</strong> 3</p>
+                      <p class="asunto-licitacion"><strong class="licitacion-margin-lef">Respuestas:</strong> 3</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-16 col-lg-6">                                           
+                    <div class="col-xs-12 col-sm-6 col-md-16 col-lg-6 center-btn-licitacion separacion-btn-comparar">
                       <a href="comparar-licitaciones.php"><span class="boton-comprar"><img src="images/recursos/comprar.png" alt="The Wedding Board"> comparar</span></a>                     
                     </div>
                   </div>
 
                   <?php  for ($i=0; $i < 4; $i++) { ?>
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 aumento2">
-                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 padin-cero">
-                      <p class="asunto-licitacion asunto-center"><strong>Proveedor:</strong> Lorem ipsum </p>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 aumento2 padin-cero">
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 padin-cero">
+                      <p class="asunto-licitacion asunto-center"><strong class="licitacion-margin-lef">Proveedor:</strong> Lorem ipsum </p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 center-btn-licitacion padin-cero">
                     <a href="#!"><span class="col-xs-12 boton-comprar comprar1 btn-provedor"><img src="images/recursos/proveedor.png" alt="The Wedding Board"> Perfil proveedor</span></a>
                     </div>
                   </div>
@@ -163,13 +163,13 @@
 
 
                   
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 separacion-botnes-link">
-                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 derecha-link1">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sinpadding-lic separacion-botnes-link">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 derecha-link1 sinpadding-lic">
                       <a href="licitaciones-2.php">
                         <button type="submit" class="btn btn-default icon-menssage"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Ir a licitaciones</button>
                       </a>
                     </div>
-                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
                       <a href="#subir">
                         <button type="submit" class="btn btn-default icon-menssage"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i> Subir a licitación</button>
                       </a>

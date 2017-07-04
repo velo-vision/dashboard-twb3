@@ -106,7 +106,7 @@
                             
                             <input type="file" name="file-2" id="file-2" class="size-img inputfile " data-multiple-caption="{count} archivos seleccionados" multiple />
                               <label for="file-1" class="label-edit label-edit2">                
-                                <span class="iborrainputfile"><i class="fa fa-picture-o icono-edit" aria-hidden="true"></i><br>VISTA PREVIA</span>
+                                <span class="iborrainputfile"><i class="fa fa-picture-o icono-edit icono-edit2" aria-hidden="true"></i><br>VISTA PREVIA</span>
                               
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 centrado webpadding-no separacion-btnfile">
@@ -130,7 +130,7 @@
                             
                             <input type="file" name="file-2" id="file-2" class="size-img inputfile " data-multiple-caption="{count} archivos seleccionados" multiple />
                               <label for="file-1" class="label-edit label-edit2">                
-                                <span class="iborrainputfile"><i class="fa fa-picture-o icono-edit" aria-hidden="true"></i><br>VISTA PREVIA</span>
+                                <span class="iborrainputfile"><i class="fa fa-picture-o icono-edit icono-edit2" aria-hidden="true"></i><br>VISTA PREVIA</span>
                               
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 centrado webpadding-no separacion-btnfile">
@@ -156,7 +156,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 centrado webpadding-no separacion-btnfile ">                            
                             <input type="file" name="file-2" id="file-2" class="size-img inputfile " data-multiple-caption="{count} archivos seleccionados" multiple />
                               <label for="file-1" class="label-edit label-edit2">                
-                                <span class="iborrainputfile"><i class="fa fa-picture-o icono-edit" aria-hidden="true"></i><br>VISTA PREVIA</span>
+                                <span class="iborrainputfile"><i class="fa fa-picture-o icono-edit icono-edit2" aria-hidden="true"></i><br>VISTA PREVIA</span>
                               
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 centrado webpadding-no separacion-btnfile media-servicios">
@@ -179,7 +179,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 centrado webpadding-no separacion-btnfile">                            
                             <input type="file" name="file-2" id="file-2" class="size-img inputfile " data-multiple-caption="{count} archivos seleccionados" multiple />
                               <label for="file-1" class="label-edit label-edit2">                
-                                <span class="iborrainputfile"><i class="fa fa-picture-o icono-edit" aria-hidden="true"></i><br>VISTA PREVIA</span>                              
+                                <span class="iborrainputfile"><i class="fa fa-picture-o icono-edit icono-edit2" aria-hidden="true"></i><br>VISTA PREVIA</span>                              
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 centrado webpadding-no separacion-btnfile media-servicios">
                      <input type="file" name="servicos4" id="file-0c" class="inputfile" data-multiple-caption="{count} archivos seleccionados" multiple />
@@ -320,11 +320,11 @@
              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 linea-ed  aumento4"></div>
              <!-- botones -->
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 aumento4">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 derecha-btn bton-centro-edit">
-                  <button type="submit" class="btn-guardar">Publicar</button>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 derecha-btn bton-centro-edit">
+                  <button type="submit" class="btn-guardar editor-web-btons">Publicar</button>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bton-centro-edit">
-                 <button type="submit" class="btn btn-default btn-redes-sociales btn-gardar-edit">Guardar</button>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 bton-centro-edit">
+                 <button type="submit" class="btn btn-default btn-redes-sociales btn-gardar-edit editor-web-btons">Guardar</button>
                 </div>                
               </div>
           </form>

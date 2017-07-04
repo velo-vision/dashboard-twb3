@@ -59,7 +59,7 @@
           <div class="box-footer">
             <div class="pull-right">
               <!-- <button type="button" class="btn btn-default"><i class="fa fa-pencil"></i> Draft</button> -->
-              <button type="submit" class="btn btn-primary"><i class="fa fa-envelope-o" style="margin-right:5px;"></i>Enviar</button>
+              <button type="submit" class="btn btn-primary btn-enviar3"><i class="fa fa-envelope-o" style="margin-right:5px;"></i>Enviar</button>
             </div>
             <button type="reset" class="btn btn-default"><i class="fa fa-times"></i> Descarte</button>
           </div>
