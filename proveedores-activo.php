@@ -103,7 +103,7 @@
           <div class="col-sm-11 col-md-10 col-lg-12 centrado nomargin">
             <p class="text-detalle1">DETALLES</p>
           </div>
-          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span">
+          <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span">
             <div class="col-sm-6 col-md-6 col-lg-6">
               <p>Nombre Proveedor: <span> JL Event Planner</span></p>
             </div>
@@ -111,7 +111,7 @@
                 <p>Mail: <span>jl.event.planner@mailtest.mx</span></p>
             </div>
           </div>
-          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span">
+          <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span">
             <div class=" col-sm-6 col-md-6">
               <p>Categoria: <span>Recepción</span></p>
             </div>
@@ -119,7 +119,7 @@
                 <p>Sub-Categoria: <span>Haciendas</span></p>
             </div>
           </div>
-          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span">
+          <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span">
             <div class="col-sm-6 col-md-6 col-lg-l6">
                 <p>Teléfono: <span>55 20 86 54 74</span></p>
             </div>
@@ -127,7 +127,7 @@
                 <p>Localidad: <span>Ciudad de México</span></p>
             </div>
           </div>
-          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span">
+          <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span">
             <div class=" col-sm-6 col-md-6">
               <p>Membresía: <span>Tipo A</span></p>
             </div>
@@ -135,7 +135,7 @@
                 <p>Miembro desde: <span>25 abril 2017</span></p>
             </div>
           </div>
-          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span bottom-evento">
+          <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span bottom-evento">
             <div class="col-sm-6 col-md-6">
               <p>Vencimiento: <span>25 abril 2018</span></p>
             </div>
@@ -156,7 +156,7 @@
           <div class="col-sm-11 col-md-10 col-lg-12 centrado nomargin">
             <p class="text-detalle1">ESTADÍSTICAS</p>
           </div>
-          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span">
+          <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span">
             <div class="col-sm-6 col-md-6 col-lg-6">
               <p>Tiempo de respuesta: <span>1 Hora</span></p>
             </div>
@@ -164,7 +164,7 @@
                 <p>Mensajes recibidos: <span>25</span></p>
             </div>
           </div>
-          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span">
+          <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span">
             <div class=" col-sm-6 col-md-6">
               <p>Número de visitas: <span>25</span></p>
             </div>
@@ -172,7 +172,7 @@
                 <p>Licitaciones: <span>10</span></p>
             </div>
           </div>
-          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span">
+          <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span">
             <div class="col-sm-6 col-md-6">
               <p>Cotizaciones envíadas: <span>30</span></p>
             </div>
@@ -180,7 +180,7 @@
                 <p>Licitaciones ganadas: <span>3</span></p>
             </div>
           </div>
-          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span bottom-evento">
+          <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span bottom-evento">
             <div class="col-sm-6 col-md-6">
               <p>Mensajes envíados: <span>5</span></p>
             </div>
