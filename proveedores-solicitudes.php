@@ -11,7 +11,7 @@
     <div class="container-fluid nomargin">
       <div class="col-md-6 col-md-offset-3 col-xs-12 titulo-perfil">
         <p>
-          PROVEEDORES
+          LICITACIONES
         </p>
         <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
       </div>

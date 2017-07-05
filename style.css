@@ -2124,7 +2124,7 @@ label[for=upload] input{ display:none }
   font-weight: 300;
 }
 .formulario{
-  margin:0;
+  margin: 3% 0;
 }
 
 .formulario span {
@@ -3299,6 +3299,10 @@ canvas:hover {
   .marg{
     padding-top: 15px !important;
   }
+  .margin-volver {
+    margin-top: 15px !important;
+    margin-bottom: 5px !important;
+  }
   .estre-center{
     text-align: center;
   }
@@ -3369,6 +3373,13 @@ canvas:hover {
 .det{
   margin-top: 25px !important;
 }
+  .right-center p{
+    text-align: left !important;
+  }
+  /*.margin-volver{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }*/
   .margin-no{
     margin: 0px;
     padding: 0px;
@@ -3692,11 +3703,11 @@ canvas:hover {
     margin-bottom: 14px !important;
 }
   .pro {
-    margin-bottom: 0px !important;
+    margin-bottom: 10px !important;
 }
   .usuario5 {
     width: 300px !important;
-    margin-top: 0px !important;
+    margin-top: 20px !important;
 }
   .usuario {
     width: 60% !important;
@@ -3889,7 +3900,7 @@ canvas:hover {
     margin-bottom: 14px !important;
 }
   .pro {
-    margin-bottom: 0px !important;
+    margin-bottom: 10px !important;
 }
   .usuario5 {
     width: 250px;
@@ -5462,7 +5473,7 @@ label {
 .input-form, .form-control {
     border-radius: 0;
     box-shadow: none;
-    border-color: #bfbfbf !important;
+    border-color: #bfbfbf;
 }
 .nombre-prov{
   text-align: right;
@@ -5614,7 +5625,7 @@ a {
 /*Form-usuarios*/
 .form-control13 {
     display: block;
-    width: 225px;
+    width: 180px;
     height: 34px;
     padding: 6px 12px;
     font-size: 14px;
@@ -5623,6 +5634,7 @@ a {
     background-color: #fff;
     background-image: none;
     border: 1px solid #ccc;
+    border-radius: 4px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;

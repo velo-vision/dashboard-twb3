@@ -61,7 +61,7 @@
                  <input type="text" class="form-control13 center-input" id="exampleInputName2" placeholder="">
                </div>
              </div>
-             <div class="form-group col-xs-8 col-xs-offset-2 col-sm-9 col-sm-offset-2 pad-admin1">
+             <div class="form-group col-xs-8 col-xs-offset-2 col-sm-9 col-sm-offset-2">
                <div class="col-xs-5 col-sm-5 col-offset-sm-3 usuario-text nomargin float-right">
                  <p>
                   <strong>Permisos:&nbsp; </strong>
@@ -76,7 +76,7 @@
                      <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Colaborador</a>
                    </div>
                  </div>
-             </div>
+             </div>             
              <div class="form-group row">
                <div class="col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3">
                  <!-- <a href="index.html" target="_blank"><button type="submit" class="btn boton-registro hvr-rectangle-out">INGRESA</button></a> -->
