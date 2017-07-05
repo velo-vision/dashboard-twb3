@@ -28,7 +28,7 @@
                     </div>                  
                   </div>
                    <div class="col-xs-12 col-md-12  izquierda">
-                     <div class="col-xs-12 col-md-3 no-padding">
+                     <div class="col-xs-12 col-md-4 no-padding">
                        <p class="nomargin asunto-licitacion1"><strong>Presupuesto:</strong>$50,000</p>
                        <p class="nomargin asunto-licitacion1"><strong>Categoría:</strong> Lorem ipsum </p>
                      </div>
