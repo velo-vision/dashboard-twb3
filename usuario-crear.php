@@ -31,34 +31,34 @@
           <div class="col-md-10 col-md-offset-1 col-xs-12 centers linea-text">
             <p class="text-crear">CREAR NUEVA CUENTA</p>
             <form>
-              <div class="form-group col-sm-8 col-sm-offset-2 pad-admin">
+              <div class="form-group col-sm-10 col-sm-offset-1 col-md-10 col-lg-11 pad-admin">
                 <div class="col-sm-4 usuario-text right-center">
                   <p>
                    <strong>Nombre:</strong>
                   </p>
                 </div>
                 <div class="col-sm-5 col-offset-sm-3 nomargin nomargin">
-                  <input type="text" class="form-control13" id="exampleInputName1" placeholder="">
+                  <input type="text" class="form-control13 center-input" id="exampleInputName1" placeholder="">
                 </div>
               </div>
-             <div class="form-group col-sm-8 col-sm-offset-2 pad-admin">
+             <div class="form-group col-sm-10 col-sm-offset-1 col-md-10 col-lg-11 pad-admin">
                <div class="col-sm-4 usuario-text right-center">
                  <p>
                   <strong>Mail:</strong>
                  </p>
                </div>
                <div class="col-sm-5 col-offset-sm-3 nomargin nomargin">
-                 <input type="text" class="form-control13" id="exampleInputName2" placeholder="">
+                 <input type="text" class="form-control13 center-input" id="exampleInputName2" placeholder="">
                </div>
              </div>
-             <div class="form-group col-sm-8 col-sm-offset-2 pad-admin">
+             <div class="form-group col-sm-10 col-sm-offset-1 col-md-10 col-lg-11 pad-admin">
                <div class="col-sm-4 usuario-text right-center">
                  <p>
                   <strong>Telefono:</strong>
                  </p>
                </div>
                <div class="col-sm-5 col-offset-sm-3 nomargin nomargin">
-                 <input type="text" class="form-control13" id="exampleInputName2" placeholder="">
+                 <input type="text" class="form-control13 center-input" id="exampleInputName2" placeholder="">
                </div>
              </div>
              <div class="form-group col-xs-8 col-xs-offset-2 col-sm-9 col-sm-offset-2 pad-admin1">
