@@ -92,7 +92,7 @@
           </div>
         </div>
         <div class="form-group row top-50">
-          <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+          <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 pad-calificacion">
               <div class="pull-right pag-center pag botton-pag">
                 1-50/200
                 <div class="btn-group">

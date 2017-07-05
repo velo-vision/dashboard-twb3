@@ -74,13 +74,13 @@
       <!-- /.col -->
       <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 linea-config"></div>
 
-        <div class="col-sm-11 col-sm-offset-1 col-md-12 col-lg-10 col-lg-offset-1">
+        <div class="col-sm-11 col-sm-offset-1 col-md-12 col-lg-10 col-lg-offset-1 pad-usuario">
           <div class="col-sm-9 col-sm-offset-1 col-md-8 col-md-offset-1 col-lg-10 col-lg-offset-1 centrado">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <p class="text-detalle1 det">DETALLES</p>
             </div>
           </div>
-          <div class="col-sm-12 col-md-9 col-md-offset-1 col-lg-10 col-lg-offset-2 text-span">
+          <div class="col-sm-12 col-md-9 col-md-offset-1 col-lg-10 col-lg-offset-2 text-span pad-usuario">
             <div class="col-sm-6 col-md-6 col-lg-6">
               <p>Nombre: <span>María Amador</span></p>
             </div>
@@ -88,7 +88,7 @@
                 <p>Mail: <span>m.amador@mailtest.mx</span></p>
             </div>
           </div>
-          <div class="col-sm-12 col-md-9 col-md-offset-1 col-lg-10 col-lg-offset-2 text-span">
+          <div class="col-sm-12 col-md-9 col-md-offset-1 col-lg-10 col-lg-offset-2 text-span pad-usuario">
             <div class=" col-sm-6 col-md-6">
               <p>Miembro desde: <span>25 abril 2017</span></p>
             </div>
@@ -96,7 +96,7 @@
                 <p>Teléfono: <span>55 20 86 54 74</span></p>
             </div>
           </div>
-          <div class="col-sm-12 col-md-9 col-md-offset-1 col-lg-10 col-lg-offset-2 text-span bottom-evento">
+          <div class="col-sm-12 col-md-9 col-md-offset-1 col-lg-10 col-lg-offset-2 text-span bottom-evento pad-usuario">
             <div class="col-sm-6 col-md-6">
               <p>Fecha de evento: <span>25 Octubre 2017</span></p>
             </div>
@@ -113,11 +113,11 @@
 
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 linea-config"></div>
 
-        <div class="col-sm-11 col-sm-offset-1 col-md-12 col-lg-10 col-lg-offset-1 padin-cero-conf">
+        <div class="col-sm-11 col-sm-offset-1 col-md-12 col-lg-10 col-lg-offset-1 padin-cero-conf pad-usuario">
           <div class="col-sm-9 col-sm-offset-1 col-md-8 col-md-offset-1 col-lg-10 col-lg-offset-1 centrado">
             <p class="text-detalle1">ESTADÍSTICAS</p>
           </div>
-          <div class="col-sm-12 col-md-9 col-md-offset-1 col-lg-10 col-lg-offset-2 text-span">
+          <div class="col-sm-12 col-md-9 col-md-offset-1 col-lg-10 col-lg-offset-2 text-span pad-usuario">
             <div class="col-sm-6 col-md-6 col-lg-6">
               <p>Mensajes Enviados: <span>20</span></p>
             </div>
@@ -125,7 +125,7 @@
                 <p>Mensajes recibidos: <span>25</span></p>
             </div>
           </div>
-          <div class="col-sm-12 col-md-9 col-md-offset-1 col-lg-10 col-lg-offset-2 text-span">
+          <div class="col-sm-12 col-md-9 col-md-offset-1 col-lg-10 col-lg-offset-2 text-span pad-usuario">
             <div class=" col-sm-6 col-md-6">
               <p>Cotizaciones solicitadas: <span>25</span></p>
             </div>
@@ -133,7 +133,7 @@
                 <p>Invitaciones Creadas: <span>10</span></p>
             </div>
           </div>
-          <div class="col-sm-12 col-md-9 col-md-offset-1 col-lg-10 col-lg-offset-2 text-span">
+          <div class="col-sm-12 col-md-9 col-md-offset-1 col-lg-10 col-lg-offset-2 text-span pad-usuario">
             <div class="col-sm-6 col-md-6">
               <p>Mensajes Recibidos: <span>30</span></p>
             </div>
@@ -141,7 +141,7 @@
                 <p>Proveedores contactados: <span>3</span></p>
             </div>
           </div>
-          <div class="col-sm-12 col-md-9 col-md-offset-1 col-lg-10 col-lg-offset-2 text-span">
+          <div class="col-sm-12 col-md-9 col-md-offset-1 col-lg-10 col-lg-offset-2 text-span pad-usuario">
             <div class="col-sm-6 col-md-6">
               <p>Invitaciones Enviadas: <span>20</span></p>
             </div>
@@ -149,7 +149,7 @@
                 <p>Licitaciones Creadas: <span>3</span></p>
             </div>
           </div>
-          <div class="col-sm-12 col-md-9 col-md-offset-1 col-lg-10 col-lg-offset-2 text-span bottom-evento">
+          <div class="col-sm-12 col-md-9 col-md-offset-1 col-lg-10 col-lg-offset-2 text-span bottom-evento pad-usuario">
             <div class="col-sm-6 col-md-6">
               <p>Proveedores Añadidos: <span>5</span></p>
             </div>

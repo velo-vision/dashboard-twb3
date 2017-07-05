@@ -2500,6 +2500,9 @@ canvas:hover {
 }
 /**/
 @media only screen and (min-width:1300px) and (max-width:1500px){
+  .pad-usuario{
+    padding: 0px !important;
+  }
   .left-borra70 {
     margin-left: -45px !important;
 }
@@ -2545,6 +2548,9 @@ canvas:hover {
   /**/
 }
 @media only screen and (min-width:1200px) and (max-width:1300px){
+  .pad-usuario{
+    padding: 0px !important;
+  }
   .text-left{
     margin-left: -50px !important;
   }
@@ -2649,6 +2655,12 @@ canvas:hover {
 
 
 @media only screen and (min-width:992px) and (max-width:1200px){
+  .pad-calificacion{
+    padding: 0px !important;
+  }
+  .pad-usuario{
+    padding: 0px !important;
+  }
   .text-left{
     margin-left: -40px !important;
   }
@@ -3214,7 +3226,7 @@ canvas:hover {
   font-size: 14px;
 }
 .tmp5 input[type="text"], select {
-  font-size: 14px;  
+  font-size: 14px;
   padding: 4px 0 4px 10px;
 }
 
@@ -3364,10 +3376,10 @@ canvas:hover {
   .right-center p{
     text-align: left !important;
   }
-  .margin-volver{
+  /*.margin-volver{
     margin-top: 20px;
     margin-bottom: 10px;
-  }
+  }*/
   .margin-no{
     margin: 0px;
     padding: 0px;
@@ -3650,6 +3662,16 @@ canvas:hover {
 }
 /**/
 @media only screen and (min-width:600px) and (max-width:768px){
+  .right-center p{
+    text-align: center !important;
+  }
+  .center-input{
+    margin: 0 auto;
+  }
+  .margin-volver {
+    margin-top: 15px !important;
+    margin-bottom: 5px !important;
+  }
   .pad-sidebar{
     padding: 55px 0px !important;
   }
@@ -3839,6 +3861,9 @@ canvas:hover {
 
   /****************VELOSOFT FRONT-2************************/
 @media only screen and (min-width:200px) and (max-width:600px){
+  .right-center p{
+    text-align: left !important;
+  }
   .pad-sidebar{
     padding: 25px 0px !important;
   }
@@ -4426,7 +4451,7 @@ label {
     font-size: 1em;
     font-weight: 400;
     padding: 5px 0 !important;
-    width: 55%;
+    width: 140px;
     -webkit-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
     -moz-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
     -o-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
@@ -5635,4 +5660,3 @@ a {
 .bottom-editar{
   margin-bottom: 30px;
 }
-
