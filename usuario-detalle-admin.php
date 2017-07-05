@@ -69,7 +69,7 @@
                  </div>
              </div>
              <div class="form-group row top-50">
-               <div class="col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3">
+               <div class="col-md-6 col-md-offset-3 col-xs-6 col-xs-offset-3">
                  <a href="#!"><p type="submit" class="btn boton-usuario">Guardar</p></a>
                </div>
              </div>

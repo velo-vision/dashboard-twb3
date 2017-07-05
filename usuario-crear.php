@@ -76,9 +76,9 @@
                      <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Colaborador</a>
                    </div>
                  </div>
-             </div>             
+             </div>
              <div class="form-group row">
-               <div class="col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3">
+               <div class="col-md-6 col-md-offset-3 col-xs-6 col-xs-offset-3">
                  <!-- <a href="index.html" target="_blank"><button type="submit" class="btn boton-registro hvr-rectangle-out">INGRESA</button></a> -->
                  <a href="#!"><p type="submit" class="btn boton-usuario">Crear</p></a>
                </div>
