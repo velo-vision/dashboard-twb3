@@ -75,423 +75,65 @@
                 <section>
                   <div class="col-xs-12 col-md-12 sin-pa">
                       <!-- /.box-header -->
-                      <div class="box-body no-padding">
-                        <form action="">
-                        <!--Empieza cuadro-->
-                        <div class="col-md-12 col-sm-12 col-xs-12 confirma border-down">
-                          <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-                          </div>
-                          <div class="col-md-2 col-sm-3 col-xs-5">
-                            <p>
-                              <strong>NOMBRE</strong>
-                            </p>
-                          </div>
-                          <div class="col-md-2 col-sm-3 col-xs-3">
-                            <p>
-                              <strong>MAIL</strong>
-                            </p>
-                          </div>
-                          <div class="col-md-1 col-sm-2 col-xs-4">
-                            <p>
-                              <strong>PLATAFORMA</strong>
-                            </p>
-                          </div>
-                          <div class="col-md-3 col-sm-2 col-xs-4 centers margin-izq confirma">
-                            <p>
-                              <strong>MIEMBRO</strong>
-                            </p>
-                          </div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xs-12 dotted-down1 espacio-1">
-                          <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input type="checkbox" class="form-check-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-3 col-xs-6 nomargin nombre-oculto centrar">
-                            <span>Nombre</span>
-                            <input class="form-control no-border centrar nomargin" type="text" value="Armando Cantona" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-4 col-xs-6 nomargin email-oculto cen-twb">
-                            <span>Mail</span>
-                            <input class="form-control no-border nomargin cen-twb" type="text" value="loremipsum@mail.mx" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 centers confirmar-check nomargin">
-                            <div class="form-check">
-                              <label class="form-check-label check-cuadro">
-                                <span><br>Plataforma<br></span>
-                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="TWB" id="example-text-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 acompañante-oculto center nomargin">
-                            <div class="form-group centrar">
-                              <span><br>Miembros</span>
-                              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
-                                <input class="form-control no-border nomargin cen-twb pad-left" type="text" value="30-OCT-2017" id="example-text-input">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a href="usuario-detalle.php"><p class="btn-detalle">
-                               Detalles
-                            </p></a>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
-                            <a href="#"><p class="btn-eliminar">
-                               Eliminar
-                            </p></a>
-                          </div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xs-12 box-footer dotted-down1 espacio-usu">
-                          <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input type="checkbox" class="form-check-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-3 col-xs-6 nomargin nombre-oculto centrar">
-                            <span>Nombre</span>
-                            <input class="form-control no-border centrar nomargin" type="text" value="Mei stet latine" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-4 col-xs-6 nomargin email-oculto cen-twb">
-                            <span>Mail</span>
-                            <input class="form-control no-border nomargin cen-twb" type="text" value="loremipsum@mail.mx" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 centers confirmar-check nomargin">
-                            <div class="form-check">
-                              <label class="form-check-label check-cuadro">
-                                <span><br>Plataforma<br></span>
-                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="TWB" id="example-text-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 acompañante-oculto center nomargin">
-                            <div class="form-group centrar">
-                              <span><br>Miembros</span>
-                              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
-                                <input class="form-control no-border nomargin cen-twb pad-left" type="text" value="25-SEP-2017" id="example-text-input">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a href="usuario-detalle.php"><p class="btn-detalle">
-                               Detalles
-                            </p></a>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
-                            <a href="#"><p class="btn-eliminar">
-                               Eliminar
-                            </p></a>
-                          </div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xs-12 box-footer dotted-down1 espacio-usu">
-                          <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input type="checkbox" class="form-check-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-3 col-xs-6 nomargin nombre-oculto centrar">
-                            <span>Nombre</span>
-                            <input class="form-control no-border centrar nomargin" type="text" value="Ex munere" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-4 col-xs-6 nomargin email-oculto cen-twb">
-                            <span>Mail</span>
-                            <input class="form-control no-border nomargin cen-twb" type="text" value="loremipsum@mail.mx" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 centers confirmar-check nomargin">
-                            <div class="form-check">
-                              <label class="form-check-label check-cuadro">
-                                <span><br>Plataforma<br></span>
-                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="TWB" id="example-text-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 acompañante-oculto center nomargin">
-                            <div class="form-group centrar">
-                              <span><br>Miembros</span>
-                              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
-                                <input class="form-control no-border nomargin cen-twb pad-left" type="text" value="12-DIC-2017" id="example-text-input">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a href="usuario-detalle.php"><p class="btn-detalle">
-                               Detalles
-                            </p></a>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
-                            <a href="#"><p class="btn-eliminar">
-                               Eliminar
-                            </p></a>
-                          </div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xs-12 box-footer dotted-down1 espacio-usu">
-                          <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input type="checkbox" class="form-check-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-3 col-xs-6 nomargin nombre-oculto centrar">
-                            <span>Nombre</span>
-                            <input class="form-control no-border centrar nomargin" type="text" value="Ex munere" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-4 col-xs-6 nomargin email-oculto cen-twb">
-                            <span>Mail</span>
-                            <input class="form-control no-border nomargin cen-twb" type="text" value="loremipsum@mail.mx" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 centers confirmar-check nomargin">
-                            <div class="form-check">
-                              <label class="form-check-label check-cuadro">
-                                <span><br>Plataforma<br></span>
-                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="TWB" id="example-text-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 acompañante-oculto center nomargin">
-                            <div class="form-group centrar">
-                              <span><br>Miembros</span>
-                              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
-                                <input class="form-control no-border nomargin cen-twb pad-left" type="text" value="12-DIC-2017" id="example-text-input">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a href="usuario-detalle.php"><p class="btn-detalle">
-                               Detalles
-                            </p></a>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
-                            <a href="#"><p class="btn-eliminar">
-                               Eliminar
-                            </p></a>
-                          </div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xs-12 box-footer dotted-down1 espacio-usu">
-                          <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input type="checkbox" class="form-check-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-3 col-xs-6 nomargin nombre-oculto centrar">
-                            <span>Nombre</span>
-                            <input class="form-control no-border centrar nomargin" type="text" value="Ex munere" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-4 col-xs-6 nomargin email-oculto cen-twb">
-                            <span>Mail</span>
-                            <input class="form-control no-border nomargin cen-twb" type="text" value="loremipsum@mail.mx" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 centers confirmar-check nomargin">
-                            <div class="form-check">
-                              <label class="form-check-label check-cuadro">
-                                <span><br>Plataforma<br></span>
-                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="TWB" id="example-text-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 acompañante-oculto center nomargin">
-                            <div class="form-group centrar">
-                              <span><br>Miembros</span>
-                              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
-                                <input class="form-control no-border nomargin cen-twb pad-left" type="text" value="12-DIC-2017" id="example-text-input">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a href="usuario-detalle.php"><p class="btn-detalle">
-                               Detalles
-                            </p></a>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
-                            <a href="#"><p class="btn-eliminar">
-                               Eliminar
-                            </p></a>
-                          </div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xs-12 box-footer dotted-down1 espacio-usu">
-                          <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input type="checkbox" class="form-check-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-3 col-xs-6 nomargin nombre-oculto centrar">
-                            <span>Nombre</span>
-                            <input class="form-control no-border centrar nomargin" type="text" value="Ex munere" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-4 col-xs-6 nomargin email-oculto cen-twb">
-                            <span>Mail</span>
-                            <input class="form-control no-border nomargin cen-twb" type="text" value="loremipsum@mail.mx" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 centers confirmar-check nomargin">
-                            <div class="form-check">
-                              <label class="form-check-label check-cuadro">
-                                <span><br>Plataforma<br></span>
-                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="TWB" id="example-text-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 acompañante-oculto center nomargin">
-                            <div class="form-group centrar">
-                              <span><br>Miembros</span>
-                              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
-                                <input class="form-control no-border nomargin cen-twb pad-left" type="text" value="12-DIC-2017" id="example-text-input">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a href="usuario-detalle.php"><p class="btn-detalle">
-                               Detalles
-                            </p></a>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
-                            <a href="#"><p class="btn-eliminar">
-                               Eliminar
-                            </p></a>
-                          </div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xs-12 box-footer dotted-down1 espacio-usu">
-                          <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input type="checkbox" class="form-check-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-3 col-xs-6 nomargin nombre-oculto centrar">
-                            <span>Nombre</span>
-                            <input class="form-control no-border centrar nomargin" type="text" value="Ex munere" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-4 col-xs-6 nomargin email-oculto cen-twb">
-                            <span>Mail</span>
-                            <input class="form-control no-border nomargin cen-twb" type="text" value="loremipsum@mail.mx" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 centers confirmar-check nomargin">
-                            <div class="form-check">
-                              <label class="form-check-label check-cuadro">
-                                <span><br>Plataforma<br></span>
-                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="TWB" id="example-text-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 acompañante-oculto center nomargin">
-                            <div class="form-group centrar">
-                              <span><br>Miembros</span>
-                              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
-                                <input class="form-control no-border nomargin cen-twb pad-left" type="text" value="12-DIC-2017" id="example-text-input">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a href="usuario-detalle.php"><p class="btn-detalle">
-                               Detalles
-                            </p></a>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
-                            <a href="#"><p class="btn-eliminar">
-                               Eliminar
-                            </p></a>
-                          </div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xs-12 box-footer dotted-down1 espacio-usu">
-                          <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input type="checkbox" class="form-check-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-3 col-xs-6 nomargin nombre-oculto centrar">
-                            <span>Nombre</span>
-                            <input class="form-control no-border centrar nomargin" type="text" value="Ex munere" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-4 col-xs-6 nomargin email-oculto cen-twb">
-                            <span>Mail</span>
-                            <input class="form-control no-border nomargin cen-twb" type="text" value="loremipsum@mail.mx" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 centers confirmar-check nomargin">
-                            <div class="form-check">
-                              <label class="form-check-label check-cuadro">
-                                <span><br>Plataforma<br></span>
-                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="TWB" id="example-text-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 acompañante-oculto center nomargin">
-                            <div class="form-group centrar">
-                              <span><br>Miembros</span>
-                              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
-                                <input class="form-control no-border nomargin cen-twb pad-left" type="text" value="12-DIC-2017" id="example-text-input">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a href="usuario-detalle.php"><p class="btn-detalle">
-                               Detalles
-                            </p></a>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
-                            <a href="#"><p class="btn-eliminar">
-                               Eliminar
-                            </p></a>
-                          </div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xs-12 box-footer dotted-down1 espacio-usu">
-                          <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input type="checkbox" class="form-check-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-3 col-xs-6 nomargin nombre-oculto centrar">
-                            <span>Nombre</span>
-                            <input class="form-control no-border centrar nomargin" type="text" value="Ex munere" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-4 col-xs-6 nomargin email-oculto cen-twb">
-                            <span>Mail</span>
-                            <input class="form-control no-border nomargin cen-twb" type="text" value="loremipsum@mail.mx" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 centers confirmar-check nomargin">
-                            <div class="form-check">
-                              <label class="form-check-label check-cuadro">
-                                <span><br>Plataforma<br></span>
-                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="TWB" id="example-text-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 acompañante-oculto center nomargin">
-                            <div class="form-group centrar">
-                              <span><br>Miembros</span>
-                              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
-                                <input class="form-control no-border nomargin cen-twb pad-left" type="text" value="12-DIC-2017" id="example-text-input">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a href="usuario-detalle.php"><p class="btn-detalle">
-                               Detalles
-                            </p></a>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
-                            <a href="#"><p class="btn-eliminar">
-                               Eliminar
-                            </p></a>
-                          </div>
-                        </div>
-                        </form>
-                        <!-- /.mail-box-messages -->
-                      </div>
+                      <div class="table-responsive mailbox-messages">
+                      <table class="table table-hover tabla-completa">
+                         <tbody >
+                           <tr class="strong-td">
+                             <td><input type="checkbox" class="oculto-check"></td>
+                             <td>
+                               <strong>NOMBRE </strong>
+                             </td>
+                             <td>
+                               <strong>MAIL</strong>
+                             </td>
+                             <td>
+                               <strong>PLATAFORMA</strong>
+                             </td>
+                             <td>
+                               <strong>MIEMBRO</strong>
+                             </td>
+                             <td>
+
+                             </td>
+                             <td>
+                               
+                             </td>
+                           </tr>
+                     <?php for ($i=0; $i <10 ; $i++) { ?>
+                           <tr class="strong-td">
+                             <td><input type="checkbox" ></td>
+                             <td>
+                               <span>Armando Cantona</span>
+                             </td>
+                             <td>
+                              <span>loremipsum@mail.mx</span>
+                             </td>
+                             <td>
+                               <span>TWB</span>
+                             </td>
+                             <td>
+                               <span>30-OCT-2017</span>
+                             </td>
+                             <td>
+                               <div class="col-md-12 col-sm-12 col-xs-12 guardar-right nomargin">
+                                 <a href="usuario-detalle.php"><p class="btn-detalle">
+                                    Detalles
+                                 </p></a>
+                               </div>
+                             </td>
+                             <td>
+                               <div class="col-md-12 col-sm-12 col-xs-12 nomargin">
+                                 <a href="#"><p class="btn-eliminar">
+                                    Eliminar
+                                 </p></a>
+                               </div>
+                             </td>
+                           </tr>
+                     <?php } ?>
+                         </tbody>
+                       </table>
+                     </div>
+
                       <!-- /.box-body -->
                       <div class="box-footer no-padding">
                         <div class="mailbox-controls">
