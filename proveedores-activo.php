@@ -100,7 +100,7 @@
       <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 linea-config"></div>
 
         <div class="col-sm-11 col-sm-offset-1 col-md-12 col-lg-10 col-lg-offset-1">
-          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 centrado">
+          <div class="col-sm-11 col-md-10 col-lg-12 centrado nomargin">
             <p class="text-detalle1">DETALLES</p>
           </div>
           <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span">
@@ -153,7 +153,7 @@
         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 linea-config"></div>
 
         <div class="col-sm-11 col-sm-offset-1 col-md-12 col-lg-10 col-lg-offset-1 padin-cero-conf">
-          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 centrado">
+          <div class="col-sm-11 col-md-10 col-lg-12 centrado nomargin">
             <p class="text-detalle1">ESTADÍSTICAS</p>
           </div>
           <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span">

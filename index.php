@@ -70,7 +70,7 @@
              </div>
              <div class="form-group row top-30">
                <div class="col-md-8 col-md-offset-2">
-                 <a href="reportes.php"><button type="button" class="btn boton-ingresa">INGRESAR</button></a>
+                 <a href="dashboard.php"><button type="button" class="btn boton-ingresa">INGRESAR</button></a>
                </div>
              </div>
              <div class="form-group row top-30">

@@ -31,7 +31,7 @@
           <div class="col-md-10 col-md-offset-1 col-xs-12 centers linea-text">
             <p class="text-crear">CREAR NUEVA CUENTA</p>
             <form>
-              <div class="form-group col-sm-8 col-sm-offset-2 pad-admin">
+              <div class="form-group col-sm-8 col-sm-offset-2">
                 <div class="col-sm-4 usuario-text right-center">
                   <p>
                    <strong>Nombre:</strong>
@@ -41,7 +41,7 @@
                   <input type="text" class="form-control13" id="exampleInputName1" placeholder="">
                 </div>
               </div>
-             <div class="form-group col-sm-8 col-sm-offset-2 pad-admin">
+             <div class="form-group col-sm-8 col-sm-offset-2">
                <div class="col-sm-4 usuario-text right-center">
                  <p>
                   <strong>Mail:</strong>
@@ -51,7 +51,7 @@
                  <input type="text" class="form-control13" id="exampleInputName2" placeholder="">
                </div>
              </div>
-             <div class="form-group col-sm-8 col-sm-offset-2 pad-admin">
+             <div class="form-group col-sm-8 col-sm-offset-2">
                <div class="col-sm-4 usuario-text right-center">
                  <p>
                   <strong>Telefono:</strong>
@@ -61,21 +61,18 @@
                  <input type="text" class="form-control13" id="exampleInputName2" placeholder="">
                </div>
              </div>
-             <div class="form-group col-xs-8 col-xs-offset-2 col-sm-9 col-sm-offset-2 pad-admin1">
+             <div class="form-group col-xs-8 col-xs-offset-2 col-sm-9 col-sm-offset-2">
                <div class="col-xs-5 col-sm-5 col-offset-sm-3 usuario-text nomargin float-right">
                  <p>
-                  <strong>Permisos:&nbsp; </strong>
+                  <strong>Permisos: </strong>
                  </p>
                </div>
-               <div class="dropdown boton-categoria1 col-xs-6 col-sm-5 col-offset-sm-3 nomargin">
-                   <button class="btn btn-secondary dropdown-toggle btn btn-default1 btn-sm" style="width:124px; border:none; padding:0;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Administrador <i class="fa fa-caret-down" aria-hidden="true"></i>
-                   </button>
-                   <div class="dropdown-menu menu23" aria-labelledby="dropdownMenuButton">
-                     <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Administrador</a>
-                     <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Colaborador</a>
-                   </div>
-                 </div>
+               <div class="col-xs-6 col-sm-5 col-offset-sm-3 nomargin">
+                 <select class="form-control2" style="width:124px; border:none; padding:0;">
+                   <option value="perfilito1">Administrador</option>
+                   <option value="perfilito4">Colaborador</option>
+                 </select>
+               </div>
              </div>
              <div class="form-group row">
                <div class="col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3">
