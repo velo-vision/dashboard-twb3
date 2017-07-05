@@ -3202,10 +3202,13 @@ canvas:hover {
   .marg{
     padding-top: 15px !important;
   }
+<<<<<<< HEAD
   .margin-volver {
     margin-top: 0px !important;
     margin-bottom: 0px !important;
   }
+=======
+>>>>>>> 86f389422e386f31e039d18f96ee4a2a9f57f781
   .estre-center{
     text-align: center;
   }
