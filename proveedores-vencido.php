@@ -103,7 +103,7 @@
       <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 linea-config"></div>
 
       <div class="col-sm-11 col-sm-offset-1 col-md-12 col-lg-10 col-lg-offset-1">
-        <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 centrado">
+        <div class="col-sm-11 col-md-10 col-lg-12 centrado nomargin">
           <p class="text-detalle1">DETALLES</p>
         </div>
         <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span">
@@ -156,7 +156,7 @@
         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 linea-config"></div>
 
         <div class="col-sm-11 col-sm-offset-1 col-md-12 col-lg-10 col-lg-offset-1 padin-cero-conf">
-          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 centrado">
+          <div class="col-sm-11 col-md-10 col-lg-12 centrado nomargin">
             <p class="text-detalle1">ESTADÍSTICAS</p>
           </div>
           <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-span">
@@ -193,10 +193,10 @@
         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 linea-config"></div>
 
         <div class="col-sm-11 col-sm-offset-1 col-md-12 col-lg-10 col-lg-offset-1 padin-cero-conf">
-          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 centrado move-red">
+          <div class="col-sm-11 col-md-10 col-lg-12 centrado move-red">
             <p class="text-detalle1">RED DE COLABORACION</p>
           </div>
-          <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+          <div class="col-sm-11 col-md-10 col-lg-12">
             <div class="col-sm-12 col-md-12 col-lg-12 centrado reciente">
               <p>AGREGADOS RECIENTEMENTE</p>
             </div>
@@ -218,7 +218,7 @@
             </div>
           </div>
           <div class="form-group row top-50 centrado">
-          <div class="col-md-4 col-md-offset-4 col-xs-8 col-xs-offset-2 botton-red">
+          <div class="col-sm-11 col-md-10 col-lg-12 botton-red">
             <a href="proveedores-11.php"><p type="submit" class="btn boton-proveedores03">Ver Toda la Red</p></a>
           </div>
         </div>

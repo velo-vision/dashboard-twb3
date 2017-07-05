@@ -3273,10 +3273,6 @@ canvas:hover {
   .marg{
     padding-top: 15px !important;
   }
-  .margin-volver {
-    margin-top: 15px !important;
-    margin-bottom: 5px !important;
-  }
   .estre-center{
     text-align: center;
   }
@@ -3349,10 +3345,6 @@ canvas:hover {
 }
   .right-center p{
     text-align: left !important;
-  }
-  .margin-volver{
-    margin-top: 20px;
-    margin-bottom: 10px;
   }
   .margin-no{
     margin: 0px;
@@ -3636,6 +3628,10 @@ canvas:hover {
 }
 /**/
 @media only screen and (min-width:600px) and (max-width:768px){
+  .margin-volver {
+    margin-top: 15px !important;
+    margin-bottom: 5px !important;
+  }
   .pad-sidebar{
     padding: 55px 0px !important;
   }
@@ -3667,7 +3663,7 @@ canvas:hover {
     margin-bottom: 14px !important;
 }
   .pro {
-    margin-bottom: 10px !important;
+    margin-bottom: 0px !important;
 }
   .usuario5 {
     width: 300px !important;
@@ -3861,7 +3857,7 @@ canvas:hover {
     margin-bottom: 14px !important;
 }
   .pro {
-    margin-bottom: 10px !important;
+    margin-bottom: 0px !important;
 }
   .usuario5 {
     width: 250px;
