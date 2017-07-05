@@ -5669,3 +5669,17 @@ a {
 .bottom-editar{
   margin-bottom: 30px;
 }
+/*Usuarios*/
+.strong-td1 strong{
+  font-size: 13px;
+}
+
+.strong-td1 span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color:#808080;
+
+}
+.mailbox-controls1 {
+    padding: 20px 0 0 0;
+}

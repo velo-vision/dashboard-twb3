@@ -38,7 +38,7 @@
                         </div>
                         <!-- /.box-header -->
                         <div class="box-body no-padding">
-                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls border-controls">
+                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls1">
 
                             <div class="col-xs-12 col-sm-5 col-md-7 col-lg-8 dropdown boton-categoria cen nomargin left-50 mar-20">
                               <button class="btn btn-secondary dropdown-toggle btn btn-default23 btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -96,11 +96,11 @@
 
                              </td>
                              <td>
-                               
+
                              </td>
                            </tr>
                      <?php for ($i=0; $i <10 ; $i++) { ?>
-                           <tr class="strong-td">
+                           <tr class="strong-td1">
                              <td><input type="checkbox" ></td>
                              <td>
                                <span>Armando Cantona</span>
