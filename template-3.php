@@ -63,14 +63,37 @@
               </div>
               <div class="col-xs-12 col-sm-12 col-md-3 col-lg-12 titulo-formato">
                 <p class="gris"><span><i class="fa fa-text-height azul-tempalte3 " aria-hidden="true"></i></span>  TAMAÑO</p>
+                <form>
+                  <div class="range-control">
+                    <input id="inputRange" type="range" min="1" max="100" step="1" value="100" data-thumbwidth="20">
+                    <output name="rangeVal">100</output>
+                  </div>
+
+                </form>
               </div>
+              <div class="col-xs-12 col-sm-12 col-md-3 col-lg-12 titulo-formato">
+                <p class="gris"><span><i class="fa fa-text-height azul-tempalte3 " aria-hidden="true"></i></span>  ALINEACIÓN</p>
+                
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-3 col-lg-12 titulo-formato">
+                <p class="gris"><span><i class="fa fa-text-height azul-tempalte3 " aria-hidden="true"></i></span>  TIPOGRAFÍA</p>
+                
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-3 col-lg-12 titulo-formato">
+                <p class="gris"><span><i class="fa fa-text-height azul-tempalte3 " aria-hidden="true"></i></span>  COLOR</p>
+                
+              </div>
+
               <div class="col-xs-12 col-sm-12 col-md-3 col-lg-12">
                 <label for="color-input" id="color-label" style="background-color: red"></label>
                   <input type="checkbox" id="color-input" checked>
 
                   <div id="color-picker" class="col-xs-12 col-sm-12 col-md-3 col-lg-12">
-                    <canvas id="color-block" ></canvas>
-                    <canvas id="color-strip" ></canvas>
+                    <canvas id="color-block" style="width: 
+                    50%"></canvas>
+                    <canvas id="color-strip" style="    width: 83px;
+    transform: rotate(90deg);
+    height: 78px;"></canvas>
                   </div>
               </div>
             </div>
@@ -184,4 +207,26 @@ colorBlock.addEventListener("mouseup", mouseup, false);
 colorBlock.addEventListener("mousemove", mousemove, false);
 
 
+</script>
+
+<script type="text/javascript">
+  $('input[type="range"]').on('input', function() {
+
+  var control = $(this),
+    controlMin = control.attr('min'),
+    controlMax = control.attr('max'),
+    controlVal = control.val(),
+    controlThumbWidth = control.data('thumbwidth');
+
+  var range = controlMax - controlMin;
+  
+  var position = ((controlVal - controlMin) / range) * 1;
+  var positionOffset = Math.round(controlThumbWidth * position / 1) - (controlThumbWidth / 2);
+  var output = control.next('output');
+  
+  output
+    .css('left', 'calc(' + position + '% - ' + positionOffset + 'px)')
+    .text(controlVal);
+
+});
 </script>
