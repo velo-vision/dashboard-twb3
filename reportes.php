@@ -28,7 +28,7 @@
           <!-- AREA CHART -->
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Area Chart</h3>
+              <h3 class="box-title">Visitas</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -89,7 +89,7 @@
           <!-- BAR CHART -->
           <div class="box box-success">
             <div class="box-header with-border">
-              <h3 class="box-title">Bar Chart</h3>
+              <h3 class="box-title">Clicks al Teléfono</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -105,6 +105,35 @@
             <!-- /.box-body -->
           </div>
           <!-- /.box -->
+<div class="box-body">
+  <div class="row">
+    <div class="col-xs-6 col-md-3 text-center">
+      <input type="text" class="knob" value="60" data-width="90" data-height="90" data-fgColor="#3c8dbc" data-readonly="true">
+
+      <div class="knob-label">data-width="90"</div>
+    </div>
+    <!-- ./col -->
+    <div class="col-xs-6 col-md-3 text-center">
+      <input type="text" class="knob" value="30" data-width="120" data-height="120" data-fgColor="#f56954">
+
+      <div class="knob-label">data-width="120"</div>
+    </div>
+    <!-- ./col -->
+    <div class="col-xs-6 col-md-3 text-center">
+      <input type="text" class="knob" value="30" data-thickness="0.1" data-width="90" data-height="90" data-fgColor="#00a65a">
+
+      <div class="knob-label">data-thickness="0.1"</div>
+    </div>
+    <!-- ./col -->
+    <div class="col-xs-6 col-md-3 text-center">
+      <input type="text" class="knob" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" value="30" data-width="120" data-height="120" data-fgColor="#00c0ef">
+
+      <div class="knob-label">data-angleArc="250"</div>
+    </div>
+    <!-- ./col -->
+  </div>
+  <!-- /.row -->
+</div>
 
         </div>
 

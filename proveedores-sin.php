@@ -159,6 +159,7 @@
           <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span">
             <div class="col-sm-6 col-md-6 col-lg-6">
               <p>Tiempo de respuesta: <span>1 Hora</span></p>
+
             </div>
             <div class="col-sm-6 col-md-6 col-lg-6">
                 <p>Mensajes recibidos: <span>25</span></p>
@@ -353,5 +354,6 @@
 <div class="control-sidebar-bg"></div>
 </div>
 <?php
-	include("footer-3.php");
+get_graficas_footer()
+	//include("footer-3.php");
 ?>
