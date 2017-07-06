@@ -38,31 +38,31 @@
 
   <!--REGSITRO-->
   <div class="container-fluid nomargin">
-    <div class="col-md-12 col-sm-12 nomargin bg-login">
-      <div class="col-md-4 col-md-offset-4 col-sm-6 col-xs-12 login">
-        <div class="col-md-12 col-xs-12 border-login" style="overflow:hidden">
-          <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 centers logo-registro">
+    <div class="col-md-12 col-sm-12 nomargin bg-usuario">
+      <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 col-sm-6 col-xs-12 usuario-index">
+        <div class="col-md-12 col-xs-12 border-span" style="overflow:hidden">
+          <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 centrado-line logo-usuario">
             <img width="100%;" class="wow fadeInDown" data-wow-duration="2.5s" data-wow-delay="" src="images/recursos/logo.png" title="Logo" alt="The Wedding Board">
             <!-- <div style="overflow:hidden">
             </div> -->
           </div>
           <div class="col-md-10 col-md-offset-1 wow fadeIn" data-wow-duration="2.5s" data-wow-delay="">
-            <p class="centers registrate wow fadeIn top-30" data-wow-duration="2.5s" data-wow-delay="" >
+            <p class="centrado-line registrate1 wow fadeIn top-30" data-wow-duration="2.5s" data-wow-delay="" >
               bien<span>ven</span>ido
             </p>
             <form>
              <div class="form-group row top-30">
                <div class="col-sm-12">
-                 <input type="email" class="form-control centers" id="inputEmail3" placeholder="Correo">
+                 <input type="email" class="form-control centrado-line" id="inputEmail3" placeholder="Correo">
                </div>
              </div>
              <div class="form-group row top-20">
                <div class="col-sm-12">
-                 <input type="email" class="form-control centers" id="inputEmail3" placeholder="Contraseña">
+                 <input type="email" class="form-control centrado-line" id="inputEmail3" placeholder="Contraseña">
                </div>
                <div class="col-sm-12">
-                 <a href="sesion.php" style="color:#303030;">
-                   <p class="centers top-20">
+                 <a href="recupera.php" style="color:#303030;">
+                   <p class="centrado-line top-20">
                      <strong>¿OLVIDASTE TU CONTRASEÑA?</strong>
                    </p>
                  </a>
@@ -70,26 +70,11 @@
              </div>
              <div class="form-group row top-30">
                <div class="col-md-8 col-md-offset-2">
-                 <a href="reportes.php"><button type="button" class="btn boton-registro ">INGRESAR</button></a>
+                 <a href="reportes.php"><button type="button" class="btn boton-ingresa">INGRESAR</button></a>
                </div>
              </div>
              <div class="form-group row top-30">
-               <div class="col-md-8 col-md-offset-2">
-                 <a href="registro.php">
-                   <button onclick="index.php" type="button" class="btn boton-registro2">REGISTRARTE</button>
-                 </a>
-               </div>
-               </a>
-             </div>
-             <div class="col-sm-12">
-               <a href="http://capa2.developer.velosoft.net/dashboard2-v2/" style="color:#303030;">
-                 <p class="centers top-20">
-                   <strong style="color:#60d0e4">Registrate como proveedor</strong>
-                 </p>
-               </a>
-            </div>
-             <div class="form-group row top-30">
-               <div class="col-md-8 col-md-offset-2 cuenta">
+               <div class="col-sm-12 col-md-12 cuenta">
                  <img width="200px;" class="top-20 wow fadeInUp" data-wow-duration="2s" data-wow-delay=""  src="images/recursos/greca-registro.png" alt="The Wedding Board">
                </div>
              </div>

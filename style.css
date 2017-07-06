@@ -370,6 +370,31 @@ a:focus, a:hover {
   background: #1cb7d3;
   color: white;
 }
+.boton-registro2{
+  background: white;
+  border: 1px solid #60d0e4;
+  border-radius: 0px !important;
+  color: #60d0e4;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 10px 0 !important;
+  width: 100%;
+  -webkit-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+   -moz-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -o-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+        transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+
+-webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+ -moz-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+   -o-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+      transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+}
+.boton-registro2:hover{
+  background: #1cb7d3;
+  color: white;
+}
+
 .boton-facebook{
   background: #3e5193;
   border-radius: 0px !important;
@@ -1478,6 +1503,25 @@ cursor:pointer;
   background-size:cover;
 }*/
 
+/*******TWB-3********/
+.bg-login{
+  background: url(images/recursos/registro.jpg) center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 5% !important;
+}
+.login{
+  background: white;
+  margin-top: 50px;
+  -webkit-box-shadow: 0px 0px 5px 3px rgba(222,222,222,1);
+  -moz-box-shadow: 0px 0px 5px 3px rgba(222,222,222,1);
+  box-shadow: 0px 0px 5px 3px rgba(222,222,222,1);
+  padding: 20px !important;
+}
+.border-login{
+  border: 1px solid #60d0e4;
+}
+/**/
 /*************************************************************/
 /*EST. botnes*/
  .color-a{
@@ -1521,6 +1565,9 @@ cursor:pointer;
     border-color: #67cfe3
 }
 
+.drop{
+  display: inline-block;
+}
 /* Est. Config */
 
 .webpadding-no4{

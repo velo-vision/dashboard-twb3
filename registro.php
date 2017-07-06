@@ -48,50 +48,46 @@
           </div>
           <div class="col-md-10 col-md-offset-1 wow fadeIn" data-wow-duration="2.5s" data-wow-delay="">
             <p class="centers registrate wow fadeIn top-30" data-wow-duration="2.5s" data-wow-delay="" >
-              bien<span>ven</span>ido
+              Reg<span>istr</span>o
             </p>
             <form>
              <div class="form-group row top-30">
                <div class="col-sm-12">
+                 <input type="tex" class="form-control centers" id="inputEmail3" placeholder="Nombre">
+               </div>
+             </div>
+             <div class="form-group row top-10">
+               <div class="col-sm-12">
                  <input type="email" class="form-control centers" id="inputEmail3" placeholder="Correo">
                </div>
              </div>
-             <div class="form-group row top-20">
+             <div class="form-group row top-10">
                <div class="col-sm-12">
-                 <input type="email" class="form-control centers" id="inputEmail3" placeholder="Contraseña">
+                 <input type="tel" class="form-control centers" id="inputEmail3" placeholder="Teléfono">
                </div>
-               <div class="col-sm-12">
-                 <a href="sesion.php" style="color:#303030;">
-                   <p class="centers top-20">
-                     <strong>¿OLVIDASTE TU CONTRASEÑA?</strong>
-                   </p>
-                 </a>
-              </div>
              </div>
-             <div class="form-group row top-30">
-               <div class="col-md-8 col-md-offset-2">
-                 <a href="reportes.php"><button type="button" class="btn boton-registro ">INGRESAR</button></a>
+             <div class="form-group row top-10">
+               <div class="col-sm-12">
+                 <input type="password" class="form-control centers" id="inputEmail3" placeholder="Contraseña">
+               </div>
+             </div>
+             <div class="form-group row top-10">
+               <div class="col-sm-12">
+                 <input type="password" class="form-control centers" id="inputEmail3" placeholder="Confirmar Contraseña">
                </div>
              </div>
              <div class="form-group row top-30">
                <div class="col-md-8 col-md-offset-2">
-                 <a href="registro.php">
-                   <button onclick="index.php" type="button" class="btn boton-registro2">REGISTRARTE</button>
+                 <a href="dashboard.php"><button type="button" class="btn boton-registro ">Registrar</button></a>
+               </div>
+             </div>
+             <div class="form-group row top-30">
+               <div class="col-md-8 col-md-offset-2">
+                 <a href="index.php">
+                   <button onclick="index.php" type="button" class="btn boton-registro2">REGRESAR</button>
                  </a>
                </div>
                </a>
-             </div>
-             <div class="col-sm-12">
-               <a href="http://capa2.developer.velosoft.net/dashboard2-v2/" style="color:#303030;">
-                 <p class="centers top-20">
-                   <strong style="color:#60d0e4">Registrate como proveedor</strong>
-                 </p>
-               </a>
-            </div>
-             <div class="form-group row top-30">
-               <div class="col-md-8 col-md-offset-2 cuenta">
-                 <img width="200px;" class="top-20 wow fadeInUp" data-wow-duration="2s" data-wow-delay=""  src="images/recursos/greca-registro.png" alt="The Wedding Board">
-               </div>
              </div>
            </form>
           </div>

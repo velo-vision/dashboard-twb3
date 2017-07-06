@@ -34,24 +34,46 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls">
 
                   <div class="col-xs-12 col-sm-7 col-md-4 col-lg-5 dropdown boton-categoria sinpadding-lic">
+                    <div class="dropdown drop">
+                        <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm btn btn-default2" type="button" data-toggle="dropdown" id="dropdownMenuButton2">
+                          <i class="fa fa-tag" aria-hidden="true"></i> Categorias
+                          <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Todos</a></li>
+                          <li><a href="#">Flores</a></li>
+                          <li><a href="#">Vestidos</a></li>
+                        </ul>
+                      </div>
+                      <div class="dropdown drop">
+                        <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm btn btn-default2" type="button" data-toggle="dropdown" id="dropdownMenuButton2">
+                           <i class="fa fa-sitemap" aria-hidden="true"></i> Estatus
+                          <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Todos</a></li>
+                          <li><a href="#">Cancelada</a></li>
+                          <li><a href="#">Adjudicada</a></li>                         
+                        </ul>
+                      </div>
 
-                    <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-completo1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   <!--  <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-completo1" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <i class="fa fa-tag" aria-hidden="true"></i> Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
                       <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
                       <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Flores</a>
                       <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
-                    </div>
+                    </div> -->
 
-                    <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm boton-licitacion " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   <!--  <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm boton-licitacion " type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fa fa-sitemap" aria-hidden="true"></i> Estatus <i class="fa fa-caret-down" aria-hidden="true"></i>
                       </button>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
                         <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
                         <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Activas</a>
                         <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Inactivas</a>
-                      </div>
+                      </div> -->
 
 
 
@@ -64,11 +86,11 @@
                     </button>
                     <!-- /.btn-group -->
                   <button type="button" class="btn btn-default btn-sm  ancho-completo2 separa"><i class="fa fa-times-circle-o" aria-hidden="true"></i> Cancelar Licitación</button>
-                  <button type="button" class="btn btn-default btn-sm  ancho-completo3"><i class="fa fa-archive" aria-hidden="true"></i> Archivar Licitación</button>
+                <!--   <button type="button" class="btn btn-default btn-sm  ancho-completo3"><i class="fa fa-archive" aria-hidden="true"></i> Archivar Licitación</button> -->
                   <div class="pull-right pag-center">1-50/200
                     <div class="btn-group botones-paginacion">
-                      <button type="button" class="btn btn-default btn-sm "><i class="fa fa-chevron-left"></i></button>
-                      <button type="button" class="btn btn-default btn-sm "><i class="fa fa-chevron-right"></i></button>
+                      <button type="button" class="btn btn-default btn-sm btn-default2"><i class="fa fa-chevron-left"></i></button>
+                      <button type="button" class="btn btn-default btn-sm btn-default2"><i class="fa fa-chevron-right"></i></button>
                     </div>
                     <!-- /.btn-group -->
                   </div>
