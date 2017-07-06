@@ -2655,6 +2655,14 @@ canvas:hover {
 
 
 @media only screen and (min-width:992px) and (max-width:1200px){
+  .btn-detalle {
+    width: 100px !important;
+    margin: 0 auto;
+  }
+  .btn-eliminar {
+    width: 100px !important;
+    margin: 0 auto;
+  }
   .pad-calificacion{
     padding: 0px !important;
   }
@@ -2934,11 +2942,11 @@ canvas:hover {
   margin: 0px 0 15px 0 !important;
 }
   .btn-detalle {
-    width: 55% !important;
+    width: 100px !important;
     margin: 0 auto;
 }
 .btn-eliminar {
-    width: 55% !important;
+    width: 100px !important;
     margin: 0 auto;
 }
   .left-50 button {
@@ -3680,11 +3688,11 @@ canvas:hover {
     padding: 55px 0px !important;
   }
   .btn-detalle {
-    width: 55% !important;
+    width: 100px !important;
     margin: 0 auto;
 }
 .btn-eliminar {
-    width: 55% !important;
+    width: 100px !important;
     margin: 0 auto;
 }
   .confing-center{
@@ -3875,11 +3883,11 @@ canvas:hover {
     margin-bottom: 15px !important;
 }
 .btn-detalle {
-  width: 65% !important;
+  width: 100px !important;
   margin: 0 auto;
 }
 .btn-eliminar {
-  width: 65% !important;
+  width: 100px !important;
   margin: 0 auto;
 }
   .bg-usuario {
@@ -4791,10 +4799,10 @@ label {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     background: #67cfe3;
-    width: 90%;
+    width: 85%;
     text-align: center;
     font-size: .9em;
-    padding: 6px 0;
+    padding: 6px;
     font-weight: 300;
     cursor: pointer;
 }
@@ -4803,11 +4811,12 @@ label {
     color: #67cfe3;
     font-family: 'Montserrat', sans-serif;
     background: #fff;
-    width: 90%;
+    width: 85%;
     text-align: center;
     font-size: .9em;
-    padding: 5px 0;
+    padding: 5px;
     font-weight: 300;
+    cursor: pointer;
 }
 .btn-eliminar {
     color: #67cfe3;
@@ -5663,4 +5672,18 @@ a {
 }
 .bottom-editar{
   margin-bottom: 30px;
+}
+/*Usuarios*/
+.strong-td1 strong{
+  font-size: 13px;
+}
+
+.strong-td1 span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color:#808080;
+
+}
+.mailbox-controls1 {
+    padding: 20px 0 0 0;
 }

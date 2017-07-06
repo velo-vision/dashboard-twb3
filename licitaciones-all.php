@@ -14,10 +14,10 @@
           LICITACIONES
         </p>
         <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
-      </div>      
+      </div>
       <!---->
       <section class="content">
-        <div class="container-fluid sinpadding-lic">     
+        <div class="container-fluid sinpadding-lic">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sinpadding-lic">
               <div class="box-header with-border">
                 <span class="box-title"></span>
@@ -31,7 +31,7 @@
               </div>
               <!-- /.box-header -->
               <div class="box-body no-padding">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls">  
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls">
 
                   <div class="col-xs-12 col-sm-7 col-md-4 col-lg-5 dropdown boton-categoria sinpadding-lic">
 
@@ -53,18 +53,18 @@
                         <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Inactivas</a>
                       </div>
 
-                    
+
 
                   </div>
 
-                  
+
 
                   <div class="col-xs-12 col-sm-12 col-md-8  col-lg-7  btn-group sinpadding-lic divisor-menu">
-                    <button type="button" class="btn btn-default btn-sm ancho-completo separa"> Borrar <i class="fa fa-trash-o"></i> 
+                    <button type="button" class="btn btn-default btn-sm ancho-completo separa"> Borrar <i class="fa fa-trash-o"></i>
                     </button>
                     <!-- /.btn-group -->
                   <button type="button" class="btn btn-default btn-sm  ancho-completo2 separa"><i class="fa fa-times-circle-o" aria-hidden="true"></i> Cancelar Licitación</button>
-                  <button type="button" class="btn btn-default btn-sm  ancho-completo3"><i class="fa fa-archive" aria-hidden="true"></i> Archivar Licitación</button>             
+                  <button type="button" class="btn btn-default btn-sm  ancho-completo3"><i class="fa fa-archive" aria-hidden="true"></i> Archivar Licitación</button>
                   <div class="pull-right pag-center">1-50/200
                     <div class="btn-group botones-paginacion">
                       <button type="button" class="btn btn-default btn-sm "><i class="fa fa-chevron-left"></i></button>
@@ -73,11 +73,11 @@
                     <!-- /.btn-group -->
                   </div>
                   </div>
-                  
+
                   <!-- /.pull-right -->
-                </div>            
+                </div>
               </div>
-              <!-- /.box-body -->   
+              <!-- /.box-body -->
             <!-- /. box -->
           </div>
         </div>
@@ -115,19 +115,19 @@
       <tr class="strong-td">
         <td><input type="checkbox" ></td>
         <td>
-          <span>Lorena Martínez</span>  
+          <span>Lorena Martínez</span>
         </td>
         <td>
-         <span>Fashion</span> 
+         <span>Fashion</span>
         </td>
         <td>
-          <span>28-Oct-2017</span>      
+          <span>28-Oct-2017</span>
         </td>
         <td>
-          <span>$50,000.00</span>    
+          <span>$50,000.00</span>
         </td>
         <td>
-          <span>CANCELADA</span>     
+          <span>CANCELADA</span>
         </td>
         <td>
            <span>3</span>
@@ -139,12 +139,6 @@
 <?php } ?>
     </tbody>
   </table>
-
-      <!---->
-
-
-    
-
 </div>
     </div>
 
