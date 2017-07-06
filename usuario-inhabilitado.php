@@ -67,7 +67,7 @@
           <img src="images/usuarios/1.jpg" class="img-circle" alt="The Wedding Board">
           <div class="col-xs-12 col-md-12 col-lg-12 text-nombre13">
             <p style="margin:5px 0 0 0;">Maria Amador</p>
-            <strong>Plataforma:</strong><span> TWB</span>
+            <!-- <strong>Plataforma:</strong><span> TWB</span> -->
           </div>
         </div>
         <div class="col-xs-12 col-md-12 text-inhabilitado centers">

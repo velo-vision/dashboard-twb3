@@ -81,6 +81,12 @@
           </a>
         </li>
         <li class="treeview">
+          <a href="reportes.php">
+            <i class="fa fa-files-o"></i>
+            <span>Solicitudes<span class="number-mensagges mover-bg">99</span></span>
+          </a>
+        </li>
+        <li class="treeview">
           <a href="#!">
            <i class="fa fa-file-code-o" aria-hidden="true"></i><span>Templates</span>
             <span class="pull-right-container">
@@ -99,13 +105,10 @@
             <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
           </a>
           <ul class="treeview-menu">
-            <li class="">
-              <a href="usuarios.php">
-                <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>Regular
-              </a>
-            </li>
-            <li class=""><a href="usuario-admin.php">Administrador</a></li>
             <li class=""><a href="usuario-crear.php" class="pad-crear">Crear</a></li>
+            <li class=""><a href="usuarios.php" class="pad-crear">Usuarios</a></li>
+            <li class=""><a href="#" class="pad-crear">Proveedores</a></li>
+            <li class=""><a href="usuario-admin.php">Administradores</a></li>
           </ul>
         </li>
         <li class="treeview">

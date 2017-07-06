@@ -148,7 +148,6 @@
                           <!-- /.pull-right -->
                         </div>
                       </div>
-
                     <!-- /. box -->
                   </div>
                 </section>

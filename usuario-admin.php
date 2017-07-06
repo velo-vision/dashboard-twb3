@@ -38,7 +38,7 @@
                         </div>
                         <!-- /.box-header -->
                         <div class="box-body no-padding">
-                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls border-controls">
+                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls1">
 
                             <div class="col-xs-12 col-sm-8 col-md-7 col-lg-8 dropdown boton-categoria cen nomargin left-20">
                               <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -49,10 +49,10 @@
                                 <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Flores2</a>
                                 <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos3</a>
                               </div>
-                              <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-size" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fa fa-tag" aria-hidden="true"></i> Membresia <i class="fa fa-caret-down" aria-hidden="true"></i>
                               </button>
-                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
                                 <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
                                 <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Flores</a>
                                 <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
@@ -83,169 +83,69 @@
                 <section>
                   <div class="col-xs-12 col-md-12 sin-pa">
                       <!-- /.box-header -->
-                      <div class="box-body no-padding">
-                        <form action="">
-                        <!--Empieza cuadro-->
-                        <div class="col-md-12 col-sm-12 col-xs-12 confirma border-down">
-                          <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-                          </div>
-                          <div class="col-md-2 col-sm-3 col-xs-5 text-size">
-                            <p>
-                              <strong>NOMBRE</strong>
-                            </p>
-                          </div>
-                          <div class="col-md-2 col-sm-3 col-xs-3 text-size">
-                            <p>
-                              <strong>MAIL</strong>
-                            </p>
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-4 text-size text-pad">
-                            <p>
-                              <strong>TIPO USUARIO</strong>
-                            </p>
-                          </div>
-                          <div class="col-md-3 col-sm-2 col-xs-4 centers margin-izq confirma text-size text-left">
-                            <p>
-                              <strong>CREADO POR</strong>
-                            </p>
-                          </div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xs-12 dotted-down1 dotted-pad">
-                          <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input type="checkbox" class="form-check-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-3 col-xs-6 nomargin nombre-oculto centrar">
-                            <span>Nombre</span>
-                            <input class="form-control no-border centrar nomargin" type="text" value="Lorem ipsum" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-4 col-xs-6 nomargin email-oculto cen-twb">
-                            <span>Mail</span>
-                            <input class="form-control no-border nomargin cen-twb" type="text" value="loremipsum@mail.mx" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 centers confirmar-check nomargin">
-                            <div class="form-check">
-                              <label class="form-check-label check-cuadro">
-                                <span><br>Plataforma<br></span>
-                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="Admin" id="example-text-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 acompañante-oculto center nomargin">
-                            <div class="form-group centrar">
-                              <span><br>Miembros</span>
-                              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
-                                <input class="form-control no-border nomargin cen-twb pad-left" type="text" value="Sophie Dueso" id="example-text-input">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a href="usuario-detalle-admin.php"><p class="btn-detalle11">
-                               Detalles
-                            </p></a>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
-                            <a href="#"><p class="btn-eliminar">
-                               Eliminar
-                            </p></a>
-                          </div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xs-12 box-footer dotted-down1 dotted-pad">
-                          <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input type="checkbox" class="form-check-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-3 col-xs-6 nomargin nombre-oculto centrar">
-                            <span>Nombre</span>
-                            <input class="form-control no-border centrar nomargin" type="text" value="Mei stet latine" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-4 col-xs-6 nomargin email-oculto cen-twb">
-                            <span>Mail</span>
-                            <input class="form-control no-border nomargin cen-twb" type="text" value="loremipsum@mail.mx" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 centers confirmar-check nomargin">
-                            <div class="form-check">
-                              <label class="form-check-label check-cuadro">
-                                <span><br>Plataforma<br></span>
-                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="Admin" id="example-text-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 acompañante-oculto center nomargin">
-                            <div class="form-group centrar">
-                              <span><br>Miembros</span>
-                              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
-                                <input class="form-control no-border nomargin cen-twb pad-left" type="text" value="Sophie Dueso" id="example-text-input">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a href="usuario-detalle-admin.php"><p class="btn-detalle11">
-                               Detalles
-                            </p></a>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
-                            <a href="#"><p class="btn-eliminar">
-                               Eliminar
-                            </p></a>
-                          </div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xs-12 box-footer dotted-down1 dotted-pad">
-                          <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input type="checkbox" class="form-check-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-3 col-xs-6 nomargin nombre-oculto centrar">
-                            <span>Nombre</span>
-                            <input class="form-control no-border centrar nomargin" type="text" value="Ex munere" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-4 col-xs-6 nomargin email-oculto cen-twb">
-                            <span>Mail</span>
-                            <input class="form-control no-border nomargin cen-twb" type="text" value="loremipsum@mail.mx" id="example-text-input">
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 centers confirmar-check nomargin">
-                            <div class="form-check">
-                              <label class="form-check-label check-cuadro">
-                                <span><br>Plataforma<br></span>
-                                <input class="form-control no-border nomargin twb-left cen-twb fonts" type="text" value="Admin" id="example-text-input">
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-2 col-xs-6 acompañante-oculto center nomargin">
-                            <div class="form-group centrar">
-                              <span><br>Miembros</span>
-                              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
-                                <input class="form-control no-border nomargin cen-twb pad-left" type="text" value="Sophie Dueso" id="example-text-input">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a href="usuario-detalle-admin.php"><p class="btn-detalle11">
-                               Detalles
-                            </p></a>
-                          </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
-                            <a href="#"><p class="btn-eliminar">
-                               Eliminar
-                            </p></a>
-                          </div>
-                        </div>
-                        </form>
-                        <!-- /.mail-box-messages -->
-                      </div>
+                      <div class="table-responsive mailbox-messages">
+                      <table class="table table-hover tabla-completa">
+                         <tbody >
+                           <tr class="strong-td">
+                             <td><input type="checkbox" class="oculto-check"></td>
+                             <td>
+                               <strong>NOMBRE </strong>
+                             </td>
+                             <td>
+                               <strong>MAIL</strong>
+                             </td>
+                             <td>
+                               <strong>TIPO USUARIO</strong>
+                             </td>
+                             <td>
+                               <strong>CREADO POR</strong>
+                             </td>
+                             <td>
+
+                             </td>
+                             <td>
+
+                             </td>
+                           </tr>
+                     <?php for ($i=0; $i <6 ; $i++) { ?>
+                           <tr class="strong-td1">
+                             <td><input type="checkbox" ></td>
+                             <td>
+                               <span>Armando Cantona</span>
+                             </td>
+                             <td>
+                              <span>loremipsum@mail.mx</span>
+                             </td>
+                             <td>
+                               <span>Admin</span>
+                             </td>
+                             <td>
+                               <span>Sophie Dueso</span>
+                             </td>
+                             <td>
+                               <div class="col-md-12 col-sm-12 col-xs-12 guardar-right nomargin">
+                                 <a href="usuario-detalle-admin.php"><p class="btn-detalle">
+                                    Detalles
+                                 </p></a>
+                               </div>
+                             </td>
+                             <td>
+                               <div class="col-md-12 col-sm-12 col-xs-12 nomargin">
+                                 <a href="#"><p class="btn-eliminar">
+                                    Eliminar
+                                 </p></a>
+                               </div>
+                             </td>
+                           </tr>
+                     <?php } ?>
+                         </tbody>
+                       </table>
+                     </div>
+
                       <!-- /.box-body -->
                       <div class="box-footer no-padding">
                         <div class="mailbox-controls">
-                          <div class="pull-right pag-center pag">
+                          <div class="pull-right pag-center pag2">
                             1-50/200
                             <div class="btn-group">
                               <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
@@ -256,7 +156,6 @@
                           <!-- /.pull-right -->
                         </div>
                       </div>
-
                     <!-- /. box -->
                   </div>
                 </section>
