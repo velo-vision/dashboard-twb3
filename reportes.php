@@ -18,7 +18,7 @@
         <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
       </div>
       </div>
-      
+
     </section>
 
     <!-- Main content -->
@@ -107,6 +107,7 @@
           <!-- /.box -->
 
         </div>
+
         <!-- /.col (RIGHT) -->
       </div>
       <!-- /.row -->
@@ -122,6 +123,6 @@
   <div class="control-sidebar-bg"></div>
 </div>
 <!-- ./wrapper -->
-<?php 
+<?php
   get_graficas_footer();
  ?>

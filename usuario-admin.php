@@ -142,8 +142,8 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a href="usuario-detalle-admin.php"><p class="btn-detalle">
+                          <div class="col-md-2 col-sm-6 col-xs-6 guardar-right nomargin">
+                            <a href="usuario-detalle-admin.php"><p class="btn-detalle11">
                                Detalles
                             </p></a>
                           </div>
@@ -185,8 +185,8 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a href="usuario-detalle-admin.php"><p class="btn-detalle">
+                          <div class="col-md-2 col-sm-6 col-xs-6 guardar-right nomargin">
+                            <a href="usuario-detalle-admin.php"><p class="btn-detalle11">
                                Detalles
                             </p></a>
                           </div>
@@ -228,8 +228,8 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
-                            <a href="usuario-detalle-admin.php"><p class="btn-detalle">
+                          <div class="col-md-2 col-sm-6 col-xs-6 guardar-right nomargin">
+                            <a href="usuario-detalle-admin.php"><p class="btn-detalle11">
                                Detalles
                             </p></a>
                           </div>

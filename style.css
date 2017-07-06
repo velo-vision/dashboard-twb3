@@ -5266,7 +5266,7 @@ label {
     margin-bottom: 40px;
 }
 .pad-crear{
-  padding-top: 20px !important;
+  padding-top: 0px !important;
 }
 .info-center strong{
   color: #000;
@@ -5682,4 +5682,15 @@ a {
 }
 .mailbox-controls1 {
     padding: 20px 0 0 0;
+}
+.btn-detalle11 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    background: #67cfe3;
+    width: 50%;
+    text-align: center;
+    font-size: .9em;
+    padding: 6px;
+    font-weight: 300;
+    cursor: pointer;
 }
