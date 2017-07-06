@@ -109,7 +109,7 @@
           </ul>
         </li>
         <li class="treeview">
-          <a href="http://capa3.developer.velosoft.net/twb" target="_blank">
+          <a href="http://capa1.developer.velosoft.net/dashboard-front/" target="_blank">
             <i class="fa fa-arrow-left" aria-hidden="true"></i> <span>twb.com.mx</span>
           </a>
         </li>

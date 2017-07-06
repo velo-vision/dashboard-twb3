@@ -20,7 +20,7 @@
             <span class="box-title"></span>
             <div class="box-tools pull-right">
               <div class="has-feedback">
-                <input type="text" class="form-control input-sm" placeholder="Search Mail">
+                <input type="text" class="form-control input-sm" placeholder="Buscar mensaje">
                 <span class="glyphicon glyphicon-search form-control-feedback"></span>
               </div>
             </div>
@@ -33,7 +33,7 @@
               <!-- <button type="button" class="btn btn-default btn-sm checkbox-toggle">
                 Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
               </button> -->
-              <div class="dropdown boton-categoria">
+              <!-- <div class="dropdown boton-categoria">
                   <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-tag" aria-hidden="true"></i> Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
                   </button>
@@ -42,6 +42,17 @@
                     <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Flores</a>
                     <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
                   </div>
+                </div> -->
+                <div class="dropdown drop">
+                  <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm btn btn-default2" type="button" data-toggle="dropdown" id="dropdownMenuButton2">
+                    <i class="fa fa-tag" aria-hidden="true"></i> Categorias
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Todos</a></li>
+                    <li><a href="#">Flores</a></li>
+                    <li><a href="#">Vestidos</a></li>
+                  </ul>
                 </div>
               <div class="btn-group">
                 <button type="button" class="btn btn-default btn-sm">
@@ -182,8 +193,8 @@
               <div class="pull-right pag-center">
                 1-50/200
                 <div class="btn-group">
-                  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
-                  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
+                  <button type="button" class="btn btn-default btn-default2 btn-sm"><i class="fa fa-chevron-left"></i></button>
+                  <button type="button" class="btn btn-default btn-default2 btn-sm"><i class="fa fa-chevron-right"></i></button>
                 </div>
                 <!-- /.btn-group -->
               </div>
