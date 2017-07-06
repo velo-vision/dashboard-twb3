@@ -58,7 +58,7 @@
           <ul class="treeview-menu">
            <li class=""><a href="mensajes-1.php">Principal</a></li>
 
-            <li class=""><a href="mensajes-archivados.php">Archivadas</a></li>
+            <!-- <li class=""><a href="mensajes-archivados.php">Archivadas</a></li> -->
           </ul>
         </li>
         <li class="treeview">
@@ -112,7 +112,7 @@
           </ul>
         </li>
         <li class="treeview">
-          <a href="http://twblog.com.mx/" target="_blank">
+          <a href="http://capa3.developer.velosoft.net/twb" target="_blank">
             <i class="fa fa-arrow-left" aria-hidden="true"></i> <span>twb.com.mx</span>
           </a>
         </li>

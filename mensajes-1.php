@@ -49,19 +49,19 @@
                 </button>
               </div>
               <div class="btn-group">
-                <button type="button" class="btn btn-default btn-sm">
+               <!--  <button type="button" class="btn btn-default btn-sm">
                   Archivar Mensaje <i class="fa fa-archive" aria-hidden="true"></i>
-                </button>
+                </button> -->
               </div>
               <!-- /.btn-group -->
-              <button type="button" class="btn btn-default btn-sm"><i class="fa fa-reply"></i></button>
-              <button type="button" class="btn btn-default btn-sm"><i class="fa fa-share"></i></button>
+             <!--  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-reply"></i></button>
+              <button type="button" class="btn btn-default btn-sm"><i class="fa fa-share"></i></button> -->
               <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
               <div class="pull-right pag-center">
                 1-50/200
                 <div class="btn-group botones-paginacion">
-                  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
-                  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
+                  <button type="button" class="btn btn-default btn-default2 btn-sm"><i class="fa fa-chevron-left"></i></button>
+                  <button type="button" class="btn btn-default btn-default2 btn-sm"><i class="fa fa-chevron-right"></i></button>
                 </div>
                 <!-- /.btn-group -->
               </div>
@@ -72,29 +72,41 @@
                 <tbody >
                 <tr class="texto-mail-active">
                   <td ><input type="checkbox"></td>
-                  <td class=""><a href="mensajes-2.php"><strong>The Wedding Board</strong></a></td>
-                  <td class=""><strong><span style="font-style:normal;font-weight:400;visibility:hidden"></span>Lorem ipsum dolor sit amet</strong> -Consectetuer adipiscing elit, orem ipsum dolor sit amet, consectetuer adipiscing...
+                  <td class=""><a href="mensajes-2.php" class="color-a"><strong>The Wedding Board</strong></a></td>
+                  <td class=""><a href="mensajes-2.php" class="color-a"><strong>Lorem ipsum dolor sit amet</strong> -  Consectetuer adipiscing elit, orem ipsum dolor sit amet, consectetuer adipiscing...</a>
                   </td>
                   <td class=""></td>
                   <td class=""><strong>hace 5 min.</strong></td>
                 </tr>
                 <tr class="texto-mail-active">
                   <td><input type="checkbox"></td>
-                  <td class=""><a href="#!"><strong>The Wedding Board</strong></a></td>
-                  <td class=""><i class="fa fa-tag" aria-hidden="true"></i> <span>Vestidos</span> <strong>Lorem ipsum dolor sit amet</strong> -  Consectetuer adipiscing elit, orem ipsum dolor sit amet, consectetuer adipiscing...
+                  <td class=""><a href="mensajes-2.php" class="color-a"><strong>The Wedding Board</strong></a></td>
+                  <td class=""><a href="mensajes-2.php" class="color-a"><i class="fa fa-tag" aria-hidden="true"></i> <span>Vestidos</span> <strong>Lorem ipsum dolor sit amet</strong> -  Consectetuer adipiscing elit, orem ipsum dolor sit amet, consectetuer adipiscing...</a>
                   </td>
-                  <td class=""><i class="fa fa-paperclip"></i></td>
-                  <td class=""><strong>hace 1 Hora</strong></td>
+                  <td class=""><a href="mensajes-2.php" class="color-a"><i class="fa fa-paperclip"></i></a></td>
+                  <td class=""><a href="mensajes-2.php" class="color-a"><strong>hace 1 Hora</strong></a></td>
                 </tr>
                 <tr class="texto-mail-active">
                   <td><input type="checkbox"></td>
-                  <td class=""><a href="#!"><strong>The Wedding Board</strong></a></td>
-                  <td class=""><strong>Lorem ipsum dolor sit amet</strong> -  Consectetuer adipiscing elit, orem ipsum dolor sit amet, consectetuer adipiscing...
+                  <td class=""><a href="mensajes-2.php" class="color-a"><strong>The Wedding Board</strong></a></td>
+                  <td class=""><a href="mensajes-2.php" class="color-a"><strong>Lorem ipsum dolor sit amet</strong> -  Consectetuer adipiscing elit, orem ipsum dolor sit amet, consectetuer adipiscing...</a>
                   </td>
                   <td class=""></td>
-                  <td class=""><strong>hace 1 día</strong></td>
+                  <td class=""><a href="mensajes-2.php" class="color-a"><strong>hace 1 día</strong></a></td>
                 </tr>
+                 <?php for ($i=0; $i <7 ; $i++) { ?>
+                
                 <tr class="texto-mail-desactive">
+                  <td><input type="checkbox"></td>
+                  <td class=""><a href="mensajes-2.php" class="color-a-a"><strong>The Wedding Board</strong></a></td>
+                  <td class=""><a href="mensajes-2.php" class="color-a-a"><i class="fa fa-tag" aria-hidden="true"></i> <span>Flores</span> <strong>Lorem ipsum dolor sit amet</strong> -  Consectetuer adipiscing elit, orem ipsum dolor sit amet, consectetuer adipiscing...</a>
+                  </td>
+                  <td class=""></td>
+                  <td class=""><a href="mensajes-2.php"><strong>13 marzo 2017</strong></a></td>
+                </tr>
+
+                <?php } ?>
+               <!--  <tr class="texto-mail-desactive">
                   <td><input type="checkbox"></td>
                   <td class=""><a href="#!"><strong>The Wedding Board</strong></a></td>
                   <td class=""><i class="fa fa-tag" aria-hidden="true"></i> <span>Flores</span> <strong>Lorem ipsum dolor sit amet</strong> -  Consectetuer adipiscing elit, orem ipsum dolor sit amet, consectetuer adipiscing...
@@ -157,7 +169,7 @@
                   </td>
                   <td class=""></td>
                   <td class=""><strong>13 marzo 2017</strong></td>
-                </tr>
+                </tr> -->
                 </tbody>
               </table>
               <!-- /.table -->
