@@ -1479,6 +1479,48 @@ cursor:pointer;
 }*/
 
 /*************************************************************/
+/*EST. botnes*/
+ .color-a{
+  color:#ddd;
+ }
+ .color-a:hover{
+  color:#ddd;
+ }
+.a2{
+  color:#808080;
+}
+.a2:hover{
+  color:#808080;
+}
+
+
+.btn-default2{
+    background-color: white;
+    color: #67cfe3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
+    font-weight: 400;
+    border-color: #67cfe3
+}
+.btn-default2 active:hover{
+  color: #67cfe3;
+}
+.btn-default2:hover{
+    background-color:#67cfe3 ;   
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
+    font-weight: 400;
+    border-color: #67cfe3
+}
+.btn-default3{
+}
+.btn-default3:hover{
+    background-color:#67cfe3;   
+    color: white;
+    border-color: #67cfe3
+}
+
 /* Est. Config */
 
 .webpadding-no4{
@@ -3245,6 +3287,24 @@ canvas:hover {
 /***********************************************************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
+
+  /*menu configuracion*/
+.dropdown-menu a {
+    border-bottom: 2px dotted #f1f3f4;
+    color: #000 !important;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 15px 20px !important;
+}
+.dropdown-menu a:hover {
+   font-size: 1em;
+    background: #f7fdfe !important;
+    font-weight: 500 !important;
+}
+/**/
+
   .dotted-pad{
     margin-bottom: 15px !important;
   }
@@ -3751,6 +3811,20 @@ canvas:hover {
       margin-left: 15% !important;
   }
   /*****************************************EST.*********************/
+
+.color-a{
+  color:#ddd;
+ }
+ .color-a:hover{
+  color:#ddd;
+ }
+ .color-a-a{
+  color:#c6c6c6 !important;
+ }
+ .color-a-a:hover{
+  color:#c6c6c6 !important;
+ }
+
 /*template 1*/
 .no-padding-template{
   padding: 0px !important;
@@ -5270,7 +5344,7 @@ label {
     margin-bottom: 40px;
 }
 .pad-crear{
-  padding-top: 20px !important;
+  padding-top: 0px !important;
 }
 .info-center strong{
   color: #000;
@@ -5686,4 +5760,15 @@ a {
 }
 .mailbox-controls1 {
     padding: 20px 0 0 0;
+}
+.btn-detalle11 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    background: #67cfe3;
+    width: 50%;
+    text-align: center;
+    font-size: .9em;
+    padding: 6px;
+    font-weight: 300;
+    cursor: pointer;
 }
