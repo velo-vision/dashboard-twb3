@@ -1,4 +1,4 @@
-<?php
+btn-default2 <?php
   require("functions.php");
   //get_header();
   get_headerPrincipal();
@@ -56,8 +56,8 @@
                   <!-- /.btn-group -->
                   <div class="pull-right pag2 pag-center">1-50/200
                     <div class="btn-group">
-                      <button type="button" class="btn btn-default btn-sm "><i class="fa fa-chevron-left"></i></button>
-                      <button type="button" class="btn btn-default btn-sm "><i class="fa fa-chevron-right"></i></button>
+                      <button type="button" class="btn btn-default btn-default2 btn-sm "><i class="fa fa-chevron-left"></i></button>
+                      <button type="button" class="btn btn-default btn-default2 btn-sm "><i class="fa fa-chevron-right"></i></button>
                     </div>
                     <!-- /.btn-group -->
                   </div>

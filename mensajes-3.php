@@ -28,7 +28,7 @@ include("head-3.php");
           </div>
           <div class="col-xs-6 col-sm-6 col-md-4 centers nomargin">
             <a href="mensajes-1.php">
-              <p class="usuario-volver" style="margin: 0 auto;">
+              <p class="usuario-volver btn-default3" style="margin: 0 auto;">
                 <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a Buzón
               </p>
             </a>

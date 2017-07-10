@@ -33,7 +33,7 @@
               <div class="box-body no-padding">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls border-controls">
 
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 dropdown boton-categoria cen nomargin left-51 mar-15 pad-pro">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 dropdown boton-categoria cen nomargin left-51 mar-15 pad-pro">btn-default2 btn-default2 
                     <button class="btn btn-secondary dropdown-toggle btn btn-default20 btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <i class="fa fa-tag" aria-hidden="true"></i> Categoria <i class="fa fa-caret-down" aria-hidden="true"></i>
                     </button>
@@ -70,8 +70,8 @@
                   </button>
                   <div class="pull-right pag-center pag2 pag3 pag-left">1-50/200
                     <div class="btn-group">
-                      <button type="button" class="btn btn-default btn-sm "><i class="fa fa-chevron-left"></i></button>
-                      <button type="button" class="btn btn-default btn-sm "><i class="fa fa-chevron-right"></i></button>
+                      <button type="button" class="btn btn-default btn-default2 btn-default2 btn-sm "><i class="fa fa-chevron-left"></i></button>
+                      <button type="button" class="btn btn-default btn-default2 btn-default2 btn-sm "><i class="fa fa-chevron-right"></i></button>
                     </div>
                     <!-- /.btn-group -->
                   </div>
@@ -425,8 +425,8 @@
           <div class="pull-right pag-center pag2 pag-left1">
             1-50/200
             <div class="btn-group">
-              <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
-              <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
+              <button type="button" class="btn btn-default btn-default2 btn-sm"><i class="fa fa-chevron-left"></i></button>
+              <button type="button" class="btn btn-default btn-default2 btn-sm"><i class="fa fa-chevron-right"></i></button>
             </div>
             <!-- /.btn-group -->
           </div>

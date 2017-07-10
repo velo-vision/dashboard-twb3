@@ -59,8 +59,8 @@
                             </button>
                             <div class="pull-right pag-center pag2">1-50/200
                               <div class="btn-group">
-                                <button type="button" class="btn btn-default btn-sm "><i class="fa fa-chevron-left"></i></button>
-                                <button type="button" class="btn btn-default btn-sm "><i class="fa fa-chevron-right"></i></button>
+                                <button type="button" class="btn btn-default btn-default2 btn-sm "><i class="fa fa-chevron-left"></i></button>
+                                <button type="button" class="btn btn-default btn-default2  btn-default2btn-sm "><i class="fa fa-chevron-right"></i></button>
                               </div>
                               <!-- /.btn-group -->
                             </div>
@@ -140,8 +140,8 @@
                           <div class="pull-right pag-center pag2">
                             1-50/200
                             <div class="btn-group">
-                              <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
-                              <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
+                              <button type="button" class="btn btn-default btn-default2 btn-sm"><i class="fa fa-chevron-left"></i></button>
+                              <button type="button" class="btn btn-default btn-default2 btn-sm"><i class="fa fa-chevron-right"></i></button>
                             </div>
                             <!-- /.btn-group -->
                           </div>

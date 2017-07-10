@@ -81,7 +81,7 @@
           </a>
         </li>
         <li class="treeview">
-          <a href="reportes.php">
+          <a href="proveedores-aprobados.php">
             <i class="fa fa-files-o"></i>
             <span>Solicitudes<span class="number-mensagges mover-bg">99</span></span>
           </a>
@@ -107,7 +107,7 @@
           <ul class="treeview-menu">
             <li class=""><a href="usuario-crear.php" class="pad-crear">Crear</a></li>
             <li class=""><a href="usuarios.php" class="pad-crear">Usuarios</a></li>
-            <li class=""><a href="#" class="pad-crear">Proveedores</a></li>
+            <li class=""><a href="proveedores-registrados.php" class="pad-crear">Proveedores</a></li>
             <li class=""><a href="usuario-admin.php">Administradores</a></li>
           </ul>
         </li>
