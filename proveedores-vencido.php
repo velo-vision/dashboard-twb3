@@ -156,43 +156,6 @@
         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 linea-config"></div>
 
         <div class="col-sm-11 col-sm-offset-1 col-md-12 col-lg-10 col-lg-offset-1 padin-cero-conf">
-          <div class="col-sm-11 col-md-10 col-lg-12 centrado nomargin">
-            <p class="text-detalle1">ESTADÍSTICAS</p>
-          </div>
-          <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span">
-            <div class="col-sm-6 col-md-6 col-lg-6">
-              <p>Tiempo de respuesta: <span>1 Hora</span></p>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-6">
-                <p>Mensajes recibidos: <span>25</span></p>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span">
-            <div class=" col-sm-6 col-md-6">
-              <p>Número de visitas: <span>25</span></p>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-6">
-                <p>Licitaciones: <span>10</span></p>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span">
-            <div class="col-sm-6 col-md-6">
-              <p>Cotizaciones envíadas: <span>30</span></p>
-            </div>
-            <div class="col-sm-6 col-md-6">
-                <p>Licitaciones ganadas: <span>3</span></p>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span bottom-evento">
-            <div class="col-sm-6 col-md-6">
-              <p>Mensajes envíados: <span>5</span></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 linea-config"></div>
-
-        <div class="col-sm-11 col-sm-offset-1 col-md-12 col-lg-10 col-lg-offset-1 padin-cero-conf">
           <div class="col-sm-11 col-md-10 col-lg-12 centrado move-red">
             <p class="text-detalle1">RED DE COLABORACION</p>
           </div>
@@ -223,6 +186,47 @@
           </div>
         </div>
         </div>
+
+        <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 linea-config"></div>
+
+        <div class="col-sm-11 col-sm-offset-1 col-md-12 col-lg-10 col-lg-offset-1 padin-cero-conf">
+          <div class="col-sm-11 col-md-10 col-lg-12 centrado nomargin">
+            <p class="text-detalle1">ESTADÍSTICAS</p>
+            <canvas id="chart-area34" width="600" height="300"></canvas>
+          </div>
+          </div> 
+          <!-- <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span">
+            <div class="col-sm-6 col-md-6 col-lg-6">
+              <p>Tiempo de respuesta: <span>1 Hora</span></p>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <p>Mensajes recibidos: <span>25</span></p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span">
+            <div class=" col-sm-6 col-md-6">
+              <p>Número de visitas: <span>25</span></p>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <p>Licitaciones: <span>10</span></p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span">
+            <div class="col-sm-6 col-md-6">
+              <p>Cotizaciones envíadas: <span>30</span></p>
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <p>Licitaciones ganadas: <span>3</span></p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span bottom-evento">
+            <div class="col-sm-6 col-md-6">
+              <p>Mensajes envíados: <span>5</span></p>
+            </div>
+          </div> -->
+        </div>
+
+        
 
 
       <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 linea-config"></div>
@@ -370,5 +374,35 @@
 <div class="control-sidebar-bg"></div>
 </div>
 <?php
-	include("footer-3.php");
+get_graficas_footer()
+  //include("footer-3.php");
+
 ?>
+ <script>
+
+  var barChartData34 = {
+    labels : ["Vistas x día","click al banner","licitaciones","Mensajes x día","clicks a tel.","cotizaciones x día","colaboradores"],
+    datasets : [
+      {
+        fillColor : "#67cfe3",
+        strokeColor : "#ffffff",
+        highlightFill: "#1864f2",
+        highlightStroke: "#ffffff",
+        data : [30,20,30,40,50,60,70]
+      },
+      // {
+      //   fillColor : "#e9e225",
+      //   strokeColor : "#ffffff",
+      //   highlightFill : "#ee7f49",
+      //   highlightStroke : "#ffffff",
+      //   data : [40,50,70,40,85,55,15]
+      // }
+    ]
+
+  } 
+    
+
+var ctx3 = document.getElementById("chart-area34").getContext("2d"); 
+window.myPie = new Chart(ctx3).Bar(barChartData34, {responsive:true});
+</script>
+<!-- fin graficas -->
