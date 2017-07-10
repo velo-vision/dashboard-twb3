@@ -39,7 +39,7 @@
   <!--REGSITRO-->
   <div class="container-fluid nomargin">
     <div class="col-md-12 col-sm-12 nomargin bg-login">
-      <div class="col-md-4 col-md-offset-4 col-sm-6 col-xs-12 login">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4 login">
         <div class="col-md-12 col-xs-12 border-login" style="overflow:hidden">
           <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 centers logo-registro">
             <img width="100%;" class="wow fadeInDown" data-wow-duration="2.5s" data-wow-delay="" src="images/recursos/logo.png" title="Logo" alt="The Wedding Board">

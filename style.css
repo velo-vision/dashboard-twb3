@@ -335,7 +335,7 @@ a:focus, a:hover {
 }
 .logo-registro img{
   margin: 1.8em 0 !important;
-  width: 70%;
+  width: 90%;
 }
 .registrate{
   color:#000000;
@@ -4044,6 +4044,12 @@ canvas:hover {
 
   /****************VELOSOFT FRONT-2************************/
 @media only screen and (min-width:200px) and (max-width:600px){
+  .pad-face{
+    padding: 0px;
+  }
+  .bg-login {
+    padding: 0em 0 !important;
+}
   .mexico-none{
     display: none !important;
   }
