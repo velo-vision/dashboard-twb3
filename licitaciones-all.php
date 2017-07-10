@@ -34,7 +34,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls">
 
                   <div class="col-xs-12 col-sm-7 col-md-4 col-lg-5 dropdown boton-categoria sinpadding-lic">
-                    <div class="dropdown drop">
+                    <!-- <div class="dropdown drop">
                         <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm btn btn-default2" type="button" data-toggle="dropdown" id="dropdownMenuButton2">
                           <i class="fa fa-tag" aria-hidden="true"></i> Categorias
                           <span class="caret"></span>
@@ -55,7 +55,7 @@
                           <li><a href="#">Cancelada</a></li>
                           <li><a href="#">Adjudicada</a></li>                         
                         </ul>
-                      </div>
+                      </div> -->
 
                    <!--  <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm ancho-completo1" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <i class="fa fa-tag" aria-hidden="true"></i> Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
@@ -107,9 +107,9 @@
 
  <!--Empieza titulos-->
  <div class="table-responsive mailbox-messages">
- <table class="table table-hover tabla-completa">
-    <tbody >
-      <tr class="strong-td">
+ <table class="sortable table table-hover tabla-completa">
+ <thead>
+    <tr class="strong-td">
         <td><input type="checkbox" class="oculto-check"></td>
         <td>
           <strong>USUARIO </strong>
@@ -133,6 +133,9 @@
            <strong>FECHA</strong>
         </td>
       </tr>
+  </thead> 
+    <tbody>
+      
 <?php for ($i=0; $i <10 ; $i++) { ?>
       <tr class="strong-td">
         <td><input type="checkbox" ></td>
@@ -159,6 +162,30 @@
         </td>
       </tr>
 <?php } ?>
+<tr class="strong-td">
+        <td><input type="checkbox" ></td>
+        <td>
+          <span>Jessenia Martínez</span>
+        </td>
+        <td>
+         <span>Vestidos</span>
+        </td>
+        <td>
+          <span>28-Oct-2017</span>
+        </td>
+        <td>
+          <span>$20,000.00</span>
+        </td>
+        <td>
+          <span>Activa</span>
+        </td>
+        <td>
+           <span>10</span>
+        </td>
+        <td>
+           <span>hace 25 min.</span>
+        </td>
+      </tr>
     </tbody>
   </table>
 </div>

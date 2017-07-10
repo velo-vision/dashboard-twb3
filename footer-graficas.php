@@ -1004,7 +1004,7 @@ window.myPie = new Chart(ctx).Pie(pieData);
         strokeColor : "#ffffff",
         highlightFill: "#1864f2",
         highlightStroke: "#ffffff",
-        data : [10,20,30,40,50,60,70]
+        data : [30,20,30,40,50,60,70]
       },
       // {
       //   fillColor : "#e9e225",

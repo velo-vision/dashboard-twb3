@@ -43,7 +43,7 @@
                     <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
                   </div>
                 </div> -->
-                <div class="dropdown drop">
+                <!-- <div class="dropdown drop">
                   <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm btn btn-default2" type="button" data-toggle="dropdown" id="dropdownMenuButton2">
                     <i class="fa fa-tag" aria-hidden="true"></i> Categorias
                     <span class="caret"></span>
@@ -53,7 +53,7 @@
                     <li><a href="#">Flores</a></li>
                     <li><a href="#">Vestidos</a></li>
                   </ul>
-                </div>
+                </div> -->
               <div class="btn-group">
                 <button type="button" class="btn btn-default btn-sm">
                   Borrar <i class="fa fa-trash-o"></i>
@@ -79,7 +79,22 @@
               <!-- /.pull-right -->
             </div>
             <div class="table-responsive mailbox-messages">
-              <table class="table table-hover table-striped">
+              <table class="sortable table table-hover table-striped">
+              <thead>
+                <tr class="strong-td">
+                    <td><input type="checkbox" class="oculto-check"></td>
+                    <td>
+                      <strong>USUARIO </strong>
+                    </td>
+                    <td>
+                      <strong>Mensaje</strong>
+                    </td>
+                   
+                    <td>
+                       <strong>FECHA</strong>
+                    </td>
+                  </tr>
+              </thead> 
                 <tbody >
                 <tr class="texto-mail-active">
                   <td ><input type="checkbox"></td>

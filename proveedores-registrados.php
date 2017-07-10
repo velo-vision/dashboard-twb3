@@ -5,25 +5,24 @@
 
   get_aside();
 ?>
-<!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
   <section>
     <div class="container-fluid nomargin">
-      <div class="col-md-6 col-md-offset-3 col-xs-12 titulo-prov">
+      <div class="col-md-6 col-md-offset-3 col-xs-12 titulo-perfil">
         <p>
           PROVEEDORES
         </p>
         <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
       </div>
       <!---->
-      <section class="">
-        <div class="container-fluid nomargin">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nomargin">
+      <section class="content">
+        <div class="container-fluid sinpadding-lic">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sinpadding-lic">
               <div class="box-header with-border">
                 <span class="box-title"></span>
                 <div class="box-tools pull-right">
                   <div class="has-feedback">
-                    <input type="text" class="form-control input-sm" placeholder="Buscar Licitación">
+                    <input type="text" class="form-control input-sm " placeholder="Buscar Licitación">
                     <span class="glyphicon glyphicon-search form-control-feedback"></span>
                   </div>
                 </div>
@@ -31,50 +30,24 @@
               </div>
               <!-- /.box-header -->
               <div class="box-body no-padding">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls border-controls">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls">
 
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 dropdown boton-categoria cen nomargin left-51 mar-15 pad-pro">btn-default2 btn-default2 
-                    <button class="btn btn-secondary dropdown-toggle btn btn-default20 btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="fa fa-tag" aria-hidden="true"></i> Categoria <i class="fa fa-caret-down" aria-hidden="true"></i>
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
-                      <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Flores</a>
-                      <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
-                    </div>
-
-                    <button class="btn btn-secondary dropdown-toggle btn btn-default20 btn-sm ancho-size margin-membresia" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="fa fa-id-card-o" aria-hidden="true"></i> Membresia <i class="fa fa-caret-down" aria-hidden="true"></i>
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
-                      <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Flores</a>
-                      <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
-                    </div>
-
-                    <button class="btn btn-secondary dropdown-toggle btn btn-default20 btn-sm ancho-size margin-membresia" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="fa fa-font-awesome" aria-hidden="true"></i> Estatus <i class="fa fa-caret-down" aria-hidden="true"></i>
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
-                      <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Flores</a>
-                      <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
-                    </div>
-                  </div>
-                  <!-- /.btn-group -->
+                  <!-- <div class="col-xs-12 col-sm-7 col-md-4 col-lg-5 dropdown boton-categoria sinpadding-lic">
+                  </div> -->
                   <button type="button" class="btn btn-default btn-sm ancho-size left-borra1 borrar-2">
                     Borrar <i class="fa fa-trash-o"></i>
                   </button>
                   <button type="button" class="btn btn-default btn-sm ancho-size move-left1">
                     Deshabilitar <i class="fa fa-ban" aria-hidden="true"></i>
                   </button>
-                  <div class="pull-right pag-center pag2 pag3 pag-left">1-50/200
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-default btn-default2 btn-default2 btn-sm "><i class="fa fa-chevron-left"></i></button>
-                      <button type="button" class="btn btn-default btn-default2 btn-default2 btn-sm "><i class="fa fa-chevron-right"></i></button>
+                  <div class="pull-right pag-center">1-50/200
+                    <div class="btn-group botones-paginacion">
+                      <button type="button" class="btn btn-default btn-sm btn-default2"><i class="fa fa-chevron-left"></i></button>
+                      <button type="button" class="btn btn-default btn-sm btn-default2"><i class="fa fa-chevron-right"></i></button>
                     </div>
                     <!-- /.btn-group -->
                   </div>
+
                   <!-- /.pull-right -->
                 </div>
               </div>
@@ -83,342 +56,93 @@
           </div>
         </div>
       </section>
-
- <!--Empieza titulos-->
-      <div class="col-md-12 col-sm-12 col-xs-12 confirma dotted-prov centrado">
-        <div class="col-md-1 centers ocultar">
-        </div>
-        <div class="col-md-1 col-sm-2 col-xs-5">
-          <p>
-            <strong class="texto-content">NEGOCIO</strong>
-          </p>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-3">
-          <p>
-            <strong class="texto-content">CATEGORÍA</strong>
-          </p>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-4">
-          <p>
-            <strong class="texto-content">MEMBRESÍA</strong>
-          </p>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-4">
-          <p>
-            <strong class="texto-content">VENCIMIENTO</strong>
-          </p>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-4 centers confirma">
-          <p>
-            <strong class="texto-content">TIEMPO DE RESPUESTA</strong>
-          </p>
-        </div>
-        <div class="col-md-1 col-sm-2 col-xs-4 centers confirma">
-          <p class="nomargin">
-            <strong class="texto-content">ESTATUS</strong>
-          </p>
-        </div>
+        <div class="table-responsive mailbox-messages">
+          <table class="sortable table table-hover tabla-completa">
+          <thead>
+            <tr class="strong-td">
+                <td><input type="checkbox" class="oculto-check"></td>
+                <td>
+                  <strong>NEGOCIO</strong>
+                </td>
+                <td>
+                  <strong>CATEGORÍA</strong>
+                </td>               
+                <td>
+                   <strong>MEMBRESÍA</strong>
+                </td>
+                <td>
+                   <strong>VENCIMIENTO</strong>
+                </td>
+                <td>
+                   <strong>TIEMPO DE RESPUESTA</strong>
+                </td>
+                <td>
+                   <strong>ESTATUS</strong>
+                </td>
+              </tr>
+          </thead> 
+            <tbody >
+              <tr class="hover-registro">
+                <td class="centrado-check"><input type="checkbox" ></td>
+                <td class=""><a href="proveedores-sin.php" class="color-a"><span class="texto-prov">Lorena Ipsum</span></a></td>
+                <td class=""><a href="proveedores-sin.php" class="color-a"><span class="texto-prov">Fashion</span></a></td>
+                <td class=""><a href="proveedores-sin.php"> <span class="texto-prov">Tipo A</span></a></td>
+                <td class=""><a href="proveedores-sin.php"> <span class="texto-prov">30-OCT-2017</span></a></td>
+                <td><a href="proveedores-sin.php"><span class="texto-prov">1hr</span></a></td>
+                <td><a href="proveedores-sin.php"><span class="texto-prov">Activo</span></a></td>
+              </tr>
+              <?php for ($i=0; $i <2 ; $i++) { ?>
+               <tr class="hover-registro">
+                <td class="centrado-check"><input type="checkbox"></td>
+                <td class=""><a href="proveedores-activo.php" class="color-a"><span class="texto-prov">Lorena Ipsum</span></a></td>
+                <td class=""><a href="proveedores-activo.php" class="color-a"><span class="texto-prov">Fashion</span></a></td>
+                <td class=""><a href="proveedores-activo.php"> <span class="texto-prov">Tipo A</span></a></td>
+                <td class=""><a href="proveedores-activo.php"> <span class="texto-prov">30-OCT-2017</span></a></td>
+                <td><a href="proveedores-activo.php"><span class="texto-prov">1hr</span></a></td>
+                <td><a href="proveedores-activo.php"><span class="texto-prov">Activo</span></a></td>
+              </tr>
+              <?php } ?>
+              <?php for ($i=0; $i <2 ; $i++) { ?>
+              <tr class="hover-registro">
+                <td class="centrado-check"><input type="checkbox"></td>
+                <td class=""><a href="proveedores-inhabilitado.php" class="color-a"><span class="texto-prov">Lorena Ipsum</span></a></td>
+                <td class=""><a href="proveedores-inhabilitado.php" class="color-a"><span class="texto-prov">Vestidos</span></a></td>
+                <td class=""><a href="proveedores-inhabilitado.php"> <span class="texto-prov">Tipo B</span></a></td>
+                <td class=""><a href="proveedores-inhabilitado.php"> <span class="texto-prov">30-OCT-2017</span></a></td>
+                <td><a href="proveedores-inhabilitado.php"><span class="texto-prov">1hr</span></a></td>
+                <td><a href="proveedores-inhabilitado.php"><span class="proveedores-off">Inhabilitado</span></a></td>
+              </tr>
+               <?php } ?>
+               <?php for ($i=0; $i <3 ; $i++) { ?>
+               <tr class="hover-registro">
+                <td class="centrado-check"><input type="checkbox"></td>
+                <td class=""><a href="proveedores-activo.php" class="color-a"><span class="texto-prov">Lorena Ipsum</span></a></td>
+                <td class=""><a href="proveedores-activo.php" class="color-a"><span class="texto-prov">Fashion</span></a></td>
+                <td class=""><a href="proveedores-activo.php"> <span class="texto-prov">Tipo A</span></a></td>
+                <td class=""><a href="proveedores-activo.php"> <span class="texto-prov">30-OCT-2017</span></a></td>
+                <td><a href="proveedores-activo.php"><span class="texto-prov">1hr</span></a></td>
+                <td><a href="proveedores-activo.php"><span class="texto-prov">Activo</span></a></td>
+              </tr>
+              <?php } ?>
+              <?php for ($i=0; $i <2 ; $i++) { ?>
+               <tr class="hover-registro">
+                <td class="centrado-check"><input type="checkbox"></td>
+                <td class=""><a href="proveedores-vencido.php" class="color-a"><span class="texto-prov">Lorena Ipsum</span></a></td>
+                <td class=""><a href="proveedores-vencido.php" class="color-a"><span class="texto-prov">Fashion</span></a></td>
+                <td class=""><a href="proveedores-vencido.php"> <span class="texto-prov">Tipo A</span></a></td>
+                <td class=""><a href="proveedores-vencido.php"><span class="proveedores-vencido">14-ENE-2017</span></a></td>
+                <td><a href="proveedores-vencido.php"><span class="texto-prov">1hr</span></a></td>
+                <td><a href="proveedores-vencido.php"> <span class="proveedores-vencido">Vencido</span></a></td>
+              </tr>
+              <?php } ?>
+            </tbody>
+          </table>
+          <!-- /.table -->
       </div>
+   <!--  </div> -->
+        <!-- /.mail-box-messages -->
 
-
-      <!---->
-      <a href="proveedores-sin.php"><div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado hover-registro">
-        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-          <div class="form-check">
-            <label class="form-check-label">
-              <input type="checkbox" class="form-check-input">
-            </label>
-          </div>
-        </div>
-        <div class="col-md-1 col-sm-2 col-xs-6 nomargin centrar separacion-list1">
-          <span class="device-title">NEGOCIO<br></span>
-          <span class="texto-prov">Lorena Ipsum</span>
-        </div>
-        <div class="col-md-2 col-sm-1 col-xs-6 nomargin separacion-list1">
-          <span class="device-title">CATEGORÍA<br></span>
-          <span class="texto-prov">Fashion</span>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list1">
-          <span class="device-title">MEMBRESÍA<br></span>
-          <span class="texto-prov">Tipo A</span>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6 nomargin separacion-list1 left-23">
-          <span class="device-title">VENCIMIENTO<br></span>
-          <span class="texto-prov">30-OCT-2017</span>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list1 left-align">
-          <span class="device-title">TIEMPO DE RESPUESTA<br></span>
-          <span class="texto-prov">1hr</span>
-        </div>
-         <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list1 left-align">
-          <span class="device-title">ESTATUS<br></span>
-          <span class="texto-prov">Activo</span>
-        </div>
-      </div></a>
-      <a href="proveedores-activo.php"><div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado hover-registro">
-        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-          <div class="form-check">
-            <label class="form-check-label">
-              <input type="checkbox" class="form-check-input">
-            </label>
-          </div>
-        </div>
-        <div class="col-md-1 col-sm-2 col-xs-6 nomargin centrar separacion-list1">
-          <span class="device-title">NEGOCIO<br></span>
-          <span class="texto-prov">Lorena Ipsum</span>
-        </div>
-        <div class="col-md-2 col-sm-1 col-xs-6 nomargin separacion-list1">
-          <span class="device-title">CATEGORÍA<br></span>
-          <span class="texto-prov">Fashion</span>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list1">
-          <span class="device-title">MEMBRESÍA<br></span>
-          <span class="texto-prov">Tipo A</span>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6 nomargin separacion-list1 left-23">
-          <span class="device-title">VENCIMIENTO<br></span>
-          <span class="texto-prov">30-OCT-2017</span>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list1 left-align">
-          <span class="device-title">TIEMPO DE RESPUESTA<br></span>
-          <span class="texto-prov">1hr</span>
-        </div>
-         <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list1 left-align">
-          <span class="device-title">ESTATUS<br></span>
-          <span class="texto-prov">Activo</span>
-        </div>
-      </div></a>
-      <a href="proveedores-activo.php"><div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado hover-registro">
-        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-          <div class="form-check">
-            <label class="form-check-label">
-              <input type="checkbox" class="form-check-input">
-            </label>
-          </div>
-        </div>
-        <div class="col-md-1 col-sm-2 col-xs-6 nomargin centrar separacion-list1">
-          <span class="device-title">NEGOCIO<br></span>
-          <span class="texto-prov">Lorena Ipsum</span>
-        </div>
-        <div class="col-md-2 col-sm-1 col-xs-6 nomargin separacion-list1">
-          <span class="device-title">CATEGORÍA<br></span>
-          <span class="texto-prov">Fashion</span>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list1">
-          <span class="device-title">MEMBRESÍA<br></span>
-          <span class="texto-prov">Tipo A</span>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6 nomargin separacion-list1 left-23">
-          <span class="device-title">VENCIMIENTO<br></span>
-          <span class="texto-prov">30-OCT-2017</span>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list1 left-align">
-          <span class="device-title">TIEMPO DE RESPUESTA<br></span>
-          <span class="texto-prov">1hr</span>
-        </div>
-         <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list1 left-align">
-           <span class="device-title">ESTATUS<br></span>
-          <span class="texto-prov">Activo</span>
-        </div>
-      </div></a>
-      <a href="proveedores-inhabilitado.php"><div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado hover-registro">
-        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-          <div class="form-check">
-            <label class="form-check-label">
-              <input type="checkbox" class="form-check-input">
-            </label>
-          </div>
-        </div>
-        <div class="col-md-1 col-sm-2 col-xs-6 nomargin centrar separacion-list1">
-          <span class="device-title">NEGOCIO<br></span>
-          <span class="texto-prov">Lorena Ipsum</span>
-        </div>
-        <div class="col-md-2 col-sm-1 col-xs-6 nomargin separacion-list1">
-          <span class="device-title">CATEGORÍA<br></span>
-          <span class="texto-prov">Fashion</span>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list1">
-          <span class="device-title">MEMBRESÍA<br></span>
-          <span class="texto-prov">Tipo A</span>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6 nomargin separacion-list1 left-23">
-          <span class="device-title">VENCIMIENTO<br></span>
-          <span class="texto-prov">30-OCT-2017</span>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list1 left-align">
-          <span class="device-title">TIEMPO DE RESPUESTA<br></span>
-          <span class="texto-prov">1hr</span>
-        </div>
-         <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list1 left-align">
-           <span class="device-title">ESTATUS<br></span>
-          <span class="proveedores-off">Inhabilitado</span>
-        </div>
-      </div></a>
-      <a href="proveedores-activo.php"><div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado hover-registro">
-        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-          <div class="form-check">
-            <label class="form-check-label">
-              <input type="checkbox" class="form-check-input">
-            </label>
-          </div>
-        </div>
-        <div class="col-md-1 col-sm-2 col-xs-6 nomargin centrar separacion-list1">
-          <span class="device-title">NEGOCIO<br></span>
-          <span class="texto-prov">Lorena Ipsum</span>
-        </div>
-        <div class="col-md-2 col-sm-1 col-xs-6 nomargin separacion-list1">
-          <span class="device-title">CATEGORÍA<br></span>
-          <span class="texto-prov">Fashion</span>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list1">
-          <span class="device-title">MEMBRESÍA<br></span>
-          <span class="texto-prov">Tipo A</span>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6 nomargin separacion-list1 left-23">
-          <span class="device-title">VENCIMIENTO<br></span>
-          <span class="texto-prov">30-OCT-2017</span>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list1 left-align">
-          <span class="device-title">TIEMPO DE RESPUESTA<br></span>
-          <span class="texto-prov">1hr</span>
-        </div>
-         <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list1 left-align">
-          <span class="device-title">ESTATUS<br></span>
-          <span class="texto-prov">Activo</span>
-        </div>
-      </div></a>
-      <a href="proveedores-activo.php"><div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado hover-registro">
-        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-          <div class="form-check">
-            <label class="form-check-label">
-              <input type="checkbox" class="form-check-input">
-            </label>
-          </div>
-        </div>
-        <div class="col-md-1 col-sm-2 col-xs-6 nomargin centrar separacion-list1">
-          <span class="device-title">NEGOCIO<br></span>
-          <span class="texto-prov">Lorena Ipsum</span>
-        </div>
-        <div class="col-md-2 col-sm-1 col-xs-6 nomargin separacion-list1">
-          <span class="device-title">CATEGORÍA<br></span>
-          <span class="texto-prov">Fashion</span>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list1">
-          <span class="device-title">MEMBRESÍA<br></span>
-          <span class="texto-prov">Tipo A</span>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6 nomargin separacion-list1 left-23">
-          <span class="device-title">VENCIMIENTO<br></span>
-          <span class="texto-prov">30-OCT-2017</span>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list1 left-align">
-          <span class="device-title">TIEMPO DE RESPUESTA<br></span>
-          <span class="texto-prov">1hr</span>
-        </div>
-         <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list1 left-align">
-          <span class="device-title">ESTATUS<br></span>
-          <span class="texto-prov">Activo</span>
-        </div>
-      </div></a>
-      <a href="proveedores-activo.php"><div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado hover-registro">
-        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-          <div class="form-check">
-            <label class="form-check-label">
-              <input type="checkbox" class="form-check-input">
-            </label>
-          </div>
-        </div>
-        <div class="col-md-1 col-sm-2 col-xs-6 nomargin centrar separacion-list1">
-          <span class="device-title">NEGOCIO<br></span>
-          <span class="texto-prov">Lorena Ipsum</span>
-        </div>
-        <div class="col-md-2 col-sm-1 col-xs-6 nomargin separacion-list1">
-          <span class="device-title">CATEGORÍA<br></span>
-          <span class="texto-prov">Fashion</span>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list1">
-          <span class="device-title">MEMBRESÍA<br></span>
-          <span class="texto-prov">Tipo A</span>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6 nomargin separacion-list1 left-23">
-          <span class="device-title">VENCIMIENTO<br></span>
-          <span class="texto-prov">30-OCT-2017</span>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list1 left-align">
-          <span class="device-title">TIEMPO DE RESPUESTA<br></span>
-          <span class="texto-prov">1hr</span>
-        </div>
-         <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list1 left-align">
-          <span class="device-title">ESTATUS<br></span>
-          <span class="texto-prov">Activo</span>
-        </div>
-      </div></a>
-      <a href="proveedores-vencido.php"><div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado hover-registro">
-        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-          <div class="form-check">
-            <label class="form-check-label">
-              <input type="checkbox" class="form-check-input">
-            </label>
-          </div>
-        </div>
-        <div class="col-md-1 col-sm-2 col-xs-6 nomargin centrar separacion-list1">
-          <span class="device-title">NEGOCIO<br></span>
-          <span class="texto-prov">Lorena Ipsum</span>
-        </div>
-        <div class="col-md-2 col-sm-1 col-xs-6 nomargin separacion-list1">
-          <span class="device-title">CATEGORÍA<br></span>
-          <span class="texto-prov">Fashion</span>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list1">
-          <span class="device-title">MEMBRESÍA<br></span>
-          <span class="texto-prov">Tipo A</span>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6 nomargin separacion-list1 left-23">
-          <span class="device-title">VENCIMIENTO<br></span>
-          <span class="proveedores-vencido">25-OCT-2017</span>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list1 left-align">
-          <span class="device-title">TIEMPO DE RESPUESTA<br></span>
-          <span class="texto-prov">1hr</span>
-        </div>
-         <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list1 left-align">
-          <span class="device-title">ESTATUS<br></span>
-          <span class="proveedores-vencido">Vencido</span>
-        </div>
-      </div></a>
-      <a href="proveedores-vencido.php"><div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado hover-registro">
-        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
-          <div class="form-check">
-            <label class="form-check-label">
-              <input type="checkbox" class="form-check-input">
-            </label>
-          </div>
-        </div>
-        <div class="col-md-1 col-sm-2 col-xs-6 nomargin centrar separacion-list1">
-          <span class="device-title">NEGOCIO<br></span>
-          <span class="texto-prov">Lorena Ipsum</span>
-        </div>
-        <div class="col-md-2 col-sm-1 col-xs-6 nomargin separacion-list1">
-          <span class="device-title">CATEGORÍA<br></span>
-          <span class="texto-prov">Fashion</span>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list1">
-          <span class="device-title">MEMBRESÍA<br></span>
-          <span class="texto-prov">Tipo A</span>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6 nomargin separacion-list1 left-23">
-          <span class="device-title">VENCIMIENTO<br></span>
-          <span class="proveedores-vencido">14-ENE-2017</span>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-6 nomargin separacion-list1 left-align">
-          <span class="device-title">TIEMPO DE RESPUESTA<br></span>
-          <span class="texto-prov">1hr</span>
-        </div>
-         <div class="col-md-1 col-sm-1 col-xs-6 nomargin separacion-list1 left-align">
-          <span class="device-title">ESTATUS<br></span>
-          <span class="proveedores-vencido">Vencido</span>
-        </div>
-      </div></a>
+     
       <!---->
       <div class="box-footer no-padding">
         <div class="mailbox-controls">

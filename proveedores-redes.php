@@ -41,14 +41,14 @@
                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls border-controls">
 
                             <div class="col-xs-12 col-sm-7 col-md-7 col-lg-9 dropdown boton-categoria cen nomargin left-15 mar-20">
-                              <button class="btn btn-secondary dropdown-toggle btn btn-default23 btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <!-- <button class="btn btn-secondary dropdown-toggle btn btn-default23 btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fa fa-font-awesome" aria-hidden="true"></i> Estatus <i class="fa fa-caret-down" aria-hidden="true"></i>
                               </button>
                               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
                                 <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Flores</a>
                                 <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
-                              </div>
+                              </div> -->
                             </div>
                             <!-- /.btn-group -->
                             <button type="button" class="btn btn-default btn-sm ancho-size left-borra70 btn-padd">
@@ -70,11 +70,65 @@
                   </div>
                 </section>
                 <section>
+                <div class="table-responsive mailbox-messages">
+                   <table class="sortable table table-hover tabla-completa">
+                     <thead>
+                        <tr class="strong-td">
+                            <td><input type="checkbox" class="oculto-check"></td>
+                            <td>
+                              <strong>SOLICITANTE / CATEGORÍA</strong>
+                            </td>
+                            <td>
+                              <strong>ENVIADO A/ CATEGORÍA</strong>
+                            </td>
+                            <td>
+                              <strong>FECHA DE SOLICITUD</strong>
+                            </td>
+                            <td>
+                              <strong>ESTATUS</strong>
+                            </td>
+                            <td>
+                              
+                            </td>                          
+                           
+                          </tr>
+                      </thead> 
+                      <tbody>      
+                  <?php for ($i=0; $i <5 ; $i++) { ?>
+                        <tr class="strong-td">
+                          <td><input type="checkbox" ></td>
+                          <td>
+                            <span class="texto-content">Lorena Martínez</span>
+                          </td>
+                          <td>
+                           <span>Fashion</span>
+                          </td>
+                          <td>
+                             <span class="texto-content">Hace 5 minutos</span>
+                          </td>
+                          <td>
+                           <span class="texto-content">Enviada</span>
+                          </td>
+                          <td>
+                            
+                            <a data-toggle="modal" data-target="#proveedores-aceptar" data-whatever="@mdo">
+                            <p class=" proveedor-redes">
+                              <i class="fa fa-trash-o" aria-hidden="true"></i> Eliminar
+                            </p></a>
+                         
+                          </td>
+                                 
+                        </tr>
+                    <?php } ?>
+                      </tbody>
+                    </table>
+                  </div>
+
                   <div class="col-xs-12 col-md-12 sin-pa">
                       <!-- /.box-header -->
                       <div class="box-body no-padding">
-                        <form action="">
-                        <!--Empieza cuadro-->
+                      <!--   <form action="">
+                       
                         <div class="col-md-12 col-sm-12 col-xs-12 confirma border-down">
                           <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar23">
                           </div>
@@ -411,7 +465,7 @@
                             </div>
                           </div>
                         </div>
-                      </form>
+                      </form> -->
                         <!-- /.mail-box-messages -->
                       </div>
                       <!-- /.box-body -->
@@ -448,5 +502,5 @@
 <div class="control-sidebar-bg"></div>
 </div>
 <?php
-	include("footer-3.php");
+  get_footer();
 ?>

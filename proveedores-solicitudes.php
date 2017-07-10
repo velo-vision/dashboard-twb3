@@ -1,4 +1,4 @@
-btn-default2 <?php
+<?php
   require("functions.php");
   //get_header();
   get_headerPrincipal();
@@ -11,7 +11,7 @@ btn-default2 <?php
     <div class="container-fluid nomargin">
       <div class="col-md-6 col-md-offset-3 col-xs-12 titulo-perfil">
         <p>
-          LICITACIONES
+          Proveedores
         </p>
         <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
       </div>
@@ -34,7 +34,7 @@ btn-default2 <?php
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mailbox-controls">
 
                   <div class="col-xs-12 col-sm-9 col-md-8 col-lg-10 dropdown boton-categoria cen nomargin left-15 mar-20">
-                    <button class="btn btn-secondary dropdown-toggle btn btn-default23 btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <!-- <button class="btn btn-secondary dropdown-toggle btn btn-default23 btn-sm ancho-size" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <i class="fa fa-tag" aria-hidden="true"></i> Plataforma <i class="fa fa-caret-down" aria-hidden="true"></i>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -49,7 +49,7 @@ btn-default2 <?php
                       <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
                       <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Flores</a>
                       <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
-                    </div>
+                    </div> -->
                   </div>
 
 
@@ -71,49 +71,75 @@ btn-default2 <?php
       </section>
 
  <!--Empieza titulos-->
-      <div class="col-md-12 col-sm-12 col-xs-12 confirma box-footer dotted-prov centrado">
-        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar-prov">
-          <!-- <div class="form-check">
-            <label class="form-check-label">
-              <input type="checkbox" class="form-check-input">
-            </label>
-          </div> -->
-        </div>
-        <div class="col-md-1 col-sm-2 col-xs-5">
-          <p>
-            <strong class="texto-content left-negocio">NEGOCIO</strong>
-          </p>
-        </div>
-        <div class="col-md-1 col-sm-1 col-xs-3">
-          <p>
-            <strong class="texto-content left-cat left-negocio">CATEGORÍA</strong>
-          </p>
-        </div>
-        <div class="col-md-1 col-sm-2 col-xs-4">
-          <p>
-            <strong class="texto-content left-mem">MEMBRESIA</strong>
-          </p>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-4">
-          <p>
-            <strong class="texto-content">FECHA DE SOLICITUD</strong>
-          </p>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-4 centers confirma">
-          <p>
-            <strong class="texto-content">TELEFONO</strong>
-          </p>
-        </div>
-        <div class="col-md-1 col-sm-2 col-xs-4 centers confirma">
-          <p class="nomargin">
-            <strong class="texto-content">MAIL</strong>
-          </p>
+
+ <div class="table-responsive mailbox-messages">
+ <table class="sortable table table-hover tabla-completa">
+ <thead>
+    <tr class="strong-td">
+        <td><input type="checkbox" class="oculto-check"></td>
+        <td>
+          <strong>NEGOCIO</strong>
+        </td>
+        <td>
+          <strong>CATEGORÍA</strong>
+        </td>
+        <td>
+          <strong>MEMBRESIA</strong>
+        </td>
+        <td>
+          <strong>FECHA DE SOLICITUD</strong>
+        </td>
+        <td>
+          <strong>TELÉFONO</strong>
+        </td>
+        <td>
+          <strong>MAIL</strong>
+        </td>
+        <td>
+          <!--  <strong>FECHA</strong> -->
+        </td>
+      </tr>
+  </thead> 
+    <tbody>
+      
+<?php for ($i=0; $i <5 ; $i++) { ?>
+      <tr class="strong-td">
+        <td><input type="checkbox" ></td>
+        <td><a href="proveedores-aprobados.php">
+          <span class="texto-content">Lorena Martínez</span>
+        </td></a>
+        <td><a href="proveedores-aprobados.php">
+         <span>Fashion</span>
+        </td></a>
+        <td><a href="proveedores-aprobados.php">
+           <span class="texto-content">Tipo A</span>
+        </td></a>
+        <td><a href="proveedores-aprobados.php">
+         <span class="texto-content">Hace 5 Min</span>
+        </td></a>
+        <td><a href="proveedores-aprobados.php">
+           <span class="texto-content">55-34-20-18-40</span>
+        </td></a>
+        <td><a href="proveedores-aprobados.php">
+          <span class="texto-content">proveedorcat@misitiomail.mx</span>
+        </td></a>
+        <td><a href="proveedores-aprobados.php">
+          <div class=" nomargin separacion-list margin-paloma">
+            <i class="fa fa-check-circle-o paloma-size icon-paloma" aria-hidden="true"></i>
+            <i class="fa fa-times-circle-o icon-tache" aria-hidden="true"></i>
           </div>
-      </div>
+          </a>
+        </td>
+      </tr>
+<?php } ?>
+    </tbody>
+  </table>
+</div>
+
 
 
       <!---->
-<?php  for ($i=0; $i <5 ; $i++) { ?>
+<?php /* for ($i=0; $i <5 ; $i++) { ?>
 
       <a href="proveedores-aprobados.php"><div class="col-md-12 col-sm-12 col-xs-12 dotted-prov centrado hover-registro">
         <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar-prov">
@@ -153,7 +179,7 @@ btn-default2 <?php
         </div>
       </div></a>
       <!---->
-<?php } ?>
+<?php } */?>
 
     </div>
 
