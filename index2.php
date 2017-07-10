@@ -68,17 +68,12 @@
                  </a>
               </div>
              </div>
-             <div class="form-group row top-20">
+             <div class="form-group row top-30">
                <div class="col-md-8 col-md-offset-2">
                  <a href="reportes.php"><button type="button" class="btn boton-registro ">INGRESAR</button></a>
                </div>
              </div>
-             <div class="form-group row top-10">
-             <div class="col-md-8 col-md-offset-2">
-               <a href="https://www.facebook.com/"><button type="submit" class="btn boton-facebook hvr-rectangle-in"><i class="fa fa-facebook-square" aria-hidden="true"></i> Entra con <strong>Facebook</strong></button></a>
-             </div>
-            </div>
-             <div class="form-group row top-10">
+             <div class="form-group row top-30">
                <div class="col-md-8 col-md-offset-2">
                  <a href="registro.php">
                    <button onclick="index.php" type="button" class="btn boton-registro2">REGISTRARTE</button>

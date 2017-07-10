@@ -1504,15 +1504,22 @@ cursor:pointer;
 }*/
 
 /*******TWB-3********/
-.bg-login{
+/*.bg-login{
   background: url(images/recursos/registro.jpg) center center no-repeat;
   background-size: cover;
   height: 100vh;
   padding-top: 5% !important;
+}*/
+.bg-login {
+    background: url(images/recursos/registro.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 10em 0 !important;
 }
+
 .login{
   background: white;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   -webkit-box-shadow: 0px 0px 5px 3px rgba(222,222,222,1);
   -moz-box-shadow: 0px 0px 5px 3px rgba(222,222,222,1);
   box-shadow: 0px 0px 5px 3px rgba(222,222,222,1);
