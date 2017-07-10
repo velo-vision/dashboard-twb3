@@ -1530,6 +1530,10 @@ cursor:pointer;
 }
 /**/
 /*************************************************************/
+.centrado-check{
+  text-align: center;
+}
+
 /*EST. botnes*/
  .color-a{
   color:#ddd;
@@ -4929,6 +4933,25 @@ label {
     padding: 5px 0;
     font-weight: 300;
 }
+
+.proveedor-redes{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  background: #67cfe3;    
+  text-align: center;
+  font-size: .9em;
+  padding: 6px 0;
+  font-weight: 300;
+  cursor: pointer;
+  border: 1px solid #67cfe3;
+}
+.proveedor-redes:hover{
+  border:1px solid #67cfe3;
+  color: #67cfe3;
+  padding: 6px 0;
+  background: #fff;
+}
+
 .btn-detalle {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
