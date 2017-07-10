@@ -176,52 +176,15 @@
             <p class="text-detalle1">ESTADÍSTICAS</p>
           </div>
           <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span">
-            <div class="col-sm-6 col-md-6 col-lg-4">
-              <div class="col-xs-6 col-md-12 text-center">
-                <input type="text" class="knob" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" value="60" data-width="120" data-height="120" data-fgColor="#00c0ef">
-                <div class="knob-label" style="font-size:16px; font-weight:600;"><p>Tiempo de respuesta: <br><span>60 minutos</span></p></div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-4">
-              <div class="col-xs-6 col-md-12 text-center">
-                <input type="text" class="knob" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" value="25" data-width="120" data-height="120" data-fgColor="#00c0ef">
-                <div class="knob-label" style="font-size:16px; font-weight:600;"><p>Mensajes recibidos: <br><span>25</span></p></div>
-              </div>
-            </div>
-            <div class=" col-sm-6 col-md-4">
-              <div class="col-xs-6 col-md-12 text-center">
-                <input type="text" class="knob" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" value="25" data-width="120" data-height="120" data-fgColor="#00c0ef">
-                <div class="knob-label" style="font-size:16px; font-weight:600;"><p>Número de visitas:<br> <span>25</span></p></div>
-              </div>              
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span">
+          <!--  -->
+          <canvas id="chart-area33" width="600" height="300"></canvas>
+
+
+          <!--  -->
             
-            <div class="col-sm-6 col-md-4 col-lg-6">
-              <div class="col-xs-6 col-md-12 text-center">
-                <input type="text" class="knob" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" value="10" data-width="120" data-height="120" data-fgColor="#00c0ef">
-                <div class="knob-label" style="font-size:16px; font-weight:600;"><p>Licitaciones:<br> <span>10</span></p></div>
-              </div>
-                
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span">
-            
-            <div class="col-sm-6 col-md-4">
-              <div class="col-xs-6 col-md-12 text-center">
-                <input type="text" class="knob" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" value="3" data-width="120" data-height="120" data-fgColor="#00c0ef">
-                <div class="knob-label" style="font-size:16px; font-weight:600;"><p>Licitaciones ganadas:<br> <span>3</span></p></div>
-              </div>               
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 text-span bottom-evento">
-            <div class="col-sm-6 col-md-4">
-            <div class="col-xs-6 col-md-12 text-center">
-                <input type="text" class="knob" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" value="5" data-width="120" data-height="120" data-fgColor="#00c0ef">
-                <div class="knob-label" style="font-size:16px; font-weight:600;"> <p>Mensajes envíados: <span>5</span></p></div>
-              </div>
-            </div>
-          </div>
+          </div>        
+         
+          
         </div>
 
       <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 linea-config"></div>
@@ -371,9 +334,37 @@
 <div class="control-sidebar-bg"></div>
 </div>
 
-
+  
 <!--  -->
 <?php
 get_graficas_footer()
 	//include("footer-3.php");
 ?>
+  <script>
+
+  var barChartData2 = {
+    labels : ["Vistas x día","click al banner","licitaciones","Mensajes x día","clicks a tel.","cotizaciones x día","colaboradores"],
+    datasets : [
+      {
+        fillColor : "#67cfe3",
+        strokeColor : "#ffffff",
+        highlightFill: "#1864f2",
+        highlightStroke: "#ffffff",
+        data : [30,20,30,40,50,60,70]
+      },
+      // {
+      //   fillColor : "#e9e225",
+      //   strokeColor : "#ffffff",
+      //   highlightFill : "#ee7f49",
+      //   highlightStroke : "#ffffff",
+      //   data : [40,50,70,40,85,55,15]
+      // }
+    ]
+
+  } 
+    
+
+var ctx3 = document.getElementById("chart-area33").getContext("2d"); 
+window.myPie = new Chart(ctx3).Bar(barChartData2, {responsive:true});
+</script>
+<!-- fin graficas -->
