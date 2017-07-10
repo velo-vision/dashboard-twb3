@@ -78,6 +78,6 @@ $( document ).ready(function() {
 <script>
  new WOW().init();
  </script>
-
+<script src="js/sorttable.js"></script>
 </body>
 </html>
