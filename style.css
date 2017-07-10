@@ -1550,7 +1550,7 @@ cursor:pointer;
   color: #67cfe3;
 }
 .btn-default2:hover{
-    background-color:#67cfe3 ;   
+    background-color:#67cfe3 ;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: .8em;
@@ -1560,7 +1560,7 @@ cursor:pointer;
 .btn-default3{
 }
 .btn-default3:hover{
-    background-color:#67cfe3;   
+    background-color:#67cfe3;
     color: white;
     border-color: #67cfe3
 }
@@ -5852,4 +5852,6 @@ a {
     margin-bottom: 20px;
     width: 100%;
 }
-
+.chart svg, .chart canvas {
+    width: initial !important;
+}
