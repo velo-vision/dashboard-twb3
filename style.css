@@ -2600,6 +2600,9 @@ canvas:hover {
 }
 /**/
 @media only screen and (min-width:1300px) and (max-width:1500px){
+  .chart {
+    min-height: 300px !important;
+}
   .pad-usuario{
     padding: 0px !important;
   }
@@ -2648,6 +2651,13 @@ canvas:hover {
   /**/
 }
 @media only screen and (min-width:1200px) and (max-width:1300px){
+  .graficas-70{
+    margin-top:20px !important;
+  }
+  .chart {
+    width: 100%;
+    min-height: 250px !important;
+}
   .pad-usuario{
     padding: 0px !important;
   }
@@ -2755,6 +2765,22 @@ canvas:hover {
 
 
 @media only screen and (min-width:992px) and (max-width:1200px){
+  .reportes-top-50 {
+    margin-top: 0px !important;
+}
+  .reportes-top-50 {
+    margin-top: -15px !important;
+  }
+  .padding-graficas{
+    padding: 0px !important;
+  }
+  .graficas-70{
+    margin-top:20px !important;
+  }
+  .chart {
+    width: 100%;
+    min-height: 200px !important;
+}
   .btn-detalle {
     width: 100px !important;
     margin: 0 auto;
@@ -3015,6 +3041,12 @@ canvas:hover {
 /******************************EST***********************/
 }
 @media only screen and (min-width:768px) and (max-width:992px){
+  .reportes-top-50 {
+    margin-top: 0px !important;
+}
+  .graficas-70{
+    margin-top:20px !important;
+  }
   .text-left{
     margin-left: 30px !important;
   }
@@ -3345,13 +3377,12 @@ canvas:hover {
 /***********************************************************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
-/*isai*/
-
-
-.bg-login {
-    padding: 0em 0 !important;
-}
-/**/
+  .graficas-70{
+    margin-top:0px !important;
+  }
+  .box-tools {
+      display: none !important;
+  }
   /*menu configuracion*/
 .dropdown-menu a {
     border-bottom: 2px dotted #f1f3f4;
@@ -3694,6 +3725,9 @@ canvas:hover {
   /****************VELOSOFT FRONT-2************************/
 }
 @media only screen and (min-width:1200px) and (max-width:1980px){
+  .reportes-top-50 {
+    margin-top: 0px !important;
+}
   .text-left{
     margin-left: -100px ;
   }
@@ -3798,6 +3832,9 @@ canvas:hover {
 }
 /**/
 @media only screen and (min-width:600px) and (max-width:768px){
+  .reportes-top-50 {
+    margin-top: 0px !important;
+}
   .right-center p{
     text-align: center !important;
   }
@@ -4011,6 +4048,16 @@ canvas:hover {
 
   /****************VELOSOFT FRONT-2************************/
 @media only screen and (min-width:200px) and (max-width:600px){
+  .mexico-none{
+    display: none !important;
+  }
+  .reportes-top-50 {
+    margin-top: -15px !important;
+  }
+  .chart {
+      width: 100%;
+      min-height: 100px !important;
+  }
   .right-center p{
     text-align: left !important;
   }
@@ -5890,4 +5937,120 @@ a {
 }
 .chart svg, .chart canvas {
     width: initial !important;
+}
+.graficas-nuevas{
+  text-align: center;
+}
+.text-reportes{
+  font-size:1.4em;
+  font-weight:700;
+}
+.reportes-dedding{
+  color:#cacaca;
+  text-transform:uppercase;
+}
+.bg-reportes{
+  background:#d4d4d4;
+  height:15px;
+  width:15px;
+  margin:0 auto;
+}
+.bg-reportes1{
+  background:#1bbbda;
+  height:15px;
+  width:15px;
+  margin:0 auto;
+}
+.reportes-top-50{
+  margin-top: 50px;
+}
+.licitaciones-reportes{
+  text-align:center;
+  font-size:22px;
+}
+.cotizaciones-reportes{
+  text-align:center;
+  font-size:22px;
+}
+.bg-click1{
+  background:#3aed68;
+  height:15px;
+  width:15px;
+  margin:0 auto;
+}
+.bg-click2{
+  background:#e4e23a;
+  height:15px;
+  width:15px;
+  margin:0 auto;
+}
+.bg-click3{
+  background:#67cfe3;
+  height:15px;
+  width:15px;
+  margin:0 auto;
+}
+.click-pagina{
+  text-align:center;
+  font-size:16px;
+  font-weight:500;
+}
+.click-redes{
+  text-align:center;
+  font-size:16px;
+}
+.click-banner{
+  text-align:center;
+  font-size:16px;
+}
+
+.bg-mexico{
+  background:#67cfe3;
+  height:15px;
+  width:15px;
+  margin:0 auto;
+}
+.bg-monterrey{
+  background:#d7124e;
+  height:15px;
+  width:15px;
+  margin:0 auto;
+}
+.bg-puebla{
+  background:#eb5d82;
+  height:15px;
+  width:15px;
+  margin:0 auto;
+}
+.bg-jalisco{
+  background:#5ae85a;
+  height:15px;
+  width:15px;
+  margin:0 auto;
+}
+.bg-veracruz{
+  background:#4437ee;
+  height:15px;
+  width:15px;
+  margin:0 auto;
+}
+.mexico{
+  text-align:center;
+  font-size:16px;
+}
+.monterrey{
+  text-align:center;
+  font-size:16px;
+}
+.puebla{
+  text-align:center;
+  font-size:16px;
+}
+.jalisco{
+  text-align:center;
+  font-size:16px;
+}
+.veracruz{
+  text-align:center;
+  font-size:16px;
 }

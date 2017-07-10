@@ -29,9 +29,9 @@
           <!-- AREA CHART -->
           <div class="box box-primary">
             <div class="box-header with-border">
-              <div class="col-md-12" style="text-align:center;">
-                <p class="nomargin" style="font-size:1.4em; font-weight:700;">REPORTE DE FAVORITOS</p>
-                <span style="color:#cacaca; text-transform:uppercase;">Wedding Board</span>
+              <div class="col-md-12 centers">
+                <p class="nomargin text-reportes">REPORTE DE FAVORITOS</p>
+                <span class="reportes-dedding">Wedding Board</span>
               </div>
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -51,9 +51,9 @@
           <!-- DONUT CHART -->
           <div class="box box-danger">
             <div class="box-header with-border">
-              <div class="col-md-12" style="text-align:center;">
-                <p class="nomargin" style="font-size:1.4em; font-weight:700;">CUANTOS USUARIOS TE AÑADIERON</p>
-                <span style="color:#cacaca; text-transform:uppercase;">Wedding Board</span>
+              <div class="col-md-12 centers top-20">
+                <p class="nomargin text-reportes">CUANTOS USUARIOS TE AÑADIERON</p>
+                <span class="reportes-dedding">Wedding Board</span>
               </div>
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -74,9 +74,9 @@
           <!-- LINE CHART -->
           <div class="box box-info">
             <div class="box-header with-border">
-              <div class="col-md-12" style="text-align:center;">
-                <p class="nomargin" style="font-size:1.4em; font-weight:700;">PORCENTAJE DE RESPUESTA</p>
-                <span style="color:#cacaca; text-transform:uppercase;">Wedding Board</span>
+              <div class="col-md-12 centers">
+                <p class="nomargin text-reportes">PORCENTAJE DE RESPUESTA</p>
+                <span class="reportes-dedding">Wedding Board</span>
               </div>
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -96,9 +96,9 @@
           <!-- BAR CHART -->
           <div class="box box-success">
             <div class="box-header with-border">
-              <div class="col-md-12" style="text-align:center; margin-top: 20px;">
-                <p class="nomargin" style="font-size:1.4em; font-weight:700;">LICITACIONES, COTIZACIONES</p>
-                <span style="color:#cacaca; text-transform:uppercase;">Wedding Board</span>
+              <div class="col-md-12 centers top-20">
+                <p class="nomargin text-reportes">LICITACIONES, COTIZACIONES</p>
+                <span class="reportes-dedding">Wedding Board</span>
               </div>
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -109,12 +109,12 @@
             <div class="box-body">
               <div class="chart">
                 <canvas id="barChart" style="height:230px"></canvas>
-                <div class="col-md-6 col-md-offset-3">
-                  <div class="col-md-6" style="margin-top:50px;">
-                    <div style="background:#d4d4d4; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:22px;">Licitaciones</p>
+                <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+                  <div class="col-xs-6 col-sm-6 col-md-6 reportes-top-50 padding-graficas">
+                    <div class="bg-reportes"></div><p class="licitaciones-reportes">Licitaciones</p>
                   </div>
-                  <div class="col-md-6" style="margin-top:50px;">
-                    <div style="background:#1bbbda; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:22px;">Cotizaciones</p>
+                  <div class="col-xs-6 col-sm-6 col-md-6 reportes-top-50">
+                    <div class="bg-reportes1"></div><p class="cotizaciones-reportes">Cotizaciones</p>
                   </div>
                 </div>
               </div>
@@ -139,9 +139,9 @@
           <!-- AREA CHART -->
           <div class="box box-primary">
             <div class="box-header with-border">
-              <div class="col-md-12" style="text-align:center;">
-                <p class="nomargin" style="font-size:1.4em; font-weight:700;">CLICK POR CELULAR</p>
-                <span style="color:#cacaca; text-transform:uppercase;">Wedding Board</span>
+              <div class="col-md-12 centers">
+                <p class="nomargin text-reportes">CLICK POR CELULAR</p>
+                <span class="reportes-dedding">Wedding Board</span>
               </div>
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -161,9 +161,9 @@
           <!-- DONUT CHART -->
           <div class="box box-danger">
             <div class="box-header with-border">
-              <div class="col-md-12" style="text-align:center;">
-                <p class="nomargin" style="font-size:1.4em; font-weight:700;">VISITAS A LA PAGINA</p>
-                <span style="color:#cacaca; text-transform:uppercase;">Wedding Board</span>
+              <div class="col-md-12 centers top-20">
+                <p class="nomargin text-reportes">VISITAS A LA PAGINA</p>
+                <span class="reportes-dedding">Wedding Board</span>
               </div>
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -171,26 +171,26 @@
                 <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
               </div>
             </div>
-           <div id="canvas-holder" style="text-align: center; margin-top:20px;">
+           <div id="canvas-holder" class="centers top-20">
              <canvas id="chart-area" width="300" height="300"></canvas>
            </div>
-            <div class="col-md-12" style="margin-top:20px;">
-              <div class="col-md-4">
-                <div style="background:#67cfe3; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:22px;">Cd de mexíco</p>
-              </div>
-              <div class="col-md-4">
-                <div style="background:#d7124e; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:22px;">Monterrey</p>
-              </div>
-              <div class="col-md-4">
-                <div style="background:#eb5d82; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:22px;">Puebla</p>
-              </div>
-              <div class="col-md-4">
-                <div style="background:#5ae85a; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:22px;">Jalisco</p>
-              </div>
-              <div class="col-md-4">
-                <div style="background:#4437ee; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:22px;">Veracruz</p>
-              </div>
-            </div>              
+           <div class="col-xs-12 col-md-12 top-20 mexico-none">
+             <div class="col-xs-4 col-md-4">
+               <div class="bg-mexico"></div><p class="mexico">Cd de mexíco</p>
+             </div>
+             <div class="col-xs-4 col-md-4">
+               <div class="bg-monterrey"></div><p class="monterrey">Monterrey</p>
+             </div>
+             <div class="col-xs-4 col-md-4">
+               <div class="bg-puebla"></div><p class="puebla">Puebla</p>
+             </div>
+             <div class="col-xs-4 col-md-4">
+               <div class="bg-jalisco"></div><p class="jalisco">Jalisco</p>
+             </div>
+             <div class="col-xs-4 col-md-4">
+               <div class="bg-veracruz"></div><p class="veracruz">Veracruz</p>
+             </div>
+           </div>
             <!-- /.box-body -->
           </div>
           <!-- /.box -->
@@ -201,9 +201,9 @@
           <!-- LINE CHART -->
           <div class="box box-info">
             <div class="box-header with-border">
-              <div class="col-md-12" style="text-align:center;">
-                <p class="nomargin" style="font-size:1.4em; font-weight:700;">MENSAJES POR DÍA</p>
-                <span style="color:#cacaca; text-transform:uppercase;">Wedding Board</span>
+              <div class="col-md-12 centers">
+                <p class="nomargin text-reportes">MENSAJES POR DÍA</p>
+                <span class="reportes-dedding">Wedding Board</span>
               </div>
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -223,9 +223,9 @@
           <!-- BAR CHART -->
           <div class="box box-success">
             <div class="box-header with-border">
-              <div class="col-md-12" style="text-align:center; margin-top: 20px;">
-                <p class="nomargin" style="font-size:1.4em; font-weight:700;">CLICK PAGÍNA WEB, REDES SOCIALES, BANNERS</p>
-                <span style="color:#cacaca; text-transform:uppercase;">Wedding Board</span>
+              <div class="col-md-12 centers top-20">
+                <p class="nomargin text-reportes">CLICK PAGÍNA WEB, REDES SOCIALES, BANNERS</p>
+                <span class="reportes-dedding">Wedding Board</span>
               </div>
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -268,18 +268,18 @@
                   </style>
                 <div id='dashboard' class="graficas-nuevas">
                 </div>
-                <div class="col-md-12">
-                  <div class="col-md-4" style="margin-top:50px;">
-                    <div style="background:#3aed68; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:16px; font-weight:500;">Click pagina web</p>
+                <div class="col-xs-12 col-sm-12 col-md-12 top-20">
+                  <div class="col-xs-4 col-sm-4 col-md-4 reportes-top-50">
+                    <div class="bg-click1"style=""></div><p class="click-pagina">Click pagina web</p>
                   </div>
-                  <div class="col-md-4" style="margin-top:50px;">
-                    <div style="background:#e4e23a; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:16px;">Click redes sociales</p>
+                  <div class="col-xs-4 col-sm-4 col-md-4 reportes-top-50">
+                    <div class="bg-click2" style=""></div><p class="click-redes">Click redes sociales</p>
                   </div>
-                  <div class="col-md-4" style="margin-top:50px;">
-                    <div style="background:#67cfe3; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:16px;">Click banner publicidad</p>
+                  <div class="col-xs-4 col-sm-4 col-md-4 reportes-top-50">
+                    <div class="bg-click3" style=""></div><p class="click-banner">Click banner publicidad</p>
                   </div>
                 </div>
-                <script src="http://d3js.org/d3.v3.min.js"></script>                
+                <script src="http://d3js.org/d3.v3.min.js"></script>
               </div>
             </div>
             <!-- /.box-body -->
@@ -291,18 +291,8 @@
       </div>
 
 
-
-
-
-
-
-
-
-
-
-
       <div class="row">
-        <div class="col-md-12" style="margin-top:70px;">
+        <div class="col-md-12 graficas-70">
           <!-- Graficas 2 -->
             <div class="box-body">
               <div class="row">
