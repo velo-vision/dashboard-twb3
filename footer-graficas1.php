@@ -911,120 +911,16 @@ if (option && typeof option === "object") {
        </script>
 <!-- fin graficas 4 -->
 
+<!-- graficas 5 -->
+
+<!-- fin graficas 5 -->
+
+<!-- graficas 6 -->
+<!-- fin graficas 6 -->
 
 
 
 
-<!-- graficas chart 1-->
-<script>
-
-  
-    var lineChartData = {
-      labels : ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio"],
-      datasets : [
-        {
-          label: "Primera serie de datos",
-          fillColor : "rgba(220,220,220,0.2)",
-          strokeColor : "#6b9dfa",
-          pointColor : "#1e45d7",
-          pointStrokeColor : "#fff",
-          pointHighlightFill : "#fff",
-          pointHighlightStroke : "rgba(220,220,220,1)",
-          data : [1,2,3,4,5,6,7,8,9]
-        },
-        // {
-        //   label: "Segunda serie de datos",
-        //   fillColor : "rgba(151,187,205,0.2)",
-        //   strokeColor : "#e9e225",
-        //   pointColor : "#faab12",
-        //   pointStrokeColor : "#fff",
-        //   pointHighlightFill : "#fff",
-        //   pointHighlightStroke : "rgba(151,187,205,1)",
-        //   data : [40,50,70,40,85,55,15]
-        // }
-      ]
-
-    }
-
-var ctx4 = document.getElementById("chart-area4").getContext("2d");   
-window.myPie = new Chart(ctx4).Line(lineChartData, {responsive:true});
-</script>
-<!-- fin graficas -->
-
-<!-- graficas chart 2 -->
-    <script>
-var pieData = [
-      {
-        value: 40,
-        color:"#0b82e7",
-        highlight: "#0c62ab",
-        label: "CD DE MEXICO"
-      },
-        {
-          value: 16,
-          color: "#d7124e",
-          highlight: "#a9ad47",
-          label: "MONTERREY"
-        },
-        {
-          value: 11,
-          color: "#eb5d82",
-          highlight: "#b74865",
-          label: "PUEBLA"
-        },
-        {
-          value: 10,
-          color: "#5ae85a",
-          highlight: "#42a642",
-          label: "JALISCO"
-        },
-        {
-          value: 8.6,
-          color: "#4437ee",
-          highlight: "#a6429b",
-          label: "VERACRUZ"
-        }
-      ];
-
-
-  
-var ctx = document.getElementById("chart-area").getContext("2d");
-window.myPie = new Chart(ctx).Pie(pieData);   
-</script>
-<!-- fin graficas -->
-
-<!-- graficas chart 3 -->
-    <script>
-
-  var barChartData = {
-    labels : ["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo"],
-    datasets : [
-      {
-        fillColor : "#67cfe3",
-        strokeColor : "#ffffff",
-        highlightFill: "#1864f2",
-        highlightStroke: "#ffffff",
-        data : [10,20,30,40,50,60,70]
-      },
-      // {
-      //   fillColor : "#e9e225",
-      //   strokeColor : "#ffffff",
-      //   highlightFill : "#ee7f49",
-      //   highlightStroke : "#ffffff",
-      //   data : [40,50,70,40,85,55,15]
-      // }
-    ]
-
-  } 
-    
-
-var ctx3 = document.getElementById("chart-area3").getContext("2d"); 
-window.myPie = new Chart(ctx3).Bar(barChartData, {responsive:true});
-</script>
-<!-- fin graficas -->
-
-
-          <script src="js/Chart.js"></script>
 
 
 </body>

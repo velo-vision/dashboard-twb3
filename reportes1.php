@@ -122,185 +122,101 @@
             <!-- /.box-body -->
           </div>
           <!-- /.box -->
+
           <!--Fin Graficas 2 -->
         </div>
+
         <!-- /.col (RIGHT) -->
       </div>
-
-
-
-
-
-
-<!-- graficas chart -->
-
- <div class="row">
-        <div class="col-md-6">
-          <!-- AREA CHART -->
-          <div class="box box-primary">
-            <div class="box-header with-border">
-              <div class="col-md-12" style="text-align:center;">
-                <p class="nomargin" style="font-size:1.4em; font-weight:700;">CLICK POR CELULAR</p>
-                <span style="color:#cacaca; text-transform:uppercase;">Wedding Board</span>
-              </div>
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-              </div>
-            </div>
-            <div class="box-body">
-              <div id="canvas-holder">
-                <canvas id="chart-area4" width="600" height="300"></canvas>
-              </div>
-            </div>
-            <!-- /.box-body -->
+      <div class="row" style="margin-top:50px;">
+        <div class="col-md-12">
+          <!-- Graficas 2 -->
+          <div class="col-md-6">
+            <div id="container" class="chart"></div>
           </div>
-          <!-- /.box -->
+          <!-- Fin grafica 2 -->
 
-          <!-- DONUT CHART -->
-          <div class="box box-danger">
-            <div class="box-header with-border">
-              <div class="col-md-12" style="text-align:center;">
-                <p class="nomargin" style="font-size:1.4em; font-weight:700;">VISITAS A LA PAGINA</p>
-                <span style="color:#cacaca; text-transform:uppercase;">Wedding Board</span>
-              </div>
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-              </div>
+          <!-- Grafica 3 -->
+          <div class="col-md-6">
+            <div class="col-md-12" style="text-align:center; margin-top:-40px;">
+              <p class="nomargin" style="font-size:1.4em; font-weight:700;">MENSAJES POR DÍA</p>
+              <span style="color:#cacaca; text-transform:uppercase;">Wedding Board</span>
             </div>
-           <div id="canvas-holder" style="text-align: center; margin-top:20px;">
-             <canvas id="chart-area" width="300" height="300"></canvas>
-           </div>
-            <div class="col-md-12" style="margin-top:20px;">
-              <div class="col-md-4">
-                <div style="background:#67cfe3; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:22px;">Cd de mexíco</p>
-              </div>
-              <div class="col-md-4">
-                <div style="background:#d7124e; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:22px;">Monterrey</p>
-              </div>
-              <div class="col-md-4">
-                <div style="background:#eb5d82; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:22px;">Puebla</p>
-              </div>
-              <div class="col-md-4">
-                <div style="background:#5ae85a; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:22px;">Jalisco</p>
-              </div>
-              <div class="col-md-4">
-                <div style="background:#4437ee; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:22px;">Veracruz</p>
-              </div>
-            </div>              
-            <!-- /.box-body -->
+            <div id="container3" class="chart"></div>
           </div>
-          <!-- /.box -->
-
+          <!-- Fin grafica 3 -->
         </div>
-        <!-- /.col (LEFT) -->
-        <div class="col-md-6">
-          <!-- LINE CHART -->
-          <div class="box box-info">
-            <div class="box-header with-border">
-              <div class="col-md-12" style="text-align:center;">
-                <p class="nomargin" style="font-size:1.4em; font-weight:700;">MENSAJES POR DÍA</p>
-                <span style="color:#cacaca; text-transform:uppercase;">Wedding Board</span>
-              </div>
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-              </div>
-            </div>
-            <div class="box-body">
-              <div id="canvas-holder">
-                <canvas id="chart-area3" width="600" height="300"></canvas>
-              </div>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-
-          <!-- BAR CHART -->
-          <div class="box box-success">
-            <div class="box-header with-border">
-              <div class="col-md-12" style="text-align:center; margin-top: 20px;">
-                <p class="nomargin" style="font-size:1.4em; font-weight:700;">CLICK PAGÍNA WEB, REDES SOCIALES, BANNERS</p>
-                <span style="color:#cacaca; text-transform:uppercase;">Wedding Board</span>
-              </div>
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-              </div>
-            </div>
-            <div class="box-body">
-              <div class="chart">
-                  <style>
-                    path {  stroke: #fff; }
-                    path:hover {  opacity:0.9; }
-                    rect:hover {  fill:blue; }
-                    .axis {  font: 10px sans-serif; }
-                    .legend tr{    border-bottom:1px solid grey; }
-                    .legend tr:first-child{    border-top:1px solid grey; }
-
-                    .axis path,
-                    .axis line {
-                      fill: none;
-                      stroke: #000;
-                      shape-rendering: crispEdges;
-                    }
-
-                    .x.axis path {  display: none; }
-                    .legend{
-                        margin-bottom:76px;
-                        display:inline-block;
-                        border-collapse: collapse;
-                        border-spacing: 0px;
-                    }
-                    .legend td{
-                        padding:4px 5px;
-                        vertical-align:bottom;
-                    }
-                    .legendFreq, .legendPerc{
-                        align:right;
-                        width:50px;
-                    }
-                  </style>
-                <div id='dashboard' class="graficas-nuevas">
-                </div>
-                <div class="col-md-12">
-                  <div class="col-md-4" style="margin-top:50px;">
-                    <div style="background:#3aed68; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:16px; font-weight:500;">Click pagina web</p>
-                  </div>
-                  <div class="col-md-4" style="margin-top:50px;">
-                    <div style="background:#e4e23a; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:16px;">Click redes sociales</p>
-                  </div>
-                  <div class="col-md-4" style="margin-top:50px;">
-                    <div style="background:#67cfe3; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:16px;">Click banner publicidad</p>
-                  </div>
-                </div>
-                <script src="http://d3js.org/d3.v3.min.js"></script>                
-              </div>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-          <!--Fin Graficas 2 -->
-        </div>
-        <!-- /.col (RIGHT) -->
       </div>
+      <div class="row" style="margin-top:70px;">
+        <div class="col-md-12">
+          <!-- grafica 4 -->
+          <div class="col-md-6">
 
+            <div id="container4" class="chart"></div>
+          </div>
+          <!-- Fin grafica 4 -->
+          <!-- grafica 5 -->
+          <div class="col-md-6">
+            <div class="col-md-12" style="text-align:center; margin-top: 20px;">
+              <p class="nomargin" style="font-size:1.4em; font-weight:700;">CLICK PAGÍNA WEB, REDES SOCIALES, BANNERS</p>
+              <span style="color:#cacaca; text-transform:uppercase;">Wedding Board</span>
+            </div>
+                <!-- Content Header (Page header) -->
+            <meta charset="utf-8">
+            <style>
+            path {  stroke: #fff; }
+            path:hover {  opacity:0.9; }
+            rect:hover {  fill:blue; }
+            .axis {  font: 10px sans-serif; }
+            .legend tr{    border-bottom:1px solid grey; }
+            .legend tr:first-child{    border-top:1px solid grey; }
 
+            .axis path,
+            .axis line {
+              fill: none;
+              stroke: #000;
+              shape-rendering: crispEdges;
+            }
 
+            .x.axis path {  display: none; }
+            .legend{
+                margin-bottom:76px;
+                display:inline-block;
+                border-collapse: collapse;
+                border-spacing: 0px;
+            }
+            .legend td{
+                padding:4px 5px;
+                vertical-align:bottom;
+            }
+            .legendFreq, .legendPerc{
+                align:right;
+                width:50px;
+            }
 
+            </style>
+            <body>
+            <div id='dashboard' class="graficas-nuevas">
+            </div>
+            <div class="col-md-12">
+              <div class="col-md-4" style="margin-top:50px;">
+                <div style="background:#3aed68; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:16px; font-weight:500;">Click pagina web</p>
+              </div>
+              <div class="col-md-4" style="margin-top:50px;">
+                <div style="background:#e4e23a; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:16px;">Click redes sociales</p>
+              </div>
+              <div class="col-md-4" style="margin-top:50px;">
+                <div style="background:#67cfe3; height:15px; width:15px; margin:0 auto;"></div><p style="text-align:center; font-size:16px;">Click banner publicidad</p>
+              </div>
+            </div>
+            <script src="http://d3js.org/d3.v3.min.js"></script>
 
+                <!-- /.content -->
+          </div>
+          <!-- fin grafica 5 -->
+        </div>
 
-
-
-
-
-
-
+      </div>
       <div class="row">
         <div class="col-md-12" style="margin-top:70px;">
           <!-- Graficas 2 -->
