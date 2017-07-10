@@ -39,10 +39,10 @@
   <!--REGSITRO-->
   <div class="container-fluid nomargin">
     <div class="col-md-12 col-sm-12 nomargin bg-login">
-      <div class="col-md-4 col-md-offset-4 col-sm-6 col-xs-12 login">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4 login">
         <div class="col-md-12 col-xs-12 border-login" style="overflow:hidden">
           <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 centers logo-registro">
-            <img width="100%;" class="wow fadeInDown" data-wow-duration="2.5s" data-wow-delay="" src="images/recursos/logo.png" title="Logo" alt="The Wedding Board">
+            <img class="wow fadeInDown" data-wow-duration="2.5s" data-wow-delay="" src="images/recursos/logo.png" title="Logo" alt="The Wedding Board">
             <!-- <div style="overflow:hidden">
             </div> -->
           </div>
@@ -69,17 +69,17 @@
               </div>
              </div>
              <div class="form-group row top-20">
-               <div class="col-md-8 col-md-offset-2">
+               <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 pad-face">
                  <a href="reportes.php"><button type="button" class="btn boton-registro ">INGRESAR</button></a>
                </div>
              </div>
              <div class="form-group row top-10">
-             <div class="col-md-8 col-md-offset-2">
+             <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 pad-face">
                <a href="https://www.facebook.com/"><button type="submit" class="btn boton-facebook hvr-rectangle-in"><i class="fa fa-facebook-square" aria-hidden="true"></i> Entra con <strong>Facebook</strong></button></a>
              </div>
             </div>
              <div class="form-group row top-10">
-               <div class="col-md-8 col-md-offset-2">
+               <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 pad-face">
                  <a href="registro.php">
                    <button onclick="index.php" type="button" class="btn boton-registro2">REGISTRARTE</button>
                  </a>
