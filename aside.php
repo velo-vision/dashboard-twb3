@@ -35,6 +35,7 @@
             <i class="fa fa-list-alt" aria-hidden="true"></i> <span>Editor Web</span>
           </a>
         </li>
+
         <li class="treeview">
           <a href="#!">
             <i class="fa fa-files-o"></i><span>Licitaciones</span>
@@ -43,10 +44,12 @@
             </span>
           </a>
           <ul class="treeview-menu">
-           <li class=""><a href="licitaciones1.php">Principal</a></li>
-            <li class=""><a href="licitaciones-all.php">Archivadas</a></li>
+          <li class=""><a href="licitaciones-all.php">Principal</a></li>
+           <!-- <li class=""><a href="licitaciones1.php">Principal</a></li>
+            <li class=""><a href="licitaciones-all.php">Archivadas</a></li> -->
           </ul>
         </li>
+
         <li class="treeview">
           <a href="mensajes-1.php">
             <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
