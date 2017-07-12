@@ -381,7 +381,7 @@ get_graficas_footer()
       {
         fillColor : "#67cfe3",
         strokeColor : "#ffffff",
-        highlightFill: "#1864f2",
+        highlightFill: "#67cfe3",
         highlightStroke: "#ffffff",
         data : [30,20,30,40,50,60,70]
       },

@@ -5692,6 +5692,7 @@ label {
   position: absolute;
   right: 7px !important;
   top: 10px;
+  display: none;
 }
 .input-form, .form-control {
     font-size: 1em;

@@ -34,10 +34,10 @@
 
                   <!-- <div class="col-xs-12 col-sm-7 col-md-4 col-lg-5 dropdown boton-categoria sinpadding-lic">
                   </div> -->
-                  <button type="button" class="btn btn-default btn-sm ancho-size left-borra1 borrar-2">
+                  <button type="button" class="btn btn-default btn-default2 btn-sm ancho-size left-borra1 borrar-2">
                     Borrar <i class="fa fa-trash-o"></i>
                   </button>
-                  <button type="button" class="btn btn-default btn-sm ancho-size move-left1">
+                  <button type="button" class="btn btn-default btn-default2 btn-sm ancho-size move-left1">
                     Deshabilitar <i class="fa fa-ban" aria-hidden="true"></i>
                   </button>
                   <div class="pull-right pag-center">1-50/200

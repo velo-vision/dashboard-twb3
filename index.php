@@ -58,7 +58,7 @@
              </div>
              <div class="form-group row top-20">
                <div class="col-sm-12">
-                 <input type="email" class="form-control centers" id="inputEmail3" placeholder="Contraseña">
+                 <input type="password" class="form-control centers" id="inputEmail3" placeholder="Contraseña">
                </div>
                <div class="col-sm-12">
                  <a href="sesion.php" style="color:#303030;">

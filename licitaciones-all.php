@@ -82,10 +82,10 @@
 
 
                   <div class="col-xs-12 col-sm-12 col-md-8  col-lg-7  btn-group sinpadding-lic divisor-menu">
-                    <button type="button" class="btn btn-default btn-sm ancho-completo separa"> Borrar <i class="fa fa-trash-o"></i>
+                    <button type="button" class="btn btn-default btn-default2 btn-sm ancho-completo separa"> Borrar <i class="fa fa-trash-o"></i>
                     </button>
                     <!-- /.btn-group -->
-                  <button type="button" class="btn btn-default btn-sm  ancho-completo2 separa"><i class="fa fa-times-circle-o" aria-hidden="true"></i> Cancelar Licitación</button>
+                  <button type="button" class="btn btn-default btn-default2 btn-sm  ancho-completo2 separa"><i class="fa fa-times-circle-o" aria-hidden="true"></i> Cancelar Licitación</button>
                 <!--   <button type="button" class="btn btn-default btn-sm  ancho-completo3"><i class="fa fa-archive" aria-hidden="true"></i> Archivar Licitación</button> -->
                   <div class="pull-right pag-center">1-50/200
                     <div class="btn-group botones-paginacion">

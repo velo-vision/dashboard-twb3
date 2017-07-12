@@ -13,7 +13,7 @@
 <div class="content-wrapper">
   <section>
     <div class="container-fluid">
-      <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1 col-xs-12 titulo-perfil titulo-cabezera">
+      <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1 col-xs-12 titulo-perfil ">
         <p>configuración</p>
         <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
       </div>

@@ -53,7 +53,7 @@
         <li class="treeview">
           <a href="mensajes-1.php">
             <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-            <span>Mensajes<span class="number-mensagges mover-bg">3</span></span>
+            <span>Reportes<span class="number-mensagges mover-bg">3</span></span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
@@ -80,7 +80,7 @@
         <li class="treeview">
           <a href="reportes.php">
             <i class="fa fa-file-text" aria-hidden="true"></i>
-            <span>Reportes</span>
+            <span>Estadisticas</span>
           </a>
         </li>
         <li class="treeview">

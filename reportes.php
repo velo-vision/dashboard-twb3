@@ -11,9 +11,9 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <div class="container-fluid">
-      <div class="col-md-6 col-md-offset-3 titulo-perfil no-50">
+      <div class="col-md-6 col-md-offset-3 titulo-perfil">
         <p>
-          reportes
+         Estadisticas
         </p>
         <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
       </div>
