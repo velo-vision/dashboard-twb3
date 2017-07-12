@@ -95,7 +95,7 @@
             <!-- User Account: style can be found in dropdown.less -->
             <li class="dropdown user user-menu">
               <a href="#" class="dropdown-toggle hidden-xs" data-toggle="dropdown">
-                <img src="images/recursos/usuaria.png" class="user-image" alt="The Wedding Board">
+                <img src="images/recursos/logo.png" class="user-image" alt="The Wedding Board">
                 <span class="hidden-xs">Mónica Galindo</span>
               </a>
               <ul class="dropdown-menu drop-perfil hidden-xs" style="box-shadow:none;">
