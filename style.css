@@ -882,6 +882,7 @@ figure.snip1084.hover:after {
   line-height: 1.42857143;
   vertical-align: middle;
   border-top: 1px solid #ddd;
+  white-space: nowrap;
 }
 .texto-mail-active{
   color: #808080;
@@ -2546,7 +2547,6 @@ canvas:hover {
   padding: 10px;
 }
 /*fin*/
-
 /******************************************************************************/
 /**********MEDIAS QUERYS*************/
 .content-face{
@@ -2554,6 +2554,8 @@ canvas:hover {
   margin-left: 15%;
 }
 /*est*/
+
+
 @media only screen and (min-width:768px) and (max-width:1024px){
 .aumento-template1{
   margin: 5% 0;
